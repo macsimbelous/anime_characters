@@ -682,15 +682,15 @@ characters = {
 				large = "gfx/leaders/monsters/yamato_wg.dds"
 			}
 		}
-		advisor = {
-			slot = theorist
-			idea_token = ac_yamato_wg
-			ledger = navy
-			cost = 50
-			traits = {
-				grand_fleet_proponent
-			}
-		}
+		# advisor = {
+		# 	slot = theorist
+		# 	idea_token = ac_yamato_wg
+		# 	ledger = navy
+		# 	cost = 50
+		# 	traits = {
+		# 		grand_fleet_proponent
+		# 	}
+		# }
 		navy_leader = {
 			traits = {
 				ac_exp_trait
