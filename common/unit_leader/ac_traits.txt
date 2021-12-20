@@ -1,0 +1,24 @@
+leader_traits = {
+	ac_exp_trait = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no			# not gainable
+		}
+		allowed = {
+			always = no			# not gainable
+		}
+		modifier = {
+			experience_gain_army_unit_factor = 0.2
+		}
+		non_shared_modifier = {
+			experience_gain_factor = 0.5
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+}

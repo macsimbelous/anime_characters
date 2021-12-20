@@ -1,0 +1,35 @@
+﻿l_russian:
+#ac_anime_characters_category
+ ac_anime_characters_category:0 "Аниме персонажи"
+ ac_take_girls:0 "Добавить девушек"
+ ac_take_girls_tt:0 "Буде добавлено множество девушек"
+ ac_take_androids:0 "Добавить девушек андроидов"
+ ac_take_androids_tt:0 "Буде добавлено множество девушек андроидов"
+ ac_take_monsters:0 "Добавить девушек монстров"
+ ac_take_monsters_tt:0 "Буде добавлено множество дувушек монстров"
+ ac_take_traps:0 "Добавить трапов"
+ ac_take_traps_tt:0 "Буде добавлено множество трапов.\n§RАхтунг!§!"
+ ac_change_leader_to_anastasia_romanova:0 "Назначить  §GАнастасию Романову§! лидером"
+ ac_change_leader_to_histoire:0 "Назначить  §GИстуар§! лидером"
+ ac_change_leader_to_velvet_crowe:0 "Назначить  §GВельвет Крау§! лидером"
+ ac_change_leader_to_astolfo:0 "Назначить  §GАстольфо§! лидером"
+ ac_anastasia_romanova_taked_tt:0 "§BАнастасия Романова§!"
+ ac_histoire_taked_tt:0 "§BИстуар§!"
+ ac_velvet_crowe_taked_tt:0 "§GВельвет Крау§!"
+ ac_astolfo_taked_tt:0 "§BАстольф§!"
+ ac_deactivate:0 "Скрыть категорию"
+
+#ac_anime_characters_reactivate_category
+ ac_anime_characters_reactivate_category:0 "Повторно открыть категорию аниме персонажей"
+ ac_reactivate:0 "Открыть категорию"
+
+#tooltips
+ ac_political_advisor_tt:0 "§YПолитик§!"
+ ac_theorist_tt:0 "§OТеоретик§!"
+ ac_navy_chief_tt:0 "§BГлавком ВМС§!"
+ ac_air_chief_tt:0 "§LГлавком ВВС§!"
+ ac_army_chief_tt:0 "§GГлавком Армии§!"
+ ac_high_command_tt:0 "§YВысшее командование§!"
+ ac_corps_commander_tt:0 "§GГенерал§!"
+ ac_navy_leader_tt:0 "§BАдмирал§!"
+ ac_operative_leader_tt:0 "§RАгент§!"

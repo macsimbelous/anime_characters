@@ -1,0 +1,820 @@
+characters = {
+	ac_velvet_crowe = {
+		name = ac_velvet_crowe
+		portraits = {
+			army = {
+				small = GFX_idea_ac_velvet_crowe
+				large = "gfx/leaders/monsters/velvet_crowe.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/monsters/velvet_crowe.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+	}
+	ac_yuuko_yoshida = {
+		name = ac_yuuko_yoshida
+		portraits = {
+			army = {
+				small = GFX_idea_ac_yuuko_yoshida
+				large = "gfx/leaders/monsters/yuuko_yoshida.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/monsters/yuuko_yoshida.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+	}
+	ac_maou = {
+		name = ac_maou
+		portraits = {
+			army = {
+				small = GFX_idea_ac_maou
+				large = "gfx/leaders/monsters/maou.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/monsters/maou.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+	}
+	ac_holo = {
+		name = ac_holo
+		portraits = {
+			army = {
+				small = GFX_idea_ac_holo
+				large = "gfx/leaders/monsters/holo.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/monsters/holo.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+	}
+	ac_fino_bloodstone = {
+		name = ac_fino_bloodstone
+		portraits = {
+			army = {
+				small = GFX_idea_ac_fino_bloodstone
+				large = "gfx/leaders/monsters/fino_bloodstone.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				aggressive_assaulter
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_rhea = {
+		name = ac_rhea
+		portraits = {
+			army = {
+				small = GFX_idea_ac_rhea
+				large = "gfx/leaders/monsters/rhea.dds"
+			}
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+	}
+	ac_shiraori = {
+		name = ac_shiraori
+		portraits = {
+			army = {
+				small = GFX_idea_ac_shiraori
+				large = "gfx/leaders/monsters/shiraori.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				ac_exp_trait
+				trickster
+				trait_engineer
+				fast_planner
+				skilled_staffer
+				expert_delegator
+				adaptable
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 7
+			logistics_skill = 6
+			legacy_id = -1
+		}
+	}
+	ac_ishtar = {
+		name = ac_ishtar
+		portraits = {
+			army = {
+				small = GFX_idea_ac_ishtar
+				large = "gfx/leaders/monsters/ishtar.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				ac_exp_trait
+				commando
+				offensive_doctrine
+				aggressive_assaulter
+				inspirational_leader
+			}
+			skill = 7
+			attack_skill = 8
+			defense_skill = 7
+			planning_skill = 7
+			logistics_skill = 7
+			legacy_id = -1
+		}
+	}
+	ac_lilith = {
+		name = ac_lilith
+		portraits = {
+			army = {
+				small = "GFX_idea_ac_lilith"
+				large = "gfx/leaders/monsters/lilith.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				aggressive_assaulter
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	ac_rose_monster = {
+		name = ac_rose_monster
+		portraits = {
+			army = {
+				small = GFX_idea_ac_rose_monster
+				large = "gfx/leaders/monsters/rose.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				politically_connected
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_morrah = {
+		name = ac_morrah
+		portraits = {
+			army = {
+				small = "GFX_idea_ac_morrah"
+				large = "gfx/leaders/monsters/morrah.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				defensive_doctrine
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	ac_dullahan = {
+		name = ac_dullahan
+		portraits = {
+			army = {
+				small = GFX_idea_ac_dullahan
+				large = "gfx/leaders/monsters/dullahan.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				cavalry_leader
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ac_dullahan
+			ledger = army
+			cost = 100
+			traits = {
+				army_cavalry_2
+			}
+		}
+	}
+	ac_milla_maxwell = {
+		name = ac_milla_maxwell
+		portraits = {
+			army = {
+				small = GFX_idea_ac_milla_maxwell
+				large = "gfx/leaders/monsters/milla_maxwell.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+				#infantry_expert
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 6
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_astaroth = {
+		name = ac_astaroth
+		portraits = {
+			army = {
+				small = GFX_idea_ac_astaroth
+				large = "gfx/leaders/monsters/astaroth.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+			}
+			skill = 1
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	ac_laharl_female = {
+		name = ac_laharl_female
+		portraits = {
+			army = {
+				small = GFX_idea_ac_laharl
+				large = "gfx/leaders/monsters/laharl_girl.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+				skilled_staffer
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_desco = {
+		name = ac_desco
+		portraits = {
+			army = {
+				small = "GFX_idea_ac_desco"
+				large = "gfx/leaders/monsters/desco.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+			}
+			skill = 5
+			attack_skill = 7
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_tiamat = {
+		name = ac_tiamat 
+		portraits = {
+			army = {
+				small = "GFX_idea_ac_tiamat"
+				large = "gfx/leaders/monsters/tiamat.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ac_tiamat
+			ledger = army
+			cost = 50
+			traits = {
+				mass_assault_expert
+			}
+		}
+		field_marshal = {
+			traits = {
+				ac_exp_trait
+				infantry_officer
+				infantry_leader
+				skilled_staffer
+				expert_delegator
+				offensive_doctrine
+				aggressive_assaulter
+			}
+			skill = 9
+			attack_skill = 9
+			defense_skill = 9
+			planning_skill = 9
+			logistics_skill = 9
+			legacy_id = -1
+		}
+	}
+	ac_belldandy = {
+		name = ac_belldandy
+		portraits = {
+			army = {
+				small = "GFX_idea_ac_belldandy"
+				large = "gfx/leaders/monsters/belldandy.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_belldandy
+			cost = 50
+			traits = {
+				peoples_favorite
+			}
+		}
+	}
+	ac_corrin = {
+		name = ac_corrin
+		portraits = {
+			army = {
+				small = GFX_idea_ac_corrin
+				large = "gfx/leaders/monsters/corrin.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+	}
+	ac_lucy = {
+		name = ac_lucy
+		portraits = {
+			army = {
+				small = GFX_idea_ac_lucy
+				large = "gfx/leaders/monsters/lucy.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+	}
+	ac_makina_hoshimura = {
+		name = ac_makina_hoshimura
+		portraits = {
+			army = {
+				small = "GFX_idea_ac_makina_hoshimura"
+				large = "gfx/leaders/monsters/makina_hoshimura.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+	}
+	ac_saya_kisaragi = {
+		name = ac_saya_kisaragi
+		portraits = {
+			army = {
+				small = GFX_idea_ac_saya_kisaragi
+				large = "gfx/leaders/monsters/saya_kisaragi.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+	}
+	ac_02 = {
+		name = ac_02
+		portraits = {
+			army = {
+				small = GFX_idea_ac_02
+				large = "gfx/leaders/monsters/zero_two.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+				panzer_leader
+			}
+		}
+	}
+	ac_vignette_april_tsukinose = {
+		name = ac_vignette_april_tsukinose
+		portraits = {
+			army = {
+				small = GFX_idea_ac_vignette_april_tsukinose
+				large = "gfx/leaders/monsters/vignette_april_tsukinose.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_vignette_april_tsukinose
+			cost = 50
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+	ac_satanichia_mcdowell_kurumizawa = {
+		name = ac_satanichia_mcdowell_kurumizawa
+		portraits = {
+			army = {
+				small = GFX_idea_ac_satanichia_mcdowell_kurumizawa
+				large = "gfx/leaders/monsters/satanichia_mcdowell_kurumizawa.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+	}
+	ac_arnice = {
+		name = ac_arnice
+		portraits = {
+			army = {
+				small = GFX_idea_ac_arnice
+				large = "gfx/leaders/monsters/arnice.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+	}
+	ac_saya_otonashi = {
+		name = ac_saya_otonashi
+		portraits = {
+			army = {
+				small = GFX_idea_ac_saya_otonashi
+				large = "gfx/leaders/monsters/saya_otonashi.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+	}
+	ac_marie_von_eisenberg = {
+		name = ac_marie_von_eisenberg
+		portraits = {
+			army = {
+				small = GFX_idea_ac_marie_von_eisenberg
+				large = "gfx/leaders/monsters/marie_von_eisenberg.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+	}
+	ac_kurari_rose = {
+		name = ac_kurari_rose
+		portraits = {
+			army = {
+				small = "GFX_idea_ac_kurari_rose"
+				large = "gfx/leaders/monsters/kurari_rose.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+			}
+		}
+	}
+	ac_heine = {
+		name = ac_heine
+		portraits = {
+			army = {
+				small = GFX_idea_ac_heine
+				large = "gfx/leaders/monsters/heine.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				cavalry_leader
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	#admirals
+	ac_yamato_wg = {
+		name = ac_yamato_wg
+		portraits = {
+			army = {
+				small = "GFX_idea_ac_yamato_wg"
+				large = "gfx/leaders/monsters/yamato_wg.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ac_yamato_wg
+			ledger = navy
+			cost = 50
+			traits = {
+				grand_fleet_proponent
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_trait
+				blue_water_expert
+				big_guns_expert
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	ac_purifier = {
+		name = ac_purifier
+		portraits = {
+			army = {
+				small = "GFX_idea_ac_purifier"
+				large = "gfx/leaders/monsters/purifier.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_trait
+				green_water_expert
+				destroyer_leader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_tester = {
+		name = ac_tester
+		portraits = {
+			army = {
+				small = GFX_idea_ac_tester
+				large = "gfx/leaders/monsters/tester.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_trait
+				arctic_water_expert
+				cruiser_captain
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	ac_shigure = {
+		name = ac_shigure
+		portraits = {
+			army = {
+				small = GFX_idea_ac_shigure
+			}
+			civilian = {
+				large = "gfx/leaders/monsters/shigure.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_shigure
+			cost = 50
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				head_of_intelligence
+			}
+			modifier = {
+				agency_upgrade_time = -0.5
+				operative_slot = 2
+			}
+		}
+	}
+	ac_mari_setogaya = {
+		name = ac_mari_setogaya
+		portraits = {
+			army = {
+				small = GFX_idea_ac_mari_setogaya
+				large = "gfx/leaders/monsters/mari_setogaya.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+				panzer_leader
+			}
+		}
+	}
+	ac_sheliss_elleness_zurbach = {
+		name = ac_sheliss_elleness_zurbach
+		portraits = {
+			army = {
+				small = GFX_idea_ac_sheliss_elleness_zurbach
+				large = "gfx/leaders/monsters/sheliss_elleness_zurbach.dds"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+				panzer_leader
+			}
+		}
+	}
+}
