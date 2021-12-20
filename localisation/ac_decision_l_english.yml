@@ -1,0 +1,26 @@
+﻿l_english:
+#ac_anime_characters_category
+ ac_anime_characters_category:0 "Anime characters"
+ ac_take_girls:0 "Add girls"
+ ac_take_girls_tt:0 "Lots of girls will be added"
+ ac_take_androids:0 "Add android girls"
+ ac_take_androids_tt:0 "Lots of android girls will be added"
+ ac_take_monsters:0 "Add monster girls"
+ ac_take_monsters_tt:0 "Lots of monster girls will be added"
+ ac_take_traps:0 "Add traps"
+ ac_take_traps_tt:0 "Many traps will be added"
+ ac_change_leader_to_anastasia_romanova:0 "Assign §GAnastasia Romanova§! the leader"
+ ac_change_leader_to_histoire:0 "Assign §GHistoire§! the leader"
+ ac_change_leader_to_velvet_crowe:0 "Assign §GVelvet Crowe§! the leader"
+ ac_change_leader_to_astolfo:0 "Assign §GAstolfo§! the leader"
+ ac_anastasia_romanova_taked_tt:0 "§BAnastasia Romanova§!"
+ ac_histoire_taked_tt:0 "§BHistoire§!"
+ ac_velvet_crowe_taked_tt:0 "§GVelvet Crowe§!"
+ ac_astolfo_taked_tt:0 "§BAstolfo§!"
+ ac_deactivate:0 "Hide category"
+
+#ac_anime_characters_reactivate_category
+ ac_anime_characters_reactivate_category:0 "Reopen the anime character category"
+ ac_reactivate:0 "Reopen category"
+
+
