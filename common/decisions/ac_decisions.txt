@@ -1321,6 +1321,47 @@ ac_anime_characters_category = {
 			set_country_flag = ac_anime_characters_category_disabled_flag
 		}
 	}
+	ac_change_leader_to_alisa_illinichina_amiella = {
+		fire_only_once = yes
+		cost = 100
+		visible = {
+			has_government = democratic
+			NOT = {
+				has_country_leader = {
+					character = ac_alisa_illinichina_amiella
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ac_astolfo_taked_tt
+				ac_astolfo = {
+					OR = {
+						is_unit_leader = yes
+						is_advisor = yes
+					}
+				}
+			}
+		}
+		complete_effect = {
+			retire_country_leader = yes
+			add_country_leader_role = {
+				character = ac_astolfo
+				country_leader = {
+					ideology = despotism
+					expire = "1959.12.23.1"
+					traits = {
+						conservative_grandee
+						indomitable_perseverance
+						generallissimo
+						political_dancer
+					}
+				}
+				promote_leader = yes
+			}
+		}
+	}
 }
 
 ac_anime_characters_reactivate_category = {
