@@ -399,7 +399,10 @@ characters = {
 		name = ac_belldandy
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_belldandy"
+				small = GFX_idea_ac_belldandy
+				large = "gfx/leaders/monsters/belldandy.dds"
+			}
+			civilian = {
 				large = "gfx/leaders/monsters/belldandy.dds"
 			}
 		}

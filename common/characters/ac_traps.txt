@@ -405,9 +405,6 @@ characters = {
 			slot = air_chief
 			idea_token = ac_yukikaze
 			cost = 150
-			allowed = {
-				original_tag = TRP
-			}
 			traits = {
 				air_chief_ground_support_3
 			}
@@ -756,6 +753,9 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_homare_nao
+				large = "gfx/leaders/traps/homare_nao.dds"
+			}
+			civilian = {
 				large = "gfx/leaders/traps/homare_nao.dds"
 			}
 		}

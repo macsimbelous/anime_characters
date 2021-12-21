@@ -1898,6 +1898,9 @@ characters = {
 				small = "gfx/leaders/girls/alisa_illinichina_amiella_idea.dds"
 				large = "gfx/leaders/girls/alisa_illinichina_amiella.dds"
 			}
+			civilian = {
+				large = "gfx/leaders/girls/alisa_illinichina_amiella.dds"
+			}
 		}
 		corps_commander = {
 			traits = {

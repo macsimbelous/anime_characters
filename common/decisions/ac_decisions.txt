@@ -1219,7 +1219,7 @@ ac_anime_characters_category = {
 			add_country_leader_role = {
 				character = ac_histoire
 				country_leader = {
-					ideology = stalinism
+					ideology = leninism
 					expire = "1959.12.23.1"
 					traits = {
 						dictator
@@ -1260,7 +1260,7 @@ ac_anime_characters_category = {
 			add_country_leader_role = {
 				character = ac_velvet_crowe
 				country_leader = {
-					ideology = despotism
+					ideology = fascism_ideology
 					expire = "1959.12.23.1"
 					traits = {
 						dictator
@@ -1301,13 +1301,175 @@ ac_anime_characters_category = {
 			add_country_leader_role = {
 				character = ac_astolfo
 				country_leader = {
-					ideology = despotism
+					ideology = liberalism
 					expire = "1959.12.23.1"
 					traits = {
 						conservative_grandee
 						indomitable_perseverance
 						generallissimo
 						political_dancer
+					}
+				}
+				promote_leader = yes
+			}
+		}
+	}
+	ac_change_leader_to_alisa_illinichina_amiella = {
+		fire_only_once = yes
+		cost = 100
+		visible = {
+			has_government = communism
+			NOT = {
+				has_country_leader = {
+					character = ac_alisa_illinichina_amiella
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ac_alisa_illinichina_amiella_taked_tt
+				ac_alisa_illinichina_amiella = {
+					OR = {
+						is_unit_leader = yes
+						is_advisor = yes
+					}
+				}
+			}
+		}
+		complete_effect = {
+			retire_country_leader = yes
+			add_country_leader_role = {
+				character = ac_alisa_illinichina_amiella
+				country_leader = {
+					ideology = stalinism
+					expire = "1959.12.23.1"
+					traits = {
+						generallissimo
+						dictator
+					}
+				}
+				promote_leader = yes
+			}
+		}
+	}
+	ac_change_leader_to_t_elos = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_government = fascism
+			NOT = {
+				has_country_leader = {
+					character = ac_t_elos
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ac_t_elos_taked_tt
+				ac_t_elos = {
+					OR = {
+						is_unit_leader = yes
+						is_advisor = yes
+					}
+				}
+			}
+		}
+		complete_effect = {
+			retire_country_leader = yes
+			add_country_leader_role = {
+				character = ac_t_elos
+				country_leader = {
+					ideology = nazism
+					expire = "1959.12.23.1"
+					traits = {
+						dictator
+						autocratic_imperialist
+						conservative_nationalist
+						great_war_hero
+					}
+				}
+				promote_leader = yes
+			}
+		}
+	}
+	ac_change_leader_to_yuuko_yoshida = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_government = democratic
+			NOT = {
+				has_country_leader = {
+					character = ac_yuuko_yoshida
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ac_yuuko_yoshida_tt
+				ac_yuuko_yoshida = {
+					OR = {
+						is_unit_leader = yes
+						is_advisor = yes
+					}
+				}
+			}
+		}
+		complete_effect = {
+			retire_country_leader = yes
+			add_country_leader_role = {
+				character = ac_yuuko_yoshida
+				country_leader = {
+					ideology = socialism
+					expire = "1959.12.23.1"
+					traits = {
+						conservative_grandee
+						indomitable_perseverance
+						generallissimo
+						political_dancer
+					}
+				}
+				promote_leader = yes
+			}
+		}
+	}
+	ac_change_leader_to_homare_nao = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_government = neutrality
+			NOT = {
+				has_country_leader = {
+					character = ac_homare_nao
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ac_homare_nao_taked_tt
+				ac_anastasia_romanova = {
+					OR = {
+						is_unit_leader = yes
+						is_advisor = yes
+					}
+				}
+			}
+		}
+		complete_effect = {
+			retire_country_leader = yes
+			add_country_leader_role = {
+				character = ac_homare_nao
+				country_leader = {
+					ideology = centrism
+					expire = "1959.12.23.1"
+					traits = {
+						#underage_monarch
+						legitimate_heir
+						autocratic_imperialist
+						popular_queen
 					}
 				}
 				promote_leader = yes
@@ -1319,47 +1481,6 @@ ac_anime_characters_category = {
 		cost = 0
 		complete_effect = {
 			set_country_flag = ac_anime_characters_category_disabled_flag
-		}
-	}
-	ac_change_leader_to_alisa_illinichina_amiella = {
-		fire_only_once = yes
-		cost = 100
-		visible = {
-			has_government = democratic
-			NOT = {
-				has_country_leader = {
-					character = ac_alisa_illinichina_amiella
-					ruling_only = yes
-				}
-			}
-		}
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = ac_astolfo_taked_tt
-				ac_astolfo = {
-					OR = {
-						is_unit_leader = yes
-						is_advisor = yes
-					}
-				}
-			}
-		}
-		complete_effect = {
-			retire_country_leader = yes
-			add_country_leader_role = {
-				character = ac_astolfo
-				country_leader = {
-					ideology = despotism
-					expire = "1959.12.23.1"
-					traits = {
-						conservative_grandee
-						indomitable_perseverance
-						generallissimo
-						political_dancer
-					}
-				}
-				promote_leader = yes
-			}
 		}
 	}
 }

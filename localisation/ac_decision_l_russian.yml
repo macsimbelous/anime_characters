@@ -18,6 +18,14 @@
  ac_velvet_crowe_taked_tt:0 "§GВельвет Крау§!"
  ac_astolfo_taked_tt:0 "§BАстольф§!"
  ac_deactivate:0 "Скрыть категорию"
+ ac_change_leader_to_alisa_illinichina_amiella:0 "Назначить §GАлиса Ильинична Амелла§! лидером"
+ ac_alisa_illinichina_amiella_taked_tt:0 "§GАлиса Ильинична Амелла§!"
+ ac_change_leader_to_t_elos:0 "Назначить §GT-Elos§! лидером"
+ ac_t_elos_taked_tt:0 "§GT-Elos§!"
+ ac_change_leader_to_yuuko_yoshida:0 "Назначить §GЮко Ёсида§! лидером"
+ ac_yuuko_yoshida_tt:0 "§GЮко Ёсида§!"
+ ac_change_leader_to_homare_nao:0 "Назначить §GХомаре Нао§! лидером"
+ ac_homare_nao_taked_tt:0 "§GХомаре Нао§!"
 
 #ac_anime_characters_reactivate_category
  ac_anime_characters_reactivate_category:0 "Повторно открыть категорию аниме персонажей"

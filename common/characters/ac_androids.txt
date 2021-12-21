@@ -95,7 +95,7 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = ac_hiei_arp
+			idea_token = ac_histoire
 			cost = 150
 			traits = {
 				silent_workhorse
@@ -420,6 +420,9 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_t_elos
+				large = "gfx/leaders/androids/t-elos.dds"
+			}
+			civilian = {
 				large = "gfx/leaders/androids/t-elos.dds"
 			}
 		}
