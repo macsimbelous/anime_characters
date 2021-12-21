@@ -1,9 +1,7 @@
 ac_anime_characters_category = {
 	priority = 20
-	allowed = {
-		is_ai = no
-	}
 	visible = {
+		is_ai = no
 		NOT = {
 			has_country_flag = ac_anime_characters_category_disabled_flag
 		}
