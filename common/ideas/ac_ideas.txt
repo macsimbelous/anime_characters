@@ -19,7 +19,6 @@ ideas = {
 				war_support_factor = 0.05
 				justify_war_goal_time = -0.05
 				operative_slot = 1
-				
 			}
 		}
 	}

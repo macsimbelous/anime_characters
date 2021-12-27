@@ -228,8 +228,16 @@ characters = {
 		name = ac_morrah
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_morrah"
+				small = GFX_idea_ac_morrah
 				large = "gfx/leaders/monsters/morrah.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_morrah
+			cost = 150
+			traits = {
+				ac_fascist_demagogue
 			}
 		}
 		corps_commander = {
@@ -269,7 +277,7 @@ characters = {
 			slot = high_command
 			idea_token = ac_dullahan
 			ledger = army
-			cost = 100
+			cost = 150
 			traits = {
 				army_cavalry_2
 			}
@@ -372,7 +380,7 @@ characters = {
 			slot = theorist
 			idea_token = ac_tiamat
 			ledger = army
-			cost = 50
+			cost = 150
 			traits = {
 				mass_assault_expert
 			}
@@ -420,9 +428,9 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ac_belldandy
-			cost = 50
+			cost = 150
 			traits = {
-				peoples_favorite
+				ac_popular_figurehead
 			}
 		}
 	}
@@ -549,9 +557,9 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ac_vignette_april_tsukinose
-			cost = 50
+			cost = 150
 			traits = {
-				silent_workhorse
+				ac_silent_workhorse
 			}
 		}
 	}
@@ -765,16 +773,12 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ac_shigure
-			cost = 50
+			cost = 150
 			available = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				head_of_intelligence
-			}
-			modifier = {
-				agency_upgrade_time = -0.5
-				operative_slot = 2
+				ac_head_of_intelligence
 			}
 		}
 	}

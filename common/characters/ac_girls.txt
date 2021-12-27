@@ -755,7 +755,7 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = ac_siluca_meletes
-			cost = 50
+			cost = 150
 			traits = {
 				grand_battle_plan_expert
 			}
@@ -1287,10 +1287,7 @@ characters = {
 			idea_token = ac_eruza_guranhirute
 			cost = 150
 			traits = {
-				princess_of_terror
-			}
-			modifier = {
-				compliance_growth = 0.15
+				ac_princess_of_terror
 			}
 		}
 		corps_commander = {
@@ -1314,6 +1311,14 @@ characters = {
 		}
 		allowed_civil_war = {
 			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_aoi_sakurai
+			cost = 150
+			traits = {
+				ac_infrastructure_developer
+			}
 		}
 		corps_commander = {
 			traits = {
@@ -1606,10 +1611,7 @@ characters = {
 			# 	}
 			# }
 			traits = {
-				first_lady
-			}
-			ai_will_do = {
-				factor = 5
+				ac_first_lady
 			}
 		}
 	}
@@ -1627,18 +1629,12 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ac_ange_le_carre
-			cost = 50
+			cost = 150
 			available = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				head_of_intelligence
-			}
-			modifier = {
-				agency_upgrade_time = -0.33
-				crypto_strength = 3
-				decryption_power = 15
-				operative_slot = 2
+				ac_head_of_intelligence
 			}
 		}
 	}
@@ -1674,7 +1670,7 @@ characters = {
 			idea_token = ac_mikumo_guynemer
 			cost = 150
 			traits = {
-				propaganda_expert
+				ac_propaganda_expert
 			}
 		}
 	}
@@ -1696,7 +1692,7 @@ characters = {
 			idea_token = ac_asuka_tanaka
 			cost = 150
 			traits = {
-				captain_of_industry
+				ac_captain_of_industry
 			}
 		}
 	}
@@ -1718,7 +1714,7 @@ characters = {
 			idea_token = ac_lucy_yamagami
 			cost = 150
 			traits = {
-				war_industrialist
+				ac_war_industrialist
 			}
 		}
 	}
@@ -1740,11 +1736,8 @@ characters = {
 			ledger = army
 			idea_token = ac_megumin
 			cost = 150
-			research_bonus = {
-				nuclear = 0.2
-			}
 			traits = {
-				nuclear_scientist
+				ac_nuclear_scientist
 			}
 		}
 	}
@@ -1765,12 +1758,9 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = ac_ayame_himuro
-			cost = 100
+			cost = 150
 			traits = {
-				rocket_scientist
-			}
-			modifier = {
-				research_speed_factor = 0.15
+				ac_girl_scientist
 			}
 		}
 	}
@@ -1859,6 +1849,14 @@ characters = {
 			army = {
 				small = "gfx/leaders/girls/miki_hoshii_idea.dds"
 				large = "gfx/leaders/girls/miki_hoshii.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_miki_hoshii
+			cost = 150
+			traits = {
+				ac_staunch_monarchist
 			}
 		}
 		corps_commander = {

@@ -14,7 +14,7 @@ characters = {
 			slot = theorist
 			idea_token = ac_kos_mos
 			ledger = army
-			cost = 50
+			cost = 150
 			traits = {
 				mobile_warfare_expert
 			}
@@ -98,7 +98,7 @@ characters = {
 			idea_token = ac_histoire
 			cost = 150
 			traits = {
-				silent_workhorse
+				ac_silent_workhorse
 			}
 		}
 	}
@@ -106,8 +106,16 @@ characters = {
 		name = ac_alisa_boskonovich
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_alisa_boskonovich"
+				small = GFX_idea_ac_alisa_boskonovich
 				large = "gfx/leaders/androids/alisa_boskonovich.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_alisa_boskonovich
+			cost = 150
+			traits = {
+				ac_communist_revolutionary
 			}
 		}
 		corps_commander = {
@@ -146,12 +154,9 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ac_risa
-			cost = 50
+			cost = 150
 			traits = {
-				princess_of_terror
-			}
-			modifier = {
-				compliance_growth = 0.15
+				ac_princess_of_terror
 			}
 		}
 	}
@@ -221,6 +226,14 @@ characters = {
 			army = {
 				small = "GFX_idea_ac_edi"
 				large = "gfx/leaders/androids/edi.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_edi
+			cost = 150
+			traits = {
+				ac_quartermaster_general
 			}
 		}
 		corps_commander = {
@@ -359,7 +372,7 @@ characters = {
 		name = ac_automaton
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_automaton"
+				small = GFX_idea_ac_automaton
 				large = "gfx/leaders/androids/automaton.dds"
 			}
 		}
@@ -549,7 +562,7 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = ac_takao_arp
-			cost = 50
+			cost = 150
 			traits = {
 				navy_anti_submarine_1
 			}
@@ -728,12 +741,12 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ac_yurizaki_mira
-			cost = 50
+			cost = 150
 			available = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				head_of_intelligence
+				ac_head_of_intelligence
 			}
 			modifier = {
 				agency_upgrade_time = -0.33

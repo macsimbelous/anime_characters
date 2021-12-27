@@ -40,7 +40,7 @@ characters = {
 			idea_token = ac_hideri_kanzaki
 			cost = 150
 			traits = {
-				popular_figurehead
+				ac_popular_figurehead
 			}
 		}
 	}
@@ -117,9 +117,9 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = ac_felix_argyle
-			cost = 50
+			cost = 150
 			traits = {
-				ac_exp_trait superior_firepower_expert
+				superior_firepower_expert
 			}
 		}
 	}
@@ -147,7 +147,7 @@ characters = {
 			idea_token = ac_oboro_tsukimigusa
 			cost = 150
 			traits = {
-				war_industrialist
+				ac_war_industrialist
 			}
 		}
 	}
@@ -196,7 +196,7 @@ characters = {
 			idea_token = ac_kaoru_hanase
 			cost = 150
 			traits = {
-				silent_workhorse
+				ac_silent_workhorse
 			}
 		}
 	}
@@ -266,7 +266,7 @@ characters = {
 			idea_token = ac_tama_kyan
 			cost = 150
 			traits = {
-				democratic_reformer
+				ac_democratic_reformer
 			}
 		}
 	}
@@ -313,12 +313,9 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = ac_sylvia
-			cost = 100
+			cost = 150
 			traits = {
-				rocket_scientist
-			}
-			modifier = {
-				research_speed_factor = 0.15
+				ac_girl_scientist
 			}
 		}
 	}
@@ -672,9 +669,9 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ac_mare_bello_fiore
-			cost = 50
+			cost = 150
 			traits = {
-				captain_of_industry
+				ac_captain_of_industry
 			}
 		}
 	}
@@ -688,16 +685,12 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = ac_aoi_futaba
-			cost = 50
+			cost = 150
 			available = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				head_of_intelligence
-			}
-			modifier = {
-				agency_upgrade_time = -0.33
-				operative_slot = 3
+				ac_head_of_intelligence
 			}
 		}
 	}
