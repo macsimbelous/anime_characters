@@ -11,24 +11,146 @@ ac_anime_characters_category = {
 			set_global_flag = ac_take_girls_flag
 			custom_effect_tooltip = ac_take_girls_tt
 			hidden_effect = {
-				generate_character = {
-					token_base = ac_erza
+				Z99 = {
+					ac_erza = { set_nationality = ROOT }
+					ac_asuka = { set_nationality = ROOT }
+					ac_aurora_suya_rhys_kaymin = { set_nationality = ROOT }
+					ac_anastasia = { set_nationality = ROOT }
+					ac_minami_nitta = { set_nationality = ROOT }
+					ac_noelle = { set_nationality = ROOT }
+					ac_eruza_guranhirute = { set_nationality = ROOT }
+					ac_ange_le_carre = { set_nationality = ROOT }
+					#ac_niko_yazawa = { set_nationality = ROOT }
+					ac_mikumo_guynemer = { set_nationality = ROOT }
+					ac_asuka_tanaka = { set_nationality = ROOT }
+					ac_lucy_yamagami = { set_nationality = ROOT }
+					ac_aoi_sakurai = { set_nationality = ROOT }
+					ac_megumin = { set_nationality = ROOT }
+					ac_ayame_himuro = { set_nationality = ROOT }
+					ac_lightning = { set_nationality = ROOT }
+					ac_mamako_oosuki = { set_nationality = ROOT }
+					ac_anastasia_romanova = { set_nationality = ROOT }
+					ac_saint_martha = { set_nationality = ROOT }
+					#ac_nishizumi_miho = { set_nationality = ROOT }
+					ac_asuna_yuuki = { set_nationality = ROOT }
+					ac_mash_kyrielight = { set_nationality = ROOT }
+					ac_maple = { set_nationality = ROOT }
+					ac_yoko_littner = { set_nationality = ROOT }
+					ac_kallen_stadtfeld = { set_nationality = ROOT }
+					ac_saki_rukino = { set_nationality = ROOT }
+					ac_kurumi_tokisaki = { set_nationality = ROOT }
+					ac_sanya_v_litvyak = { set_nationality = ROOT }
+					ac_isuzu_sento = { set_nationality = ROOT }
+					ac_volemia = { set_nationality = ROOT }
+					ac_camilla = { set_nationality = ROOT }
+					ac_sinon = { set_nationality = ROOT }
+					ac_kaname_chidori = { set_nationality = ROOT }
+					ac_yoshiko_tsushima = { set_nationality = ROOT }
+					ac_ranko_kanzaki = { set_nationality = ROOT }
+					ac_elma = { set_nationality = ROOT }
+					ac_ako_tamaki = { set_nationality = ROOT }
+					ac_celica = { set_nationality = ROOT }
+					ac_cryska_barchenowa = { set_nationality = ROOT }
+					ac_fiora = { set_nationality = ROOT }
+					ac_haruhi_suzumiya = { set_nationality = ROOT }
+					ac_kiana_kaslana = { set_nationality = ROOT }
+					ac_konoko = { set_nationality = ROOT }
+					ac_lina_inverse = { set_nationality = ROOT }
+					ac_neptune = { set_nationality = ROOT }
+					ac_ryuuko_matoi = { set_nationality = ROOT }
+					ac_satellizer_el_bridget = { set_nationality = ROOT }
+					ac_siluca_meletes = { set_nationality = ROOT }
+					ac_yuno_gasai = { set_nationality = ROOT }
+					ac_byleth_eisner = { set_nationality = ROOT }
+					ac_eula = { set_nationality = ROOT }
+					ac_5pb = { set_nationality = ROOT }
+					ac_blanc = { set_nationality = ROOT }
+					ac_compa = { set_nationality = ROOT }
+					ac_djeeta = { set_nationality = ROOT }
+					ac_ellis = { set_nationality = ROOT }
+					ac_escha_malier = { set_nationality = ROOT }
+					ac_fujimaru_ritsuka = { set_nationality = ROOT }
+					ac_honoka_kousaka = { set_nationality = ROOT }
+					ac_if = { set_nationality = ROOT }
+					ac_kasumi = { set_nationality = ROOT }
+					ac_merurulince_rede_arls = { set_nationality = ROOT }
+					ac_miho_nishizumi = { set_nationality = ROOT }
+					ac_misato_katsuragi = { set_nationality = ROOT }
+					ac_naru_narusegawa = { set_nationality = ROOT }
+					ac_noire = { set_nationality = ROOT }
+					ac_rei_ayanami = { set_nationality = ROOT }
+					ac_ryza = { set_nationality = ROOT }
+					ac_selesia_upitiria = { set_nationality = ROOT }
+					ac_sophie_neuenmuller = { set_nationality = ROOT }
+					ac_vert = { set_nationality = ROOT }
+					ac_yukina_himeragi = { set_nationality = ROOT }
+					ac_yuna = { set_nationality = ROOT }
+					ac_yamato_kancol = { set_nationality = ROOT }
+					ac_atago_azur_lane = { set_nationality = ROOT }
+					ac_avrora_azur_lane = { set_nationality = ROOT }
+					ac_belfast = { set_nationality = ROOT }
+					ac_marblehead = { set_nationality = ROOT }
+					ac_saint_louis_azur_lane = { set_nationality = ROOT }
+					ac_takao_azur_lane = { set_nationality = ROOT }
+					ac_tosa_azur_lane = { set_nationality = ROOT }
+					ac_sovetskaya_rossiya = { set_nationality = ROOT }
+					ac_shima_tateishi = { set_nationality = ROOT }
+					ac_akeno_misaki = { set_nationality = ROOT }
+					ac_beidou = { set_nationality = ROOT }
+					ac_takumi_musashino = { set_nationality = ROOT }
+					#ac_saori_asamiya = { set_nationality = ROOT }
+					ac_mari_setogaya = { set_nationality = ROOT }
+					ac_olga_discordia = { set_nationality = ROOT }
+					ac_celestine_lucullus = { set_nationality = ROOT }
+					ac_mistiora_arte = { set_nationality = ROOT }
+					ac_iris_arcadia = { set_nationality = ROOT }
+					ac_igawa_asagi = { set_nationality = ROOT }
+					ac_anri_sogahara = { set_nationality = ROOT }
+					ac_rina_komiya = { set_nationality = ROOT }
+					ac_anna_komiya = { set_nationality = ROOT }
+					ac_yuuki_kawaragi = { set_nationality = ROOT }
+					ac_tsubasa_kamijo = { set_nationality = ROOT }
+					ac_prim_fiorire = { set_nationality = ROOT }
+					ac_cloe = { set_nationality = ROOT }
+					#ac_claudia_le_van_tyne = { set_nationality = ROOT }
+					ac_alicia_arcturus = { set_nationality = ROOT }
+					ac_risa = { set_nationality = ROOT }
+					ac_kasumi_nanakura = { set_nationality = ROOT }
+					ac_kaname = { set_nationality = ROOT }
+					#ac_suomi = { set_nationality = ROOT }
+					#ac_akiho_Taniguchi = { set_nationality = ROOT }
+					ac_sill_plain = { set_nationality = ROOT }
+					#ac_mika_amano = { set_nationality = ROOT }
+					ac_asuka_ootorii = { set_nationality = ROOT }
+					ac_nanoha_takamachi = { set_nationality = ROOT }
+					ac_usagi_tsukino = { set_nationality = ROOT }
+					ac_momo_chiyoda = { set_nationality = ROOT }
+					#ac_hitomi_tsukishiro = { set_nationality = ROOT }
+					ac_madoka_kaname = { set_nationality = ROOT }
+					ac_illyasviel_von_einzbern = { set_nationality = ROOT }
+					ac_arika_yumemiya = { set_nationality = ROOT }
+					ac_ami_mizuno = { set_nationality = ROOT }
+					ac_makoto_kino = { set_nationality = ROOT }
+					ac_minako_aino = { set_nationality = ROOT }
+					ac_rei_hino = { set_nationality = ROOT }
+					ac_chisato_yonamine = { set_nationality = ROOT }
+					#ac_kurumi_mugen = { set_nationality = ROOT }
+					ac_homura_akemi = { set_nationality = ROOT }
+					ac_subaru_nakajima = { set_nationality = ROOT }
+					ac_vivio = { set_nationality = ROOT }
+					ac_fate_testarossa = { set_nationality = ROOT }
+					#ac_akane_isshiki = { set_nationality = ROOT }
+					ac_saki_uno = { set_nationality = ROOT }
+					ac_hayato_juumonji = { set_nationality = ROOT }
+					ac_sakuyo_mikage = { set_nationality = ROOT }
+					ac_charlotte_dunois = { set_nationality = ROOT }
+					ac_erica_blandelli = { set_nationality = ROOT }
+					ac_miki_hoshii = { set_nationality = ROOT }
+					ac_irina_jelavic = { set_nationality = ROOT }
+					ac_alisa_illinichina_amiella = { set_nationality = ROOT }
+					ac_kei = { set_nationality = ROOT }
+					ac_kawashima_mizuki = { set_nationality = ROOT }
 				}
-				generate_character = {
-					token_base = ac_asuka
-				}
-				generate_character = {
-					token_base = ac_aurora_suya_rhys_kaymin
-				}
-				generate_character = {
-					token_base = ac_anastasia
-				}
-				generate_character = {
-					token_base = ac_lightning
-				}
-				# generate_character = {
-				# 	token_base = ac_shiki
-				# }
 				create_operative_leader = {
 					name = "Shiki"
 					GFX = GFX_shiki
@@ -43,9 +165,6 @@ ac_anime_characters_category = {
 						operative_seducer
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_rosaria
-				# }
 				create_operative_leader = {
 					name = "Rosaria"
 					GFX = GFX_rosaria
@@ -61,9 +180,6 @@ ac_anime_characters_category = {
 						ROOT
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_reina_prowler
-				# }
 				create_operative_leader = {
 					name = "Reina Prowler"
 					GFX = GFX_reina_prowler
@@ -79,9 +195,6 @@ ac_anime_characters_category = {
 						ROOT
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_sheryl_nome
-				# }
 				create_operative_leader = {
 					name = "Sheryl Nome"
 					GFX = GFX_sheryl_nome
@@ -95,225 +208,6 @@ ac_anime_characters_category = {
 					nationalities = {
 						ROOT
 					}
-				}
-				generate_character = {
-					token_base = ac_mamako_oosuki
-				}
-				generate_character = {
-					token_base = ac_anastasia_romanova
-				}
-				generate_character = {
-					token_base = ac_saint_martha
-				}
-				generate_character = {
-					token_base = ac_asuna_yuuki
-				}
-				generate_character = {
-					token_base = ac_mash_kyrielight
-				}
-				generate_character = {
-					token_base = ac_maple
-				}
-				generate_character = {
-					token_base = ac_yoko_littner
-				}
-				generate_character = {
-					token_base = ac_kallen_stadtfeld
-				}
-				generate_character = {
-					token_base = ac_saki_rukino
-				}
-				generate_character = {
-					token_base = ac_kurumi_tokisaki
-				}
-				generate_character = {
-					token_base = ac_sanya_v_litvyak
-				}
-				generate_character = {
-					token_base = ac_isuzu_sento
-				}
-				generate_character = {
-					token_base = ac_volemia
-				}
-				generate_character = {
-					token_base = ac_camilla
-				}
-				generate_character = {
-					token_base = ac_sinon
-				}
-				generate_character = {
-					token_base = ac_kaname_chidori
-				}
-				generate_character = {
-					token_base = ac_yoshiko_tsushima
-				}
-				generate_character = {
-					token_base = ac_ranko_kanzaki
-				}
-				generate_character = {
-					token_base = ac_elma
-				}
-				generate_character = {
-					token_base = ac_ako_tamaki
-				}
-				generate_character = {
-					token_base = ac_celica
-				}
-				generate_character = {
-					token_base = ac_cryska_barchenowa
-				}
-				generate_character = {
-					token_base = ac_fiora
-				}
-				generate_character = {
-					token_base = ac_haruhi_suzumiya
-				}
-				generate_character = {
-					token_base = ac_kiana_kaslana
-				}
-				generate_character = {
-					token_base = ac_konoko
-				}
-				generate_character = {
-					token_base = ac_lina_inverse
-				}
-				generate_character = {
-					token_base = ac_neptune
-				}
-				generate_character = {
-					token_base = ac_ryuuko_matoi
-				}
-				generate_character = {
-					token_base = ac_satellizer_el_bridget
-				}
-				generate_character = {
-					token_base = ac_siluca_meletes
-				}
-				generate_character = {
-					token_base = ac_yuno_gasai
-				}
-				generate_character = {
-					token_base = ac_byleth_eisner
-				}
-				generate_character = {
-					token_base = ac_eula
-				}
-				generate_character = {
-					token_base = ac_5pb
-				}
-				generate_character = {
-					token_base = ac_blanc
-				}
-				generate_character = {
-					token_base = ac_compa
-				}
-				generate_character = {
-					token_base = ac_djeeta
-				}
-				generate_character = {
-					token_base = ac_ellis
-				}
-				generate_character = {
-					token_base = ac_escha_malier
-				}
-				generate_character = {
-					token_base = ac_fujimaru_ritsuka
-				}
-				generate_character = {
-					token_base = ac_honoka_kousaka
-				}
-				generate_character = {
-					token_base = ac_if
-				}
-				generate_character = {
-					token_base = ac_kasumi
-				}
-				generate_character = {
-					token_base = ac_merurulince_rede_arls
-				}
-				generate_character = {
-					token_base = ac_miho_nishizumi
-				}
-				generate_character = {
-					token_base = ac_misato_katsuragi
-				}
-				generate_character = {
-					token_base = ac_naru_narusegawa
-				}
-				generate_character = {
-					token_base = ac_noire
-				}
-				generate_character = {
-					token_base = ac_rei_ayanami
-				}
-				generate_character = {
-					token_base = ac_ryza
-				}
-				generate_character = {
-					token_base = ac_selesia_upitiria
-				}
-				generate_character = {
-					token_base = ac_sophie_neuenmuller
-				}
-				generate_character = {
-					token_base = ac_vert
-				}
-				generate_character = {
-					token_base = ac_yukina_himeragi
-				}
-				generate_character = {
-					token_base = ac_yuna
-				}
-				generate_character = {
-					token_base = ac_noelle
-				}
-				generate_character = {
-					token_base = ac_eruza_guranhirute
-				}
-				generate_character = {
-					token_base = ac_aoi_sakurai
-				}
-				generate_character = {
-					token_base = ac_yamato_kancol
-				}
-				generate_character = {
-					token_base = ac_atago_azur_lane
-				}
-				generate_character = {
-					token_base = ac_avrora_azur_lane
-				}
-				generate_character = {
-					token_base = ac_belfast
-				}
-				generate_character = {
-					token_base = ac_marblehead
-				}
-				generate_character = {
-					token_base = ac_saint_louis_azur_lane
-				}
-				generate_character = {
-					token_base = ac_takao_azur_lane
-				}
-				generate_character = {
-					token_base = ac_tosa_azur_lane
-				}
-				generate_character = {
-					token_base = ac_sovetskaya_rossiya
-				}
-				generate_character = {
-					token_base = ac_shima_tateishi
-				}
-				generate_character = {
-					token_base = ac_akeno_misaki
-				}
-				generate_character = {
-					token_base = ac_beidou
-				}
-				generate_character = {
-					token_base = ac_minami_nitta
-				}
-				generate_character = {
-					token_base = ac_ange_le_carre
 				}
 				create_operative_leader = {
 					name = "Ange le Carré"
@@ -329,9 +223,6 @@ ac_anime_characters_category = {
 						ROOT
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_makoto_kikuchi
-				# }
 				create_operative_leader = {
 					name = "Makoto Kikuchi"
 					GFX = GFX_makoto_kikuchi
@@ -347,9 +238,6 @@ ac_anime_characters_category = {
 						ROOT
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_niko_yazawa
-				# }
 				create_operative_leader = {
 					name = "Niko Yazawa"
 					GFX = GFX_niko_yazawa
@@ -366,9 +254,6 @@ ac_anime_characters_category = {
 						operative_safe_cracker
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_tomoko_kuroki
-				# }
 				create_operative_leader = {
 					name = "Tomoko Kuroki"
 					GFX = GFX_tomoko_kuroki
@@ -379,9 +264,6 @@ ac_anime_characters_category = {
 						ROOT
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_aika_sumeragi
-				# }
 				create_operative_leader = {
 					name = "Aika Sumeragi"
 					GFX = GFX_aika_sumeragi
@@ -392,9 +274,6 @@ ac_anime_characters_category = {
 						ROOT
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_aoba_suzukaze
-				# }
 				create_operative_leader = {
 					name = "Aoba Suzukaze"
 					GFX = GFX_aoba_suzukaze
@@ -405,66 +284,6 @@ ac_anime_characters_category = {
 						ROOT
 					}
 				}
-				generate_character = {
-					token_base = ac_mikumo_guynemer
-				}
-				generate_character = {
-					token_base = ac_asuka_tanaka
-				}
-				generate_character = {
-					token_base = ac_lucy_yamagami
-				}
-				generate_character = {
-					token_base = ac_megumin
-				}
-				generate_character = {
-					token_base = ac_ayame_himuro
-				}
-				generate_character = {
-					token_base = ac_ripine
-				}
-				generate_character = {
-					token_base = ac_charlotte_dunois
-				}
-				generate_character = {
-					token_base = ac_prinz_eugen
-				}
-				generate_character = {
-					token_base = ac_erica_blandelli
-				}
-				generate_character = {
-					token_base = ac_miki_hoshii
-				}
-				generate_character = {
-					token_base = ac_irina_jelavic
-				}
-				generate_character = {
-					token_base = ac_alisa_illinichina_amiella
-				}
-				generate_character = {
-					token_base = ac_kei
-				}
-				generate_character = {
-					token_base = ac_alicia_arcturus
-				}
-				generate_character = {
-					token_base = ac_anna_komiya
-				}
-				generate_character = {
-					token_base = ac_celestine_lucullus
-				}
-				generate_character = {
-					token_base = ac_cloe
-				}
-				generate_character = {
-					token_base = ac_igawa_asagi
-				}
-				generate_character = {
-					token_base = ac_iris_arcadia
-				}
-				# generate_character = {
-				# 	token_base = ac_mako_mitsuki
-				# }
 				create_operative_leader = {
 					name = "Mako Mitsuki"
 					GFX = GFX_mako_mitsuki
@@ -479,9 +298,6 @@ ac_anime_characters_category = {
 						operative_infiltrator
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_mika_amano
-				# }
 				create_operative_leader = {
 					name = "Mika Amano"
 					GFX = GFX_mika_amano
@@ -495,30 +311,6 @@ ac_anime_characters_category = {
 						operative_seducer
 					}
 				}
-				generate_character = {
-					token_base = ac_mistiora_arte
-				}
-				generate_character = {
-					token_base = ac_olga_discordia
-				}
-				generate_character = {
-					token_base = ac_prim_fiorire
-				}
-				generate_character = {
-					token_base = ac_rina_komiya
-				}
-				generate_character = {
-					token_base = ac_sill_plain
-				}
-				generate_character = {
-					token_base = ac_takumi_musashino
-				}
-				generate_character = {
-					token_base = ac_tsubasa_kamijo
-				}
-				# generate_character = {
-				# 	token_base = ac_yuriya_komiya
-				# }
 				create_operative_leader = {
 					name = "Yuriya Komiya"
 					GFX = GFX_yuriya_komiya
@@ -534,21 +326,6 @@ ac_anime_characters_category = {
 						operative_seducer
 					}
 				}
-				generate_character = {
-					token_base = ac_yuuki_kawaragi
-				}
-				generate_character = {
-					token_base = ac_risa
-				}
-				generate_character = {
-					token_base = ac_kasumi_nanakura
-				}
-				generate_character = {
-					token_base = ac_arika_yumemiya
-				}
-				# generate_character = {
-				# 	token_base = ac_hitomi_tsukishiro
-				# }
 				create_operative_leader = {
 					name = "Hitomi Tsukishiro"
 					GFX = GFX_hitomi_tsukishiro
@@ -558,60 +335,6 @@ ac_anime_characters_category = {
 					nationalities = {
 						ROOT
 					}
-				}
-				generate_character = {
-					token_base = ac_illyasviel_von_einzbern
-				}
-				generate_character = {
-					token_base = ac_madoka_kaname
-				}
-				generate_character = {
-					token_base = ac_momo_chiyoda
-				}
-				generate_character = {
-					token_base = ac_nanoha_takamachi
-				}
-				generate_character = {
-					token_base = ac_asuka_ootorii
-				}
-				generate_character = {
-					token_base = ac_usagi_tsukino
-				}
-				generate_character = {
-					token_base = ac_ami_mizuno
-				}
-				generate_character = {
-					token_base = ac_makoto_kino
-				}
-				generate_character = {
-					token_base = ac_minako_aino
-				}
-				generate_character = {
-					token_base = ac_rei_hino
-				}
-				generate_character = {
-					token_base = ac_chisato_yonamine
-				}
-				generate_character = {
-					token_base = ac_homura_akemi
-				}
-				generate_character = {
-					token_base = ac_subaru_nakajima
-				}
-				generate_character = {
-					token_base = ac_vivio
-				}
-				generate_character = {
-					token_base = ac_fate_testarossa
-				}
-				generate_character = {
-					token_base = sakuyo_mikage
-				}
-				generate_character = {
-					token_base = ac_saki_uno
-				}
-				generate_character = {
-					token_base = ac_kawashima_mizuki
 				}
 			}
 		}
@@ -628,107 +351,42 @@ ac_anime_characters_category = {
 			set_global_flag = ac_take_androids_flag
 			custom_effect_tooltip = ac_take_androids_tt
 			hidden_effect = {
-				generate_character = {
-					token_base = ac_kos_mos
-				}
-				generate_character = {
-					token_base = ac_fiora_mechon
-				}
-				generate_character = {
-					token_base = ac_mythra
-				}
-				generate_character = {
-					token_base = ac_histoire
-				}
-				generate_character = {
-					token_base = ac_alisa_boskonovich
-				}
-				generate_character = {
-					token_base = ac_risa_android
-				}
-				generate_character = {
-					token_base = ac_2b
-				}
-				generate_character = {
-					token_base = ac_cibo
-				}
-				generate_character = {
-					token_base = ac_a2
-				}
-				generate_character = {
-					token_base = ac_edi
-				}
-				generate_character = {
-					token_base = ac_pyra
-				}
-				generate_character = {
-					token_base = ac_rozen_s_series
-				}
-				generate_character = {
-					token_base = ac_clarion
-				}
-				generate_character = {
-					token_base = ac_pneuma
-				}
-				generate_character = {
-					token_base = ac_hatsune_miku
-				}
-				generate_character = {
-					token_base = ac_hana
-				}
-				generate_character = {
-					token_base = ac_automaton
-				}
-				generate_character = {
-					token_base = ac_phantom_queen_ex_xecty
-				}
-				generate_character = {
-					token_base = ac_mhmd_02_haruko
-				}
-				generate_character = {
-					token_base = ac_t_elos
-				}
-				generate_character = {
-					token_base = ac_aino
-				}
-				generate_character = {
-					token_base = ac_rose
-				}
-				generate_character = {
-					token_base = ac_elizabeth
-				}
-				generate_character = {
-					token_base = ac_vivy
-				}
-				generate_character = {
-					token_base = ac_ashigara_arp
-				}
-				generate_character = {
-					token_base = ac_takao_arp
-				}
-				generate_character = {
-					token_base = ac_i_410
-				}
-				generate_character = {
-					token_base = ac_haruna
-				}
-				generate_character = {
-					token_base = ac_kirishima
-				}
-				generate_character = {
-					token_base = ac_kongou_arp
-				}
-				generate_character = {
-					token_base = ac_atago_arp
-				}
-				generate_character = {
-					token_base = ac_caseal
-				}
-				generate_character = {
-					token_base = ac_hiei_arp
-				}
-				generate_character = {
-					token_base = ac_yurizaki_mira
+				Z99 = {
+				ac_kos_mos = { set_nationality = ROOT }
+				ac_fiora_mechon = { set_nationality = ROOT }
+				ac_mythra = { set_nationality = ROOT }
+				ac_histoire = { set_nationality = ROOT }
+				ac_alisa_boskonovich = { set_nationality = ROOT }
+				ac_risa_android = { set_nationality = ROOT }
+				ac_2b = { set_nationality = ROOT }
+				ac_cibo = { set_nationality = ROOT }
+				ac_a2 = { set_nationality = ROOT }
+				ac_edi = { set_nationality = ROOT }
+				ac_pyra = { set_nationality = ROOT }
+				ac_rozen_s_series = { set_nationality = ROOT }
+				ac_clarion = { set_nationality = ROOT }
+				#ac_maki_ivanova = { set_nationality = ROOT }
+				ac_pneuma = { set_nationality = ROOT }
+				ac_hatsune_miku = { set_nationality = ROOT }
+				ac_hana = { set_nationality = ROOT }
+				ac_automaton = { set_nationality = ROOT }
+				ac_phantom_queen_ex_xecty = { set_nationality = ROOT }
+				ac_mhmd_02_haruko = { set_nationality = ROOT }
+				ac_t_elos = { set_nationality = ROOT }
+				ac_aino = { set_nationality = ROOT }
+				ac_rose = { set_nationality = ROOT }
+				ac_elizabeth = { set_nationality = ROOT }
+				ac_vivy = { set_nationality = ROOT }
+				ac_ashigara_arp = { set_nationality = ROOT }
+				ac_takao_arp = { set_nationality = ROOT }
+				ac_i_410 = { set_nationality = ROOT }
+				ac_kongou_arp = { set_nationality = ROOT }
+				ac_atago_arp = { set_nationality = ROOT }
+				ac_caseal = { set_nationality = ROOT }
+				ac_hiei_arp = { set_nationality = ROOT }
+				ac_yurizaki_mira = { set_nationality = ROOT }
+				ac_haruna = { set_nationality = ROOT }
+				ac_kirishima = { set_nationality = ROOT }
 				}
 				create_operative_leader = {
 					name = "Yurizaki Mira"
@@ -744,12 +402,6 @@ ac_anime_characters_category = {
 						operative_natural_orator
 					}
 				}
-				generate_character = {
-					token_base = ac_mei_fang
-				}
-				# generate_character = {
-				# 	token_base = ac_aegis
-				# }
 				create_operative_leader = {
 					name = "Aegis"
 					GFX = GFX_aegis
@@ -763,9 +415,6 @@ ac_anime_characters_category = {
 						operative_commando
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_chii
-				# }
 				create_operative_leader = {
 					name = "Chii"
 					GFX = GFX_chii
@@ -781,9 +430,6 @@ ac_anime_characters_category = {
 						operative_master_interrogator
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_vanessa_diodati
-				# }
 				create_operative_leader = {
 					name = "Vanessa Diodati"
 					GFX = GFX_vanessa_diodati
@@ -797,9 +443,6 @@ ac_anime_characters_category = {
 						operative_demolition_expert
 						operative_commando
 					}
-				}
-				add_to_variable = {
-					ac_harem_size = 1
 				}
 			}
 		}
@@ -816,12 +459,44 @@ ac_anime_characters_category = {
 			set_global_flag = ac_take_monsters_flag
 			custom_effect_tooltip = ac_take_monsters_tt
 			hidden_effect = {
-				generate_character = {
-					token_base = ac_velvet_crowe
+				Z99 = {
+				ac_velvet_crowe = { set_nationality = ROOT }
+				ac_yuuko_yoshida = { set_nationality = ROOT }
+				ac_maou = { set_nationality = ROOT }
+				ac_holo = { set_nationality = ROOT }
+				ac_fino_bloodstone = { set_nationality = ROOT }
+				ac_rhea = { set_nationality = ROOT }
+				ac_shiraori = { set_nationality = ROOT }
+				ac_ishtar = { set_nationality = ROOT }
+				ac_lilith = { set_nationality = ROOT }
+				ac_rose_monster = { set_nationality = ROOT }
+				ac_morrah = { set_nationality = ROOT }
+				ac_ripine = { set_nationality = ROOT }
+				ac_dullahan = { set_nationality = ROOT }
+				ac_milla_maxwell = { set_nationality = ROOT }
+				ac_astaroth = { set_nationality = ROOT }
+				ac_laharl_female = { set_nationality = ROOT }
+				ac_desco = { set_nationality = ROOT }
+				ac_tiamat = { set_nationality = ROOT }
+				ac_belldandy = { set_nationality = ROOT }
+				ac_corrin = { set_nationality = ROOT }
+				ac_lucy = { set_nationality = ROOT }
+				ac_makina_hoshimura = { set_nationality = ROOT }
+				ac_saya_kisaragi = { set_nationality = ROOT }
+				ac_02 = { set_nationality = ROOT }
+				ac_vignette_april_tsukinose = { set_nationality = ROOT }
+				ac_satanichia_mcdowell_kurumizawa = { set_nationality = ROOT }
+				ac_arnice = { set_nationality = ROOT }
+				ac_saya_otonashi = { set_nationality = ROOT }
+				ac_marie_von_eisenberg = { set_nationality = ROOT }
+				ac_kurari_rose = { set_nationality = ROOT }
+				ac_heine = { set_nationality = ROOT }
+				ac_yamato_wg = { set_nationality = ROOT }
+				ac_purifier = { set_nationality = ROOT }
+				ac_tester = { set_nationality = ROOT }
+				ac_shigure = { set_nationality = ROOT }
+				ac_sheliss_elleness_zurbach = { set_nationality = ROOT }
 				}
-				# generate_character = {
-				# 	token_base = ac_rias_gremory
-				# }
 				create_operative_leader = {
 					name = "Rias Gremory"
 					GFX = GFX_rias_gremory
@@ -835,9 +510,6 @@ ac_anime_characters_category = {
 						ROOT
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_mio_naruse
-				# }
 				create_operative_leader = {
 					name = "Mio Naruse"
 					GFX = GFX_mio_naruse
@@ -851,9 +523,6 @@ ac_anime_characters_category = {
 						ROOT
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_sakura_minamoto
-				# }
 				create_operative_leader = {
 					name = "Sakura Minamoto"
 					GFX = GFX_sakura_minamoto
@@ -868,105 +537,6 @@ ac_anime_characters_category = {
 						ROOT
 					}
 				}
-				generate_character = {
-					token_base = ac_yuuko_yoshida
-				}
-				generate_character = {
-					token_base = ac_maou
-				}
-				generate_character = {
-					token_base = ac_holo
-				}
-				generate_character = {
-					token_base = ac_fino_bloodstone
-				}
-				generate_character = {
-					token_base = ac_rhea
-				}
-				generate_character = {
-					token_base = ac_shiraori
-				}
-				generate_character = {
-					token_base = ac_ishtar
-				}
-				generate_character = {
-					token_base = ac_lilith
-				}
-				generate_character = {
-					token_base = ac_rose_monster
-				}
-				generate_character = {
-					token_base = ac_morrah
-				}
-				generate_character = {
-					token_base = ac_dullahan
-				}
-				generate_character = {
-					token_base = ac_milla_maxwell
-				}
-				generate_character = {
-					token_base = ac_astaroth
-				}
-				generate_character = {
-					token_base = ac_laharl_female
-				}
-				generate_character = {
-					token_base = ac_desco
-				}
-				generate_character = {
-					token_base = ac_tiamat
-				}
-				generate_character = {
-					token_base = ac_belldandy
-				}
-				generate_character = {
-					token_base = ac_corrin
-				}
-				generate_character = {
-					token_base = ac_lucy
-				}
-				generate_character = {
-					token_base = ac_makina_hoshimura
-				}
-				generate_character = {
-					token_base = ac_saya_kisaragi
-				}
-				generate_character = {
-					token_base = ac_02
-				}
-				generate_character = {
-					token_base = ac_vignette_april_tsukinose
-				}
-				generate_character = {
-					token_base = ac_satanichia_mcdowell_kurumizawa
-				}
-				generate_character = {
-					token_base = ac_arnice
-				}
-				generate_character = {
-					token_base = ac_saya_otonashi
-				}
-				generate_character = {
-					token_base = ac_marie_von_eisenberg
-				}
-				generate_character = {
-					token_base = ac_kurari_rose
-				}
-				generate_character = {
-					token_base = ac_heine
-				}
-				generate_character = {
-					token_base = ac_yamato_wg
-				}
-				generate_character = {
-					token_base = ac_purifier
-				}
-				generate_character = {
-					token_base = ac_tester
-				}
-				generate_character = {
-					token_base = ac_shigure
-				}
 				create_operative_leader = {
 					name = "Shigure"
 					GFX = GFX_shigure
@@ -980,12 +550,6 @@ ac_anime_characters_category = {
 					nationalities = {
 						ROOT
 					}
-				}
-				generate_character = {
-					token_base = ac_mari_setogaya
-				}
-				generate_character = {
-					token_base = ac_sheliss_elleness_zurbach
 				}
 			}
 		}
@@ -1002,98 +566,39 @@ ac_anime_characters_category = {
 			set_global_flag = ac_take_traps_flag
 			custom_effect_tooltip = ac_take_traps_tt
 			hidden_effect = {
-				generate_character = {
-					token_base = ac_astolfo
-				}
-				generate_character = {
-					token_base = ac_hideri_kanzaki
-				}
-				generate_character = {
-					token_base = ac_tetora
-				}
-				generate_character = {
-					token_base = ac_ringo_tsukimiya
-				}
-				generate_character = {
-					token_base = ac_felix_argyle
-				}
-				generate_character = {
-					token_base = ac_oboro_tsukimigusa
-				}
-				generate_character = {
-					token_base = ac_hitoshi_sugoroku
-				}
-				generate_character = {
-					token_base = ac_kaoru_hanase
-				}
-				generate_character = {
-					token_base = ac_aoi_hyoudou
-				}
-				generate_character = {
-					token_base = ac_kaguya_arikawa
-				}
-				generate_character = {
-					token_base = ac_tama_kyan
-				}
-				generate_character = {
-					token_base = ac_hime_arikawa
-				}
-				generate_character = {
-					token_base = ac_sylvia
-				}
-				generate_character = {
-					token_base = ac_birdy_cephon_altera
-				}
-				generate_character = {
-					token_base = ac_souji_mitsuka
-				}
-				generate_character = {
-					token_base = ac_ranga
-				}
-				generate_character = {
-					token_base = ac_yukikaze
-				}
-				generate_character = {
-					token_base = ac_mitsunaga_oda
-				}
-				generate_character = {
-					token_base = ac_ritsu_souma
-				}
-				generate_character = {
-					token_base = ac_xianming_lin
-				}
-				generate_character = {
-					token_base = ac_mizuho_miyanokouji
-				}
-				generate_character = {
-					token_base = ac_youta_tsunashi
-				}
-				generate_character = {
-					token_base = ac_fish_eye
-				}
-				generate_character = {
-					token_base = ac_hacka_doll_no_3
-				}
-				generate_character = {
-					token_base = ac_ranma_saotome
-				}
-				generate_character = {
-					token_base = ac_hamaji_yakumo
-				}
-				generate_character = {
-					token_base = ac_taroumaru_seike
-				}
-				generate_character = {
-					token_base = ac_mariya_shidou
-				}
-				generate_character = {
-					token_base = ac_russell
-				}
-				generate_character = {
-					token_base = ac_mare_bello_fiore
-				}
-				generate_character = {
-					token_base = ac_aoi_futaba
+				Z99 = {
+				ac_astolfo = { set_nationality = ROOT }
+				ac_hideri_kanzaki = { set_nationality = ROOT }
+				ac_tetora = { set_nationality = ROOT }
+				ac_ringo_tsukimiya = { set_nationality = ROOT }
+				ac_felix_argyle = { set_nationality = ROOT }
+				ac_oboro_tsukimigusa = { set_nationality = ROOT }
+				ac_hitoshi_sugoroku = { set_nationality = ROOT }
+				ac_kaoru_hanase = { set_nationality = ROOT }
+				ac_aoi_hyoudou = { set_nationality = ROOT }
+				ac_kaguya_arikawa = { set_nationality = ROOT }
+				ac_tama_kyan = { set_nationality = ROOT }
+				ac_hime_arikawa = { set_nationality = ROOT }
+				ac_sylvia = { set_nationality = ROOT }
+				ac_birdy_cephon_altera = { set_nationality = ROOT }
+				ac_souji_mitsuka = { set_nationality = ROOT }
+				ac_ranga = { set_nationality = ROOT }
+				ac_yukikaze = { set_nationality = ROOT }
+				ac_mitsunaga_oda = { set_nationality = ROOT }
+				ac_ritsu_souma = { set_nationality = ROOT }
+				ac_xianming_lin = { set_nationality = ROOT }
+				ac_mizuho_miyanokouji = { set_nationality = ROOT }
+				ac_youta_tsunashi = { set_nationality = ROOT }
+				ac_fish_eye = { set_nationality = ROOT }
+				ac_hacka_doll_no_3 = { set_nationality = ROOT }
+				ac_ranma_saotome = { set_nationality = ROOT }
+				ac_hamaji_yakumo = { set_nationality = ROOT }
+				ac_taroumaru_seike = { set_nationality = ROOT }
+				ac_mariya_shidou = { set_nationality = ROOT }
+				ac_russell = { set_nationality = ROOT }
+				ac_mare_bello_fiore = { set_nationality = ROOT }
+				ac_aoi_futaba = { set_nationality = ROOT }
+				ac_homare_nao = { set_nationality = ROOT }
 				}
 				create_operative_leader = {
 					name = "Aoi Futaba"
@@ -1109,9 +614,6 @@ ac_anime_characters_category = {
 						ROOT
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_gasper_vladi
-				# }
 				create_operative_leader = {
 					name = "Gasper Vladi"
 					GFX = GFX_gasper_vladi
@@ -1127,9 +629,6 @@ ac_anime_characters_category = {
 						ROM
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_ryou_akizuki
-				# }
 				create_operative_leader = {
 					name = "Ryou Akizuki"
 					GFX = GFX_ryou_akizuki
@@ -1143,9 +642,6 @@ ac_anime_characters_category = {
 						ROOT
 					}
 				}
-				# generate_character = {
-				# 	token_base = ac_saki_mizushima
-				# }
 				create_operative_leader = {
 					name = "Saki Mizushima"
 					GFX = GFX_saki_mizushima
@@ -1159,18 +655,6 @@ ac_anime_characters_category = {
 						ROOT
 					}
 				}
-				generate_character = {
-					token_base = ac_anri_sogahara
-				}
-				generate_character = {
-					token_base = ac_homare_nao
-				}
-				generate_character = {
-					token_base = ac_kaname
-				}
-				generate_character = {
-					token_base = ac_hayato_juumonji
-				}
 			}
 		}
 	}
@@ -1178,6 +662,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
+			has_global_flag = ac_take_girls_flag
 			has_government = neutrality
 			NOT = {
 				has_country_leader = {
@@ -1219,6 +704,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
+			has_global_flag = ac_take_androids_flag
 			has_government = communism
 			NOT = {
 				has_country_leader = {
@@ -1260,7 +746,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_government = fascism
+			has_global_flag = ac_take_monsters_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_velvet_crowe
@@ -1269,6 +755,7 @@ ac_anime_characters_category = {
 			}
 		}
 		available = {
+			has_government = fascism
 			custom_trigger_tooltip = {
 				tooltip = ac_velvet_crowe_taked_tt
 				ac_velvet_crowe = {
@@ -1301,7 +788,7 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_government = democratic
+			has_global_flag = ac_take_traps_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_astolfo
@@ -1310,6 +797,7 @@ ac_anime_characters_category = {
 			}
 		}
 		available = {
+			has_government = democratic
 			custom_trigger_tooltip = {
 				tooltip = ac_astolfo_taked_tt
 				ac_astolfo = {
@@ -1342,7 +830,7 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_government = communism
+			has_global_flag = ac_take_girls_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_alisa_illinichina_amiella
@@ -1351,6 +839,7 @@ ac_anime_characters_category = {
 			}
 		}
 		available = {
+			has_government = communism
 			custom_trigger_tooltip = {
 				tooltip = ac_alisa_illinichina_amiella_taked_tt
 				ac_alisa_illinichina_amiella = {
@@ -1381,7 +870,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_government = fascism
+			has_global_flag = ac_take_androids_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_t_elos
@@ -1390,6 +879,7 @@ ac_anime_characters_category = {
 			}
 		}
 		available = {
+			has_government = fascism
 			custom_trigger_tooltip = {
 				tooltip = ac_t_elos_taked_tt
 				ac_t_elos = {
@@ -1422,7 +912,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_government = democratic
+			has_global_flag = ac_take_monsters_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_yuuko_yoshida
@@ -1431,6 +921,7 @@ ac_anime_characters_category = {
 			}
 		}
 		available = {
+			has_government = democratic
 			custom_trigger_tooltip = {
 				tooltip = ac_yuuko_yoshida_tt
 				ac_yuuko_yoshida = {
@@ -1463,7 +954,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_government = neutrality
+			has_global_flag = ac_take_traps_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_homare_nao
@@ -1472,6 +963,7 @@ ac_anime_characters_category = {
 			}
 		}
 		available = {
+			has_government = neutrality
 			custom_trigger_tooltip = {
 				tooltip = ac_homare_nao_taked_tt
 				ac_anastasia_romanova = {
