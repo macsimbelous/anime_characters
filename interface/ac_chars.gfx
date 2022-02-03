@@ -1,0 +1,2530 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_ac_2b"
+		texturefile = "gfx/leaders/girls/2b_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_2b"
+		texturefile = "gfx/leaders/girls/2b.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_5pb"
+		texturefile = "gfx/leaders/girls/5pb_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_5pb"
+		texturefile = "gfx/leaders/girls/5pb.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_a2"
+		texturefile = "gfx/leaders/girls/a2_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_a2"
+		texturefile = "gfx/leaders/girls/a2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_aegis"
+		texturefile = "gfx/leaders/girls/aegis_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_aegis"
+		texturefile = "gfx/leaders/girls/aegis.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ai_kagano_civilian"
+		texturefile = "gfx/leaders/girls/ai_kagano_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ai_kagano"
+		texturefile = "gfx/leaders/girls/ai_kagano_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ai_kagano"
+		texturefile = "gfx/leaders/girls/ai_kagano.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_aika_sumeragi"
+		texturefile = "gfx/leaders/girls/aika_sumeragi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_aika_sumeragi"
+		texturefile = "gfx/leaders/girls/aika_sumeragi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_aino"
+		texturefile = "gfx/leaders/girls/aino_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_aino"
+		texturefile = "gfx/leaders/girls/aino.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_akane_isshiki"
+		texturefile = "gfx/leaders/girls/akane_isshiki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_akane_isshiki"
+		texturefile = "gfx/leaders/girls/akane_isshiki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_akeno_misaki"
+		texturefile = "gfx/leaders/girls/akeno_misaki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_akeno_misaki"
+		texturefile = "gfx/leaders/girls/akeno_misaki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_akiho_taniguchi"
+		texturefile = "gfx/leaders/girls/akiho_taniguchi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_akiho_taniguchi"
+		texturefile = "gfx/leaders/girls/akiho_taniguchi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ako_tamaki"
+		texturefile = "gfx/leaders/girls/ako_tamaki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ako_tamaki"
+		texturefile = "gfx/leaders/girls/ako_tamaki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_alexandra_frolova"
+		texturefile = "gfx/leaders/girls/alexandra_frolova_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_alexandra_frolova"
+		texturefile = "gfx/leaders/girls/alexandra_frolova.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_alice_erzan"
+		texturefile = "gfx/leaders/girls/alice_erzan_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_alice_erzan"
+		texturefile = "gfx/leaders/girls/alice_erzan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_alicia_arcturus"
+		texturefile = "gfx/leaders/girls/alicia_arcturus_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_alicia_arcturus"
+		texturefile = "gfx/leaders/girls/alicia_arcturus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_alicia"
+		texturefile = "gfx/leaders/girls/alicia_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_alicia"
+		texturefile = "gfx/leaders/girls/alicia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_alisa_boskonovich"
+		texturefile = "gfx/leaders/girls/alisa_boskonovich_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_alisa_boskonovich"
+		texturefile = "gfx/leaders/girls/alisa_boskonovich.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_alisa_illinichina_amiella"
+		texturefile = "gfx/leaders/girls/alisa_illinichina_amiella_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_alisa_illinichina_amiella"
+		texturefile = "gfx/leaders/girls/alisa_illinichina_amiella.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_amanogawa_kirara"
+		texturefile = "gfx/leaders/girls/amanogawa_kirara_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_amanogawa_kirara"
+		texturefile = "gfx/leaders/girls/amanogawa_kirara.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ami_mizuno"
+		texturefile = "gfx/leaders/girls/ami_mizuno_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ami_mizuno"
+		texturefile = "gfx/leaders/girls/ami_mizuno.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_anastasia_general"
+		texturefile = "gfx/leaders/girls/anastasia_general_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_anastasia_general"
+		texturefile = "gfx/leaders/girls/anastasia_general.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_anastasia_i_empress"
+		texturefile = "gfx/leaders/girls/anastasia_i_empress_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_anastasia_i_empress"
+		texturefile = "gfx/leaders/girls/anastasia_i_empress.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_anastasia"
+		texturefile = "gfx/leaders/girls/anastasia_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_anastasia_romanova"
+		texturefile = "gfx/leaders/girls/anastasia_romanova_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_anastasia_romanova"
+		texturefile = "gfx/leaders/girls/anastasia_romanova.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_anastasia"
+		texturefile = "gfx/leaders/girls/anastasia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ange_le_carre"
+		texturefile = "gfx/leaders/girls/ange_le_carre_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ange_le_carre"
+		texturefile = "gfx/leaders/girls/ange_le_carre.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_anna_komiya"
+		texturefile = "gfx/leaders/girls/anna_komiya_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_anna_komiya"
+		texturefile = "gfx/leaders/girls/anna_komiya.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_aoba_suzukaze"
+		texturefile = "gfx/leaders/girls/aoba_suzukaze_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_aoba_suzukaze"
+		texturefile = "gfx/leaders/girls/aoba_suzukaze.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_aoi_sakurai"
+		texturefile = "gfx/leaders/girls/aoi_sakurai_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_aoi_sakurai"
+		texturefile = "gfx/leaders/girls/aoi_sakurai.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_arika_yumemiya"
+		texturefile = "gfx/leaders/girls/arika_yumemiya_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_arika_yumemiya"
+		texturefile = "gfx/leaders/girls/arika_yumemiya.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_arnice"
+		texturefile = "gfx/leaders/girls/arnice_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_arnice"
+		texturefile = "gfx/leaders/girls/arnice.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ashigara_arp"
+		texturefile = "gfx/leaders/girls/ashigara_arp_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ashigara_arp"
+		texturefile = "gfx/leaders/girls/ashigara_arp.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_asmodeus"
+		texturefile = "gfx/leaders/girls/asmodeus_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_asmodeus"
+		texturefile = "gfx/leaders/girls/asmodeus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_astaroth"
+		texturefile = "gfx/leaders/girls/astaroth_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_astaroth"
+		texturefile = "gfx/leaders/girls/astaroth.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_asuka"
+		texturefile = "gfx/leaders/girls/asuka_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_asuka_lider"
+		texturefile = "gfx/leaders/girls/asuka_lider_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_asuka_lider"
+		texturefile = "gfx/leaders/girls/asuka_lider.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_asuka_ootorii"
+		texturefile = "gfx/leaders/girls/asuka_ootorii_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_asuka_ootorii"
+		texturefile = "gfx/leaders/girls/asuka_ootorii.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_asuka_tanaka"
+		texturefile = "gfx/leaders/girls/asuka_tanaka_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_asuka_tanaka"
+		texturefile = "gfx/leaders/girls/asuka_tanaka.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_asuka"
+		texturefile = "gfx/leaders/girls/asuka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_asuna_yuuki"
+		texturefile = "gfx/leaders/girls/asuna_yuuki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_asuna_yuuki"
+		texturefile = "gfx/leaders/girls/asuna_yuuki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_atago_arp"
+		texturefile = "gfx/leaders/girls/atago_arp_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_atago_arp"
+		texturefile = "gfx/leaders/girls/atago_arp.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_atago_azur_lane"
+		texturefile = "gfx/leaders/girls/atago_azur_lane_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_atago_azur_lane"
+		texturefile = "gfx/leaders/girls/atago_azur_lane.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_aurora_suya_rhys_kaymin"
+		texturefile = "gfx/leaders/girls/aurora_suya_rhys_kaymin_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_aurora_suya_rhys_kaymin"
+		texturefile = "gfx/leaders/girls/aurora_suya_rhys_kaymin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_automaton"
+		texturefile = "gfx/leaders/girls/automaton_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_automaton"
+		texturefile = "gfx/leaders/girls/automaton.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_avrora_azur_lane"
+		texturefile = "gfx/leaders/girls/avrora_azur_lane_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_avrora_azur_lane"
+		texturefile = "gfx/leaders/girls/avrora_azur_lane.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ayame_himuro"
+		texturefile = "gfx/leaders/girls/ayame_himuro_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ayame_himuro"
+		texturefile = "gfx/leaders/girls/ayame_himuro.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_beidou"
+		texturefile = "gfx/leaders/girls/beidou_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_beidou"
+		texturefile = "gfx/leaders/girls/beidou.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_belfast"
+		texturefile = "gfx/leaders/girls/belfast_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_belfast"
+		texturefile = "gfx/leaders/girls/belfast.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_belldandy"
+		texturefile = "gfx/leaders/girls/belldandy_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_belldandy"
+		texturefile = "gfx/leaders/girls/belldandy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_blanc"
+		texturefile = "gfx/leaders/girls/blanc_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_blanc"
+		texturefile = "gfx/leaders/girls/blanc.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_byleth_eisner"
+		texturefile = "gfx/leaders/girls/byleth_eisner_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_byleth_eisner"
+		texturefile = "gfx/leaders/girls/byleth_eisner.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_camilla"
+		texturefile = "gfx/leaders/girls/camilla_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_camilla"
+		texturefile = "gfx/leaders/girls/camilla.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_caseal"
+		texturefile = "gfx/leaders/girls/caseal_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_caseal"
+		texturefile = "gfx/leaders/girls/caseal.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_celestine_lucullus"
+		texturefile = "gfx/leaders/girls/celestine_lucullus_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_celestine_lucullus"
+		texturefile = "gfx/leaders/girls/celestine_lucullus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_celica"
+		texturefile = "gfx/leaders/girls/celica_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_celica"
+		texturefile = "gfx/leaders/girls/celica.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_charlotte_dunois"
+		texturefile = "gfx/leaders/girls/charlotte_dunois_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_charlotte_dunois"
+		texturefile = "gfx/leaders/girls/charlotte_dunois.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_chii"
+		texturefile = "gfx/leaders/girls/chii_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_chii"
+		texturefile = "gfx/leaders/girls/chii.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_chisato_yonamine"
+		texturefile = "gfx/leaders/girls/chisato_yonamine_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_chisato_yonamine"
+		texturefile = "gfx/leaders/girls/chisato_yonamine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_cibo"
+		texturefile = "gfx/leaders/girls/cibo_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_cibo"
+		texturefile = "gfx/leaders/girls/cibo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_clarion"
+		texturefile = "gfx/leaders/girls/clarion_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_clarion"
+		texturefile = "gfx/leaders/girls/clarion.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_claudia_le_van_tyne"
+		texturefile = "gfx/leaders/girls/claudia_le_van_tyne_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_claudia_le_van_tyne"
+		texturefile = "gfx/leaders/girls/claudia_le_van_tyne.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_cloe"
+		texturefile = "gfx/leaders/girls/cloe_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_cloe"
+		texturefile = "gfx/leaders/girls/cloe.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_compa"
+		texturefile = "gfx/leaders/girls/compa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_compa"
+		texturefile = "gfx/leaders/girls/compa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_corrin"
+		texturefile = "gfx/leaders/girls/corrin_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_corrin"
+		texturefile = "gfx/leaders/girls/corrin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_cryska_barchenowa"
+		texturefile = "gfx/leaders/girls/cryska_barchenowa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_cryska_barchenowa"
+		texturefile = "gfx/leaders/girls/cryska_barchenowa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_desco"
+		texturefile = "gfx/leaders/girls/desco_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_desco"
+		texturefile = "gfx/leaders/girls/desco.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_djeeta"
+		texturefile = "gfx/leaders/girls/djeeta_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_djeeta"
+		texturefile = "gfx/leaders/girls/djeeta.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_dullahan"
+		texturefile = "gfx/leaders/girls/dullahan_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_dullahan"
+		texturefile = "gfx/leaders/girls/dullahan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_edi"
+		texturefile = "gfx/leaders/girls/edi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_edi"
+		texturefile = "gfx/leaders/girls/edi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_elizabeth"
+		texturefile = "gfx/leaders/girls/elizabeth_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_elizabeth"
+		texturefile = "gfx/leaders/girls/elizabeth.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ellis"
+		texturefile = "gfx/leaders/girls/ellis_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ellis"
+		texturefile = "gfx/leaders/girls/ellis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_elma"
+		texturefile = "gfx/leaders/girls/elma_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_elma"
+		texturefile = "gfx/leaders/girls/elma.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_erica_blandelli"
+		texturefile = "gfx/leaders/girls/erica_blandelli_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_erica_blandelli"
+		texturefile = "gfx/leaders/girls/erica_blandelli.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_eruza_guranhirute"
+		texturefile = "gfx/leaders/girls/eruza_guranhirute_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_eruza_guranhirute"
+		texturefile = "gfx/leaders/girls/eruza_guranhirute.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_erza"
+		texturefile = "gfx/leaders/girls/erza_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_erza"
+		texturefile = "gfx/leaders/girls/erza.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_escha_malier"
+		texturefile = "gfx/leaders/girls/escha_malier_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_escha_malier"
+		texturefile = "gfx/leaders/girls/escha_malier.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_eula"
+		texturefile = "gfx/leaders/girls/eula_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_eula"
+		texturefile = "gfx/leaders/girls/eula.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_fate_testarossa"
+		texturefile = "gfx/leaders/girls/fate_testarossa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_fate_testarossa"
+		texturefile = "gfx/leaders/girls/fate_testarossa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_fino_bloodstone"
+		texturefile = "gfx/leaders/girls/fino_bloodstone_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_fino_bloodstone"
+		texturefile = "gfx/leaders/girls/fino_bloodstone.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_fiora"
+		texturefile = "gfx/leaders/girls/fiora_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_fiora_mechon"
+		texturefile = "gfx/leaders/girls/fiora_mechon_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_fiora_mechon"
+		texturefile = "gfx/leaders/girls/fiora_mechon.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_fiora"
+		texturefile = "gfx/leaders/girls/fiora.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_frey_ringitt"
+		texturefile = "gfx/leaders/girls/frey_ringitt_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_frey_ringitt"
+		texturefile = "gfx/leaders/girls/frey_ringitt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_freyja"
+		texturefile = "gfx/leaders/girls/freyja_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_freyja"
+		texturefile = "gfx/leaders/girls/freyja.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_frill"
+		texturefile = "gfx/leaders/girls/frill_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_frill"
+		texturefile = "gfx/leaders/girls/frill.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_fujimaru_ritsuka"
+		texturefile = "gfx/leaders/girls/fujimaru_ritsuka_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_fujimaru_ritsuka"
+		texturefile = "gfx/leaders/girls/fujimaru_ritsuka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_hana"
+		texturefile = "gfx/leaders/girls/hana_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_hana"
+		texturefile = "gfx/leaders/girls/hana.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_haruhi_suzumiya"
+		texturefile = "gfx/leaders/girls/haruhi_suzumiya_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_haruhi_suzumiya"
+		texturefile = "gfx/leaders/girls/haruhi_suzumiya.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_haruna"
+		texturefile = "gfx/leaders/girls/haruna_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_haruna"
+		texturefile = "gfx/leaders/girls/haruna.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_hatsune_miku"
+		texturefile = "gfx/leaders/girls/hatsune_miku_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_hatsune_miku"
+		texturefile = "gfx/leaders/girls/hatsune_miku.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_hayato_juumonji"
+		texturefile = "gfx/leaders/girls/hayato_juumonji_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_hayato_juumonji"
+		texturefile = "gfx/leaders/girls/hayato_juumonji.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_heine"
+		texturefile = "gfx/leaders/girls/heine_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_heine"
+		texturefile = "gfx/leaders/girls/heine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_hiei_arp"
+		texturefile = "gfx/leaders/girls/hiei_arp_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_hiei_arp"
+		texturefile = "gfx/leaders/girls/hiei_arp.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_himeno_awayuki"
+		texturefile = "gfx/leaders/girls/himeno_awayuki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_himeno_awayuki"
+		texturefile = "gfx/leaders/girls/himeno_awayuki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_histoire"
+		texturefile = "gfx/leaders/girls/histoire_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_histoire"
+		texturefile = "gfx/leaders/girls/histoire.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_hitomi_tsukishiro"
+		texturefile = "gfx/leaders/girls/hitomi_tsukishiro_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_hitomi_tsukishiro"
+		texturefile = "gfx/leaders/girls/hitomi_tsukishiro.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_holo"
+		texturefile = "gfx/leaders/girls/holo_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_holo"
+		texturefile = "gfx/leaders/girls/holo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_homura_akemi"
+		texturefile = "gfx/leaders/girls/homura_akemi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_homura_akemi"
+		texturefile = "gfx/leaders/girls/homura_akemi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_honey_kisaragi"
+		texturefile = "gfx/leaders/girls/honey_kisaragi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_honey_kisaragi"
+		texturefile = "gfx/leaders/girls/honey_kisaragi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_honoka_kousaka"
+		texturefile = "gfx/leaders/girls/honoka_kousaka_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_honoka_kousaka"
+		texturefile = "gfx/leaders/girls/honoka_kousaka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_honoka_yukishiro"
+		texturefile = "gfx/leaders/girls/honoka_yukishiro_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_honoka_yukishiro"
+		texturefile = "gfx/leaders/girls/honoka_yukishiro.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_i-410"
+		texturefile = "gfx/leaders/girls/i-410_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_i-410"
+		texturefile = "gfx/leaders/girls/i-410.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ichinose_minori"
+		texturefile = "gfx/leaders/girls/ichinose_minori_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ichinose_minori"
+		texturefile = "gfx/leaders/girls/ichinose_minori.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_if"
+		texturefile = "gfx/leaders/girls/if_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_if"
+		texturefile = "gfx/leaders/girls/if.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_igawa_asagi"
+		texturefile = "gfx/leaders/girls/igawa_asagi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_igawa_asagi"
+		texturefile = "gfx/leaders/girls/igawa_asagi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_illyasviel_von_einzbern"
+		texturefile = "gfx/leaders/girls/illyasviel_von_einzbern_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_illyasviel_von_einzbern"
+		texturefile = "gfx/leaders/girls/illyasviel_von_einzbern.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_irina_jelavic"
+		texturefile = "gfx/leaders/girls/irina_jelavic_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_irina_jelavic"
+		texturefile = "gfx/leaders/girls/irina_jelavic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_iris_arcadia"
+		texturefile = "gfx/leaders/girls/iris_arcadia_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_iris_arcadia"
+		texturefile = "gfx/leaders/girls/iris_arcadia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_iris_heart"
+		texturefile = "gfx/leaders/girls/iris_heart_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_iris_heart"
+		texturefile = "gfx/leaders/girls/iris_heart.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_isht_karin_orte"
+		texturefile = "gfx/leaders/girls/isht_karin_orte_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_isht_karin_orte"
+		texturefile = "gfx/leaders/girls/isht_karin_orte.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ishtar"
+		texturefile = "gfx/leaders/girls/ishtar_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ishtar"
+		texturefile = "gfx/leaders/girls/ishtar.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_isuzu_sento"
+		texturefile = "gfx/leaders/girls/isuzu_sento_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_isuzu_sento"
+		texturefile = "gfx/leaders/girls/isuzu_sento.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kallen_stadtfeld"
+		texturefile = "gfx/leaders/girls/kallen_stadtfeld_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kallen_stadtfeld"
+		texturefile = "gfx/leaders/girls/kallen_stadtfeld.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kaname_chidori"
+		texturefile = "gfx/leaders/girls/kaname_chidori_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kaname_chidori"
+		texturefile = "gfx/leaders/girls/kaname_chidori.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kaori_weber"
+		texturefile = "gfx/leaders/girls/kaori_weber_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kaori_weber"
+		texturefile = "gfx/leaders/girls/kaori_weber.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kasumi"
+		texturefile = "gfx/leaders/girls/kasumi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kasumi_nanakura"
+		texturefile = "gfx/leaders/girls/kasumi_nanakura_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kasumi_nanakura"
+		texturefile = "gfx/leaders/girls/kasumi_nanakura.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kasumi"
+		texturefile = "gfx/leaders/girls/kasumi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kawashima_mizuki"
+		texturefile = "gfx/leaders/girls/kawashima_mizuki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kawashima_mizuki"
+		texturefile = "gfx/leaders/girls/kawashima_mizuki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kei"
+		texturefile = "gfx/leaders/girls/kei_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kei"
+		texturefile = "gfx/leaders/girls/kei.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kiana_kaslana"
+		texturefile = "gfx/leaders/girls/kiana_kaslana_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kiana_kaslana"
+		texturefile = "gfx/leaders/girls/kiana_kaslana.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kirishima"
+		texturefile = "gfx/leaders/girls/kirishima_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kirishima"
+		texturefile = "gfx/leaders/girls/kirishima.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kitagawa_marin"
+		texturefile = "gfx/leaders/girls/kitagawa_marin_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kitagawa_marin"
+		texturefile = "gfx/leaders/girls/kitagawa_marin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kobato_hanato"
+		texturefile = "gfx/leaders/girls/kobato_hanato_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kobato_hanato"
+		texturefile = "gfx/leaders/girls/kobato_hanato.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_komugi_yoshida"
+		texturefile = "gfx/leaders/girls/komugi_yoshida_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_komugi_yoshida"
+		texturefile = "gfx/leaders/girls/komugi_yoshida.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kongou_arp"
+		texturefile = "gfx/leaders/girls/kongou_arp_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kongou_arp"
+		texturefile = "gfx/leaders/girls/kongou_arp.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_konoko"
+		texturefile = "gfx/leaders/girls/konoko_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_konoko"
+		texturefile = "gfx/leaders/girls/konoko.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kos-mos"
+		texturefile = "gfx/leaders/girls/kos-mos_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kos-mos"
+		texturefile = "gfx/leaders/girls/kos-mos.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kurari_rose"
+		texturefile = "gfx/leaders/girls/kurari_rose_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kurari_rose"
+		texturefile = "gfx/leaders/girls/kurari_rose.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kurumi_mugen"
+		texturefile = "gfx/leaders/girls/kurumi_mugen_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kurumi_mugen"
+		texturefile = "gfx/leaders/girls/kurumi_mugen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kurumi_tokisaki"
+		texturefile = "gfx/leaders/girls/kurumi_tokisaki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kurumi_tokisaki"
+		texturefile = "gfx/leaders/girls/kurumi_tokisaki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_laharl_girl"
+		texturefile = "gfx/leaders/girls/laharl_girl_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_laharl_girl"
+		texturefile = "gfx/leaders/girls/laharl_girl.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_laura_la_mer"
+		texturefile = "gfx/leaders/girls/laura_la_mer_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_laura_la_mer"
+		texturefile = "gfx/leaders/girls/laura_la_mer.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_lena_sayers_civilian"
+		texturefile = "gfx/leaders/girls/lena_sayers_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_lena_sayers"
+		texturefile = "gfx/leaders/girls/lena_sayers_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_lena_sayers"
+		texturefile = "gfx/leaders/girls/lena_sayers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_lightning"
+		texturefile = "gfx/leaders/girls/lightning_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_lightning"
+		texturefile = "gfx/leaders/girls/lightning.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_lilith"
+		texturefile = "gfx/leaders/girls/lilith_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_lilith"
+		texturefile = "gfx/leaders/girls/lilith.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_lina_inverse"
+		texturefile = "gfx/leaders/girls/lina_inverse_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_lina_inverse"
+		texturefile = "gfx/leaders/girls/lina_inverse.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_lucia_nanami"
+		texturefile = "gfx/leaders/girls/lucia_nanami_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_lucia_nanami"
+		texturefile = "gfx/leaders/girls/lucia_nanami.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_lucy"
+		texturefile = "gfx/leaders/girls/lucy_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_lucy_yamagami"
+		texturefile = "gfx/leaders/girls/lucy_yamagami_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_lucy_yamagami"
+		texturefile = "gfx/leaders/girls/lucy_yamagami.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_lucy"
+		texturefile = "gfx/leaders/girls/lucy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_madoka_kaname"
+		texturefile = "gfx/leaders/girls/madoka_kaname_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_madoka_kaname"
+		texturefile = "gfx/leaders/girls/madoka_kaname.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mai_tokiha"
+		texturefile = "gfx/leaders/girls/mai_tokiha_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mai_tokiha"
+		texturefile = "gfx/leaders/girls/mai_tokiha.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_maki_ivanova"
+		texturefile = "gfx/leaders/girls/maki_ivanova_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_maki_ivanova"
+		texturefile = "gfx/leaders/girls/maki_ivanova.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_makina_hoshimura"
+		texturefile = "gfx/leaders/girls/makina_hoshimura_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_makina_hoshimura"
+		texturefile = "gfx/leaders/girls/makina_hoshimura.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mako_mitsuki"
+		texturefile = "gfx/leaders/girls/mako_mitsuki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mako_mitsuki"
+		texturefile = "gfx/leaders/girls/mako_mitsuki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_makoto_kikuchi"
+		texturefile = "gfx/leaders/girls/makoto_kikuchi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_makoto_kikuchi"
+		texturefile = "gfx/leaders/girls/makoto_kikuchi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_makoto_kino"
+		texturefile = "gfx/leaders/girls/makoto_kino_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_makoto_kino"
+		texturefile = "gfx/leaders/girls/makoto_kino.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mamako_oosuki"
+		texturefile = "gfx/leaders/girls/mamako_oosuki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mamako_oosuki"
+		texturefile = "gfx/leaders/girls/mamako_oosuki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_maou"
+		texturefile = "gfx/leaders/girls/maou_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_maou"
+		texturefile = "gfx/leaders/girls/maou.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_maple"
+		texturefile = "gfx/leaders/girls/maple_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_maple"
+		texturefile = "gfx/leaders/girls/maple.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_marblehead_azur_lane"
+		texturefile = "gfx/leaders/girls/marblehead_azur_lane_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_marblehead_azur_lane"
+		texturefile = "gfx/leaders/girls/marblehead_azur_lane.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mari_setogaya"
+		texturefile = "gfx/leaders/girls/mari_setogaya_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mari_setogaya"
+		texturefile = "gfx/leaders/girls/mari_setogaya.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_marie_von_eisenberg"
+		texturefile = "gfx/leaders/girls/marie_von_eisenberg_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_marie_von_eisenberg"
+		texturefile = "gfx/leaders/girls/marie_von_eisenberg.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_maron_kusakabe"
+		texturefile = "gfx/leaders/girls/maron_kusakabe_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_maron_kusakabe"
+		texturefile = "gfx/leaders/girls/maron_kusakabe.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mash_kyrielight"
+		texturefile = "gfx/leaders/girls/mash_kyrielight_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mash_kyrielight"
+		texturefile = "gfx/leaders/girls/mash_kyrielight.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_megumin"
+		texturefile = "gfx/leaders/girls/megumin_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_megumin"
+		texturefile = "gfx/leaders/girls/megumin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mei-fang"
+		texturefile = "gfx/leaders/girls/mei-fang_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mei-fang"
+		texturefile = "gfx/leaders/girls/mei-fang.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_meroune_lorelei"
+		texturefile = "gfx/leaders/girls/meroune_lorelei_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_meroune_lorelei"
+		texturefile = "gfx/leaders/girls/meroune_lorelei.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_merurulince_rede_arls"
+		texturefile = "gfx/leaders/girls/merurulince_rede_arls_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_merurulince_rede_arls"
+		texturefile = "gfx/leaders/girls/merurulince_rede_arls.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mhmd-02_haruko"
+		texturefile = "gfx/leaders/girls/mhmd-02_haruko_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mhmd-02_haruko"
+		texturefile = "gfx/leaders/girls/mhmd-02_haruko.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mia_cyrus"
+		texturefile = "gfx/leaders/girls/mia_cyrus_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mia_cyrus"
+		texturefile = "gfx/leaders/girls/mia_cyrus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_miho_nishizumi"
+		texturefile = "gfx/leaders/girls/miho_nishizumi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_miho_nishizumi"
+		texturefile = "gfx/leaders/girls/miho_nishizumi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_miia"
+		texturefile = "gfx/leaders/girls/miia_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_miia"
+		texturefile = "gfx/leaders/girls/miia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mika_amano"
+		texturefile = "gfx/leaders/girls/mika_amano_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mika_amano"
+		texturefile = "gfx/leaders/girls/mika_amano.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_miki_hoshii"
+		texturefile = "gfx/leaders/girls/miki_hoshii_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_miki_hoshii"
+		texturefile = "gfx/leaders/girls/miki_hoshii.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_miki_naoki"
+		texturefile = "gfx/leaders/girls/miki_naoki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_miki_naoki"
+		texturefile = "gfx/leaders/girls/miki_naoki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mikumo_guynemer"
+		texturefile = "gfx/leaders/girls/mikumo_guynemer_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mikumo_guynemer"
+		texturefile = "gfx/leaders/girls/mikumo_guynemer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_milla_maxwell"
+		texturefile = "gfx/leaders/girls/milla_maxwell_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_milla_maxwell"
+		texturefile = "gfx/leaders/girls/milla_maxwell.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_minako_aino"
+		texturefile = "gfx/leaders/girls/minako_aino_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_minako_aino"
+		texturefile = "gfx/leaders/girls/minako_aino.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_minami_nitta"
+		texturefile = "gfx/leaders/girls/minami_nitta_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_minami_nitta"
+		texturefile = "gfx/leaders/girls/minami_nitta.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mind_flayer_general"
+		texturefile = "gfx/leaders/girls/mind_flayer_general.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mind_flayer"
+		texturefile = "gfx/leaders/girls/mind_flayer_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mind_flayer"
+		texturefile = "gfx/leaders/girls/mind_flayer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mint_aizawa"
+		texturefile = "gfx/leaders/girls/mint_aizawa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mint_aizawa"
+		texturefile = "gfx/leaders/girls/mint_aizawa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mio_naruse"
+		texturefile = "gfx/leaders/girls/mio_naruse_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mio_naruse"
+		texturefile = "gfx/leaders/girls/mio_naruse.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_misato_katsuragi"
+		texturefile = "gfx/leaders/girls/misato_katsuragi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_misato_katsuragi"
+		texturefile = "gfx/leaders/girls/misato_katsuragi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mistiora_arte"
+		texturefile = "gfx/leaders/girls/mistiora_arte_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mistiora_arte"
+		texturefile = "gfx/leaders/girls/mistiora_arte.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_momo_chiyoda"
+		texturefile = "gfx/leaders/girls/momo_chiyoda_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_momo_chiyoda"
+		texturefile = "gfx/leaders/girls/momo_chiyoda.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_momozono_love"
+		texturefile = "gfx/leaders/girls/momozono_love_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_momozono_love"
+		texturefile = "gfx/leaders/girls/momozono_love.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_morrah"
+		texturefile = "gfx/leaders/girls/morrah_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_morrah"
+		texturefile = "gfx/leaders/girls/morrah.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mythra"
+		texturefile = "gfx/leaders/girls/mythra_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mythra"
+		texturefile = "gfx/leaders/girls/mythra.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_nagisa_misumi"
+		texturefile = "gfx/leaders/girls/nagisa_misumi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_nagisa_misumi"
+		texturefile = "gfx/leaders/girls/nagisa_misumi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_nanoha_takamachi"
+		texturefile = "gfx/leaders/girls/nanoha_takamachi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_nanoha_takamachi"
+		texturefile = "gfx/leaders/girls/nanoha_takamachi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_naru_narusegawa"
+		texturefile = "gfx/leaders/girls/naru_narusegawa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_naru_narusegawa"
+		texturefile = "gfx/leaders/girls/naru_narusegawa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_natasha_cioara"
+		texturefile = "gfx/leaders/girls/natasha_cioara_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_natasha_cioara"
+		texturefile = "gfx/leaders/girls/natasha_cioara.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_natsuumi_manatsu"
+		texturefile = "gfx/leaders/girls/natsuumi_manatsu_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_natsuumi_manatsu"
+		texturefile = "gfx/leaders/girls/natsuumi_manatsu.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_neptune"
+		texturefile = "gfx/leaders/girls/neptune_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_neptune"
+		texturefile = "gfx/leaders/girls/neptune.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_niko_yazawa"
+		texturefile = "gfx/leaders/girls/niko_yazawa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_niko_yazawa"
+		texturefile = "gfx/leaders/girls/niko_yazawa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_nishizumi_miho"
+		texturefile = "gfx/leaders/girls/nishizumi_miho_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_nishizumi_miho"
+		texturefile = "gfx/leaders/girls/nishizumi_miho.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_noelle"
+		texturefile = "gfx/leaders/girls/noelle_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_noelle"
+		texturefile = "gfx/leaders/girls/noelle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_noire"
+		texturefile = "gfx/leaders/girls/noire_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_noire"
+		texturefile = "gfx/leaders/girls/noire.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_norimaki_arale"
+		texturefile = "gfx/leaders/girls/norimaki_arale_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_norimaki_arale"
+		texturefile = "gfx/leaders/girls/norimaki_arale.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_olga_discordia"
+		texturefile = "gfx/leaders/girls/olga_discordia_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_olga_discordia"
+		texturefile = "gfx/leaders/girls/olga_discordia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_phantom_queen_ex-xecty"
+		texturefile = "gfx/leaders/girls/phantom_queen_ex-xecty_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_phantom_queen_ex-xecty"
+		texturefile = "gfx/leaders/girls/phantom_queen_ex-xecty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_pneuma"
+		texturefile = "gfx/leaders/girls/pneuma_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_pneuma"
+		texturefile = "gfx/leaders/girls/pneuma.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_prim_fiorire"
+		texturefile = "gfx/leaders/girls/prim_fiorire_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_prim_fiorire"
+		texturefile = "gfx/leaders/girls/prim_fiorire.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_prinz_eugen"
+		texturefile = "gfx/leaders/girls/prinz_eugen_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_prinz_eugen"
+		texturefile = "gfx/leaders/girls/prinz_eugen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_purifier"
+		texturefile = "gfx/leaders/girls/purifier_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_purifier"
+		texturefile = "gfx/leaders/girls/purifier.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_pyra"
+		texturefile = "gfx/leaders/girls/pyra_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_pyra"
+		texturefile = "gfx/leaders/girls/pyra.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ranko_kanzaki"
+		texturefile = "gfx/leaders/girls/ranko_kanzaki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ranko_kanzaki"
+		texturefile = "gfx/leaders/girls/ranko_kanzaki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_rei_ayanami"
+		texturefile = "gfx/leaders/girls/rei_ayanami_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_rei_ayanami"
+		texturefile = "gfx/leaders/girls/rei_ayanami.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_rei_hino"
+		texturefile = "gfx/leaders/girls/rei_hino_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_rei_hino"
+		texturefile = "gfx/leaders/girls/rei_hino.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_reina_prowler"
+		texturefile = "gfx/leaders/girls/reina_prowler_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_reina_prowler"
+		texturefile = "gfx/leaders/girls/reina_prowler.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_rhea"
+		texturefile = "gfx/leaders/girls/rhea_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_rhea"
+		texturefile = "gfx/leaders/girls/rhea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_rias_gremory"
+		texturefile = "gfx/leaders/girls/rias_gremory_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_rias_gremory"
+		texturefile = "gfx/leaders/girls/rias_gremory.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_rin"
+		texturefile = "gfx/leaders/girls/rin_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_rin"
+		texturefile = "gfx/leaders/girls/rin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_rina_komiya"
+		texturefile = "gfx/leaders/girls/rina_komiya_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_rina_komiya"
+		texturefile = "gfx/leaders/girls/rina_komiya.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ripine"
+		texturefile = "gfx/leaders/girls/ripine_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ripine"
+		texturefile = "gfx/leaders/girls/ripine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_risa_android"
+		texturefile = "gfx/leaders/girls/risa_android_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_risa_android"
+		texturefile = "gfx/leaders/girls/risa_android.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_risa"
+		texturefile = "gfx/leaders/girls/risa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_risa"
+		texturefile = "gfx/leaders/girls/risa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_rosaria"
+		texturefile = "gfx/leaders/girls/rosaria_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_rosaria"
+		texturefile = "gfx/leaders/girls/rosaria.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_rose_android"
+		texturefile = "gfx/leaders/girls/rose_android_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_rose_android"
+		texturefile = "gfx/leaders/girls/rose_android.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_rose"
+		texturefile = "gfx/leaders/girls/rose_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_rose"
+		texturefile = "gfx/leaders/girls/rose.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_rozen_s_series"
+		texturefile = "gfx/leaders/girls/rozen_s_series_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_rozen_s_series"
+		texturefile = "gfx/leaders/girls/rozen_s_series.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ruma"
+		texturefile = "gfx/leaders/girls/ruma_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ruma"
+		texturefile = "gfx/leaders/girls/ruma.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ryuuko_matoi"
+		texturefile = "gfx/leaders/girls/ryuuko_matoi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ryuuko_matoi"
+		texturefile = "gfx/leaders/girls/ryuuko_matoi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ryza"
+		texturefile = "gfx/leaders/girls/ryza_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ryza"
+		texturefile = "gfx/leaders/girls/ryza.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_saint_louis_azur_lane"
+		texturefile = "gfx/leaders/girls/saint_louis_azur_lane_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_saint_louis_azur_lane"
+		texturefile = "gfx/leaders/girls/saint_louis_azur_lane.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_saint_martha"
+		texturefile = "gfx/leaders/girls/saint_martha_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_saint_martha"
+		texturefile = "gfx/leaders/girls/saint_martha.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_saki_rukino"
+		texturefile = "gfx/leaders/girls/saki_rukino_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_saki_rukino"
+		texturefile = "gfx/leaders/girls/saki_rukino.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_saki_uno"
+		texturefile = "gfx/leaders/girls/saki_uno_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_saki_uno"
+		texturefile = "gfx/leaders/girls/saki_uno.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_sakura_kinomoto"
+		texturefile = "gfx/leaders/girls/sakura_kinomoto_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_sakura_kinomoto"
+		texturefile = "gfx/leaders/girls/sakura_kinomoto.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_sakura_minamoto"
+		texturefile = "gfx/leaders/girls/sakura_minamoto_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_sakura_minamoto"
+		texturefile = "gfx/leaders/girls/sakura_minamoto.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_sakuyo_mikage_civ"
+		texturefile = "gfx/leaders/girls/sakuyo_mikage_civ.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_sakuyo_mikage"
+		texturefile = "gfx/leaders/girls/sakuyo_mikage_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_sakuyo_mikage"
+		texturefile = "gfx/leaders/girls/sakuyo_mikage.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_sanya_v_litvyak"
+		texturefile = "gfx/leaders/girls/sanya_v_litvyak_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_sanya_v_litvyak"
+		texturefile = "gfx/leaders/girls/sanya_v_litvyak.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_saori_asamiya"
+		texturefile = "gfx/leaders/girls/saori_asamiya_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_saori_asamiya"
+		texturefile = "gfx/leaders/girls/saori_asamiya.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_saphentite_neikes"
+		texturefile = "gfx/leaders/girls/saphentite_neikes_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_saphentite_neikes"
+		texturefile = "gfx/leaders/girls/saphentite_neikes.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_satanichia_mcdowell_kurumizawa"
+		texturefile = "gfx/leaders/girls/satanichia_mcdowell_kurumizawa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_satanichia_mcdowell_kurumizawa"
+		texturefile = "gfx/leaders/girls/satanichia_mcdowell_kurumizawa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_satellizer_el_bridget"
+		texturefile = "gfx/leaders/girls/satellizer_el_bridget_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_satellizer_el_bridget"
+		texturefile = "gfx/leaders/girls/satellizer_el_bridget.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_saya_kisaragi"
+		texturefile = "gfx/leaders/girls/saya_kisaragi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_saya_kisaragi"
+		texturefile = "gfx/leaders/girls/saya_kisaragi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_saya_otonashi"
+		texturefile = "gfx/leaders/girls/saya_otonashi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_saya_otonashi"
+		texturefile = "gfx/leaders/girls/saya_otonashi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_selesia_upitiria"
+		texturefile = "gfx/leaders/girls/selesia_upitiria_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_selesia_upitiria"
+		texturefile = "gfx/leaders/girls/selesia_upitiria.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_sheliss_elleness_zurbach"
+		texturefile = "gfx/leaders/girls/sheliss_elleness_zurbach_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_sheliss_elleness_zurbach"
+		texturefile = "gfx/leaders/girls/sheliss_elleness_zurbach.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_sheryl_nome"
+		texturefile = "gfx/leaders/girls/sheryl_nome_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_sheryl_nome"
+		texturefile = "gfx/leaders/girls/sheryl_nome.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_shigure"
+		texturefile = "gfx/leaders/girls/shigure_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_shigure"
+		texturefile = "gfx/leaders/girls/shigure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_shiki"
+		texturefile = "gfx/leaders/girls/shiki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_shiki"
+		texturefile = "gfx/leaders/girls/shiki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_shima_tateishi"
+		texturefile = "gfx/leaders/girls/shima_tateishi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_shima_tateishi"
+		texturefile = "gfx/leaders/girls/shima_tateishi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_shiraori"
+		texturefile = "gfx/leaders/girls/shiraori_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_shiraori"
+		texturefile = "gfx/leaders/girls/shiraori.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_shiratori_yuriko"
+		texturefile = "gfx/leaders/girls/shiratori_yuriko_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_shiratori_yuriko"
+		texturefile = "gfx/leaders/girls/shiratori_yuriko.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_sill_plain"
+		texturefile = "gfx/leaders/girls/sill_plain_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_sill_plain"
+		texturefile = "gfx/leaders/girls/sill_plain.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_siluca_meletes"
+		texturefile = "gfx/leaders/girls/siluca_meletes_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_siluca_meletes"
+		texturefile = "gfx/leaders/girls/siluca_meletes.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_sinon"
+		texturefile = "gfx/leaders/girls/sinon_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_sinon"
+		texturefile = "gfx/leaders/girls/sinon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_snow"
+		texturefile = "gfx/leaders/girls/snow_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_snow"
+		texturefile = "gfx/leaders/girls/snow.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_sophie_neuenmuller"
+		texturefile = "gfx/leaders/girls/sophie_neuenmuller_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_sophie_neuenmuller"
+		texturefile = "gfx/leaders/girls/sophie_neuenmuller.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_sovetskaya_rossiya"
+		texturefile = "gfx/leaders/girls/sovetskaya_rossiya_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_sovetskaya_rossiya"
+		texturefile = "gfx/leaders/girls/sovetskaya_rossiya.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_subaru_nakajima"
+		texturefile = "gfx/leaders/girls/subaru_nakajima_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_subaru_nakajima"
+		texturefile = "gfx/leaders/girls/subaru_nakajima.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_suomi"
+		texturefile = "gfx/leaders/girls/suomi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_suomi"
+		texturefile = "gfx/leaders/girls/suomi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_svetlana_sakura"
+		texturefile = "gfx/leaders/girls/svetlana_sakura_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_svetlana_sakura"
+		texturefile = "gfx/leaders/girls/svetlana_sakura.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_t-elos"
+		texturefile = "gfx/leaders/girls/t-elos_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_t-elos"
+		texturefile = "gfx/leaders/girls/t-elos.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_takao_arp"
+		texturefile = "gfx/leaders/girls/takao_arp_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_takao_arp"
+		texturefile = "gfx/leaders/girls/takao_arp.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_takao_azur_lane"
+		texturefile = "gfx/leaders/girls/takao_azur_lane_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_takao_azur_lane"
+		texturefile = "gfx/leaders/girls/takao_azur_lane.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_takizawa_asuka"
+		texturefile = "gfx/leaders/girls/takizawa_asuka_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_takizawa_asuka"
+		texturefile = "gfx/leaders/girls/takizawa_asuka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_tester"
+		texturefile = "gfx/leaders/girls/tester_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_tester"
+		texturefile = "gfx/leaders/girls/tester.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_tiamat"
+		texturefile = "gfx/leaders/girls/tiamat_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_tiamat"
+		texturefile = "gfx/leaders/girls/tiamat.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_tomoko_kuroki"
+		texturefile = "gfx/leaders/girls/tomoko_kuroki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_tomoko_kuroki"
+		texturefile = "gfx/leaders/girls/tomoko_kuroki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_tosa_azur_lane"
+		texturefile = "gfx/leaders/girls/tosa_azur_lane_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_tosa_azur_lane"
+		texturefile = "gfx/leaders/girls/tosa_azur_lane.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_tsubasa_kamijo"
+		texturefile = "gfx/leaders/girls/tsubasa_kamijo_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_tsubasa_kamijo"
+		texturefile = "gfx/leaders/girls/tsubasa_kamijo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_usagi_tsukino"
+		texturefile = "gfx/leaders/girls/usagi_tsukino_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_usagi_tsukino"
+		texturefile = "gfx/leaders/girls/usagi_tsukino.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_utena_tenjou"
+		texturefile = "gfx/leaders/girls/utena_tenjou_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_utena_tenjou"
+		texturefile = "gfx/leaders/girls/utena_tenjou.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_vanessa_diodati"
+		texturefile = "gfx/leaders/girls/vanessa_diodati_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_vanessa_diodati"
+		texturefile = "gfx/leaders/girls/vanessa_diodati.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_velvet_crowe"
+		texturefile = "gfx/leaders/girls/velvet_crowe_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_velvet_crowe"
+		texturefile = "gfx/leaders/girls/velvet_crowe.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_vert"
+		texturefile = "gfx/leaders/girls/vert_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_vert"
+		texturefile = "gfx/leaders/girls/vert.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_vignette_april_tsukinose"
+		texturefile = "gfx/leaders/girls/vignette_april_tsukinose_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_vignette_april_tsukinose"
+		texturefile = "gfx/leaders/girls/vignette_april_tsukinose.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_vivio"
+		texturefile = "gfx/leaders/girls/vivio_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_vivio"
+		texturefile = "gfx/leaders/girls/vivio.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_vivy"
+		texturefile = "gfx/leaders/girls/vivy_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_vivy"
+		texturefile = "gfx/leaders/girls/vivy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_volemia"
+		texturefile = "gfx/leaders/girls/volemia_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_volemia"
+		texturefile = "gfx/leaders/girls/volemia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_yamato_kancol"
+		texturefile = "gfx/leaders/girls/yamato_kancol_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_yamato_kancol"
+		texturefile = "gfx/leaders/girls/yamato_kancol.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_yamato_wg"
+		texturefile = "gfx/leaders/girls/yamato_wg_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_yamato_wg"
+		texturefile = "gfx/leaders/girls/yamato_wg.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_yoko_littner"
+		texturefile = "gfx/leaders/girls/yoko_littner_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_yoko_littner"
+		texturefile = "gfx/leaders/girls/yoko_littner.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_yoshiko_tsushima"
+		texturefile = "gfx/leaders/girls/yoshiko_tsushima_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_yoshiko_tsushima"
+		texturefile = "gfx/leaders/girls/yoshiko_tsushima.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_yukina_himeragi"
+		texturefile = "gfx/leaders/girls/yukina_himeragi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_yukina_himeragi"
+		texturefile = "gfx/leaders/girls/yukina_himeragi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_yuna"
+		texturefile = "gfx/leaders/girls/yuna_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_yuna"
+		texturefile = "gfx/leaders/girls/yuna.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_yuno_gasai"
+		texturefile = "gfx/leaders/girls/yuno_gasai_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_yuno_gasai"
+		texturefile = "gfx/leaders/girls/yuno_gasai.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_yuriya_komiya"
+		texturefile = "gfx/leaders/girls/yuriya_komiya_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_yuriya_komiya"
+		texturefile = "gfx/leaders/girls/yuriya_komiya.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_yurizaki_mira"
+		texturefile = "gfx/leaders/girls/yurizaki_mira_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_yurizaki_mira"
+		texturefile = "gfx/leaders/girls/yurizaki_mira.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_yuuki_kawaragi"
+		texturefile = "gfx/leaders/girls/yuuki_kawaragi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_yuuki_kawaragi"
+		texturefile = "gfx/leaders/girls/yuuki_kawaragi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_yuuko_yoshida"
+		texturefile = "gfx/leaders/girls/yuuko_yoshida_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_yuuko_yoshida"
+		texturefile = "gfx/leaders/girls/yuuko_yoshida.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_zakuro_fujiwara"
+		texturefile = "gfx/leaders/girls/zakuro_fujiwara_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_zakuro_fujiwara"
+		texturefile = "gfx/leaders/girls/zakuro_fujiwara.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_zero_two"
+		texturefile = "gfx/leaders/girls/zero_two_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_zero_two"
+		texturefile = "gfx/leaders/girls/zero_two.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_anri_sogahara"
+		texturefile = "gfx/leaders/traps/anri_sogahara_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_anri_sogahara"
+		texturefile = "gfx/leaders/traps/anri_sogahara.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_aoi_futaba"
+		texturefile = "gfx/leaders/traps/aoi_futaba_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_aoi_futaba"
+		texturefile = "gfx/leaders/traps/aoi_futaba.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_aoi_hyoudou"
+		texturefile = "gfx/leaders/traps/aoi_hyoudou_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_aoi_hyoudou"
+		texturefile = "gfx/leaders/traps/aoi_hyoudou.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_astolfo"
+		texturefile = "gfx/leaders/traps/astolfo_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_astolfo"
+		texturefile = "gfx/leaders/traps/astolfo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_birdy_cephon_altera"
+		texturefile = "gfx/leaders/traps/birdy_cephon_altera_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_birdy_cephon_altera"
+		texturefile = "gfx/leaders/traps/birdy_cephon_altera.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_felix_argyle"
+		texturefile = "gfx/leaders/traps/felix_argyle_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_felix_argyle"
+		texturefile = "gfx/leaders/traps/felix_argyle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_fish_eye"
+		texturefile = "gfx/leaders/traps/fish_eye_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_fish_eye"
+		texturefile = "gfx/leaders/traps/fish_eye.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_gasper_vladi"
+		texturefile = "gfx/leaders/traps/gasper_vladi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_gasper_vladi"
+		texturefile = "gfx/leaders/traps/gasper_vladi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_hacka_doll_3"
+		texturefile = "gfx/leaders/traps/hacka_doll_3_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_hacka_doll_3"
+		texturefile = "gfx/leaders/traps/hacka_doll_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_hamaji_yakumo"
+		texturefile = "gfx/leaders/traps/hamaji_yakumo_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_hamaji_yakumo"
+		texturefile = "gfx/leaders/traps/hamaji_yakumo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_hayato_juumonji"
+		texturefile = "gfx/leaders/traps/hayato_juumonji_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_hayato_juumonji"
+		texturefile = "gfx/leaders/traps/hayato_juumonji.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_hideri_kanzaki"
+		texturefile = "gfx/leaders/traps/hideri_kanzaki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_hideri_kanzaki"
+		texturefile = "gfx/leaders/traps/hideri_kanzaki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_hime_arikawa"
+		texturefile = "gfx/leaders/traps/hime_arikawa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_hime_arikawa"
+		texturefile = "gfx/leaders/traps/hime_arikawa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_hitoshi_sugoroku"
+		texturefile = "gfx/leaders/traps/hitoshi_sugoroku_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_hitoshi_sugoroku"
+		texturefile = "gfx/leaders/traps/hitoshi_sugoroku.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_homare_nao"
+		texturefile = "gfx/leaders/traps/homare_nao_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_homare_nao"
+		texturefile = "gfx/leaders/traps/homare_nao.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_jun_hiiragi"
+		texturefile = "gfx/leaders/traps/jun_hiiragi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_jun_hiiragi"
+		texturefile = "gfx/leaders/traps/jun_hiiragi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kaguya_arikawa"
+		texturefile = "gfx/leaders/traps/kaguya_arikawa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kaguya_arikawa"
+		texturefile = "gfx/leaders/traps/kaguya_arikawa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kaname"
+		texturefile = "gfx/leaders/traps/kaname_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kaname"
+		texturefile = "gfx/leaders/traps/kaname.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kaoru_hanase"
+		texturefile = "gfx/leaders/traps/kaoru_hanase_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kaoru_hanase"
+		texturefile = "gfx/leaders/traps/kaoru_hanase.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mare_bello_fiore"
+		texturefile = "gfx/leaders/traps/mare_bello_fiore_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mare_bello_fiore"
+		texturefile = "gfx/leaders/traps/mare_bello_fiore.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mariya_shidou"
+		texturefile = "gfx/leaders/traps/mariya_shidou_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mariya_shidou"
+		texturefile = "gfx/leaders/traps/mariya_shidou.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mitsunaga_oda"
+		texturefile = "gfx/leaders/traps/mitsunaga_oda_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mitsunaga_oda"
+		texturefile = "gfx/leaders/traps/mitsunaga_oda.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mizuho_miyanokouji"
+		texturefile = "gfx/leaders/traps/mizuho_miyanokouji_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mizuho_miyanokouji"
+		texturefile = "gfx/leaders/traps/mizuho_miyanokouji.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_oboro_tsukimigusa"
+		texturefile = "gfx/leaders/traps/oboro_tsukimigusa_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_oboro_tsukimigusa"
+		texturefile = "gfx/leaders/traps/oboro_tsukimigusa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ranga"
+		texturefile = "gfx/leaders/traps/ranga_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ranga"
+		texturefile = "gfx/leaders/traps/ranga.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ranma_saotome"
+		texturefile = "gfx/leaders/traps/ranma_saotome_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ranma_saotome"
+		texturefile = "gfx/leaders/traps/ranma_saotome.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ringo_tsukimiya"
+		texturefile = "gfx/leaders/traps/ringo_tsukimiya_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ringo_tsukimiya"
+		texturefile = "gfx/leaders/traps/ringo_tsukimiya.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ritsu_souma"
+		texturefile = "gfx/leaders/traps/ritsu_souma_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ritsu_souma"
+		texturefile = "gfx/leaders/traps/ritsu_souma.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_russell"
+		texturefile = "gfx/leaders/traps/russell_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_russell"
+		texturefile = "gfx/leaders/traps/russell.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_ryou_akizuki"
+		texturefile = "gfx/leaders/traps/ryou_akizuki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_ryou_akizuki"
+		texturefile = "gfx/leaders/traps/ryou_akizuki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_saki_mizushima"
+		texturefile = "gfx/leaders/traps/saki_mizushima_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_saki_mizushima"
+		texturefile = "gfx/leaders/traps/saki_mizushima.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_shirota_mitsuki"
+		texturefile = "gfx/leaders/traps/shirota_mitsuki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_shirota_mitsuki"
+		texturefile = "gfx/leaders/traps/shirota_mitsuki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_souji_mitsuka"
+		texturefile = "gfx/leaders/traps/souji_mitsuka_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_souji_mitsuka"
+		texturefile = "gfx/leaders/traps/souji_mitsuka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_sylvia"
+		texturefile = "gfx/leaders/traps/sylvia_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_sylvia"
+		texturefile = "gfx/leaders/traps/sylvia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_takumi_musashino"
+		texturefile = "gfx/leaders/traps/takumi_musashino_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_takumi_musashino"
+		texturefile = "gfx/leaders/traps/takumi_musashino.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_tama_kyan"
+		texturefile = "gfx/leaders/traps/tama_kyan_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_tama_kyan"
+		texturefile = "gfx/leaders/traps/tama_kyan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_taroumaru_seike"
+		texturefile = "gfx/leaders/traps/taroumaru_seike_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_taroumaru_seike"
+		texturefile = "gfx/leaders/traps/taroumaru_seike.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_tetora"
+		texturefile = "gfx/leaders/traps/tetora_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_tetora"
+		texturefile = "gfx/leaders/traps/tetora.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_tiger_traps"
+		texturefile = "gfx/leaders/traps/tiger_traps_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_tiger_traps"
+		texturefile = "gfx/leaders/traps/tiger_traps.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_xianming_lin"
+		texturefile = "gfx/leaders/traps/xianming_lin_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_xianming_lin"
+		texturefile = "gfx/leaders/traps/xianming_lin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_youta_tsunashi"
+		texturefile = "gfx/leaders/traps/youta_tsunashi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_youta_tsunashi"
+		texturefile = "gfx/leaders/traps/youta_tsunashi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_yukikaze"
+		texturefile = "gfx/leaders/traps/yukikaze_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_yukikaze"
+		texturefile = "gfx/leaders/traps/yukikaze.dds"
+	}
+}

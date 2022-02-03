@@ -1,36 +1,28 @@
 characters = {
-	ac_kos_mos = {
-		name = ac_kos_mos
+	ac_kos-mos = {
+	name = ac_kos-mos
 		portraits = {
 			army = {
-				small = GFX_idea_ac_kos_mos
-				large = "gfx/leaders/androids/kos-mos.dds"
+				small = "GFX_idea_ac_kos-mos"
+				large = "gfx/leaders/girls/kos-mos.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/androids/kos-mos.dds"
-			}
-		}
-		advisor = {
-			slot = theorist
-			idea_token = ac_kos_mos
-			ledger = army
-			cost = 150
-			traits = {
-				mobile_warfare_expert
+				large = "gfx/leaders/girls/kos-mos.dds"
 			}
 		}
 		field_marshal = {
 			traits = {
 				ac_exp_trait
-				armor_officer
-				offensive_doctrine
-				urban_assault_specialist
+				infantry_leader
+				bearer_of_artillery
+				defensive_doctrine
+				unyielding_defender
 			}
-			skill = 6
-			attack_skill = 6
+			skill = 4
+			attack_skill = 4
 			defense_skill = 5
-			planning_skill = 5
-			logistics_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -39,10 +31,21 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_fiora_mechon
-				large = "gfx/leaders/androids/fiora_mechon.dds"
+				large = "gfx/leaders/girls/fiora_mechon.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/androids/fiora_mechon.dds"
+				large = "gfx/leaders/girls/fiora_mechon.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_fiora_mechon
+			cost = 150
+			traits = {
+				ac_democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		corps_commander = {
@@ -50,11 +53,11 @@ characters = {
 				ac_exp_trait
 				panzer_leader
 			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -63,22 +66,33 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_mythra
-				large = "gfx/leaders/androids/mythra.dds"
+				large = "gfx/leaders/girls/mythra.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/androids/mythra.dds"
+				large = "gfx/leaders/girls/mythra.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_mythra
+			cost = 150
+			traits = {
+				ac_fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		corps_commander = {
 			traits = {
 				ac_exp_trait
-				panzer_leader
+				cavalry_leader
 			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -87,10 +101,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_histoire
-				large = "gfx/leaders/androids/histoire.dds"
+				large = "gfx/leaders/girls/histoire.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/androids/histoire.dds"
+				large = "gfx/leaders/girls/histoire.dds"
 			}
 		}
 		advisor = {
@@ -98,36 +112,87 @@ characters = {
 			idea_token = ac_histoire
 			cost = 150
 			traits = {
-				ac_silent_workhorse
+				ac_communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	#marshal
+	ac_iris_heart = {
+		name = ac_iris_heart
+		portraits = {
+			army = {
+				small = "GFX_idea_ac_iris_heart"
+				large = "gfx/leaders/girls/iris_heart.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+				commando
+				offensive_doctrine
+				aggressive_assaulter
+				infantry_expert
+				skilled_staffer
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ac_iris_heart
+			cost = 150
+			allowed = {
+				original_tag = meh
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			ai_will_do = {
+				factor = 2
 			}
 		}
 	}
+	#generals
 	ac_alisa_boskonovich = {
 		name = ac_alisa_boskonovich
 		portraits = {
 			army = {
-				small = GFX_idea_ac_alisa_boskonovich
-				large = "gfx/leaders/androids/alisa_boskonovich.dds"
+				small = "GFX_idea_ac_alisa_boskonovich"
 			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_alisa_boskonovich
-			cost = 150
-			traits = {
-				ac_communist_revolutionary
+			army = {
+				large = "gfx/leaders/girls/alisa_boskonovich.dds"
 			}
 		}
 		corps_commander = {
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = -1
 			traits = {
 				ac_exp_trait
+				trickster
 			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
 		}
 	}
 	ac_risa_android = {
@@ -135,28 +200,42 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_risa_android
-				large = "gfx/leaders/androids/risa_android.dds"
+			}
+			army = {
+				large = "gfx/leaders/girls/risa_android.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
 				ac_exp_trait
 				commando
-				aggressive_assaulter
 			}
-			skill = 3
+			skill = 4
 			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = ac_risa
+			idea_token = ac_risa_android
 			cost = 150
+			allowed = {
+				original_tag = meh
+			}
 			traits = {
-				ac_princess_of_terror
+				princess_of_terror
+			}
+			modifier = {
+				compliance_growth = 0.15
+			}
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 2
+				}
 			}
 		}
 	}
@@ -165,18 +244,20 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_ac_2b"
-				large = "gfx/leaders/androids/2b.dds"
+				large = "gfx/leaders/girls/2b.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
-				ac_exp_trait offensive_doctrine bearer_of_artillery
+				ac_exp_trait
+				bearer_of_artillery
+				infantry_leader
 			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -184,19 +265,33 @@ characters = {
 		name = ac_cibo
 		portraits = {
 			army = {
-				small = GFX_idea_ac_cibo
-				large = "gfx/leaders/androids/cibo.dds"
+				small = "GFX_idea_ac_cibo"
+			}
+			army = {
+				large = "gfx/leaders/girls/cibo.dds"
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
-			legacy_id = -1
 			traits = {
 				ac_exp_trait
+				naval_invader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_cibo
+			cost = 150
+			allowed = {
+				original_tag = meh
+			}
+			traits = {
+				ac_war_industrialist
 			}
 		}
 	}
@@ -205,18 +300,85 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_ac_a2"
-				large = "gfx/leaders/androids/a2.dds"
+				large = "gfx/leaders/girls/a2.dds"
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
-			legacy_id = -1
 			traits = {
 				ac_exp_trait
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ac_a2
+			ledger = army
+			cost = 150
+			allowed = {
+				original_tag = meh
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
+	}
+	ac_svetlana_sakura = {
+		name = ac_svetlana_sakura
+		portraits = {
+			army = {
+				small = "GFX_idea_ac_svetlana_sakura"
+				large = "gfx/leaders/girls/svetlana_sakura.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_alexandra_frolova = {
+		name = ac_alexandra_frolova
+		portraits = {
+			army = {
+				small = "GFX_idea_ac_alexandra_frolova"
+				large = "gfx/leaders/girls/alexandra_frolova.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				organizer
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ac_alexandra_frolova
+			ledger = air
+			cost = 50
+			allowed = {
+				original_tag = meh
+			}
+			traits = {
+				air_warfare_theorist
 			}
 		}
 	}
@@ -225,26 +387,33 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_ac_edi"
-				large = "gfx/leaders/androids/edi.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_edi
-			cost = 150
-			traits = {
-				ac_quartermaster_general
+				large = "gfx/leaders/girls/edi.dds"
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
-			legacy_id = -1
 			traits = {
-				ac_exp_trait
+				ac_exp_trait trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ac_edi
+			ledger = army
+			cost = 100
+			allowed = {
+				original_tag = meh
+			}
+			traits = {
+				ac_girl_scientist
+			}
+			ai_will_do = {
+				base = 2
 			}
 		}
 	}
@@ -253,12 +422,13 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_ac_pyra"
-				large = "gfx/leaders/androids/pyra.dds"
+				large = "gfx/leaders/girls/pyra.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
-				ac_exp_trait infantry_leader
+				ac_exp_trait
+				infantry_leader
 			}
 			skill = 5
 			attack_skill = 5
@@ -266,6 +436,21 @@ characters = {
 			planning_skill = 5
 			logistics_skill = 5
 			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ac_pyra
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = meh
+			}
+			traits = {
+				army_infantry_1
+			}
+			ai_will_do = {
+				factor = 2
+			}
 		}
 	}
 	ac_rozen_s_series = {
@@ -273,12 +458,13 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_ac_rozen_s_series"
-				large = "gfx/leaders/androids/rozen_s_series.dds"
+				large = "gfx/leaders/girls/rozen_s_series.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
-				ac_exp_trait panzer_leader
+				ac_exp_trait
+				panzer_leader
 			}
 			skill = 5
 			attack_skill = 6
@@ -286,6 +472,18 @@ characters = {
 			planning_skill = 5
 			logistics_skill = 5
 			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ac_rozen_s_series
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = meh
+			}
+			traits = {
+				army_armored_1
+			}
 		}
 	}
 	ac_clarion = {
@@ -293,18 +491,40 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_ac_clarion"
-				large = "gfx/leaders/androids/clarion.dds"
+				large = "gfx/leaders/girls/clarion.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
-				ac_exp_trait logistics_wizard logistics_skill
+				ac_exp_trait
+				commando
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 3
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_maki_ivanova = {
+		name = ac_maki_ivanova
+		portraits = {
+			army = {
+				small = "GFX_idea_ac_maki_ivanova"
+				large = "gfx/leaders/girls/maki_ivanova.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -312,20 +532,34 @@ characters = {
 		name = ac_pneuma
 		portraits = {
 			army = {
-				small = GFX_idea_ac_pneuma
-				large = "gfx/leaders/androids/pneuma.dds"
+				small = "GFX_idea_ac_pneuma"
+			}
+			army = {
+				large = "gfx/leaders/girls/pneuma.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
-				ac_exp_trait panzer_leader
+				ac_exp_trait
+				panzer_leader
 			}
-			skill = 5
-			attack_skill = 5
-			defense_skill = 6
-			planning_skill = 5
-			logistics_skill = 5
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_pneuma
+			cost = 150
+			allowed = {
+				original_tag = meh
+			}
+			traits = {
+				ac_popular_figurehead
+			}
 		}
 	}
 	ac_hatsune_miku = {
@@ -333,19 +567,20 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_ac_hatsune_miku"
-				large = "gfx/leaders/androids/hatsune_miku.dds"
+				large = "gfx/leaders/girls/hatsune_miku.dds"
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
-			legacy_id = -1
 			traits = {
 				ac_exp_trait
+				trickster
 			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
 		}
 	}
 	ac_hana = {
@@ -353,101 +588,129 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_hana
-				large = "gfx/leaders/androids/hana.dds"
+				large = "gfx/leaders/girls/hana.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ac_hana
+			ledger = army
+			cost = 50
+			allowed = {
+				original_tag = meh
+			}
+			traits = {
+				military_theorist
 			}
 		}
 		corps_commander = {
+			traits = {
+				ac_exp_trait
+				organizer
+				skilled_staffer
+			}
 			skill = 5
 			attack_skill = 6
 			defense_skill = 5
 			planning_skill = 5
 			logistics_skill = 5
 			legacy_id = -1
-			traits = {
-				ac_exp_trait
-			}
 		}
 	}
 	ac_automaton = {
 		name = ac_automaton
 		portraits = {
 			army = {
-				small = GFX_idea_ac_automaton
-				large = "gfx/leaders/androids/automaton.dds"
+				small = "GFX_idea_ac_automaton"
+				large = "gfx/leaders/girls/automaton.dds"
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
-			legacy_id = -1
 			traits = {
 				ac_exp_trait
+				trait_engineer
 			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
 		}
 	}
-	ac_phantom_queen_ex_xecty = {
-		name = ac_phantom_queen_ex_xecty
+	ac_phantom_queen_ex-xecty = {
+		name = ac_phantom_queen_ex-xecty
 		portraits = {
 			army = {
-				small = GFX_idea_ac_phantom_queen_ex_xecty
-				large = "gfx/leaders/androids/phantom_queen_ex-xecty.dds"
+				small = "GFX_idea_ac_phantom_queen_ex-xecty"
+				large = "gfx/leaders/girls/phantom_queen_ex-xecty.dds"
 			}
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id = -1
 			traits = {
 				ac_exp_trait
+				organizer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = ac_phantom_queen_ex-xecty
+			cost = 150
+			allowed = {
+				original_tag = meh
+			}
+			traits = {
+				air_chief_ground_support_3
 			}
 		}
 	}
-	ac_mhmd_02_haruko = {
-		name = ac_mhmd_02_haruko
+	ac_mhmd-02_haruko = {
+		name = ac_mhmd-02_harukov
 		portraits = {
 			army = {
-				small = GFX_idea_ac_mhmd_02_haruko
-				large = "gfx/leaders/androids/mhmd-02_haruko.dds"
+				small = "GFX_idea_ac_mhmd-02_haruko"
+				large = "gfx/leaders/girls/mhmd-02_haruko.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
-				ac_exp_trait logistics_wizard logistics_skill
+				ac_exp_trait logistics_skill infantry_leader
 			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
-	ac_t_elos = {
-		name = ac_t_elos
+	ac_t-elos = {
+		name = ac_t-elos
 		portraits = {
 			army = {
-				small = GFX_idea_ac_t_elos
-				large = "gfx/leaders/androids/t-elos.dds"
+				small = "GFX_idea_ac_t-elos"
 			}
-			civilian = {
-				large = "gfx/leaders/androids/t-elos.dds"
+			army = {
+				large = "gfx/leaders/girls/t-elos.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
-				ac_exp_trait aggressive_assaulter
+				ac_exp_trait
+				infantry_leader
+				commando
 			}
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
@@ -456,39 +719,41 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_aino
-				large = "gfx/leaders/androids/aino.dds"
+				large = "gfx/leaders/girls/aino.dds"
 			}
 		}
 		corps_commander = {
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = -1
 			traits = {
 				ac_exp_trait
+				trickster
+				panzer_leader
 			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
 		}
 	}
-	ac_rose = {
-		name = ac_rose
+	ac_rose_android = {
+		name = ac_rose_android
 		portraits = {
 			army = {
-				small = GFX_idea_ac_rose
-				large = "gfx/leaders/androids/rose.dds"
+				small = GFX_idea_ac_rose_android
+				large = "gfx/leaders/girls/rose_android.dds"
 			}
 		}
 		corps_commander = {
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = -1
 			traits = {
-				ac_exp_trait
+				ac_exp_trait naval_invader
 			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
 		}
 	}
 	ac_elizabeth = {
@@ -496,19 +761,30 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_elizabeth
-				large = "gfx/leaders/androids/elizabeth.dds"
+				large = "gfx/leaders/girls/elizabeth.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
-				ac_exp_trait infantry_officer
+				ac_exp_trait infantry_leader
 			}
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_elizabeth
+			cost = 150
+			allowed = {
+				original_tag = meh
+			}
+			traits = {
+				ac_captain_of_industry
+			}
 		}
 	}
 	ac_vivy = {
@@ -516,39 +792,62 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_vivy
-				large = "gfx/leaders/androids/vivy.dds"
+				large = "gfx/leaders/girls/vivy.dds"
 			}
 		}
 		corps_commander = {
 			traits = {
-				ac_exp_trait commando
+				ac_exp_trait
+				commando
+				trickster
 			}
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = -1
 		}
 	}
+	ac_norimaki_arale = {
+		name = ac_norimaki_arale
+		portraits = {
+			army = {
+				small = GFX_idea_ac_norimaki_arale
+				large = GFX_portrait_ac_norimaki_arale
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	#admirals
 	ac_ashigara_arp = {
 		name = ac_ashigara_arp
 		portraits = {
 			army = {
 				small = "GFX_idea_ac_ashigara_arp"
-				large = "gfx/leaders/androids/ashigara_arp.dds"
+				large = "gfx/leaders/girls/ashigara_arp.dds"
 			}
 		}
 		navy_leader = {
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 1
-			legacy_id = -1
 			traits = {
-				ac_exp_trait
+				ac_exp_navy_trait
 			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
 		}
 	}
 	ac_takao_arp = {
@@ -556,55 +855,63 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_ac_takao_arp"
-				large = "gfx/leaders/androids/takao_arp.dds"
+				large = "gfx/leaders/girls/takao_arp.dds"
 			}
 		}
 		advisor = {
 			slot = navy_chief
 			idea_token = ac_takao_arp
-			cost = 150
+			cost = 50
+			allowed = {
+				original_tag = meh
+			}
 			traits = {
 				navy_anti_submarine_1
 			}
 		}
 		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+			}
 			skill = 5
 			attack_skill = 6
 			defense_skill = 5
 			maneuvering_skill = 5
 			coordination_skill = 5
 			legacy_id = -1
-			traits = {
-				ac_exp_trait
-			}
 		}
 	}
-	ac_i_410 = {
-		name = ac_i_410
+	ac_i-410 = {
+		name = ac_i-410
 		portraits = {
 			army = {
-				small = GFX_idea_ac_i_410
-				large = "gfx/leaders/androids/i-410.dds"
+				small = "GFX_idea_ac_i-410"
+			}
+			army = {
+				large = "gfx/leaders/girls/i-410.dds"
 			}
 		}
 		navy_leader = {
 			traits = {
-				ac_exp_trait
+				ac_exp_navy_trait
 				silent_hunter
 				torpedo_expert
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
 			legacy_id = -1
 		}
 		advisor = {
 			slot = theorist
-			idea_token = ac_i_410
+			idea_token = ac_i-410
 			ledger = navy
 			cost = 150
+			allowed = {
+				original_tag = meh
+			}
 			traits = {
 				submarine_specialist
 			}
@@ -615,19 +922,19 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_ac_haruna"
-				large = "gfx/leaders/androids/haruna.dds"
+				large = "gfx/leaders/girls/haruna.dds"
 			}
 		}
 		navy_leader = {
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-			legacy_id = -1
 			traits = {
-				ac_exp_trait
+				ac_exp_navy_trait
 			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
 		}
 	}
 	ac_kirishima = {
@@ -635,19 +942,19 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_kirishima
-				large = "gfx/leaders/androids/kirishima.dds"
+				large = "gfx/leaders/girls/kirishima.dds"
 			}
 		}
 		navy_leader = {
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 1
-			legacy_id = -1
 			traits = {
-				ac_exp_trait
+				ac_exp_navy_trait
 			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
 		}
 	}
 	ac_kongou_arp = {
@@ -655,19 +962,31 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_ac_kongou_arp"
-				large = "gfx/leaders/androids/kongou_arp.dds"
+				large = "gfx/leaders/girls/kongou_arp.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ac_kongou_arp
+			ledger = navy
+			cost = 50
+			allowed = {
+				original_tag = meh
+			}
+			traits = {
+				naval_theorist
 			}
 		}
 		navy_leader = {
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 1
-			legacy_id = -1
 			traits = {
-				ac_exp_trait
+				ac_exp_navy_trait
 			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
 		}
 	}
 	ac_atago_arp = {
@@ -675,19 +994,19 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_ac_atago_arp"
-				large = "gfx/leaders/androids/atago_arp.dds"
+				large = "gfx/leaders/girls/atago_arp.dds"
 			}
 		}
 		navy_leader = {
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 1
-			legacy_id = -1
 			traits = {
-				ac_exp_trait
+				ac_exp_navy_trait
 			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
 		}
 	}
 	ac_caseal = {
@@ -695,19 +1014,19 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_ac_caseal"
-				large = "gfx/leaders/androids/caseal.dds"
+				large = "gfx/leaders/girls/caseal.dds"
 			}
 		}
 		navy_leader = {
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 1
-			legacy_id = -1
 			traits = {
-				ac_exp_trait
+				ac_exp_navy_trait
 			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
 		}
 	}
 	ac_hiei_arp = {
@@ -715,83 +1034,57 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_ac_hiei_arp"
-				large = "gfx/leaders/androids/hiei_arp.dds"
+				large = "gfx/leaders/girls/hiei_arp.dds"
 			}
 		}
 		navy_leader = {
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 1
-			legacy_id = -1
 			traits = {
-				ac_exp_trait
+				ac_exp_navy_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_hiei_arp
+			cost = 150
+			allowed = {
+				original_tag = meh
+			}
+			traits = {
+				ac_silent_workhorse
+			}
+			ai_will_do = {
+				factor = 5
 			}
 		}
 	}
+	#advisor
 	ac_yurizaki_mira = {
 		name = ac_yurizaki_mira
 		portraits = {
 			army = {
 				small = GFX_idea_ac_yurizaki_mira
-				large = "gfx/leaders/androids/yurizaki_mira.dds"
+				large = "gfx/leaders/girls/yurizaki_mira.dds"
 			}
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = ac_yurizaki_mira
 			cost = 150
+			allowed = {
+				original_tag = meh
+			}
 			available = {
 				has_intelligence_agency = yes
 			}
 			traits = {
-				ac_head_of_intelligence
-			}
-			modifier = {
-				agency_upgrade_time = -0.33
-				crypto_strength = 5
-				decryption_power = 30
-				operative_slot = 1
+				ac_intelligence_princess
 			}
 		}
 	}
-	ac_mei_fang = {
-		name = ac_mei_fang
-		portraits = {
-			army = {
-				small = GFX_idea_ac_mei_fang
-				large = "gfx/leaders/androids/mei-fang.dds"
-			}
-		}
-		corps_commander = {
-			traits = {
-				ac_exp_trait
-			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id = -1
-		}
-	}
-	# ac_aegis = {
-	# 	name = ac_aegis
-	# 	portraits = {
-	# 		army = {
-	# 			small = GFX_idea_ac_aegis
-	# 			large = "gfx/leaders/androids/aegis.dds"
-	# 		}
-	# 	}
-	# }
-	# ac_chii = {
-	# 	name = ac_chii
-	# 	portraits = {
-	# 		army = {
-	# 			small = GFX_idea_ac_chii
-	# 			large = "gfx/leaders/androids/chii.dds"
-	# 		}
-	# 	}
-	# }
 }
