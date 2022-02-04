@@ -1,24 +1,50 @@
 leader_traits = {
 	ac_exp_trait = {
-		type = all
+		type = land
 		trait_type = personality_trait
-		gain_xp = {
-			always = no			# not gainable
-		}
+		# gain_xp = {
+		# 	always = no			# not gainable
+		# }
 		allowed = {
-			always = no			# not gainable
+			FROM = {
+				is_ai = no
+			}
 		}
 		modifier = {
-			experience_gain_army_unit_factor = 0.2
+			experience_gain_army_unit_factor = 0.125
 		}
 		non_shared_modifier = {
-			experience_gain_factor = 0.5
+			experience_gain_factor = 0.25
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 1000
 		}
 		new_commander_weight = {
-			factor = 0
+			factor = 1000
+		}
+	}
+	ac_exp_navy_trait = {
+		type = navy
+		trait_type = personality_trait
+		# gain_xp = {
+		# 	always = no			# not gainable
+		# }
+		allowed = {
+			FROM = {
+				is_ai = no
+			}
+		}
+		modifier = {
+			experience_gain_navy_unit_factor = 0.125
+		}
+		non_shared_modifier = {
+			experience_gain_factor = 0.25
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		new_commander_weight = {
+			factor = 1000
 		}
 	}
 }

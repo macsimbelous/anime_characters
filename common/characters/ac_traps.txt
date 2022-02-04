@@ -1,18 +1,30 @@
 characters = {
-		ac_astolfo = {
+	ac_astolfo = {
 		name = ac_astolfo
 		portraits = {
 			army = {
 				small = GFX_idea_ac_astolfo
+				large = GFX_portrait_ac_astolfo
 			}
 			civilian = {
-				large = "gfx/leaders/traps/astolfo.dds"
+				large = GFX_portrait_ac_astolfo
 			}
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = ac_astolfo
 			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			available = {
+				not = {
+					has_country_leader = {
+						character = ac_astolfo
+						ruling_only = yes
+					}
+				}
+			}
 			traits = {
 				ac_democratic_reformer
 			}
@@ -41,13 +53,24 @@ characters = {
 				small = GFX_idea_ac_hideri_kanzaki
 			}
 			civilian = {
-				large = "gfx/leaders/traps/hideri_kanzaki.dds"
+				large = GFX_portrait_ac_hideri_kanzaki
 			}
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = ac_hideri_kanzaki
 			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			available = {
+				not = {
+					has_country_leader = {
+						character = ac_hideri_kanzaki
+						ruling_only = yes
+					}
+				}
+			}
 			traits = {
 				ac_fascist_demagogue
 			}
@@ -74,20 +97,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_tetora
+				large = GFX_portrait_ac_tetora
 			}
 			civilian = {
-				large = "gfx/leaders/traps/tetora.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_tetora
-			cost = 150
-			traits = {
-				ac_communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
+				large = GFX_portrait_ac_tetora
 			}
 		}
 		corps_commander = {
@@ -107,10 +120,11 @@ characters = {
 		name = ac_ringo_tsukimiya
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_ringo_tsukimiya"
+				small = GFX_idea_ac_ringo_tsukimiya
+				large = GFX_portrait_ac_ringo_tsukimiya
 			}
 			civilian = {
-				large = "gfx/leaders/traps/ringo_tsukimiya.dds"
+				large = GFX_portrait_ac_ringo_tsukimiya
 			}
 		}
 		corps_commander = {
@@ -130,10 +144,8 @@ characters = {
 		name = ac_felix_argyle
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_felix_argyle"
-			}
-			army = {
-				large = "gfx/leaders/traps/felix_argyle.dds"
+				small = GFX_idea_ac_felix_argyle
+				large = GFX_portrait_ac_felix_argyle
 			}
 		}
 		field_marshal = {
@@ -153,9 +165,9 @@ characters = {
 			slot = theorist
 			ledger = army
 			idea_token = ac_felix_argyle
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = trp
+				is_ai = no
 			}
 			traits = {
 				military_theorist
@@ -167,7 +179,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_birdy_cephon_altera
-				large = "gfx/leaders/traps/birdy_cephon_altera.dds"
+				large = GFX_portrait_ac_birdy_cephon_altera
 			}
 		}
 		field_marshal = {
@@ -187,9 +199,9 @@ characters = {
 		advisor = {
 			slot = army_chief 
 			idea_token = ac_birdy_cephon_altera
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = trp
+				is_ai = no
 			}
 			traits = {
 				army_chief_offensive_1
@@ -201,10 +213,10 @@ characters = {
 		name = ac_oboro_tsukimigusa
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_oboro_tsukimigusa"
+				small = GFX_idea_ac_oboro_tsukimigusa
 			}
 			army = {
-				large = "gfx/leaders/traps/oboro_tsukimigusa.dds"
+				large = GFX_portrait_ac_oboro_tsukimigusa
 			}
 		}
 		corps_commander = {
@@ -223,7 +235,7 @@ characters = {
 			idea_token = ac_oboro_tsukimigusa
 			cost = 150
 			allowed = {
-				original_tag = trp
+				is_ai = no
 			}
 			traits = {
 				ac_war_industrialist
@@ -234,10 +246,10 @@ characters = {
 		name = ac_hitoshi_sugoroku
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_hitoshi_sugoroku"
+				small = GFX_idea_ac_hitoshi_sugoroku
 			}
 			army = {
-				large = "gfx/leaders/traps/hitoshi_sugoroku.dds"
+				large = GFX_portrait_ac_hitoshi_sugoroku
 			}
 		}
 		corps_commander = {
@@ -257,13 +269,17 @@ characters = {
 			idea_token = ac_hitoshi_sugoroku
 			cost = 150
 			allowed = {
-				original_tag = trp
+				is_ai = no
 			}
 			traits = {
-				princess_of_terror
+				ac_princess_of_terror
 			}
-			modifier = {
-				compliance_growth = 0.15
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 2
+				}
 			}
 		}
 	}
@@ -272,7 +288,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_kaoru_hanase
-				large = "gfx/leaders/traps/kaoru_hanase.dds"
+				large = GFX_portrait_ac_kaoru_hanase
 			}
 		}
 		corps_commander = {
@@ -292,7 +308,7 @@ characters = {
 			idea_token = ac_kaoru_hanase
 			cost = 150
 			allowed = {
-				original_tag = trp
+				is_ai = no
 			}
 			traits = {
 				ac_silent_workhorse
@@ -306,10 +322,10 @@ characters = {
 		name = ac_aoi_hyoudou
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_aoi_hyoudou"
+				small = GFX_idea_ac_aoi_hyoudou
 			}
 			army = {
-				large = "gfx/leaders/traps/aoi_hyoudou.dds"
+				large = GFX_portrait_ac_aoi_hyoudou
 			}
 		}
 		corps_commander = {
@@ -330,7 +346,7 @@ characters = {
 			idea_token = ac_aoi_hyoudou
 			cost = 150
 			allowed = {
-				original_tag = trp
+				is_ai = no
 			}
 			traits = {
 				ac_popular_figurehead
@@ -341,10 +357,10 @@ characters = {
 		name = ac_kaguya_arikawa
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_kaguya_arikawa"
+				small = GFX_idea_ac_kaguya_arikawa
 			}
 			army = {
-				large = "gfx/leaders/traps/kaguya_arikawa.dds"
+				large = GFX_portrait_ac_kaguya_arikawa
 			}
 		}
 		corps_commander = {
@@ -365,10 +381,10 @@ characters = {
 		name = ac_tama_kyan
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_tama_kyan"
+				small = GFX_idea_ac_tama_kyan
 			}
 			army = {
-				large = "gfx/leaders/traps/tama_kyan.dds"
+				large = GFX_portrait_ac_tama_kyan
 			}
 		}
 		corps_commander = {
@@ -389,7 +405,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_hime_arikawa
-				large = "gfx/leaders/traps/hime_arikawa.dds"
+				large = GFX_portrait_ac_hime_arikawa
 			}
 		}
 		corps_commander = {
@@ -409,9 +425,9 @@ characters = {
 			slot = theorist
 			ledger = air
 			idea_token = ac_hime_arikawa
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = trp
+				is_ai = no
 			}
 			traits = {
 				air_warfare_theorist
@@ -423,7 +439,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_sylvia
-				large = "gfx/leaders/traps/sylvia.dds"
+				large = GFX_portrait_ac_sylvia
 			}
 		}
 		corps_commander = {
@@ -444,7 +460,7 @@ characters = {
 			idea_token = ac_sylvia
 			cost = 100
 			allowed = {
-				original_tag = trp
+				is_ai = no
 			}
 			traits = {
 				ac_girl_scientist
@@ -456,7 +472,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_souji_mitsuka
-				large = "gfx/leaders/traps/souji_mitsuka.dds"
+				large = GFX_portrait_ac_souji_mitsuka
 			}
 		}
 		corps_commander = {
@@ -477,7 +493,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_ranga
-				large = "gfx/leaders/traps/ranga.dds"
+				large = GFX_portrait_ac_ranga
 			}
 		}
 		corps_commander = {
@@ -498,8 +514,8 @@ characters = {
 		name = ac_yukikaze
 		portraits = {
 			army = {
-				small = GFX_idea_ac_ukikaze
-				large = "gfx/leaders/traps/yukikaze.dds"
+				small = GFX_idea_ac_yukikaze
+				large = GFX_portrait_ac_yukikaze
 			}
 		}
 		corps_commander = {
@@ -519,7 +535,7 @@ characters = {
 			idea_token = ac_yukikaze
 			cost = 150
 			allowed = {
-				original_tag = trp
+				is_ai = no
 			}
 			traits = {
 				air_chief_ground_support_3
@@ -531,7 +547,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_mitsunaga_oda
-				large = "gfx/leaders/traps/mitsunaga_oda.dds"
+				large = GFX_portrait_ac_mitsunaga_oda
 			}
 		}
 		corps_commander = {
@@ -552,7 +568,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_ritsu_souma
-				large = "gfx/leaders/traps/ritsu_souma.dds"
+				large = GFX_portrait_ac_ritsu_souma
 			}
 		}
 		corps_commander = {
@@ -573,7 +589,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_xianming_lin
-				large = "gfx/leaders/traps/xianming_lin.dds"
+				large = GFX_portrait_ac_xianming_lin
 			}
 		}
 		corps_commander = {
@@ -591,9 +607,9 @@ characters = {
 			slot = high_command
 			ledger = army
 			idea_token = ac_xianming_lin
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = trp
+				is_ai = no
 			}
 			traits = {
 				army_infantry_1
@@ -608,7 +624,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_mizuho_miyanokouji
-				large = "gfx/leaders/traps/mizuho_miyanokouji.dds"
+				large = GFX_portrait_ac_mizuho_miyanokouji
 			}
 		}
 		corps_commander = {
@@ -628,7 +644,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_youta_tsunashi
-				large = "gfx/leaders/traps/youta_tsunashi.dds"
+				large = GFX_portrait_ac_youta_tsunashi
 			}
 		}
 		corps_commander = {
@@ -649,7 +665,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_fish_eye
-				large = "gfx/leaders/traps/fish_eye.dds"
+				large = GFX_portrait_ac_fish_eye
 			}
 		}
 		corps_commander = {
@@ -670,7 +686,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_hacka_doll_3
-				large = "gfx/leaders/traps/hacka_doll_3.dds"
+				large = GFX_portrait_ac_hacka_doll_3
 			}
 		}
 		corps_commander = {
@@ -692,7 +708,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_shirota_mitsuki
-				large = "gfx/leaders/traps/shirota_mitsuki.dds"
+				large = GFX_portrait_ac_shirota_mitsuki
 			}
 		}
 		corps_commander = {
@@ -714,7 +730,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_tiger_traps
-				large = "gfx/leaders/traps/tiger_traps.dds"
+				large = GFX_portrait_ac_tiger_traps
 			}
 		}
 		corps_commander = {
@@ -736,7 +752,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_jun_hiiragi
-				large = "gfx/leaders/traps/jun_hiiragi.dds"
+				large = GFX_portrait_ac_jun_hiiragi
 			}
 		}
 		corps_commander = {
@@ -758,8 +774,8 @@ characters = {
 		name = ac_ranma_saotome
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_ranma_saotome"
-				large = "gfx/leaders/traps/ranma_saotome.dds"
+				small = GFX_idea_ac_ranma_saotome
+				large = GFX_portrait_ac_ranma_saotome
 			}
 		}
 		navy_leader = {
@@ -780,7 +796,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_hamaji_yakumo
-				large = "gfx/leaders/traps/hamaji_yakumo.dds"
+				large = GFX_portrait_ac_hamaji_yakumo
 			}
 		}
 		navy_leader = {
@@ -800,8 +816,8 @@ characters = {
 		name = ac_taroumaru_seike
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_taroumaru_seike"
-				large = "gfx/leaders/traps/taroumaru_seike.dds"
+				small = GFX_idea_ac_taroumaru_seike
+				large = GFX_portrait_ac_taroumaru_seike
 			}
 		}
 		navy_leader = {
@@ -819,9 +835,9 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = ac_taroumaru_seike
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = trp
+				is_ai = no
 			}
 			traits = {
 				navy_chief_decisive_battle_1
@@ -833,7 +849,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_mariya_shidou
-				large = "gfx/leaders/traps/mariya_shidou.dds"
+				large = GFX_portrait_ac_mariya_shidou
 			}
 		}
 		navy_leader = {
@@ -855,7 +871,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_russell
-				large = "gfx/leaders/traps/russell.dds"
+				large = GFX_portrait_ac_russell
 			}
 		}
 		navy_leader = {
@@ -874,9 +890,9 @@ characters = {
 			slot = theorist
 			ledger = navy
 			idea_token = ac_russell
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = trp
+				is_ai = no
 			}
 			traits = {
 				naval_theorist
@@ -891,7 +907,7 @@ characters = {
 				small = GFX_idea_ac_mare_bello_fiore
 			}
 			civilian = {
-				large = "gfx/leaders/traps/mare_bello_fiore.dds"
+				large = GFX_portrait_ac_mare_bello_fiore
 			}
 		}
 		advisor = {
@@ -899,7 +915,7 @@ characters = {
 			idea_token = ac_mare_bello_fiore
 			cost = 150
 			allowed = {
-				original_tag = trp
+				is_ai = no
 			}
 			traits = {
 				ac_captain_of_industry
@@ -910,7 +926,7 @@ characters = {
 		name = ac_aoi_futaba
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_aoi_futaba"
+				small = GFX_idea_ac_aoi_futaba
 			}
 		}
 		advisor = {
@@ -918,7 +934,7 @@ characters = {
 			idea_token = ac_aoi_futaba
 			cost = 150
 			allowed = {
-				original_tag = trp
+				is_ai = no
 			}
 			available = {
 				has_intelligence_agency = yes
@@ -933,10 +949,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_takumi_musashino
-				large = "gfx/leaders/traps/takumi_musashino.dds"
+				large = GFX_portrait_ac_takumi_musashino
 			}
 			civilian = {
-				large = "gfx/leaders/traps/takumi_musashino.dds"
+				large = GFX_portrait_ac_takumi_musashino
 			}
 		}
 		advisor = {
@@ -944,7 +960,7 @@ characters = {
 			idea_token = ac_takumi_musashino
 			cost = 150
 			allowed = {
-				original_tag = hen
+				is_ai = no
 			}
 			available = {
 				not = {
@@ -955,30 +971,19 @@ characters = {
 				}
 			}
 			traits = {
-				communist_revolutionary
+				ac_communist_revolutionary
 			}
 			ai_will_do = {
 				factor = 0
 			}
-		}
-		country_leader = {
-			ideology = stalinism
-			traits = {
-				ac_anime_tyan
-				ac_revolutionary
-				ac_patron_of_industry
-				ac_dictator
-			}
-			expire = "1965.1.1.1"
-			id = -1
 		}
 	}
 	ac_homare_nao = {
 		name = ac_homare_nao
 		portraits = {
 			army = {
-				small = "gfx/leaders/traps/homare_nao_idea.dds"
-				large = "gfx/leaders/traps/homare_nao.dds"
+				small = GFX_idea_ac_homare_nao
+				large = GFX_portrait_ac_homare_nao
 			}
 		}
 		corps_commander = {
@@ -997,18 +1002,26 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = high_command
+			slot = political_advisor
 			idea_token = ac_homare_nao
 			ledger = army
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = hen
+				is_ai = no
+			}
+			available = {
+				not = {
+					has_country_leader = {
+						character = ac_homare_nao
+						ruling_only = yes
+					}
+				}
 			}
 			traits = {
-				army_infantry_1
+				ac_staunch_monarchist
 			}
 			ai_will_do = {
-				factor = 2
+				factor = 0
 			}
 		}
 	}
@@ -1016,8 +1029,8 @@ characters = {
 		name = ac_anri_sogahara
 		portraits = {
 			army = {
-				small = "gfx/leaders/traps/anri_sogahara_idea.dds"
-				large = "gfx/leaders/traps/anri_sogahara.dds"
+				small = GFX_idea_ac_anri_sogahara
+				large = GFX_portrait_ac_anri_sogahara
 			}
 		}
 		advisor = {
@@ -1026,7 +1039,7 @@ characters = {
 			idea_token = ac_anri_sogahara
 			cost = 100
 			allowed = {
-				original_tag = hen
+				is_ai = no
 			}
 			traits = {
 				ac_girl_scientist
@@ -1049,10 +1062,10 @@ characters = {
 		name = ac_kaname
 		portraits = {
 			army = {
-				small = "gfx/leaders/traps/kaname_idea.dds"
+				small = GFX_idea_ac_kaname
 			}
 			army = {
-				large = "gfx/leaders/traps/kaname.dds"
+				large = GFX_portrait_ac_kaname
 			}
 		}
 		navy_leader = {
@@ -1072,7 +1085,7 @@ characters = {
 			idea_token = ac_kaname
 			cost = 150
 			allowed = {
-				original_tag = hen
+				is_ai = no
 			}
 			traits = {
 				navy_chief_commerce_raiding_1
@@ -1084,7 +1097,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_hayato_juumonji
-				large = "gfx/leaders/traps/hayato_juumonji.dds"
+				large = GFX_portrait_ac_hayato_juumonji
 			}
 		}
 		advisor = {

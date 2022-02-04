@@ -281,6 +281,9 @@ ac_anime_characters_category = {
 					ac_yuuko_yoshida = { set_nationality = ROOT }
 					ac_zakuro_fujiwara = { set_nationality = ROOT }
 					ac_zero_two = { set_nationality = ROOT }
+					ac_lilia_eberwein = { set_nationality = ROOT }
+					ac_catue_dragundaala = { set_nationality = ROOT }
+					ac_violet_evergarden = { set_nationality = ROOT }
 				}
 				create_operative_leader = {
 					name = "Shiki"
@@ -727,6 +730,39 @@ ac_anime_characters_category = {
 			}
 		}
 	}
+	ac_change_leader_to_mind_flayer = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_country_flag  = ac_take_girls_flag
+			NOT = {
+				has_country_leader = {
+					character = ac_mind_flayer
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			has_government = neutrality
+		}
+		complete_effect = {
+			retire_country_leader = yes
+			add_country_leader_role = {
+				character = ac_mind_flayer
+				country_leader = {
+					ideology = despotism
+					expire = "1959.12.23.1"
+					traits = {
+						ac_anime_tyan
+						ac_peoples_favorite
+						ac_patron_of_science
+						ac_demon_lord
+					}
+				}
+				promote_leader = yes
+			}
+		}
+	}
 	ac_change_leader_to_histoire = {
 		fire_only_once = no
 		cost = 100
@@ -892,6 +928,39 @@ ac_anime_characters_category = {
 			}
 		}
 	}
+	ac_change_leader_to_celestine_lucullus = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_country_flag  = ac_take_girls_flag
+			NOT = {
+				has_country_leader = {
+					character = ac_celestine_lucullus
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			has_government = democratic
+		}
+		complete_effect = {
+			retire_country_leader = yes
+			add_country_leader_role = {
+				character = ac_celestine_lucullus
+				country_leader = {
+					ideology = liberalism
+					expire = "1959.12.23.1"
+					traits = {
+						ac_anime_tyan
+						ac_defender
+						ac_patron_of_intelligence
+						ac_empress
+					}
+				}
+				promote_leader = yes
+			}
+		}
+	}
 	#traps
 	ac_change_leader_to_astolfo = {
 		fire_only_once = yes
@@ -953,6 +1022,72 @@ ac_anime_characters_category = {
 						ac_peoples_favorite
 						ac_patron_of_science
 						ac_empress
+					}
+				}
+				promote_leader = yes
+			}
+		}
+	}
+	ac_change_leader_to_takumi_musashino = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_country_flag  = ac_take_traps_flag
+			NOT = {
+				has_country_leader = {
+					character = ac_takumi_musashino
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			has_government = communism
+		}
+		complete_effect = {
+			retire_country_leader = yes
+			add_country_leader_role = {
+				character = ac_takumi_musashino
+				country_leader = {
+					ideology = leninism
+					expire = "1959.12.23.1"
+					traits = {
+						ac_trap
+						ac_revolutionary
+						ac_patron_of_industry
+						ac_dictator
+					}
+				}
+				promote_leader = yes
+			}
+		}
+	}
+	ac_change_leader_to_hideri_kanzaki = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_country_flag  = ac_take_traps_flag
+			NOT = {
+				has_country_leader = {
+					character = ac_hideri_kanzaki
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			has_government = fascism
+		}
+		complete_effect = {
+			retire_country_leader = yes
+			add_country_leader_role = {
+				character = ac_hideri_kanzaki
+				country_leader = {
+					ideology = fascism_ideology
+					expire = "1959.12.23.1"
+					traits = {
+						ac_trap
+						ac_tyan_militarist
+						ac_patron_of_the_military_industrial_complex
+						ac_idol
 					}
 				}
 				promote_leader = yes

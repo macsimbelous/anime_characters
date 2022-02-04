@@ -26,6 +26,10 @@
  ac_yuuko_yoshida_tt:0 "§GЮко Ёсида§!"
  ac_change_leader_to_homare_nao:0 "Назначить §GХомаре Нао§! лидером"
  ac_homare_nao_taked_tt:0 "§GХомаре Нао§!"
+ ac_change_leader_to_mind_flayer:0 "Назначить §RПожиратель разума§! лидером"
+ ac_change_leader_to_celestine_lucullus:0 "Назначить §GСелестина Лукулл§! лидером"
+ ac_change_leader_to_takumi_musashino:0 "Назначить §GТакуми Мусасино§! лидером"
+ ac_change_leader_to_hideri_kanzaki:0 "Назначить §GХидэри Кандзаки§! лидером"
 
 #ac_anime_characters_reactivate_category
  ac_anime_characters_reactivate_category:0 "Повторно открыть категорию аниме персонажей"

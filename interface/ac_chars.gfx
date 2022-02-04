@@ -2527,4 +2527,28 @@ spriteTypes = {
 		name = "GFX_portrait_ac_yukikaze"
 		texturefile = "gfx/leaders/traps/yukikaze.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_ac_lilia_eberwein"
+		texturefile = "gfx/leaders/girls/lilia_eberwein_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_lilia_eberwein"
+		texturefile = "gfx/leaders/girls/lilia_eberwein.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_catue_dragundaala"
+		texturefile = "gfx/leaders/girls/catue_dragundaala_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_catue_dragundaala"
+		texturefile = "gfx/leaders/girls/catue_dragundaala.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_violet_evergarden"
+		texturefile = "gfx/leaders/girls/violet_evergarden_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_violet_evergarden"
+		texturefile = "gfx/leaders/girls/violet_evergarden.dds"
+	}
 }

@@ -270,6 +270,9 @@ recruit_character = ac_yuuki_kawaragi
 recruit_character = ac_yuuko_yoshida
 recruit_character = ac_zakuro_fujiwara
 recruit_character = ac_zero_two
+recruit_character = ac_lilia_eberwein
+recruit_character = ac_catue_dragundaala
+recruit_character = ac_violet_evergarden
 #traps
 recruit_character = ac_anri_sogahara
 recruit_character = ac_aoi_futaba
@@ -312,4 +315,4 @@ recruit_character = ac_tetora
 recruit_character = ac_tiger_traps
 recruit_character = ac_xianming_lin
 recruit_character = ac_youta_tsunashi
-#recruit_character = ac_yukikaze
+recruit_character = ac_yukikaze

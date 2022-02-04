@@ -3,8 +3,8 @@ characters = {
 		name = ac_satellizer_el_bridget
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/satellizer_el_bridget_idea.dds"
-				large = "gfx/leaders/girls/satellizer_el_bridget.dds"
+				small = GFX_idea_ac_satellizer_el_bridget
+				large = GFX_portrait_ac_satellizer_el_bridget
 			}
 		}
 		corps_commander = {
@@ -23,8 +23,8 @@ characters = {
 		name = ac_charlotte_dunois
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/charlotte_dunois_idea.dds"
-				large = "gfx/leaders/girls/charlotte_dunois.dds"
+				small = GFX_idea_ac_charlotte_dunois
+				large = GFX_portrait_ac_charlotte_dunois
 			}
 		}
 		corps_commander = {
@@ -42,8 +42,8 @@ characters = {
 		name = ac_prinz_eugen
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/prinz_eugen_idea.dds"
-				large = "gfx/leaders/girls/prinz_eugen.dds"
+				small = GFX_idea_ac_prinz_eugen
+				large = GFX_portrait_ac_prinz_eugen
 			}
 		}
 		navy_leader = {
@@ -61,8 +61,8 @@ characters = {
 		name = ac_erica_blandelli
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/erica_blandelli_idea.dds"
-				large = "gfx/leaders/girls/erica_blandelli.dds"
+				small = GFX_idea_ac_erica_blandelli
+				large = GFX_portrait_ac_erica_blandelli
 			}
 		}
 		corps_commander = {
@@ -80,16 +80,8 @@ characters = {
 		name = ac_miki_hoshii
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/miki_hoshii_idea.dds"
-				large = "gfx/leaders/girls/miki_hoshii.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_miki_hoshii
-			cost = 150
-			traits = {
-				ac_staunch_monarchist
+				small = GFX_idea_ac_miki_hoshii
+				large = GFX_portrait_ac_miki_hoshii
 			}
 		}
 		corps_commander = {
@@ -107,8 +99,8 @@ characters = {
 		name = ac_irina_jelavic
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/irina_jelavic_idea.dds"
-				large = "gfx/leaders/girls/irina_jelavic.dds"
+				small = GFX_idea_ac_irina_jelavic
+				large = GFX_portrait_ac_irina_jelavic
 			}
 		}
 		corps_commander = {
@@ -126,11 +118,30 @@ characters = {
 		name = ac_alisa_illinichina_amiella
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/alisa_illinichina_amiella_idea.dds"
-				large = "gfx/leaders/girls/alisa_illinichina_amiella.dds"
+				small = GFX_idea_ac_alisa_illinichina_amiella
+				large = GFX_portrait_ac_alisa_illinichina_amiella
 			}
 			civilian = {
-				large = "gfx/leaders/girls/alisa_illinichina_amiella.dds"
+				large = GFX_portrait_ac_alisa_illinichina_amiella
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_alisa_illinichina_amiella
+			cost = 150
+			available = {
+				not = {
+					has_country_leader = {
+						character = ac_alisa_illinichina_amiella
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				ac_communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		corps_commander = {
@@ -148,8 +159,8 @@ characters = {
 		name = ac_kei
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/kei_idea.dds"
-				large = "gfx/leaders/girls/kei.dds"
+				small = GFX_idea_ac_kei
+				large = GFX_portrait_ac_kei
 			}
 		}
 		corps_commander = {
@@ -168,22 +179,11 @@ characters = {
 		name = ac_erza
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/girls/erza.dds"
+				large = GFX_portrait_ac_erza
 			}
 			army = {
-				large = "gfx/leaders/girls/erza.dds"
+				large = GFX_portrait_ac_erza
 				small = GFX_idea_ac_erza
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_erza
-			cost = 150
-			traits = {
-				ac_communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
 			}
 		}
 		field_marshal = {
@@ -205,22 +205,11 @@ characters = {
 		name = ac_asuka
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/girls/asuka_lider.dds"
+				large = GFX_portrait_ac_asuka_lider
 			}
 			army = {
-				large = "gfx/leaders/girls/asuka.dds"
+				large = GFX_portrait_ac_asuka
 				small = GFX_idea_ac_asuka_lider
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_asuka
-			cost = 150
-			traits = {
-				ac_fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
 			}
 		}
 		field_marshal = {
@@ -240,11 +229,11 @@ characters = {
 		name = ac_aurora_suya_rhys_kaymin
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/girls/aurora_suya_rhys_kaymin.dds"
+				large = GFX_portrait_ac_aurora_suya_rhys_kaymin
 			}
 			army = {
-				large = "gfx/leaders/girls/aurora_suya_rhys_kaymin.dds"
-				small = "gfx/leaders/girls/aurora_suya_rhys_kaymin_idea.dds"
+				large = GFX_portrait_ac_aurora_suya_rhys_kaymin
+				small = GFX_idea_ac_aurora_suya_rhys_kaymin
 			}
 		}
 		corps_commander = {
@@ -262,23 +251,11 @@ characters = {
 		name = ac_anastasia
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/girls/anastasia.dds"
+				large = GFX_portrait_ac_anastasia
 			}
 			army = {
-				large = "gfx/leaders/girls/anastasia_general.dds"
+				large = GFX_portrait_ac_anastasia_general
 				small = GFX_idea_ac_anastasia
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_anastasia
-			cost = 150
-
-			traits = {
-				ac_democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
 			}
 		}
 		field_marshal = {
@@ -301,8 +278,8 @@ characters = {
 		name = ac_lightning
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/lightning_idea.dds"
-				large = "gfx/leaders/girls/lightning.dds"
+				small = GFX_idea_ac_lightning
+				large = GFX_portrait_ac_lightning
 			}
 		}
 		advisor = {
@@ -311,7 +288,7 @@ characters = {
 			idea_token = ac_lightning
 			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				blitzkrieg_theorist
@@ -335,8 +312,8 @@ characters = {
 		name = ac_mamako_oosuki
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/mamako_oosuki_idea.dds"
-				large = "gfx/leaders/girls/mamako_oosuki.dds"
+				small = GFX_idea_ac_mamako_oosuki
+				large = GFX_portrait_ac_mamako_oosuki
 			}
 		}
 		advisor = {
@@ -344,7 +321,7 @@ characters = {
 			idea_token = ac_mamako_oosuki
 			cost = 100
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				army_chief_offensive_2
@@ -371,10 +348,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_anastasia_romanova
-				large = "gfx/leaders/girls/anastasia_romanova.dds"
+				large = GFX_portrait_ac_anastasia_romanova
 			}
 			civilian = {
-				large = "gfx/leaders/girls/anastasia_romanova.dds"
+				large = GFX_portrait_ac_anastasia_romanova
 			}
 		}
 		allowed_civil_war = {
@@ -384,6 +361,17 @@ characters = {
 			slot = political_advisor
 			idea_token = ac_anastasia_romanova
 			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			available = {
+				not = {
+					has_country_leader = {
+						character = ac_anastasia_romanova
+						ruling_only = yes
+					}
+				}
+			}
 			traits = {
 				ac_staunch_monarchist
 			}
@@ -408,8 +396,8 @@ characters = {
 		name = ac_saint_martha
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/saint_martha_idea.dds"
-				large = "gfx/leaders/girls/saint_martha.dds"
+				small = GFX_idea_ac_saint_martha
+				large = GFX_portrait_ac_saint_martha
 			}
 		}
 		corps_commander = {
@@ -428,8 +416,8 @@ characters = {
 		name = ac_nishizumi_miho
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/nishizumi_miho_idea.dds"
-				large = "gfx/leaders/girls/nishizumi_miho.dds"
+				small = GFX_idea_ac_nishizumi_miho
+				large = GFX_portrait_ac_nishizumi_miho
 			}
 		}
 		corps_commander = {
@@ -449,8 +437,8 @@ characters = {
 		name = ac_asuna_yuuki
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/asuna_yuuki_idea.dds"
-				large = "gfx/leaders/girls/asuna_yuuki.dds"
+				small = GFX_idea_ac_asuna_yuuki
+				large = GFX_portrait_ac_asuna_yuuki
 			}
 		}
 		corps_commander = {
@@ -470,9 +458,9 @@ characters = {
 			slot = high_command
 			ledger = army
 			idea_token = ac_asuna_yuuki
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				army_infantry_1
@@ -483,8 +471,8 @@ characters = {
 		name = ac_mash_kyrielight
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/mash_kyrielight_idea.dds"
-				large = "gfx/leaders/girls/mash_kyrielight.dds"
+				small = GFX_idea_ac_mash_kyrielight
+				large = GFX_portrait_ac_mash_kyrielight
 			}
 		}
 		corps_commander = {
@@ -504,8 +492,8 @@ characters = {
 		name = ac_maple
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/maple_idea.dds"
-				large = "gfx/leaders/girls/maple.dds"
+				small = GFX_idea_ac_maple
+				large = GFX_portrait_ac_maple
 			}
 		}
 		corps_commander = {
@@ -525,8 +513,8 @@ characters = {
 		name = ac_yoko_littner
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/yoko_littner_idea.dds"
-				large = "gfx/leaders/girls/yoko_littner.dds"
+				small = GFX_idea_ac_yoko_littner
+				large = GFX_portrait_ac_yoko_littner
 			}
 		}
 		corps_commander = {
@@ -547,17 +535,17 @@ characters = {
 		name = ac_kallen_stadtfeld
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/kallen_stadtfeld_idea.dds"
-				large = "gfx/leaders/girls/kallen_stadtfeld.dds"
+				small = GFX_idea_ac_kallen_stadtfeld
+				large = GFX_portrait_ac_kallen_stadtfeld
 			}
 		}
 		advisor = {
 			slot = theorist
 			idea_token = ac_kallen_stadtfeld
 			ledger = army
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				military_theorist
@@ -580,8 +568,8 @@ characters = {
 		name = ac_saki_rukino
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/saki_rukino_idea.dds"
-				large = "gfx/leaders/girls/saki_rukino.dds"
+				small = GFX_idea_ac_saki_rukino
+				large = GFX_portrait_ac_saki_rukino
 			}
 		}
 		corps_commander = {
@@ -601,8 +589,8 @@ characters = {
 		name = ac_kurumi_tokisaki
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/kurumi_tokisaki_idea.dds"
-				large = "gfx/leaders/girls/kurumi_tokisaki.dds"
+				small = GFX_idea_ac_kurumi_tokisaki
+				large = GFX_portrait_ac_kurumi_tokisaki
 			}
 		}
 		corps_commander = {
@@ -622,8 +610,8 @@ characters = {
 		name = ac_sanya_v_litvyak
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/sanya_v_litvyak_idea.dds"
-				large = "gfx/leaders/girls/sanya_v_litvyak.dds"
+				small = GFX_idea_ac_sanya_v_litvyak
+				large = GFX_portrait_ac_sanya_v_litvyak
 			}
 		}
 		corps_commander = {
@@ -642,7 +630,7 @@ characters = {
 			idea_token = ac_sanya_v_litvyak
 			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				air_chief_night_operations_3
@@ -653,8 +641,8 @@ characters = {
 		name = ac_isuzu_sento
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/isuzu_sento_idea.dds"
-				large = "gfx/leaders/girls/isuzu_sento.dds"
+				small = GFX_idea_ac_isuzu_sento
+				large = GFX_portrait_ac_isuzu_sento
 			}
 		}
 		corps_commander = {
@@ -675,8 +663,8 @@ characters = {
 		name = ac_volemia
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/volemia_idea.dds"
-				large = "gfx/leaders/girls/volemia.dds"
+				small = GFX_idea_ac_volemia
+				large = GFX_portrait_ac_volemia
 			}
 		}
 		corps_commander = {
@@ -695,8 +683,8 @@ characters = {
 		name = ac_camilla
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/camilla_idea.dds"
-				large = "gfx/leaders/girls/camilla.dds"
+				small = GFX_idea_ac_camilla
+				large = GFX_portrait_ac_camilla
 			}
 		}
 		corps_commander = {
@@ -716,8 +704,8 @@ characters = {
 		name = ac_sinon
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/sinon_idea.dds"
-				large = "gfx/leaders/girls/sinon.dds"
+				small = GFX_idea_ac_sinon
+				large = GFX_portrait_ac_sinon
 			}
 		}
 		corps_commander = {
@@ -737,8 +725,8 @@ characters = {
 		name = ac_kaname_chidori
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/kaname_chidori_idea.dds"
-				large = "gfx/leaders/girls/kaname_chidori.dds"
+				small = GFX_idea_ac_kaname_chidori
+				large = GFX_portrait_ac_kaname_chidori
 			}
 		}
 		corps_commander = {
@@ -758,8 +746,8 @@ characters = {
 		name = ac_yoshiko_tsushima
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/yoshiko_tsushima_idea.dds"
-				large = "gfx/leaders/girls/yoshiko_tsushima.dds"
+				small = GFX_idea_ac_yoshiko_tsushima
+				large = GFX_portrait_ac_yoshiko_tsushima
 			}
 		}
 		corps_commander = {
@@ -778,8 +766,8 @@ characters = {
 		name = ac_ranko_kanzaki
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/ranko_kanzaki_idea.dds"
-				large = "gfx/leaders/girls/ranko_kanzaki.dds"
+				small = GFX_idea_ac_ranko_kanzaki
+				large = GFX_portrait_ac_ranko_kanzaki
 			}
 		}
 		corps_commander = {
@@ -799,8 +787,8 @@ characters = {
 		name = ac_elma
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/elma_idea.dds"
-				large = "gfx/leaders/girls/elma.dds"
+				small = GFX_idea_ac_elma
+				large = GFX_portrait_ac_elma
 			}
 		}
 		corps_commander = {
@@ -820,9 +808,9 @@ characters = {
 			slot = high_command
 			ledger = army
 			idea_token = ac_elma
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				army_armored_1
@@ -833,8 +821,8 @@ characters = {
 		name = ac_ako_tamaki
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/ako_tamaki_idea.dds"
-				large = "gfx/leaders/girls/ako_tamaki.dds"
+				small = GFX_idea_ac_ako_tamaki
+				large = GFX_portrait_ac_ako_tamaki
 			}
 		}
 		corps_commander = {
@@ -853,8 +841,8 @@ characters = {
 		name = ac_celica
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/celica_idea.dds"
-				large = "gfx/leaders/girls/celica.dds"
+				small = GFX_idea_ac_celica
+				large = GFX_portrait_ac_celica
 			}
 		}
 		corps_commander = {
@@ -875,8 +863,8 @@ characters = {
 		name = ac_cryska_barchenowa
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/cryska_barchenowa_idea.dds"
-				large = "gfx/leaders/girls/cryska_barchenowa.dds"
+				small = GFX_idea_ac_cryska_barchenowa
+				large = GFX_portrait_ac_cryska_barchenowa
 			}
 		}
 		corps_commander = {
@@ -895,8 +883,8 @@ characters = {
 		name = ac_fiora
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/fiora_idea.dds"
-				large = "gfx/leaders/girls/fiora.dds"
+				small = GFX_idea_ac_fiora
+				large = GFX_portrait_ac_fiora
 			}
 		}
 		corps_commander = {
@@ -916,8 +904,8 @@ characters = {
 		name = ac_haruhi_suzumiya
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/haruhi_suzumiya_idea.dds"
-				large = "gfx/leaders/girls/haruhi_suzumiya.dds"
+				small = GFX_idea_ac_haruhi_suzumiya
+				large = GFX_portrait_ac_haruhi_suzumiya
 			}
 		}
 		corps_commander = {
@@ -937,8 +925,8 @@ characters = {
 		name = ac_kiana_kaslana
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/kiana_kaslana_idea.dds"
-				large = "gfx/leaders/girls/kiana_kaslana.dds"
+				small = GFX_idea_ac_kiana_kaslana
+				large = GFX_portrait_ac_kiana_kaslana
 			}
 		}
 		corps_commander = {
@@ -957,8 +945,8 @@ characters = {
 		name = ac_konoko
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/konoko_idea.dds"
-				large = "gfx/leaders/girls/konoko.dds"
+				small = GFX_idea_ac_konoko
+				large = GFX_portrait_ac_konoko
 			}
 		}
 		corps_commander = {
@@ -977,8 +965,8 @@ characters = {
 		name = ac_lina_inverse
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/lina_inverse_idea.dds"
-				large = "gfx/leaders/girls/lina_inverse.dds"
+				small = GFX_idea_ac_lina_inverse
+				large = GFX_portrait_ac_lina_inverse
 			}
 		}
 		corps_commander = {
@@ -999,7 +987,7 @@ characters = {
 			idea_token = ac_lina_inverse
 			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				superior_firepower_expert
@@ -1010,8 +998,8 @@ characters = {
 		name = ac_neptune
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/neptune_idea.dds"
-				large = "gfx/leaders/girls/neptune.dds"
+				small = GFX_idea_ac_neptune
+				large = GFX_portrait_ac_neptune
 			}
 		}
 		corps_commander = {
@@ -1031,8 +1019,8 @@ characters = {
 		name = ac_ryuuko_matoi
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/ryuuko_matoi_idea.dds"
-				large = "gfx/leaders/girls/ryuuko_matoi.dds"
+				small = GFX_idea_ac_ryuuko_matoi
+				large = GFX_portrait_ac_ryuuko_matoi
 			}
 		}
 		corps_commander = {
@@ -1047,26 +1035,13 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 4
 		}
-		advisor = {
-			slot = theorist
-			ledger = army
-			idea_token = ac_ryuuko_matoi
-			cost = 150
-			allowed = {
-				original_tag = acw
-			}
-			traits = {
-				mass_assault_expert
-			}
-		}
 	}
-
 	ac_siluca_meletes = {
 		name = ac_siluca_meletes
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/siluca_meletes_idea.dds"
-				large = "gfx/leaders/girls/siluca_meletes.dds"
+				small = GFX_idea_ac_siluca_meletes
+				large = GFX_portrait_ac_siluca_meletes
 			}
 		}
 		corps_commander = {
@@ -1087,7 +1062,7 @@ characters = {
 			idea_token = ac_siluca_meletes
 			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				grand_battle_plan_expert
@@ -1098,8 +1073,8 @@ characters = {
 		name = ac_yuno_gasai
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/yuno_gasai_idea.dds"
-				large = "gfx/leaders/girls/yuno_gasai.dds"
+				small = GFX_idea_ac_yuno_gasai
+				large = GFX_portrait_ac_yuno_gasai
 			}
 		}
 		corps_commander = {
@@ -1119,8 +1094,8 @@ characters = {
 		name = ac_byleth_eisner
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/byleth_eisner_idea.dds"
-				large = "gfx/leaders/girls/byleth_eisner.dds"
+				small = GFX_idea_ac_byleth_eisner
+				large = GFX_portrait_ac_byleth_eisner
 			}
 		}
 		corps_commander = {
@@ -1140,8 +1115,8 @@ characters = {
 		name = ac_eula
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/eula_idea.dds"
-				large = "gfx/leaders/girls/eula.dds"
+				small = GFX_idea_ac_eula
+				large = GFX_portrait_ac_eula
 			}
 		}
 		corps_commander = {
@@ -1160,8 +1135,8 @@ characters = {
 		name = ac_5pb
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/5pb_idea.dds"
-				large = "gfx/leaders/girls/5pb.dds"
+				small = GFX_idea_ac_5pb
+				large = GFX_portrait_ac_5pb
 			}
 		}
 		corps_commander = {
@@ -1180,8 +1155,8 @@ characters = {
 		name = ac_blanc
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/blanc_idea.dds"
-				large = "gfx/leaders/girls/blanc.dds"
+				small = GFX_idea_ac_blanc
+				large = GFX_portrait_ac_blanc
 			}
 		}
 		corps_commander = {
@@ -1200,8 +1175,8 @@ characters = {
 		name = ac_compa
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/compa_idea.dds"
-				large = "gfx/leaders/girls/compa.dds"
+				small = GFX_idea_ac_compa
+				large = GFX_portrait_ac_compa
 			}
 		}
 		corps_commander = {
@@ -1219,9 +1194,9 @@ characters = {
 			slot = high_command
 			ledger = army
 			idea_token = ac_compa
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				army_logistics_1
@@ -1232,8 +1207,8 @@ characters = {
 		name = ac_djeeta
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/djeeta_idea.dds"
-				large = "gfx/leaders/girls/djeeta.dds"
+				small = GFX_idea_ac_djeeta
+				large = GFX_portrait_ac_djeeta
 			}
 		}
 		corps_commander = {
@@ -1252,8 +1227,8 @@ characters = {
 		name = ac_ellis
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/ellis_idea.dds"
-				large = "gfx/leaders/girls/ellis.dds"
+				small = GFX_idea_ac_ellis
+				large = GFX_portrait_ac_ellis
 			}
 		}
 		corps_commander = {
@@ -1272,8 +1247,8 @@ characters = {
 		name = ac_escha_malier
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/escha_malier_idea.dds"
-				large = "gfx/leaders/girls/escha_malier.dds"
+				small = GFX_idea_ac_escha_malier
+				large = GFX_portrait_ac_escha_malier
 			}
 		}
 		corps_commander = {
@@ -1292,8 +1267,8 @@ characters = {
 		name = ac_fujimaru_ritsuka
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/fujimaru_ritsuka_idea.dds"
-				large = "gfx/leaders/girls/fujimaru_ritsuka.dds"
+				small = GFX_idea_ac_fujimaru_ritsuka
+				large = GFX_portrait_ac_fujimaru_ritsuka
 			}
 		}
 		corps_commander = {
@@ -1312,8 +1287,8 @@ characters = {
 		name = ac_honoka_kousaka
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/honoka_kousaka_idea.dds"
-				large = "gfx/leaders/girls/honoka_kousaka.dds"
+				small = GFX_idea_ac_honoka_kousaka
+				large = GFX_portrait_ac_honoka_kousaka
 			}
 		}
 		corps_commander = {
@@ -1332,8 +1307,8 @@ characters = {
 		name = ac_if
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/if_idea.dds"
-				large = "gfx/leaders/girls/if.dds"
+				small = GFX_idea_ac_if
+				large = GFX_portrait_ac_if
 			}
 		}
 		corps_commander = {
@@ -1352,8 +1327,8 @@ characters = {
 		name = ac_kasumi
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/kasumi_idea.dds"
-				large = "gfx/leaders/girls/kasumi.dds"
+				small = GFX_idea_ac_kasumi
+				large = GFX_portrait_ac_kasumi
 			}
 		}
 		corps_commander = {
@@ -1372,8 +1347,8 @@ characters = {
 		name = ac_merurulince_rede_arls
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/merurulince_rede_arls_idea.dds"
-				large = "gfx/leaders/girls/merurulince_rede_arls.dds"
+				small = GFX_idea_ac_merurulince_rede_arls
+				large = GFX_portrait_ac_merurulince_rede_arls
 			}
 		}
 		corps_commander = {
@@ -1392,8 +1367,8 @@ characters = {
 		name = ac_miho_nishizumi
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/miho_nishizumi_idea.dds"
-				large = "gfx/leaders/girls/miho_nishizumi.dds"
+				small = GFX_idea_ac_miho_nishizumi
+				large = GFX_portrait_ac_miho_nishizumi
 			}
 		}
 		corps_commander = {
@@ -1412,8 +1387,8 @@ characters = {
 		name = ac_misato_katsuragi
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/misato_katsuragi_idea.dds"
-				large = "gfx/leaders/girls/misato_katsuragi.dds"
+				small = GFX_idea_ac_misato_katsuragi
+				large = GFX_portrait_ac_misato_katsuragi
 			}
 		}
 		corps_commander = {
@@ -1432,8 +1407,8 @@ characters = {
 		name = ac_naru_narusegawa
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/naru_narusegawa_idea.dds"
-				large = "gfx/leaders/girls/naru_narusegawa.dds"
+				small = GFX_idea_ac_naru_narusegawa
+				large = GFX_portrait_ac_naru_narusegawa
 			}
 		}
 		corps_commander = {
@@ -1452,8 +1427,8 @@ characters = {
 		name = ac_noire
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/noire_idea.dds"
-				large = "gfx/leaders/girls/noire.dds"
+				small = GFX_idea_ac_noire
+				large = GFX_portrait_ac_noire
 			}
 		}
 		corps_commander = {
@@ -1472,8 +1447,8 @@ characters = {
 		name = ac_rei_ayanami
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/rei_ayanami_idea.dds"
-				large = "gfx/leaders/girls/rei_ayanami.dds"
+				small = GFX_idea_ac_rei_ayanami
+				large = GFX_portrait_ac_rei_ayanami
 			}
 		}
 		corps_commander = {
@@ -1492,8 +1467,8 @@ characters = {
 		name = ac_ryza
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/ryza_idea.dds"
-				large = "gfx/leaders/girls/ryza.dds"
+				small = GFX_idea_ac_ryza
+				large = GFX_portrait_ac_ryza
 			}
 		}
 		corps_commander = {
@@ -1512,8 +1487,8 @@ characters = {
 		name = ac_selesia_upitiria
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/selesia_upitiria_idea.dds"
-				large = "gfx/leaders/girls/selesia_upitiria.dds"
+				small = GFX_idea_ac_selesia_upitiria
+				large = GFX_portrait_ac_selesia_upitiria
 			}
 		}
 		corps_commander = {
@@ -1527,25 +1502,13 @@ characters = {
 			planning_skill = 5
 			logistics_skill = 5
 		}
-		advisor = {
-			slot = theorist
-			ledger = air
-			idea_token = ac_selesia_upitiria
-			cost = 50
-			allowed = {
-				original_tag = acw
-			}
-			traits = {
-				air_warfare_theorist
-			}
-		}
 	}
 	ac_sophie_neuenmuller = {
 		name = ac_sophie_neuenmuller
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/sophie_neuenmuller_idea.dds"
-				large = "gfx/leaders/girls/sophie_neuenmuller.dds"
+				small = GFX_idea_ac_sophie_neuenmuller
+				large = GFX_portrait_ac_sophie_neuenmuller
 			}
 		}
 		corps_commander = {
@@ -1564,8 +1527,8 @@ characters = {
 		name = ac_vert
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/vert_idea.dds"
-				large = "gfx/leaders/girls/vert.dds"
+				small = GFX_idea_ac_vert
+				large = GFX_portrait_ac_vert
 			}
 		}
 		corps_commander = {
@@ -1584,8 +1547,8 @@ characters = {
 		name = ac_yukina_himeragi
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/yukina_himeragi_idea.dds"
-				large = "gfx/leaders/girls/yukina_himeragi.dds"
+				small = GFX_idea_ac_yukina_himeragi
+				large = GFX_portrait_ac_yukina_himeragi
 			}
 		}
 		corps_commander = {
@@ -1604,8 +1567,8 @@ characters = {
 		name = ac_yuna
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/yuna_idea.dds"
-				large = "gfx/leaders/girls/yuna.dds"
+				small = GFX_idea_ac_yuna
+				large = GFX_portrait_ac_yuna
 			}
 		}
 		corps_commander = {
@@ -1625,7 +1588,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_noelle
-				large = "gfx/leaders/girls/noelle.dds"
+				large = GFX_portrait_ac_noelle
 			}
 		}
 		allowed_civil_war = {
@@ -1647,8 +1610,8 @@ characters = {
 		name = ac_eruza_guranhirute
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_eruza_guranhirute"
-				large = "gfx/leaders/girls/eruza_guranhirute.dds"
+				small = GFX_idea_ac_eruza_guranhirute
+				large = GFX_portrait_ac_eruza_guranhirute
 			}
 		}
 		allowed_civil_war = {
@@ -1659,13 +1622,17 @@ characters = {
 			idea_token = ac_eruza_guranhirute
 			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
-				princess_of_terror
+				ac_princess_of_terror
 			}
-			modifier = {
-				compliance_growth = 0.15
+			ai_will_do = {
+				base = 1
+				modifier = {
+					has_government = fascism
+					add = 2
+				}
 			}
 		}
 		corps_commander = {
@@ -1684,8 +1651,8 @@ characters = {
 		name = ac_aoi_sakurai
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_aoi_sakurai"
-				large = "gfx/leaders/girls/lucy_yamagami.dds"
+				small = GFX_idea_ac_aoi_sakurai
+				large = GFX_portrait_ac_lucy_yamagami
 			}
 		}
 		allowed_civil_war = {
@@ -1696,7 +1663,7 @@ characters = {
 			idea_token = ac_aoi_sakurai
 			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				ac_infrastructure_developer
@@ -1719,7 +1686,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_kawashima_mizuki
-				large = "gfx/leaders/girls/kawashima_mizuki.dds"
+				large = GFX_portrait_ac_kawashima_mizuki
 			}
 		}
 		allowed_civil_war = {
@@ -1742,7 +1709,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_natasha_cioara
-				large = "gfx/leaders/girls/natasha_cioara.dds"
+				large = GFX_portrait_ac_natasha_cioara
 			}
 		}
 		allowed_civil_war = {
@@ -1766,7 +1733,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_kitagawa_marin
-				large = "gfx/leaders/girls/kitagawa_marin.dds"
+				large = GFX_portrait_ac_kitagawa_marin
 			}
 		}
 		allowed_civil_war = {
@@ -1862,12 +1829,12 @@ characters = {
 		name = ac_yamato_kancol
 		portraits = {
 			navy = {
-				small = "gfx/leaders/girls/yamato_kancol_idea.dds"
-				large = "gfx/leaders/girls/yamato_kancol.dds"
+				small = GFX_idea_ac_yamato_kancol
+				large = GFX_portrait_ac_yamato_kancol
 			}
 			army = {
-				small = "gfx/leaders/girls/yamato_kancol_idea.dds"
-				large = "gfx/leaders/girls/yamato_kancol.dds"
+				small = GFX_idea_ac_yamato_kancol
+				large = GFX_portrait_ac_yamato_kancol
 			}
 		}
 		advisor = {
@@ -1876,7 +1843,7 @@ characters = {
 			idea_token = ac_yamato_kancol
 			ledger = navy
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				grand_fleet_proponent
@@ -1899,10 +1866,10 @@ characters = {
 		name = ac_atago_azur_lane
 		portraits = {
 			navy = {
-				small = "gfx/leaders/girls/atago_azur_lane_idea.dds"
+				small = GFX_idea_ac_atago_azur_lane
 			}
 			army = {
-				large = "gfx/leaders/girls/atago_azur_lane.dds"
+				large = GFX_portrait_ac_atago_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1920,8 +1887,8 @@ characters = {
 		name = ac_avrora_azur_lane
 		portraits = {
 			navy = {
-				small = "gfx/leaders/girls/avrora_azur_lane_idea.dds"
-				large = "gfx/leaders/girls/avrora_azur_lane.dds"
+				small = GFX_idea_ac_avrora_azur_lane
+				large = GFX_portrait_ac_avrora_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1939,7 +1906,7 @@ characters = {
 			idea_token = ac_avrora_azur_lane
 			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				navy_chief_decisive_battle_3
@@ -1950,10 +1917,10 @@ characters = {
 		name = ac_belfast
 		portraits = {
 			navy = {
-				small = "gfx/leaders/girls/belfast_idea.dds"
+				small = GFX_idea_ac_belfast
 			}
 			army = {
-				large = "gfx/leaders/girls/belfast.dds"
+				large = GFX_portrait_ac_belfast
 			}
 		}
 		navy_leader = {
@@ -1971,8 +1938,8 @@ characters = {
 		name = ac_marblehead_azur_lane
 		portraits = {
 			navy = {
-				small = "gfx/leaders/girls/marblehead_azur_lane_idea.dds"
-				large = "gfx/leaders/girls/marblehead_azur_lane.dds"
+				small = GFX_idea_ac_marblehead_azur_lane
+				large = GFX_portrait_ac_marblehead_azur_lane
 			}
 		}
 		navy_leader = {
@@ -1986,27 +1953,15 @@ characters = {
 			maneuvering_skill = 5
 			coordination_skill = 5
 		}
-		advisor = {
-			slot = theorist
-			ledger = navy
-			idea_token = ac_marblehead_azur_lane
-			cost = 50
-			allowed = {
-				original_tag = acw
-			}
-			traits = {
-				naval_theorist
-			}
-		}
 	}
 	ac_saint_louis_azur_lane = {
 		name = ac_saint_louis_azur_lane
 		portraits = {
 			navy = {
-				small = "gfx/leaders/girls/saint_louis_azur_lane_idea.dds"
+				small = GFX_idea_ac_saint_louis_azur_lane
 			}
 			army = {
-				large = "gfx/leaders/girls/saint_louis_azur_lane.dds"
+				large = GFX_portrait_ac_saint_louis_azur_lane
 			}
 		}
 		navy_leader = {
@@ -2024,10 +1979,10 @@ characters = {
 		name = ac_takao_azur_lane
 		portraits = {
 			navy = {
-				small = "gfx/leaders/girls/takao_azur_lane_idea.dds"
+				small = GFX_idea_ac_takao_azur_lane
 			}
 			army = {
-				large = "gfx/leaders/girls/takao_azur_lane.dds"
+				large = GFX_portrait_ac_takao_azur_lane
 			}
 		}
 		navy_leader = {
@@ -2045,10 +2000,10 @@ characters = {
 		name = ac_tosa_azur_lane
 		portraits = {
 			navy = {
-				small = "gfx/leaders/girls/tosa_azur_lane_idea.dds"
+				small = GFX_idea_ac_tosa_azur_lane
 			}
 			army = {
-				large = "gfx/leaders/girls/tosa_azur_lane.dds"
+				large = GFX_portrait_ac_tosa_azur_lane
 			}
 		}
 		navy_leader = {
@@ -2066,11 +2021,11 @@ characters = {
 		name = ac_sovetskaya_rossiya
 		portraits = {
 			navy = {
-				small = "gfx/leaders/girls/sovetskaya_rossiya_idea.dds"
+				small = GFX_idea_ac_sovetskaya_rossiya
 			}
 			army = {
-				large = "gfx/leaders/girls/sovetskaya_rossiya.dds"
-				small = "gfx/leaders/girls/sovetskaya_rossiya_idea.dds"
+				large = GFX_portrait_ac_sovetskaya_rossiya
+				small = GFX_idea_ac_sovetskaya_rossiya
 			}
 		}
 		navy_leader = {
@@ -2088,10 +2043,10 @@ characters = {
 		name = ac_shima_tateishi
 		portraits = {
 			navy = {
-				small = "gfx/leaders/girls/shima_tateishi_idea.dds"
+				small = GFX_idea_ac_shima_tateishi
 			}
 			army = {
-				large = "gfx/leaders/girls/shima_tateishi.dds"
+				large = GFX_portrait_ac_shima_tateishi
 			}
 		}
 		navy_leader = {
@@ -2109,10 +2064,10 @@ characters = {
 		name = ac_akeno_misaki
 		portraits = {
 			navy = {
-				small = "gfx/leaders/girls/akeno_misaki_idea.dds"
+				small = GFX_idea_ac_akeno_misaki
 			}
 			army = {
-				large = "gfx/leaders/girls/akeno_misaki.dds"
+				large = GFX_portrait_ac_akeno_misaki
 			}
 		}
 		navy_leader = {
@@ -2130,10 +2085,10 @@ characters = {
 		name = ac_beidou
 		portraits = {
 			navy = {
-				small = "gfx/leaders/girls/beidou_idea.dds"
+				small = GFX_idea_ac_beidou
 			}
 			army = {
-				large = "gfx/leaders/girls/beidou.dds"
+				large = GFX_portrait_ac_beidou
 			}
 		}
 		navy_leader = {
@@ -2151,7 +2106,7 @@ characters = {
 			idea_token = ac_beidou
 			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				navy_chief_commerce_raiding_1
@@ -2166,7 +2121,7 @@ characters = {
 				small = GFX_idea_ac_minami_nitta
 			}
 			civilian = {
-				large = "gfx/leaders/girls/minami_nitta.dds"
+				large = GFX_portrait_ac_minami_nitta
 			}
 		}
 		allowed_civil_war = {
@@ -2177,14 +2132,10 @@ characters = {
 			idea_token = ac_minami_nitta
 			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			available = {
-				has_country_leader = {
-					#name = "anastasia"
-					character = ac_anastasia
-					ruling_only = yes
-				}
+				has_government = democratic
 			}
 			traits = {
 				ac_first_lady
@@ -2194,12 +2145,11 @@ characters = {
 			}
 		}
 	}
-
 	ac_ange_le_carre = {
 		name = ac_ange_le_carre
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_ange_le_carre"
+				small = GFX_idea_ac_ange_le_carre
 			}
 		}
 		allowed_civil_war = {
@@ -2210,7 +2160,7 @@ characters = {
 			idea_token = ac_ange_le_carre
 			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			available = {
 				has_intelligence_agency = yes
@@ -2224,10 +2174,10 @@ characters = {
 		name = ac_niko_yazawa
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_niko_yazawa"
+				small = GFX_idea_ac_niko_yazawa
 			}
 			civilian = {
-				large = "gfx/leaders/girls/niko_yazawa.dds"
+				large = GFX_portrait_ac_niko_yazawa
 			}
 		}
 		allowed_civil_war = {
@@ -2238,16 +2188,7 @@ characters = {
 			idea_token = ac_niko_yazawa
 			cost = 150
 			allowed = {
-				original_tag = acw
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						#name = "anastasia"
-						character = ac_anastasia
-						ruling_only = yes
-					}
-				}
+				is_ai = no
 			}
 			traits = {
 				ac_silent_workhorse
@@ -2261,10 +2202,10 @@ characters = {
 		name = ac_mikumo_guynemer
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_mikumo_guynemer"
+				small = GFX_idea_ac_mikumo_guynemer
 			}
 			civilian = {
-				large = "gfx/leaders/girls/mikumo_guynemer.dds"
+				large = GFX_portrait_ac_mikumo_guynemer
 			}
 		}
 		allowed_civil_war = {
@@ -2275,7 +2216,7 @@ characters = {
 			idea_token = ac_mikumo_guynemer
 			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				ac_propaganda_expert
@@ -2286,10 +2227,10 @@ characters = {
 		name = ac_asuka_tanaka
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_asuka_tanaka"
+				small = GFX_idea_ac_asuka_tanaka
 			}
 			civilian = {
-				large = "gfx/leaders/girls/asuka_tanaka.dds"
+				large = GFX_portrait_ac_asuka_tanaka
 			}
 		}
 		allowed_civil_war = {
@@ -2300,7 +2241,7 @@ characters = {
 			idea_token = ac_asuka_tanaka
 			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				ac_captain_of_industry
@@ -2311,10 +2252,10 @@ characters = {
 		name = ac_lucy_yamagami
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_lucy_yamagami"
+				small = GFX_idea_ac_lucy_yamagami
 			}
 			civilian = {
-				large = "gfx/leaders/girls/lucy_yamagami.dds"
+				large = GFX_portrait_ac_lucy_yamagami
 			}
 		}
 		allowed_civil_war = {
@@ -2325,7 +2266,7 @@ characters = {
 			idea_token = ac_lucy_yamagami
 			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				ac_war_industrialist
@@ -2336,10 +2277,10 @@ characters = {
 		name = ac_megumin
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_megumin"
+				small = GFX_idea_ac_megumin
 			}
 			civilian = {
-				large = "gfx/leaders/girls/megumin.dds"
+				large = GFX_portrait_ac_megumin
 			}
 		}
 		allowed_civil_war = {
@@ -2351,7 +2292,7 @@ characters = {
 			idea_token = ac_megumin
 			cost = 150
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			research_bonus = {
 				nuclear = 0.2
@@ -2365,10 +2306,10 @@ characters = {
 		name = ac_ayame_himuro
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_ayame_himuro"
+				small = GFX_idea_ac_ayame_himuro
 			}
 			civilian = {
-				large = "gfx/leaders/girls/ayame_himuro.dds"
+				large = GFX_portrait_ac_ayame_himuro
 			}
 		}
 		allowed_civil_war = {
@@ -2380,7 +2321,7 @@ characters = {
 			idea_token = ac_ayame_himuro
 			cost = 100
 			allowed = {
-				original_tag = acw
+				is_ai = no
 			}
 			traits = {
 				ac_girl_scientist
@@ -2394,11 +2335,11 @@ characters = {
 		name = ac_mind_flayer
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/girls/mind_flayer.dds"
+				large = GFX_portrait_ac_mind_flayer
 			}
 			army = {
 				small = GFX_idea_ac_mind_flayer
-				large = "gfx/leaders/girls/mind_flayer_general.dds"
+				large = GFX_portrait_ac_mind_flayer
 			}
 		}
 		advisor = {
@@ -2406,7 +2347,7 @@ characters = {
 			idea_token = ac_mind_flayer
 			cost = 150
 			allowed = {
-				original_tag = hen
+				is_ai = no
 			}
 			available = {
 				not = {
@@ -2417,7 +2358,7 @@ characters = {
 				}
 			}
 			traits = {
-				fascist_demagogue
+				ac_staunch_monarchist
 			}
 			ai_will_do = {
 				factor = 0
@@ -2443,32 +2384,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_mari_setogaya
-				large = "gfx/leaders/girls/mari_setogaya.dds"
+				large = GFX_portrait_ac_mari_setogaya
 			}
 			civilian = {
-				large = "gfx/leaders/girls/mari_setogaya.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_mari_setogaya
-			cost = 150
-			allowed = {
-				original_tag = hen
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_mari_setogaya
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
+				large = GFX_portrait_ac_mari_setogaya
 			}
 		}
 		corps_commander = {
@@ -2487,7 +2406,7 @@ characters = {
 		name = ac_sheliss_elleness_zurbach
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/girls/sheliss_elleness_zurbach.dds"
+				large = GFX_portrait_ac_sheliss_elleness_zurbach
 			}
 		}
 		corps_commander = {
@@ -2508,16 +2427,16 @@ characters = {
 		name = ac_olga_discordia
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/olga_discordia_idea.dds"
-				large = "gfx/leaders/girls/olga_discordia.dds"
+				small = GFX_idea_ac_olga_discordia
+				large = GFX_portrait_ac_olga_discordia
 			}
 		}
 		advisor = {
 			slot = army_chief
 			idea_token = ac_olga_discordia
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = hen
+				is_ai = no
 			}
 			traits = {
 				army_chief_offensive_1
@@ -2547,8 +2466,30 @@ characters = {
 		name = ac_celestine_lucullus
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/celestine_lucullus_idea.dds"
-				large = "gfx/leaders/girls/celestine_lucullus.dds"
+				small = GFX_idea_ac_celestine_lucullus
+				large = GFX_portrait_ac_celestine_lucullus
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_celestine_lucullus
+			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			available = {
+				not = {
+					has_country_leader = {
+						character = ac_celestine_lucullus
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				ac_democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
 			}
 		}
 		field_marshal = {
@@ -2575,10 +2516,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_saori_asamiya
-				large = "gfx/leaders/girls/saori_asamiya.dds"
+				large = GFX_portrait_ac_saori_asamiya
 			}
 			civilian = {
-				large = "gfx/leaders/girls/saori_asamiya.dds"
+				large = GFX_portrait_ac_saori_asamiya
 			}
 		}
 		corps_commander = {
@@ -2599,8 +2540,8 @@ characters = {
 		name = ac_mistiora_arte
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/mistiora_arte_idea.dds"
-				large = "gfx/leaders/girls/mistiora_arte.dds"
+				small = GFX_idea_ac_mistiora_arte
+				large = GFX_portrait_ac_mistiora_arte
 			}
 		}
 		corps_commander = {
@@ -2616,24 +2557,13 @@ characters = {
 				logistics_skill
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_mistiora_arte
-			cost = 150
-			allowed = {
-				original_tag = hen
-			}
-			traits = {
-				ac_war_industrialist
-			}
-		}
 	}
 	ac_iris_arcadia = {
 		name = ac_iris_arcadia
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/iris_arcadia_idea.dds"
-				large = "gfx/leaders/girls/iris_arcadia.dds"
+				small = GFX_idea_ac_iris_arcadia
+				large = GFX_portrait_ac_iris_arcadia
 			}
 		}
 		corps_commander = {
@@ -2653,23 +2583,8 @@ characters = {
 		name = ac_igawa_asagi
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/igawa_asagi_idea.dds"
-				large = "gfx/leaders/girls/igawa_asagi.dds"
-			}
-		}
-		advisor = {
-			slot = theorist
-			idea_token = ac_igawa_asagi
-			ledger = army
-			cost = 50
-			allowed = {
-				original_tag = hen
-			}
-			traits = {
-				military_theorist
-			}
-			ai_will_do = {
-				factor = 1
+				small = GFX_idea_ac_igawa_asagi
+				large = GFX_portrait_ac_igawa_asagi
 			}
 		}
 		corps_commander = {
@@ -2689,19 +2604,8 @@ characters = {
 		name = ac_rina_komiya
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/rina_komiya_idea.dds"
-				large = "gfx/leaders/girls/rina_komiya.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_rina_komiya
-			cost = 150
-			allowed = {
-				original_tag = hen
-			}
-			traits = {
-				ac_popular_figurehead
+				small = GFX_idea_ac_rina_komiya
+				large = GFX_portrait_ac_rina_komiya
 			}
 		}
 		corps_commander = {
@@ -2722,8 +2626,8 @@ characters = {
 		name = ac_anna_komiya
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/anna_komiya_idea.dds"
-				large = "gfx/leaders/girls/anna_komiya.dds"
+				small = GFX_idea_ac_anna_komiya
+				large = GFX_portrait_ac_anna_komiya
 			}
 		}
 		corps_commander = {
@@ -2743,22 +2647,8 @@ characters = {
 		name = ac_ruma
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/ruma_idea.dds"
-				large = "gfx/leaders/girls/ruma.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_ruma
-			cost = 150
-			allowed = {
-				original_tag = hen
-			}
-			traits = {
-				princess_of_terror
-			}
-			modifier = {
-				compliance_growth = 0.15
+				small = GFX_idea_ac_ruma
+				large = GFX_portrait_ac_ruma
 			}
 		}
 		corps_commander = {
@@ -2778,8 +2668,8 @@ characters = {
 		name = ac_yuuki_kawaragi
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/yuuki_kawaragi_idea.dds"
-				large = "gfx/leaders/girls/yuuki_kawaragi.dds"
+				small = GFX_idea_ac_yuuki_kawaragi
+				large = GFX_portrait_ac_yuuki_kawaragi
 			}
 		}
 		corps_commander = {
@@ -2799,23 +2689,8 @@ characters = {
 		name = ac_tsubasa_kamijo
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/tsubasa_kamijo_idea.dds"
-				large = "gfx/leaders/girls/tsubasa_kamijo.dds"
-			}
-		}
-		advisor = {
-			slot = theorist
-			idea_token = ac_tsubasa_kamijo
-			ledger = air
-			cost = 50
-			allowed = {
-				original_tag = hen
-			}
-			traits = {
-				air_warfare_theorist
-			}
-			ai_will_do = {
-				factor = 1
+				small = GFX_idea_ac_tsubasa_kamijo
+				large = GFX_portrait_ac_tsubasa_kamijo
 			}
 		}
 		corps_commander = {
@@ -2831,8 +2706,8 @@ characters = {
 		name = ac_prim_fiorire
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/prim_fiorire_idea.dds"
-				large = "gfx/leaders/girls/prim_fiorire.dds"
+				small = GFX_idea_ac_prim_fiorire
+				large = GFX_portrait_ac_prim_fiorire
 			}
 		}
 		corps_commander = {
@@ -2847,36 +2722,22 @@ characters = {
 			logistics_skill = 4
 			legacy_id = -1
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_prim_fiorire
-			cost = 150
-			allowed = {
-				original_tag = hen
-			}
-			traits = {
-				ac_captain_of_industry
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
 	}
 	ac_cloe = {
 		name = ac_cloe
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/cloe_idea.dds"
-				large = "gfx/leaders/girls/cloe.dds"
+				small = GFX_idea_ac_cloe
+				large = GFX_portrait_ac_cloe
 			}
 		}
 		advisor = {
 			slot = high_command
 			ledger = army
 			idea_token = ac_cloe
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = hen
+				is_ai = no
 			}
 			traits = {
 				army_logistics_1
@@ -2904,8 +2765,8 @@ characters = {
 		name = ac_claudia_le_van_tyne
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/claudia_le_van_tyne_idea.dds"
-				large = "gfx/leaders/girls/claudia_le_van_tyne.dds"
+				small = GFX_idea_ac_claudia_le_van_tyne
+				large = GFX_portrait_ac_claudia_le_van_tyne
 			}
 		}
 		corps_commander = {
@@ -2924,8 +2785,8 @@ characters = {
 		name = ac_alicia_arcturus
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/alicia_arcturus_idea.dds"
-				large = "gfx/leaders/girls/alicia_arcturus.dds"
+				small = GFX_idea_ac_alicia_arcturus
+				large = GFX_portrait_ac_alicia_arcturus
 			}
 		}
 		advisor = {
@@ -2933,7 +2794,7 @@ characters = {
 			idea_token = ac_alicia_arcturus
 			cost = 150
 			allowed = {
-				original_tag = hen
+				is_ai = no
 			}
 			traits = {
 				air_chief_ground_support_3
@@ -2956,22 +2817,8 @@ characters = {
 		name = ac_sill_plain
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/sill_plain_idea.dds"
-				large = "gfx/leaders/girls/sill_plain.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_sill_plain
-			cost = 150
-			allowed = {
-				original_tag = hen
-			}
-			traits = {
-				ac_silent_workhorse
-			}
-			ai_will_do = {
-				factor = 5
+				small = GFX_idea_ac_sill_plain
+				large = GFX_portrait_ac_sill_plain
 			}
 		}
 		corps_commander = {
@@ -2990,8 +2837,8 @@ characters = {
 		name = ac_risa
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/risa_idea.dds"
-				large = "gfx/leaders/girls/risa.dds"
+				small = GFX_idea_ac_risa
+				large = GFX_portrait_ac_risa
 			}
 		}
 		corps_commander = {
@@ -3011,8 +2858,8 @@ characters = {
 		name = ac_kasumi_nanakura
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/kasumi_nanakura_idea.dds"
-				large = "gfx/leaders/girls/kasumi_nanakura.dds"
+				small = GFX_idea_ac_kasumi_nanakura
+				large = GFX_portrait_ac_kasumi_nanakura
 			}
 		}
 		corps_commander = {
@@ -3057,7 +2904,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_rin
-				large = "gfx/leaders/girls/rin.dds"
+				large = GFX_portrait_ac_rin
 			}
 		}
 		corps_commander = {
@@ -3120,23 +2967,8 @@ characters = {
 		name = ac_suomi
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/suomi_idea.dds"
-				large = "gfx/leaders/girls/suomi.dds"
-			}
-		}
-		advisor = {
-			slot = theorist
-			idea_token = ac_suomi
-			ledger = navy
-			cost = 50
-			allowed = {
-				original_tag = hen
-			}
-			traits = {
-				naval_theorist
-			}
-			ai_will_do = {
-				factor = 1
+				small = GFX_idea_ac_suomi
+				large = GFX_portrait_ac_suomi
 			}
 		}
 		navy_leader = {
@@ -3156,8 +2988,8 @@ characters = {
 		name = ac_akiho_taniguchi
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/akiho_taniguchi_idea.dds"
-				large = "gfx/leaders/girls/akiho_taniguchi.dds"
+				small = GFX_idea_ac_akiho_taniguchi
+				large = GFX_portrait_ac_akiho_taniguchi
 			}
 		}
 		navy_leader = {
@@ -3178,25 +3010,8 @@ characters = {
 		name = ac_mika_amano
 		portraits = {
 			army = {
-				small = "gfx/leaders/girls/mika_amano_idea.dds"
-				large = "gfx/leaders/girls/mika_amano.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_mika_amano
-			cost = 150
-			allowed = {
-				original_tag = hen
-			}
-			available = {
-				has_intelligence_agency = yes
-			}
-			traits = {
-				ac_intelligence_princess
-			}
-			ai_will_do = {
-				factor = 5
+				small = GFX_idea_ac_mika_amano
+				large = GFX_portrait_ac_mika_amano
 			}
 		}
 	}
@@ -3207,29 +3022,7 @@ characters = {
 				small = GFX_idea_ac_asuka_ootorii
 			}
 			civilian = {
-				large = "gfx/leaders/girls/asuka_ootorii.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_asuka_ootorii
-			cost = 150
-			allowed = {
-				original_tag = mah
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_asuka_ootorii
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
+				large = GFX_portrait_ac_asuka_ootorii
 			}
 		}
 		corps_commander = {
@@ -3252,29 +3045,7 @@ characters = {
 				small = GFX_idea_ac_nanoha_takamachi
 			}
 			civilian = {
-				large = "gfx/leaders/girls/nanoha_takamachi.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_nanoha_takamachi
-			cost = 150
-			allowed = {
-				original_tag = mah
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_nanoha_takamachi
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
+				large = GFX_portrait_ac_nanoha_takamachi
 			}
 		}
 		corps_commander = {
@@ -3296,29 +3067,7 @@ characters = {
 				small = GFX_idea_ac_usagi_tsukino
 			}
 			civilian = {
-				large = "gfx/leaders/girls/usagi_tsukino.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_usagi_tsukino
-			cost = 150
-			allowed = {
-				original_tag = mah
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_usagi_tsukino
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
+				large = GFX_portrait_ac_usagi_tsukino
 			}
 		}
 		corps_commander = {
@@ -3338,10 +3087,10 @@ characters = {
 		name = ac_momo_chiyoda
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_momo_chiyoda"
+				small = GFX_idea_ac_momo_chiyoda
 			}
 			civilian = {
-				large = "gfx/leaders/girls/momo_chiyoda.dds"
+				large = GFX_portrait_ac_momo_chiyoda
 			}
 		}
 		corps_commander = {
@@ -3362,7 +3111,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_illyasviel_von_einzbern
-				large = "gfx/leaders/girls/illyasviel_von_einzbern.dds"
+				large = GFX_portrait_ac_illyasviel_von_einzbern
 			}
 		}
 		field_marshal = {
@@ -3379,9 +3128,9 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = ac_illyasviel_von_einzbern
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = mah
+				is_ai = no
 			}
 			traits = {
 				army_chief_offensive_1
@@ -3397,7 +3146,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_madoka_kaname
-				large = "gfx/leaders/girls/madoka_kaname.dds"
+				large = GFX_portrait_ac_madoka_kaname
 			}
 		}
 		corps_commander = {
@@ -3413,25 +3162,13 @@ characters = {
 			logistics_skill = 5
 			legacy_id = -1
 		}
-		advisor = {
-			slot = theorist
-			idea_token = ac_madoka_kaname
-			ledger = army
-			cost = 50
-			allowed = {
-				original_tag = mah
-			}
-			traits = {
-				military_theorist
-			}
-		}
 	}
 	ac_arika_yumemiya = {
 		name = ac_arika_yumemiya
 		portraits = {
 			army = {
 				small = GFX_idea_ac_arika_yumemiya
-				large = "gfx/leaders/girls/arika_yumemiya.dds"
+				large = GFX_portrait_ac_arika_yumemiya
 			}
 		}
 		corps_commander = {
@@ -3452,7 +3189,7 @@ characters = {
 			ledger = army
 			cost = 150
 			allowed = {
-				original_tag = mah
+				is_ai = no
 			}
 			traits = {
 				army_infantry_1
@@ -3467,21 +3204,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_ami_mizuno
-				large = "gfx/leaders/girls/ami_mizuno.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_ami_mizuno
-			cost = 150
-			allowed = {
-				original_tag = mah
-			}
-			traits = {
-				ac_silent_workhorse
-			}
-			ai_will_do = {
-				factor = 5
+				large = GFX_portrait_ac_ami_mizuno
 			}
 		}
 		corps_commander = {
@@ -3502,18 +3225,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_makoto_kino
-				large = "gfx/leaders/girls/makoto_kino.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_makoto_kino
-			cost = 150
-			allowed = {
-				original_tag = mah
-			}
-			traits = {
-				ac_captain_of_industry
+				large = GFX_portrait_ac_makoto_kino
 			}
 		}
 		corps_commander = {
@@ -3534,7 +3246,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_minako_aino
-				large = "gfx/leaders/girls/minako_aino.dds"
+				large = GFX_portrait_ac_minako_aino
 			}
 		}
 		corps_commander = {
@@ -3555,21 +3267,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_rei_hino
-				large = "gfx/leaders/girls/rei_hino.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_rei_hino
-			cost = 150
-			allowed = {
-				original_tag = mah
-			}
-			traits = {
-				princess_of_terror
-			}
-			modifier = {
-				compliance_growth = 0.15
+				large = GFX_portrait_ac_rei_hino
 			}
 		}
 		corps_commander = {
@@ -3590,7 +3288,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_chisato_yonamine
-				large = "gfx/leaders/girls/chisato_yonamine.dds"
+				large = GFX_portrait_ac_chisato_yonamine
 			}
 		}
 		corps_commander = {
@@ -3610,8 +3308,8 @@ characters = {
 		name = ac_kurumi_mugen
 		portraits = {
 			army = {
-				small = "GFX_idea_ac_kurumi_mugen"
-				large = "gfx/leaders/girls/kurumi_mugen.dds"
+				small = GFX_idea_ac_kurumi_mugen
+				large = GFX_portrait_ac_kurumi_mugen
 			}
 		}
 		corps_commander = {
@@ -3626,36 +3324,13 @@ characters = {
 			logistics_skill = 4
 			legacy_id = -1
 		}
-		advisor = {
-			slot = theorist
-			idea_token = ac_kurumi_mugen
-			ledger = army
-			cost = 100
-			allowed = {
-				original_tag = mah
-			}
-			traits = {
-				ac_girl_scientist
-			}
-		}
 	}
 	ac_homura_akemi = {
 		name = ac_homura_akemi
 		portraits = {
 			army = {
 				small = GFX_idea_ac_homura_akemi
-				large = "gfx/leaders/girls/homura_akemi.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_homura_akemi
-			cost = 150
-			allowed = {
-				original_tag = mah
-			}
-			traits = {
-				ac_war_industrialist
+				large = GFX_portrait_ac_homura_akemi
 			}
 		}
 		corps_commander = {
@@ -3676,7 +3351,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_subaru_nakajima
-				large = "gfx/leaders/girls/subaru_nakajima.dds"
+				large = GFX_portrait_ac_subaru_nakajima
 			}
 		}
 		corps_commander = {
@@ -3697,7 +3372,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_vivio
-				large = "gfx/leaders/girls/vivio.dds"
+				large = GFX_portrait_ac_vivio
 			}
 		}
 		corps_commander = {
@@ -3718,7 +3393,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_fate_testarossa
-				large = "gfx/leaders/girls/fate_testarossa.dds"
+				large = GFX_portrait_ac_fate_testarossa
 			}
 		}
 		corps_commander = {
@@ -3737,9 +3412,9 @@ characters = {
 			slot = theorist
 			idea_token = ac_fate_testarossa
 			ledger = air
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = mah
+				is_ai = no
 			}
 			traits = {
 				air_warfare_theorist
@@ -3751,7 +3426,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_mia_cyrus
-				large = "gfx/leaders/girls/mia_cyrus.dds"
+				large = GFX_portrait_ac_mia_cyrus
 			}
 		}
 		corps_commander = {
@@ -3766,25 +3441,13 @@ characters = {
 			logistics_skill = 5
 			legacy_id = -1
 		}
-		advisor = {
-			slot = theorist
-			ledger = army
-			idea_token = ac_mia_cyrus
-			cost = 150
-			allowed = {
-				original_tag = mah
-			}
-			traits = {
-				blitzkrieg_theorist
-			}
-		}
 	}
 	ac_saki_uno = {
 		name = ac_saki_uno
 		portraits = {
 			army = {
 				small = GFX_idea_ac_saki_uno
-				large = "gfx/leaders/girls/saki_uno.dds"
+				large = GFX_portrait_ac_saki_uno
 			}
 		}
 		corps_commander = {
@@ -3805,7 +3468,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_frill
-				large = "gfx/leaders/girls/frill.dds"
+				large = GFX_portrait_ac_frill
 			}
 		}
 		corps_commander = {
@@ -3826,7 +3489,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_honey_kisaragi
-				large = "gfx/leaders/girls/honey_kisaragi.dds"
+				large = GFX_portrait_ac_honey_kisaragi
 			}
 		}
 		corps_commander = {
@@ -3847,7 +3510,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_mai_tokiha
-				large = "gfx/leaders/girls/mai_tokiha.dds"
+				large = GFX_portrait_ac_mai_tokiha
 			}
 		}
 		corps_commander = {
@@ -3868,10 +3531,10 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_lena_sayers
-				large = "gfx/leaders/girls/lena_sayers.dds"
+				large = GFX_portrait_ac_lena_sayers
 			}
 			civilian = {
-				large = "gfx/leaders/girls/lena_sayers_civilian.dds"
+				large = GFX_portrait_ac_lena_sayers_civilian
 			}
 		}
 		corps_commander = {
@@ -3892,7 +3555,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_maron_kusakabe
-				large = "gfx/leaders/girls/maron_kusakabe.dds"
+				large = GFX_portrait_ac_maron_kusakabe
 			}
 		}
 		corps_commander = {
@@ -3913,7 +3576,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_nagisa_misumi
-				large = "gfx/leaders/girls/nagisa_misumi.dds"
+				large = GFX_portrait_ac_nagisa_misumi
 			}
 		}
 		corps_commander = {
@@ -3935,7 +3598,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_honoka_yukishiro
-				large = "gfx/leaders/girls/honoka_yukishiro.dds"
+				large = GFX_portrait_ac_honoka_yukishiro
 			}
 		}
 		corps_commander = {
@@ -3957,7 +3620,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_himeno_awayuki
-				large = "gfx/leaders/girls/himeno_awayuki.dds"
+				large = GFX_portrait_ac_himeno_awayuki
 			}
 		}
 		corps_commander = {
@@ -3979,7 +3642,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_sakura_kinomoto
-				large = "gfx/leaders/girls/sakura_kinomoto.dds"
+				large = GFX_portrait_ac_sakura_kinomoto
 			}
 		}
 		corps_commander = {
@@ -4000,7 +3663,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_mint_aizawa
-				large = "gfx/leaders/girls/mint_aizawa.dds"
+				large = GFX_portrait_ac_mint_aizawa
 			}
 		}
 		corps_commander = {
@@ -4022,7 +3685,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_zakuro_fujiwara
-				large = "gfx/leaders/girls/zakuro_fujiwara.dds"
+				large = GFX_portrait_ac_zakuro_fujiwara
 			}
 		}
 		corps_commander = {
@@ -4044,18 +3707,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_komugi_yoshida
-				large = "gfx/leaders/girls/komugi_yoshida.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_komugi_yoshida
-			cost = 150
-			allowed = {
-				original_tag = mah
-			}
-			traits = {
-				ac_minister_of_health
+				large = GFX_portrait_ac_komugi_yoshida
 			}
 		}
 		corps_commander = {
@@ -4202,10 +3854,10 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_ac_sakuyo_mikage
-				large = "gfx/leaders/girls/sakuyo_mikage.dds"
+				large = GFX_portrait_ac_sakuyo_mikage
 			}
 			civilian = {
-				large = "gfx/leaders/girls/sakuyo_mikage_civ.dds"
+				large = GFX_portrait_ac_sakuyo_mikage_civ
 			}
 		}
 		navy_leader = {
@@ -4223,7 +3875,7 @@ characters = {
 			idea_token = ac_sakuyo_mikage
 			cost = 150
 			allowed = {
-				original_tag = mah
+				is_ai = no
 			}
 			traits = {
 				navy_chief_decisive_battle_3
@@ -4235,7 +3887,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_ac_akane_isshiki
-				large = "gfx/leaders/girls/akane_isshiki.dds"
+				large = GFX_portrait_ac_akane_isshiki
 			}
 		}
 		navy_leader = {
@@ -4252,9 +3904,9 @@ characters = {
 			slot = theorist
 			idea_token = ac_akane_isshiki
 			ledger = navy
-			cost = 50
+			cost = 150
 			allowed = {
-				original_tag = mah
+				is_ai = no
 			}
 			traits = {
 				naval_theorist
@@ -4266,7 +3918,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_ac_utena_tenjou
-				large = "gfx/leaders/girls/utena_tenjou.dds"
+				large = GFX_portrait_ac_utena_tenjou
 			}
 		}
 		navy_leader = {
@@ -4285,7 +3937,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_ac_lucia_nanami
-				large = "gfx/leaders/girls/lucia_nanami.dds"
+				large = GFX_portrait_ac_lucia_nanami
 			}
 		}
 		navy_leader = {
@@ -4326,7 +3978,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_kobato_hanato
-				large = "gfx/leaders/girls/kobato_hanato.dds"
+				large = GFX_portrait_ac_kobato_hanato
 			}
 		}
 		advisor = {
@@ -4334,7 +3986,7 @@ characters = {
 			idea_token = ac_kobato_hanato
 			cost = 150
 			allowed = {
-				original_tag = mah
+				is_ai = no
 			}
 			traits = {
 				ac_popular_figurehead
@@ -4346,23 +3998,2010 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_hitomi_tsukishiro
-				large = "gfx/leaders/girls/hitomi_tsukishiro.dds"
+				large = GFX_portrait_ac_hitomi_tsukishiro
+			}
+		}
+	}
+	ac_kos-mos = {
+	    name = ac_kos-mos
+		portraits = {
+			army = {
+				small = GFX_idea_ac_kos-mos
+				large = GFX_portrait_ac_kos-mos
+			}
+			civilian = {
+				large = GFX_portrait_ac_kos-mos
+			}
+		}
+		field_marshal = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+				bearer_of_artillery
+				defensive_doctrine
+				unyielding_defender
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_fiora_mechon = {
+		name = ac_fiora_mechon
+		portraits = {
+			army = {
+				small = GFX_idea_ac_fiora_mechon
+				large = GFX_portrait_ac_fiora_mechon
+			}
+			civilian = {
+				large = GFX_portrait_ac_fiora_mechon
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_mythra = {
+		name = ac_mythra
+		portraits = {
+			army = {
+				small = GFX_idea_ac_mythra
+				large = GFX_portrait_ac_mythra
+			}
+			civilian = {
+				large = GFX_portrait_ac_mythra
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_histoire = {
+		name = ac_histoire
+		portraits = {
+			army = {
+				small = GFX_idea_ac_histoire
+				large = GFX_portrait_ac_histoire
+			}
+			civilian = {
+				large = GFX_portrait_ac_histoire
 			}
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = ac_hitomi_tsukishiro
+			idea_token = ac_histoire
 			cost = 150
-			allowed = {
-				original_tag = mah
-			}
 			available = {
-				has_intelligence_agency = yes
+				not = {
+					has_country_leader = {
+						character = ac_histoire
+						ruling_only = yes
+					}
+				}
 			}
 			traits = {
-				ac_intelligence_princess
+				ac_communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	#marshal
+	ac_iris_heart = {
+		name = ac_iris_heart
+		portraits = {
+			army = {
+				small = GFX_idea_ac_iris_heart
+				large = GFX_portrait_ac_iris_heart
+			}
+		}
+		field_marshal = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+				commando
+				offensive_doctrine
+				aggressive_assaulter
+				infantry_expert
+				skilled_staffer
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ac_iris_heart
+			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			ai_will_do = {
+				factor = 2
 			}
 		}
 	}
-	
+	#generals
+	ac_alisa_boskonovich = {
+		name = ac_alisa_boskonovich
+		portraits = {
+			army = {
+				small = GFX_idea_ac_alisa_boskonovich
+			}
+			army = {
+				large = GFX_portrait_ac_alisa_boskonovich
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				trickster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_risa_android = {
+		name = ac_risa_android
+		portraits = {
+			army = {
+				small = GFX_idea_ac_risa_android
+			}
+			army = {
+				large = GFX_portrait_ac_risa_android
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				commando
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_2b = {
+		name = ac_2b
+		portraits = {
+			army = {
+				small = GFX_idea_ac_2b
+				large = GFX_portrait_ac_2b
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				bearer_of_artillery
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_cibo = {
+		name = ac_cibo
+		portraits = {
+			army = {
+				small = GFX_idea_ac_cibo
+			}
+			army = {
+				large = GFX_portrait_ac_cibo
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				naval_invader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_a2 = {
+		name = ac_a2
+		portraits = {
+			army = {
+				small = GFX_idea_ac_a2
+				large = GFX_portrait_ac_a2
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_svetlana_sakura = {
+		name = ac_svetlana_sakura
+		portraits = {
+			army = {
+				small = GFX_idea_ac_svetlana_sakura
+				large = GFX_portrait_ac_svetlana_sakura
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_alexandra_frolova = {
+		name = ac_alexandra_frolova
+		portraits = {
+			army = {
+				small = GFX_idea_ac_alexandra_frolova
+				large = GFX_portrait_ac_alexandra_frolova
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				organizer
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_edi = {
+		name = ac_edi
+		portraits = {
+			army = {
+				small = GFX_idea_ac_edi
+				large = GFX_portrait_ac_edi
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_pyra = {
+		name = ac_pyra
+		portraits = {
+			army = {
+				small = GFX_idea_ac_pyra
+				large = GFX_portrait_ac_pyra
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 6
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ac_pyra
+			ledger = army
+			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			traits = {
+				army_infantry_1
+			}
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	}
+	ac_rozen_s_series = {
+		name = ac_rozen_s_series
+		portraits = {
+			army = {
+				small = GFX_idea_ac_rozen_s_series
+				large = GFX_portrait_ac_rozen_s_series
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				panzer_leader
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ac_rozen_s_series
+			ledger = army
+			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			traits = {
+				army_armored_1
+			}
+		}
+	}
+	ac_clarion = {
+		name = ac_clarion
+		portraits = {
+			army = {
+				small = GFX_idea_ac_clarion
+				large = GFX_portrait_ac_clarion
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				commando
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_maki_ivanova = {
+		name = ac_maki_ivanova
+		portraits = {
+			army = {
+				small = GFX_idea_ac_maki_ivanova
+				large = GFX_portrait_ac_maki_ivanova
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_pneuma = {
+		name = ac_pneuma
+		portraits = {
+			army = {
+				small = GFX_idea_ac_pneuma
+			}
+			army = {
+				large = GFX_portrait_ac_pneuma
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_hatsune_miku = {
+		name = ac_hatsune_miku
+		portraits = {
+			army = {
+				small = GFX_idea_ac_hatsune_miku
+				large = GFX_portrait_ac_hatsune_miku
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				trickster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_hana = {
+		name = ac_hana
+		portraits = {
+			army = {
+				small = GFX_idea_ac_hana
+				large = GFX_portrait_ac_hana
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				organizer
+				skilled_staffer
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_automaton = {
+		name = ac_automaton
+		portraits = {
+			army = {
+				small = GFX_idea_ac_automaton
+				large = GFX_portrait_ac_automaton
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_phantom_queen_ex-xecty = {
+		name = ac_phantom_queen_ex-xecty
+		portraits = {
+			army = {
+				small = GFX_idea_ac_phantom_queen_ex-xecty
+				large = GFX_portrait_ac_phantom_queen_ex-xecty
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				organizer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_mhmd-02_haruko = {
+		name = ac_mhmd-02_harukov
+		portraits = {
+			army = {
+				small = GFX_idea_ac_mhmd-02_haruko
+				large = GFX_portrait_ac_mhmd-02_haruko
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait logistics_skill infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_t-elos = {
+		name = ac_t-elos
+		portraits = {
+			army = {
+				small = GFX_idea_ac_t-elos
+			}
+			army = {
+				large = GFX_portrait_ac_t-elos
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_t-elos
+			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			available = {
+				not = {
+					has_country_leader = {
+						character = ac_t-elos
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				ac_fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+				commando
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_aino = {
+		name = ac_aino
+		portraits = {
+			army = {
+				small = GFX_idea_ac_aino
+				large = GFX_portrait_ac_aino
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				trickster
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_rose_android = {
+		name = ac_rose_android
+		portraits = {
+			army = {
+				small = GFX_idea_ac_rose_android
+				large = GFX_portrait_ac_rose_android
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait naval_invader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_elizabeth = {
+		name = ac_elizabeth
+		portraits = {
+			army = {
+				small = GFX_idea_ac_elizabeth
+				large = GFX_portrait_ac_elizabeth
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_vivy = {
+		name = ac_vivy
+		portraits = {
+			army = {
+				small = GFX_idea_ac_vivy
+				large = GFX_portrait_ac_vivy
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				commando
+				trickster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_norimaki_arale = {
+		name = ac_norimaki_arale
+		portraits = {
+			army = {
+				small = GFX_idea_ac_norimaki_arale
+				large = GFX_portrait_ac_norimaki_arale
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	#admirals
+	ac_ashigara_arp = {
+		name = ac_ashigara_arp
+		portraits = {
+			army = {
+				small = GFX_idea_ac_ashigara_arp
+				large = GFX_portrait_ac_ashigara_arp
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_takao_arp = {
+		name = ac_takao_arp
+		portraits = {
+			army = {
+				small = GFX_idea_ac_takao_arp
+				large = GFX_portrait_ac_takao_arp
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = ac_takao_arp
+			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			traits = {
+				navy_anti_submarine_1
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_i-410 = {
+		name = ac_i-410
+		portraits = {
+			army = {
+				small = GFX_idea_ac_i-410
+			}
+			army = {
+				large = GFX_portrait_ac_i-410
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+				silent_hunter
+				torpedo_expert
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ac_i-410
+			ledger = navy
+			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			traits = {
+				submarine_specialist
+			}
+		}
+	}
+	ac_haruna = {
+		name = ac_haruna
+		portraits = {
+			army = {
+				small = GFX_idea_ac_haruna
+				large = GFX_portrait_ac_haruna
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_kirishima = {
+		name = ac_kirishima
+		portraits = {
+			army = {
+				small = GFX_idea_ac_kirishima
+				large = GFX_portrait_ac_kirishima
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_kongou_arp = {
+		name = ac_kongou_arp
+		portraits = {
+			army = {
+				small = GFX_idea_ac_kongou_arp
+				large = GFX_portrait_ac_kongou_arp
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_atago_arp = {
+		name = ac_atago_arp
+		portraits = {
+			army = {
+				small = GFX_idea_ac_atago_arp
+				large = GFX_portrait_ac_atago_arp
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_caseal = {
+		name = ac_caseal
+		portraits = {
+			army = {
+				small = GFX_idea_ac_caseal
+				large = GFX_portrait_ac_caseal
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_hiei_arp = {
+		name = ac_hiei_arp
+		portraits = {
+			army = {
+				small = GFX_idea_ac_hiei_arp
+				large = GFX_portrait_ac_hiei_arp
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
+		}
+	}
+	#advisor
+	ac_yurizaki_mira = {
+		name = ac_yurizaki_mira
+		portraits = {
+			army = {
+				small = GFX_idea_ac_yurizaki_mira
+				large = GFX_portrait_ac_yurizaki_mira
+			}
+		}
+	}
+	ac_velvet_crowe = {
+		name = ac_velvet_crowe
+		portraits = {
+			army = {
+				small = GFX_idea_ac_velvet_crowe
+			}
+			civilian = {
+				large = GFX_portrait_ac_velvet_crowe
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_velvet_crowe
+			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			available = {
+				not = {
+					has_country_leader = {
+						character = ac_velvet_crowe
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				ac_fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				politically_connected
+				infantry_leader
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_yuuko_yoshida = {
+		name = ac_yuuko_yoshida
+		portraits = {
+			army = {
+				small = GFX_idea_ac_yuuko_yoshida
+				large = GFX_portrait_ac_yuuko_yoshida
+			}
+			civilian = {
+				large = GFX_portrait_ac_yuuko_yoshida
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_yuuko_yoshida
+			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			available = {
+				not = {
+					has_country_leader = {
+						character = ac_yuuko_yoshida
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				ac_democratic_reformer
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_maou = {
+		name = ac_maou
+		portraits = {
+			army = {
+				small = GFX_idea_ac_maou
+				large = GFX_portrait_ac_maou
+			}
+			civilian = {
+				large = GFX_portrait_ac_maou
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				politically_connected
+				skilled_staffer
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_holo = {
+		name = ac_holo
+		portraits = {
+			army = {
+				small = GFX_idea_ac_holo
+				large = GFX_portrait_ac_holo
+			}
+			civilian = {
+				large = GFX_portrait_ac_holo
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				politically_connected
+				infantry_leader
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	#marshal
+	ac_fino_bloodstone = {
+		name = ac_fino_bloodstone
+		portraits = {
+			army = {
+				small = GFX_idea_ac_fino_bloodstone
+				large = GFX_portrait_ac_fino_bloodstone
+			}
+		}
+		field_marshal = {
+			traits = {
+				ac_exp_trait
+				aggressive_assaulter
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_rhea = {
+		name = ac_rhea
+		portraits = {
+			army = {
+				small = GFX_idea_ac_rhea
+			}
+			army = {
+				large = GFX_portrait_ac_rhea
+			}
+		}
+		field_marshal = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_shiraori = {
+		name = ac_shiraori
+		portraits = {
+			army = {
+				small = GFX_idea_ac_shiraori
+				large = GFX_portrait_ac_shiraori
+			}
+		}
+		field_marshal = {
+			traits = {
+				ac_exp_trait
+				trickster
+				trait_engineer
+				fast_planner
+				skilled_staffer
+				expert_delegator
+				adaptable
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 7
+			logistics_skill = 6
+			legacy_id = -1
+		}
+	}
+	ac_ishtar = {
+		name = ac_ishtar
+		portraits = {
+			army = {
+				small = GFX_idea_ac_ishtar
+				large = GFX_portrait_ac_ishtar
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ac_ishtar
+			cost = 100
+			allowed = {
+				is_ai = no
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+		}
+		field_marshal = {
+			traits = {
+				ac_exp_trait
+				panzer_leader
+				offensive_doctrine
+			}
+			skill = 7
+			attack_skill = 8
+			defense_skill = 7
+			planning_skill = 7
+			logistics_skill = 7
+			legacy_id = -1
+		}
+	}
+	ac_tiamat = {
+		name = ac_tiamat
+		portraits = {
+			army = {
+				small = GFX_idea_ac_tiamat
+				large = GFX_portrait_ac_tiamat
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ac_tiamat
+			ledger = army
+			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			traits = {
+				mass_assault_expert
+			}
+		}
+		field_marshal = {
+			traits = {
+				ac_exp_trait
+				skilled_staffer
+				infantry_leader
+				#expert_delegator
+			}
+			skill = 9
+			attack_skill = 9
+			defense_skill = 9
+			planning_skill = 9
+			logistics_skill = 9
+			legacy_id = -1
+		}
+	}
+	#general
+	ac_lilith = {
+		name = ac_lilith
+		portraits = {
+			army = {
+				small = GFX_idea_ac_lilith
+				large = GFX_portrait_ac_lilith
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				skilled_staffer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_rose = {
+		name = ac_rose
+		portraits = {
+			army = {
+				small = GFX_idea_ac_rose
+				large = GFX_portrait_ac_rose
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				politically_connected
+				infantry_leader
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_morrah = {
+		name = ac_morrah
+		portraits = {
+			army = {
+				small = GFX_idea_ac_morrah
+				large = GFX_portrait_ac_morrah
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				naval_invader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_ripine = {
+		name = ac_ripine
+		portraits = {
+			army = {
+				small = GFX_idea_ac_ripine
+				large = GFX_portrait_ac_ripine
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				commando
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_dullahan = {
+		name = ac_dullahan
+		portraits = {
+			army = {
+				small = GFX_idea_ac_dullahan
+				large = GFX_portrait_ac_dullahan
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				cavalry_leader
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ac_dullahan
+			ledger = army
+			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			traits = {
+				army_cavalry_3
+			}
+		}
+	}
+	ac_milla_maxwell = {
+		name = ac_milla_maxwell
+		portraits = {
+			army = {
+				small = GFX_idea_ac_milla_maxwell
+				large = GFX_portrait_ac_milla_maxwell
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ac_milla_maxwell
+			cost = 50
+			allowed = {
+				is_ai = no
+			}
+			traits = {
+				army_infantry_1
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+				#infantry_expert
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 6
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_astaroth = {
+		name = ac_astaroth
+		portraits = {
+			army = {
+				small = GFX_idea_ac_astaroth
+				large = GFX_portrait_ac_astaroth
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+				trait_engineer
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_laharl_girl = {
+		name = ac_laharl_girl
+		portraits = {
+			army = {
+				small = GFX_idea_ac_laharl
+				large = GFX_portrait_ac_laharl_girl
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+				skilled_staffer
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_desco = {
+		name = ac_desco
+		portraits = {
+			army = {
+				small = GFX_idea_ac_desco
+				large = GFX_portrait_ac_desco
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				panzer_leader
+			}
+			skill = 5
+			attack_skill = 7
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_corrin = {
+		name = ac_corrin
+		portraits = {
+			army = {
+				small = GFX_idea_ac_corrin
+			}
+			army = {
+				large = GFX_portrait_ac_corrin
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_lucy = {
+		name = ac_lucy
+		portraits = {
+			army = {
+				small = GFX_idea_ac_lucy
+			}
+			army = {
+				large = GFX_portrait_ac_lucy
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+				trickster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_makina_hoshimura = {
+		name = ac_makina_hoshimura
+		portraits = {
+			army = {
+				small = GFX_idea_ac_makina_hoshimura
+				large = GFX_portrait_ac_makina_hoshimura
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_saya_kisaragi = {
+		name = ac_saya_kisaragi
+		portraits = {
+			army = {
+				small = GFX_idea_ac_saya_kisaragi
+			}
+			army = {
+				large = GFX_portrait_ac_saya_kisaragi
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_zero_two = {
+		name = ac_zero_two
+		portraits = {
+			army = {
+				small = GFX_idea_ac_zero_two
+				large = GFX_portrait_ac_zero_two
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+				panzer_leader
+			}
+		}
+	}
+	ac_vignette_april_tsukinose = {
+		name = ac_vignette_april_tsukinose
+		portraits = {
+			army = {
+				small = GFX_idea_ac_vignette_april_tsukinose
+				large = GFX_portrait_ac_vignette_april_tsukinose
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait infantry_leader organizer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_satanichia_mcdowell_kurumizawa = {
+		name = ac_satanichia_mcdowell_kurumizawa
+		portraits = {
+			army = {
+				small = GFX_idea_ac_satanichia_mcdowell_kurumizawa
+				large = GFX_portrait_ac_satanichia_mcdowell_kurumizawa
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait trickster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_arnice = {
+		name = ac_arnice
+		portraits = {
+			army = {
+				small = GFX_idea_ac_arnice
+				large = GFX_portrait_ac_arnice
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait commando
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_saya_otonashi = {
+		name = ac_saya_otonashi
+		portraits = {
+			army = {
+				small = GFX_idea_ac_saya_otonashi
+				large = GFX_portrait_ac_saya_otonashi
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_marie_von_eisenberg = {
+		name = ac_marie_von_eisenberg
+		portraits = {
+			army = {
+				small = GFX_idea_ac_marie_von_eisenberg
+				large = GFX_portrait_ac_marie_von_eisenberg
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait trait_engineer cavalry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_kurari_rose = {
+		name = ac_kurari_rose
+		portraits = {
+			army = {
+				small = GFX_idea_ac_kurari_rose
+				large = GFX_portrait_ac_kurari_rose
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_heine = {
+		name = ac_heine
+		portraits = {
+			army = {
+				small = GFX_idea_ac_heine
+				large = GFX_portrait_ac_heine
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait cavalry_leader skilled_staffer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_freyja = {
+		name = ac_freyja
+		portraits = {
+			army = {
+				small = GFX_idea_ac_freyja
+				large = GFX_portrait_ac_freyja
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait cavalry_leader trickster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_saphentite_neikes = {
+		name = ac_saphentite_neikes
+		portraits = {
+			army = {
+				small = GFX_idea_ac_saphentite_neikes
+				large = GFX_portrait_ac_saphentite_neikes
+			}
+			civilian = {
+				large = GFX_portrait_ac_saphentite_neikes
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_saphentite_neikes
+			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			traits = {
+				ac_minister_of_health
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait organizer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_miia = {
+		name = ac_miia
+		portraits = {
+			army = {
+				small = GFX_idea_ac_miia
+				large = GFX_portrait_ac_miia
+			}
+			civilian = {
+				large = GFX_portrait_ac_miia
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_asmodeus = {
+		name = ac_asmodeus
+		portraits = {
+			army = {
+				small = GFX_idea_ac_asmodeus
+				large = GFX_portrait_ac_asmodeus
+			}
+			civilian = {
+				large = GFX_portrait_ac_asmodeus
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait infantry_leader skilled_staffer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	#admirals
+	ac_yamato_wg = {
+		name = ac_yamato_wg
+		portraits = {
+			army = {
+				small = GFX_idea_ac_yamato_wg
+				large = GFX_portrait_ac_yamato_wg
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+				blue_water_expert
+				big_guns_expert
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_purifier = {
+		name = ac_purifier
+		portraits = {
+			army = {
+				small = GFX_idea_ac_purifier
+				large = GFX_portrait_ac_purifier
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = ac_purifier
+			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			traits = {
+				navy_chief_decisive_battle_3
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+				green_water_expert
+				destroyer_leader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_tester = {
+		name = ac_tester
+		portraits = {
+			army = {
+				small = GFX_idea_ac_tester
+			}
+			army = {
+				large = GFX_portrait_ac_tester
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+				arctic_water_expert
+				cruiser_captain
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_meroune_lorelei = {
+		name = ac_meroune_lorelei
+		portraits = {
+			army = {
+				small = GFX_idea_ac_meroune_lorelei
+				large = GFX_portrait_ac_meroune_lorelei
+			}
+			navy = {
+				small = GFX_idea_ac_meroune_lorelei
+				large = GFX_portrait_ac_meroune_lorelei
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+				blue_water_expert
+				seawolf
+				silent_hunter
+				torpedo_expert
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 5
+			maneuvering_skill = 6
+			coordination_skill = 4
+		}
+	}
+	#advisors
+	ac_belldandy = {
+		name = ac_belldandy
+		portraits = {
+			army = {
+				small = GFX_idea_ac_belldandy
+				large = GFX_portrait_ac_belldandy
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_belldandy
+			cost = 150
+			allowed = {
+				is_ai = no
+			}
+			available = {
+				not = {
+					has_government = fascism
+				}
+			}
+			traits = {
+				ac_peoples_favorite_minister
+			}
+		}
+	}
+	ac_shigure = {
+		name = ac_shigure
+		portraits = {
+			army = {
+				small = GFX_idea_ac_shigure
+			}
+			civilian = {
+				large = GFX_portrait_ac_shigure
+			}
+		}
+	}
+	ac_lilia_eberwein = {
+		name = ac_lilia_eberwein
+		portraits = {
+			army = {
+				small = GFX_idea_ac_lilia_eberwein
+				large = GFX_portrait_ac_lilia_eberwein
+			}
+			civilian = {
+				large = GFX_portrait_ac_lilia_eberwein
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_catue_dragundaala = {
+		name = ac_catue_dragundaala
+		portraits = {
+			army = {
+				small = GFX_idea_ac_catue_dragundaala
+				large = GFX_portrait_ac_catue_dragundaala
+			}
+			civilian = {
+				large = GFX_portrait_ac_catue_dragundaala
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	ac_violet_evergarden = {
+		name = ac_violet_evergarden
+		portraits = {
+			army = {
+				small = GFX_idea_ac_violet_evergarden
+				large = GFX_portrait_ac_violet_evergarden
+			}
+			civilian = {
+				large = GFX_portrait_ac_violet_evergarden
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
 }

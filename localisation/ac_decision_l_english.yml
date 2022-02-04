@@ -26,6 +26,10 @@
  ac_yuuko_yoshida_tt:0 "§GYuuko Yoshida§!"
  ac_change_leader_to_homare_nao:0 "Assign §GHomare Nao§! the leader"
  ac_homare_nao_taked_tt:0 "§GHomare Nao§!"
+ ac_change_leader_to_mind_flayer:0 "Assign §GMind Flayer§! the leader"
+ ac_change_leader_to_celestine_lucullus:0 "Assign §GCelestine Lucullus§! the leader"
+ ac_change_leader_to_takumi_musashino:0 "Assign §GTakumi Musashino§! the leader"
+ ac_change_leader_to_hideri_kanzaki:0 "Assign §GHideri Kanzaki§! the leader"
 
 #ac_anime_characters_reactivate_category
  ac_anime_characters_reactivate_category:0 "Reopen the anime character category"
