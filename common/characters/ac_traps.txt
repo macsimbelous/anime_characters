@@ -977,6 +977,20 @@ characters = {
 				factor = 0
 			}
 		}
+		corps_commander = {
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+			traits = {
+				ac_exp_trait
+				skilled_staffer
+				inspirational_leader
+				media_personality
+			}
+		}
 	}
 	ac_homare_nao = {
 		name = ac_homare_nao
