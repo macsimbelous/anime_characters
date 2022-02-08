@@ -3,7 +3,6 @@ tags={
 	"Graphics"
 }
 name="Anime Characters"
-supported_version="1.11.4"
 dependencies={
 	"New Ways"
 	"Another World - beta"
@@ -29,3 +28,5 @@ dependencies={
 	"地铁:创世纪中文版"
 	"Metro"
 }
+supported_version="1.11.5"
+remote_file_id="2743513069"
