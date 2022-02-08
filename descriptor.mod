@@ -29,3 +29,4 @@ dependencies={
 	"地铁:创世纪中文版"
 	"Metro"
 }
+picture="thumbnail.png"
