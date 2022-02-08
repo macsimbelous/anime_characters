@@ -1,4 +1,4 @@
-version="1"
+version="2"
 tags={
 	"Graphics"
 }
@@ -28,5 +28,6 @@ dependencies={
 	"地铁:创世纪中文版"
 	"Metro"
 }
+picture="thumbnail.png"
 supported_version="1.11.5"
 remote_file_id="2743513069"
