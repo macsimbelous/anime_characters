@@ -160,7 +160,7 @@
 
  #generals
   ac_madoka_kaname:0 "Madoka Kaname"
-  ac_Illyasviel_von_einzbern:0 "Illyasviel von Einzbern"
+  ac_illyasviel_von_einzbern:0 "Illyasviel von Einzbern"
   ac_arika_yumemiya:0 "Arika Yumemiya"
   ac_ami_mizuno:0 "Ami Mizuno"
   ac_makoto_kino:0 "Makoto Kino"
@@ -227,7 +227,7 @@
   ac_hana:0 "Hana"
   ac_automaton:0 "Automaton"
   ac_phantom_queen_ex-xecty:0 "Phantom Queen Ex-Xecty"
-  ac_mhmd_02_haruko:0 "MHMD 02 Haruko"
+  ac_mhmd-02_haruko:0 "MHMD 02 Haruko"
   ac_t-elos:0 "T-Elos"
   ac_aino:0 "Aino"
   ac_rose_android:0 "Rose Android"
@@ -250,7 +250,7 @@
 #MMS
  #lider
   ac_velvet_crowe:0 "Velvet Crowe"
-  ac_yuuko_yoshida:0 "yuuko_yoshida"
+  ac_yuuko_yoshida:0 "Yuuko Yoshida"
   ac_maou:0 "Maou"
   ac_holo:0 "Holo"
  #marshal

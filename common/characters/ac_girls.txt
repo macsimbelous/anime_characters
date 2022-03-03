@@ -4555,7 +4555,7 @@ characters = {
 		}
 	}
 	ac_mhmd-02_haruko = {
-		name = ac_mhmd-02_harukov
+		name = ac_mhmd-02_haruko
 		portraits = {
 			army = {
 				small = GFX_idea_ac_mhmd-02_haruko
