@@ -59,36 +59,36 @@ spriteTypes = {
         #androids
         spriteType = {
                 name = "GFX_aegis"
-                texturefile = "gfx/leaders/androids/aegis.dds"
+                texturefile = "gfx/leaders/girls/aegis.dds"
         }
         spriteType = {
                 name = "GFX_chii"
-                texturefile = "gfx/leaders/androids/chii.dds"
+                texturefile = "gfx/leaders/girls/chii.dds"
         }
         spriteType = {
                 name = "GFX_vanessa_diodati"
-                texturefile = "gfx/leaders/androids/vanessa_diodati.dds"
+                texturefile = "gfx/leaders/girls/vanessa_diodati.dds"
         }
         spriteType = {
                 name = "GFX_yurizaki_mira"
-                texturefile = "gfx/leaders/androids/yurizaki_mira.dds"
+                texturefile = "gfx/leaders/girls/yurizaki_mira.dds"
         }
         #monsters
         spriteType = {
                 name = "GFX_rias_gremory"
-                texturefile = "gfx/leaders/monsters/rias_gremory.dds"
+                texturefile = "gfx/leaders/girls/rias_gremory.dds"
         }
         spriteType = {
                 name = "GFX_mio_naruse"
-                texturefile = "gfx/leaders/monsters/mio_naruse.dds"
+                texturefile = "gfx/leaders/girls/mio_naruse.dds"
         }
         spriteType = {
                 name = "GFX_sakura_minamoto"
-                texturefile = "gfx/leaders/monsters/sakura_minamoto.dds"
+                texturefile = "gfx/leaders/girls/sakura_minamoto.dds"
         }
         spriteType = {
                 name = "GFX_shigure"
-                texturefile = "gfx/leaders/monsters/shigure.dds"
+                texturefile = "gfx/leaders/girls/shigure.dds"
         }
         #traps
         spriteType = {
