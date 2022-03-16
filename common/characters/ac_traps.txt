@@ -10,28 +10,28 @@ characters = {
 				large = GFX_portrait_ac_astolfo
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_astolfo
-			cost = 150
-			allowed = {
-				is_ai = no
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_astolfo
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				ac_democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = ac_astolfo
+		# 	cost = 150
+		# 	allowed = {
+		# 		is_ai = no
+		# 	}
+		# 	available = {
+		# 		not = {
+		# 			has_country_leader = {
+		# 				character = ac_astolfo
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
+		# 	traits = {
+		# 		ac_democratic_reformer
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 0
+		# 	}
+		# }
 		field_marshal = {
 			traits = {
 				ac_exp_trait
@@ -56,28 +56,28 @@ characters = {
 				large = GFX_portrait_ac_hideri_kanzaki
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_hideri_kanzaki
-			cost = 150
-			allowed = {
-				is_ai = no
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_hideri_kanzaki
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				ac_fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = ac_hideri_kanzaki
+		# 	cost = 150
+		# 	allowed = {
+		# 		is_ai = no
+		# 	}
+		# 	available = {
+		# 		not = {
+		# 			has_country_leader = {
+		# 				character = ac_hideri_kanzaki
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
+		# 	traits = {
+		# 		ac_fascist_demagogue
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 0
+		# 	}
+		# }
 		corps_commander = {
 			traits = {
 				ac_exp_trait
@@ -955,28 +955,28 @@ characters = {
 				large = GFX_portrait_ac_takumi_musashino
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_takumi_musashino
-			cost = 150
-			allowed = {
-				is_ai = no
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_takumi_musashino
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				ac_communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = ac_takumi_musashino
+		# 	cost = 150
+		# 	allowed = {
+		# 		is_ai = no
+		# 	}
+		# 	available = {
+		# 		not = {
+		# 			has_country_leader = {
+		# 				character = ac_takumi_musashino
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
+		# 	traits = {
+		# 		ac_communist_revolutionary
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 0
+		# 	}
+		# }
 		corps_commander = {
 			skill = 5
 			attack_skill = 6
@@ -1015,29 +1015,29 @@ characters = {
 				media_personality
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_homare_nao
-			ledger = army
-			cost = 150
-			allowed = {
-				is_ai = no
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_homare_nao
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				ac_staunch_monarchist
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = ac_homare_nao
+		# 	ledger = army
+		# 	cost = 150
+		# 	allowed = {
+		# 		is_ai = no
+		# 	}
+		# 	available = {
+		# 		not = {
+		# 			has_country_leader = {
+		# 				character = ac_homare_nao
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
+		# 	traits = {
+		# 		ac_staunch_monarchist
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 0
+		# 	}
+		# }
 	}
 	ac_anri_sogahara = {
 		name = ac_anri_sogahara

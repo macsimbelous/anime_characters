@@ -125,25 +125,25 @@ characters = {
 				large = GFX_portrait_ac_alisa_illinichina_amiella
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_alisa_illinichina_amiella
-			cost = 150
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_alisa_illinichina_amiella
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				ac_communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = ac_alisa_illinichina_amiella
+		# 	cost = 150
+		# 	available = {
+		# 		not = {
+		# 			has_country_leader = {
+		# 				character = ac_alisa_illinichina_amiella
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
+		# 	traits = {
+		# 		ac_communist_revolutionary
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 0
+		# 	}
+		# }
 		corps_commander = {
 			traits = {
 				ac_exp_trait
@@ -357,28 +357,28 @@ characters = {
 		allowed_civil_war = {
 			always = yes
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_anastasia_romanova
-			cost = 150
-			allowed = {
-				is_ai = no
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_anastasia_romanova
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				ac_staunch_monarchist
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = ac_anastasia_romanova
+		# 	cost = 150
+		# 	allowed = {
+		# 		is_ai = no
+		# 	}
+		# 	available = {
+		# 		not = {
+		# 			has_country_leader = {
+		# 				character = ac_anastasia_romanova
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
+		# 	traits = {
+		# 		ac_staunch_monarchist
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 0
+		# 	}
+		# }
 		corps_commander = {
 			traits = {
 				ac_exp_trait
@@ -2342,28 +2342,28 @@ characters = {
 				large = GFX_portrait_ac_mind_flayer
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_mind_flayer
-			cost = 150
-			allowed = {
-				is_ai = no
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_mind_flayer
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				ac_staunch_monarchist
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = ac_mind_flayer
+		# 	cost = 150
+		# 	allowed = {
+		# 		is_ai = no
+		# 	}
+		# 	available = {
+		# 		not = {
+		# 			has_country_leader = {
+		# 				character = ac_mind_flayer
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
+		# 	traits = {
+		# 		ac_staunch_monarchist
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 0
+		# 	}
+		# }
 		field_marshal = {
 			skill = 5
 			attack_skill = 5
@@ -2470,28 +2470,28 @@ characters = {
 				large = GFX_portrait_ac_celestine_lucullus
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_celestine_lucullus
-			cost = 150
-			allowed = {
-				is_ai = no
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_celestine_lucullus
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				ac_democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = ac_celestine_lucullus
+		# 	cost = 150
+		# 	allowed = {
+		# 		is_ai = no
+		# 	}
+		# 	available = {
+		# 		not = {
+		# 			has_country_leader = {
+		# 				character = ac_celestine_lucullus
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
+		# 	traits = {
+		# 		ac_democratic_reformer
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 0
+		# 	}
+		# }
 		field_marshal = {
 			traits = {
 				ac_exp_trait
@@ -4088,25 +4088,25 @@ characters = {
 				large = GFX_portrait_ac_histoire
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_histoire
-			cost = 150
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_histoire
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				ac_communist_revolutionary
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = ac_histoire
+		# 	cost = 150
+		# 	available = {
+		# 		not = {
+		# 			has_country_leader = {
+		# 				character = ac_histoire
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
+		# 	traits = {
+		# 		ac_communist_revolutionary
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 0
+		# 	}
+		# }
 		corps_commander = {
 			traits = {
 				ac_exp_trait
@@ -4584,28 +4584,28 @@ characters = {
 				large = GFX_portrait_ac_t-elos
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_t-elos
-			cost = 150
-			allowed = {
-				is_ai = no
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_t-elos
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				ac_fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = ac_t-elos
+		# 	cost = 150
+		# 	allowed = {
+		# 		is_ai = no
+		# 	}
+		# 	available = {
+		# 		not = {
+		# 			has_country_leader = {
+		# 				character = ac_t-elos
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
+		# 	traits = {
+		# 		ac_fascist_demagogue
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 0
+		# 	}
+		# }
 		corps_commander = {
 			traits = {
 				ac_exp_trait
@@ -4952,28 +4952,28 @@ characters = {
 				large = GFX_portrait_ac_velvet_crowe
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_velvet_crowe
-			cost = 150
-			allowed = {
-				is_ai = no
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_velvet_crowe
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				ac_fascist_demagogue
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = ac_velvet_crowe
+		# 	cost = 150
+		# 	allowed = {
+		# 		is_ai = no
+		# 	}
+		# 	available = {
+		# 		not = {
+		# 			has_country_leader = {
+		# 				character = ac_velvet_crowe
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
+		# 	traits = {
+		# 		ac_fascist_demagogue
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 0
+		# 	}
+		# }
 		corps_commander = {
 			traits = {
 				ac_exp_trait
@@ -4999,28 +4999,28 @@ characters = {
 				large = GFX_portrait_ac_yuuko_yoshida
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = ac_yuuko_yoshida
-			cost = 150
-			allowed = {
-				is_ai = no
-			}
-			available = {
-				not = {
-					has_country_leader = {
-						character = ac_yuuko_yoshida
-						ruling_only = yes
-					}
-				}
-			}
-			traits = {
-				ac_democratic_reformer
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = ac_yuuko_yoshida
+		# 	cost = 150
+		# 	allowed = {
+		# 		is_ai = no
+		# 	}
+		# 	available = {
+		# 		not = {
+		# 			has_country_leader = {
+		# 				character = ac_yuuko_yoshida
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
+		# 	traits = {
+		# 		ac_democratic_reformer
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 0
+		# 	}
+		# }
 		corps_commander = {
 			traits = {
 				ac_exp_trait
