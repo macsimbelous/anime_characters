@@ -29,5 +29,5 @@ dependencies={
 	"Metro"
 }
 picture="thumbnail.png"
-supported_version="1.11.8"
+supported_version="1.11.9"
 remote_file_id="2743513069"
