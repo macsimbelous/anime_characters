@@ -4,7 +4,7 @@ ac_anime_characters_category = {
 		cost = 0
 		visible = {
 			NOT = {
-				has_country_flag  = ac_take_girls_flag
+				has_country_flag = ac_take_girls_flag
 			}
 		}
 		complete_effect = {
@@ -12,278 +12,782 @@ ac_anime_characters_category = {
 			custom_effect_tooltip = ac_take_girls_tt
 			hidden_effect = {
 				Z99 = {
-					ac_2b = { set_nationality = ROOT }
-					ac_5pb = { set_nationality = ROOT }
-					ac_a2 = { set_nationality = ROOT }
+					ac_2b = {
+						set_nationality = ROOT
+					}
+					ac_5pb = {
+						set_nationality = ROOT
+					}
+					ac_a2 = {
+						set_nationality = ROOT
+					}
 					#ac_aegis = { set_nationality = ROOT }
-					ac_ai_kagano = { set_nationality = ROOT }
+					ac_ai_kagano = {
+						set_nationality = ROOT
+					}
 					#ac_aika_sumeragi = { set_nationality = ROOT }
-					ac_aino = { set_nationality = ROOT }
-					ac_akane_isshiki = { set_nationality = ROOT }
-					ac_akeno_misaki = { set_nationality = ROOT }
-					ac_akiho_taniguchi = { set_nationality = ROOT }
-					ac_ako_tamaki = { set_nationality = ROOT }
-					ac_alexandra_frolova = { set_nationality = ROOT }
-					ac_alice_erzan = { set_nationality = ROOT }
-					ac_alicia_arcturus = { set_nationality = ROOT }
-					ac_alicia = { set_nationality = ROOT }
-					ac_alisa_boskonovich = { set_nationality = ROOT }
-					ac_alisa_illinichina_amiella = { set_nationality = ROOT }
-					ac_amanogawa_kirara = { set_nationality = ROOT }
-					ac_ami_mizuno = { set_nationality = ROOT }
+					ac_aino = {
+						set_nationality = ROOT
+					}
+					ac_akane_isshiki = {
+						set_nationality = ROOT
+					}
+					ac_akeno_misaki = {
+						set_nationality = ROOT
+					}
+					ac_akiho_taniguchi = {
+						set_nationality = ROOT
+					}
+					ac_ako_tamaki = {
+						set_nationality = ROOT
+					}
+					ac_alexandra_frolova = {
+						set_nationality = ROOT
+					}
+					ac_alice_erzan = {
+						set_nationality = ROOT
+					}
+					ac_alicia_arcturus = {
+						set_nationality = ROOT
+					}
+					ac_alicia = {
+						set_nationality = ROOT
+					}
+					ac_alisa_boskonovich = {
+						set_nationality = ROOT
+					}
+					ac_alisa_illinichina_amiella = {
+						set_nationality = ROOT
+					}
+					ac_amanogawa_kirara = {
+						set_nationality = ROOT
+					}
+					ac_ami_mizuno = {
+						set_nationality = ROOT
+					}
 					#ac_anastasia_general = { set_nationality = ROOT }
 					#ac_anastasia_i_empress = { set_nationality = ROOT }
-					ac_anastasia = { set_nationality = ROOT }
-					ac_anastasia_romanova = { set_nationality = ROOT }
-					ac_ange_le_carre = { set_nationality = ROOT }
-					ac_anna_komiya = { set_nationality = ROOT }
+					ac_anastasia = {
+						set_nationality = ROOT
+					}
+					ac_anastasia_romanova = {
+						set_nationality = ROOT
+					}
+					ac_ange_le_carre = {
+						set_nationality = ROOT
+					}
+					ac_anna_komiya = {
+						set_nationality = ROOT
+					}
 					#ac_aoba_suzukaze = { set_nationality = ROOT }
-					ac_aoi_sakurai = { set_nationality = ROOT }
-					ac_arika_yumemiya = { set_nationality = ROOT }
-					ac_arnice = { set_nationality = ROOT }
-					ac_ashigara_arp = { set_nationality = ROOT }
-					ac_asmodeus = { set_nationality = ROOT }
-					ac_astaroth = { set_nationality = ROOT }
-					ac_asuka = { set_nationality = ROOT }
+					ac_aoi_sakurai = {
+						set_nationality = ROOT
+					}
+					ac_arika_yumemiya = {
+						set_nationality = ROOT
+					}
+					ac_arnice = {
+						set_nationality = ROOT
+					}
+					ac_ashigara_arp = {
+						set_nationality = ROOT
+					}
+					ac_asmodeus = {
+						set_nationality = ROOT
+					}
+					ac_astaroth = {
+						set_nationality = ROOT
+					}
+					ac_asuka = {
+						set_nationality = ROOT
+					}
 					#ac_asuka_lider = { set_nationality = ROOT }
-					ac_asuka_ootorii = { set_nationality = ROOT }
-					ac_asuka_tanaka = { set_nationality = ROOT }
-					ac_asuna_yuuki = { set_nationality = ROOT }
-					ac_atago_arp = { set_nationality = ROOT }
-					ac_atago_azur_lane = { set_nationality = ROOT }
-					ac_aurora_suya_rhys_kaymin = { set_nationality = ROOT }
-					ac_automaton = { set_nationality = ROOT }
-					ac_avrora_azur_lane = { set_nationality = ROOT }
-					ac_ayame_himuro = { set_nationality = ROOT }
-					ac_beidou = { set_nationality = ROOT }
-					ac_belfast = { set_nationality = ROOT }
-					ac_belldandy = { set_nationality = ROOT }
-					ac_blanc = { set_nationality = ROOT }
-					ac_byleth_eisner = { set_nationality = ROOT }
-					ac_camilla = { set_nationality = ROOT }
-					ac_caseal = { set_nationality = ROOT }
-					ac_celestine_lucullus = { set_nationality = ROOT }
-					ac_celica = { set_nationality = ROOT }
-					ac_charlotte_dunois = { set_nationality = ROOT }
+					ac_asuka_ootorii = {
+						set_nationality = ROOT
+					}
+					ac_asuka_tanaka = {
+						set_nationality = ROOT
+					}
+					ac_asuna_yuuki = {
+						set_nationality = ROOT
+					}
+					ac_atago_arp = {
+						set_nationality = ROOT
+					}
+					ac_atago_azur_lane = {
+						set_nationality = ROOT
+					}
+					ac_aurora_suya_rhys_kaymin = {
+						set_nationality = ROOT
+					}
+					ac_automaton = {
+						set_nationality = ROOT
+					}
+					ac_avrora_azur_lane = {
+						set_nationality = ROOT
+					}
+					ac_ayame_himuro = {
+						set_nationality = ROOT
+					}
+					ac_beidou = {
+						set_nationality = ROOT
+					}
+					ac_belfast = {
+						set_nationality = ROOT
+					}
+					ac_belldandy = {
+						set_nationality = ROOT
+					}
+					ac_blanc = {
+						set_nationality = ROOT
+					}
+					ac_byleth_eisner = {
+						set_nationality = ROOT
+					}
+					ac_camilla = {
+						set_nationality = ROOT
+					}
+					ac_caseal = {
+						set_nationality = ROOT
+					}
+					ac_celestine_lucullus = {
+						set_nationality = ROOT
+					}
+					ac_celica = {
+						set_nationality = ROOT
+					}
+					ac_charlotte_dunois = {
+						set_nationality = ROOT
+					}
 					#ac_chii = { set_nationality = ROOT }
-					ac_chisato_yonamine = { set_nationality = ROOT }
-					ac_cibo = { set_nationality = ROOT }
-					ac_clarion = { set_nationality = ROOT }
-					ac_claudia_le_van_tyne = { set_nationality = ROOT }
-					ac_cloe = { set_nationality = ROOT }
-					ac_compa = { set_nationality = ROOT }
-					ac_corrin = { set_nationality = ROOT }
-					ac_cryska_barchenowa = { set_nationality = ROOT }
-					ac_desco = { set_nationality = ROOT }
-					ac_djeeta = { set_nationality = ROOT }
-					ac_dullahan = { set_nationality = ROOT }
-					ac_edi = { set_nationality = ROOT }
-					ac_elizabeth = { set_nationality = ROOT }
-					ac_ellis = { set_nationality = ROOT }
-					ac_elma = { set_nationality = ROOT }
-					ac_erica_blandelli = { set_nationality = ROOT }
-					ac_eruza_guranhirute = { set_nationality = ROOT }
-					ac_erza = { set_nationality = ROOT }
-					ac_escha_malier = { set_nationality = ROOT }
-					ac_eula = { set_nationality = ROOT }
-					ac_fate_testarossa = { set_nationality = ROOT }
-					ac_fino_bloodstone = { set_nationality = ROOT }
-					ac_fiora = { set_nationality = ROOT }
-					ac_fiora_mechon = { set_nationality = ROOT }
-					ac_frey_ringitt = { set_nationality = ROOT }
-					ac_freyja = { set_nationality = ROOT }
-					ac_frill = { set_nationality = ROOT }
-					ac_fujimaru_ritsuka = { set_nationality = ROOT }
-					ac_hana = { set_nationality = ROOT }
-					ac_haruhi_suzumiya = { set_nationality = ROOT }
-					ac_haruna = { set_nationality = ROOT }
-					ac_hatsune_miku = { set_nationality = ROOT }
-					ac_heine = { set_nationality = ROOT }
-					ac_hiei_arp = { set_nationality = ROOT }
-					ac_himeno_awayuki = { set_nationality = ROOT }
-					ac_histoire = { set_nationality = ROOT }
-					ac_hitomi_tsukishiro = { set_nationality = ROOT }
-					ac_holo = { set_nationality = ROOT }
-					ac_homura_akemi = { set_nationality = ROOT }
-					ac_honey_kisaragi = { set_nationality = ROOT }
-					ac_honoka_kousaka = { set_nationality = ROOT }
-					ac_honoka_yukishiro = { set_nationality = ROOT }
-					ac_i-410 = { set_nationality = ROOT }
-					ac_ichinose_minori = { set_nationality = ROOT }
-					ac_if = { set_nationality = ROOT }
-					ac_igawa_asagi = { set_nationality = ROOT }
-					ac_illyasviel_von_einzbern = { set_nationality = ROOT }
-					ac_irina_jelavic = { set_nationality = ROOT }
-					ac_iris_arcadia = { set_nationality = ROOT }
-					ac_iris_heart = { set_nationality = ROOT }
-					ac_isht_karin_orte = { set_nationality = ROOT }
-					ac_ishtar = { set_nationality = ROOT }
-					ac_isuzu_sento = { set_nationality = ROOT }
-					ac_kallen_stadtfeld = { set_nationality = ROOT }
-					ac_kaname_chidori = { set_nationality = ROOT }
-					ac_kasumi = { set_nationality = ROOT }
-					ac_kasumi_nanakura = { set_nationality = ROOT }
-					ac_kawashima_mizuki = { set_nationality = ROOT }
-					ac_kei = { set_nationality = ROOT }
-					ac_kiana_kaslana = { set_nationality = ROOT }
-					ac_kirishima = { set_nationality = ROOT }
-					ac_kitagawa_marin = { set_nationality = ROOT }
-					ac_kobato_hanato = { set_nationality = ROOT }
-					ac_komugi_yoshida = { set_nationality = ROOT }
-					ac_kongou_arp = { set_nationality = ROOT }
-					ac_konoko = { set_nationality = ROOT }
-					ac_kos-mos = { set_nationality = ROOT }
-					ac_kurari_rose = { set_nationality = ROOT }
-					ac_kurumi_mugen = { set_nationality = ROOT }
-					ac_kurumi_tokisaki = { set_nationality = ROOT }
-					ac_laharl_girl = { set_nationality = ROOT }
-					ac_laura_la_mer = { set_nationality = ROOT }
-					ac_lena_sayers = { set_nationality = ROOT }
-					ac_lightning = { set_nationality = ROOT }
-					ac_lilith = { set_nationality = ROOT }
-					ac_lina_inverse = { set_nationality = ROOT }
-					ac_lucia_nanami = { set_nationality = ROOT }
-					ac_lucy = { set_nationality = ROOT }
-					ac_lucy_yamagami = { set_nationality = ROOT }
-					ac_madoka_kaname = { set_nationality = ROOT }
-					ac_mai_tokiha = { set_nationality = ROOT }
-					ac_maki_ivanova = { set_nationality = ROOT }
-					ac_makina_hoshimura = { set_nationality = ROOT }
+					ac_chisato_yonamine = {
+						set_nationality = ROOT
+					}
+					ac_cibo = {
+						set_nationality = ROOT
+					}
+					ac_clarion = {
+						set_nationality = ROOT
+					}
+					ac_claudia_le_van_tyne = {
+						set_nationality = ROOT
+					}
+					ac_cloe = {
+						set_nationality = ROOT
+					}
+					ac_compa = {
+						set_nationality = ROOT
+					}
+					ac_corrin = {
+						set_nationality = ROOT
+					}
+					ac_cryska_barchenowa = {
+						set_nationality = ROOT
+					}
+					ac_desco = {
+						set_nationality = ROOT
+					}
+					ac_djeeta = {
+						set_nationality = ROOT
+					}
+					ac_dullahan = {
+						set_nationality = ROOT
+					}
+					ac_edi = {
+						set_nationality = ROOT
+					}
+					ac_elizabeth = {
+						set_nationality = ROOT
+					}
+					ac_ellis = {
+						set_nationality = ROOT
+					}
+					ac_elma = {
+						set_nationality = ROOT
+					}
+					ac_erica_blandelli = {
+						set_nationality = ROOT
+					}
+					ac_eruza_guranhirute = {
+						set_nationality = ROOT
+					}
+					ac_erza = {
+						set_nationality = ROOT
+					}
+					ac_escha_malier = {
+						set_nationality = ROOT
+					}
+					ac_eula = {
+						set_nationality = ROOT
+					}
+					ac_fate_testarossa = {
+						set_nationality = ROOT
+					}
+					ac_fino_bloodstone = {
+						set_nationality = ROOT
+					}
+					ac_fiora = {
+						set_nationality = ROOT
+					}
+					ac_fiora_mechon = {
+						set_nationality = ROOT
+					}
+					ac_frey_ringitt = {
+						set_nationality = ROOT
+					}
+					ac_freyja = {
+						set_nationality = ROOT
+					}
+					ac_frill = {
+						set_nationality = ROOT
+					}
+					ac_fujimaru_ritsuka = {
+						set_nationality = ROOT
+					}
+					ac_hana = {
+						set_nationality = ROOT
+					}
+					ac_haruhi_suzumiya = {
+						set_nationality = ROOT
+					}
+					ac_haruna = {
+						set_nationality = ROOT
+					}
+					ac_hatsune_miku = {
+						set_nationality = ROOT
+					}
+					ac_heine = {
+						set_nationality = ROOT
+					}
+					ac_hiei_arp = {
+						set_nationality = ROOT
+					}
+					ac_himeno_awayuki = {
+						set_nationality = ROOT
+					}
+					ac_histoire = {
+						set_nationality = ROOT
+					}
+					ac_hitomi_tsukishiro = {
+						set_nationality = ROOT
+					}
+					ac_holo = {
+						set_nationality = ROOT
+					}
+					ac_homura_akemi = {
+						set_nationality = ROOT
+					}
+					ac_honey_kisaragi = {
+						set_nationality = ROOT
+					}
+					ac_honoka_kousaka = {
+						set_nationality = ROOT
+					}
+					ac_honoka_yukishiro = {
+						set_nationality = ROOT
+					}
+					ac_i-410 = {
+						set_nationality = ROOT
+					}
+					ac_ichinose_minori = {
+						set_nationality = ROOT
+					}
+					ac_if = {
+						set_nationality = ROOT
+					}
+					ac_igawa_asagi = {
+						set_nationality = ROOT
+					}
+					ac_illyasviel_von_einzbern = {
+						set_nationality = ROOT
+					}
+					ac_irina_jelavic = {
+						set_nationality = ROOT
+					}
+					ac_iris_arcadia = {
+						set_nationality = ROOT
+					}
+					ac_iris_heart = {
+						set_nationality = ROOT
+					}
+					ac_isht_karin_orte = {
+						set_nationality = ROOT
+					}
+					ac_ishtar = {
+						set_nationality = ROOT
+					}
+					ac_isuzu_sento = {
+						set_nationality = ROOT
+					}
+					ac_kallen_stadtfeld = {
+						set_nationality = ROOT
+					}
+					ac_kaname_chidori = {
+						set_nationality = ROOT
+					}
+					ac_kasumi = {
+						set_nationality = ROOT
+					}
+					ac_kasumi_nanakura = {
+						set_nationality = ROOT
+					}
+					ac_kawashima_mizuki = {
+						set_nationality = ROOT
+					}
+					ac_kei = {
+						set_nationality = ROOT
+					}
+					ac_kiana_kaslana = {
+						set_nationality = ROOT
+					}
+					ac_kirishima = {
+						set_nationality = ROOT
+					}
+					ac_kitagawa_marin = {
+						set_nationality = ROOT
+					}
+					ac_kobato_hanato = {
+						set_nationality = ROOT
+					}
+					ac_komugi_yoshida = {
+						set_nationality = ROOT
+					}
+					ac_kongou_arp = {
+						set_nationality = ROOT
+					}
+					ac_konoko = {
+						set_nationality = ROOT
+					}
+					ac_kos-mos = {
+						set_nationality = ROOT
+					}
+					ac_kurari_rose = {
+						set_nationality = ROOT
+					}
+					ac_kurumi_mugen = {
+						set_nationality = ROOT
+					}
+					ac_kurumi_tokisaki = {
+						set_nationality = ROOT
+					}
+					ac_laharl_girl = {
+						set_nationality = ROOT
+					}
+					ac_laura_la_mer = {
+						set_nationality = ROOT
+					}
+					ac_lena_sayers = {
+						set_nationality = ROOT
+					}
+					ac_lightning = {
+						set_nationality = ROOT
+					}
+					ac_lilith = {
+						set_nationality = ROOT
+					}
+					ac_lina_inverse = {
+						set_nationality = ROOT
+					}
+					ac_lucia_nanami = {
+						set_nationality = ROOT
+					}
+					ac_lucy = {
+						set_nationality = ROOT
+					}
+					ac_lucy_yamagami = {
+						set_nationality = ROOT
+					}
+					ac_madoka_kaname = {
+						set_nationality = ROOT
+					}
+					ac_mai_tokiha = {
+						set_nationality = ROOT
+					}
+					ac_maki_ivanova = {
+						set_nationality = ROOT
+					}
+					ac_makina_hoshimura = {
+						set_nationality = ROOT
+					}
 					#ac_mako_mitsuki = { set_nationality = ROOT }
 					#ac_makoto_kikuchi = { set_nationality = ROOT }
-					ac_makoto_kino = { set_nationality = ROOT }
-					ac_mamako_oosuki = { set_nationality = ROOT }
-					ac_maou = { set_nationality = ROOT }
-					ac_maple = { set_nationality = ROOT }
-					ac_marblehead_azur_lane = { set_nationality = ROOT }
-					ac_mari_setogaya = { set_nationality = ROOT }
-					ac_marie_von_eisenberg = { set_nationality = ROOT }
-					ac_maron_kusakabe = { set_nationality = ROOT }
-					ac_mash_kyrielight = { set_nationality = ROOT }
-					ac_megumin = { set_nationality = ROOT }
+					ac_makoto_kino = {
+						set_nationality = ROOT
+					}
+					ac_mamako_oosuki = {
+						set_nationality = ROOT
+					}
+					ac_maou = {
+						set_nationality = ROOT
+					}
+					ac_maple = {
+						set_nationality = ROOT
+					}
+					ac_marblehead_azur_lane = {
+						set_nationality = ROOT
+					}
+					ac_mari_setogaya = {
+						set_nationality = ROOT
+					}
+					ac_marie_von_eisenberg = {
+						set_nationality = ROOT
+					}
+					ac_maron_kusakabe = {
+						set_nationality = ROOT
+					}
+					ac_mash_kyrielight = {
+						set_nationality = ROOT
+					}
+					ac_megumin = {
+						set_nationality = ROOT
+					}
 					#ac_mei-fang = { set_nationality = ROOT }
-					ac_meroune_lorelei = { set_nationality = ROOT }
-					ac_merurulince_rede_arls = { set_nationality = ROOT }
-					ac_mhmd-02_haruko = { set_nationality = ROOT }
-					ac_mia_cyrus = { set_nationality = ROOT }
-					ac_miho_nishizumi = { set_nationality = ROOT }
-					ac_miia = { set_nationality = ROOT }
-					ac_mika_amano = { set_nationality = ROOT }
-					ac_miki_hoshii = { set_nationality = ROOT }
-					ac_mikumo_guynemer = { set_nationality = ROOT }
-					ac_milla_maxwell = { set_nationality = ROOT }
-					ac_minako_aino = { set_nationality = ROOT }
-					ac_minami_nitta = { set_nationality = ROOT }
-					ac_mind_flayer = { set_nationality = ROOT }
-					ac_mint_aizawa = { set_nationality = ROOT }
+					ac_meroune_lorelei = {
+						set_nationality = ROOT
+					}
+					ac_merurulince_rede_arls = {
+						set_nationality = ROOT
+					}
+					ac_mhmd-02_haruko = {
+						set_nationality = ROOT
+					}
+					ac_mia_cyrus = {
+						set_nationality = ROOT
+					}
+					ac_miho_nishizumi = {
+						set_nationality = ROOT
+					}
+					ac_miia = {
+						set_nationality = ROOT
+					}
+					ac_mika_amano = {
+						set_nationality = ROOT
+					}
+					ac_miki_hoshii = {
+						set_nationality = ROOT
+					}
+					ac_mikumo_guynemer = {
+						set_nationality = ROOT
+					}
+					ac_milla_maxwell = {
+						set_nationality = ROOT
+					}
+					ac_minako_aino = {
+						set_nationality = ROOT
+					}
+					ac_minami_nitta = {
+						set_nationality = ROOT
+					}
+					ac_mind_flayer = {
+						set_nationality = ROOT
+					}
+					ac_mint_aizawa = {
+						set_nationality = ROOT
+					}
 					#ac_mio_naruse = { set_nationality = ROOT }
-					ac_misato_katsuragi = { set_nationality = ROOT }
-					ac_mistiora_arte = { set_nationality = ROOT }
-					ac_momo_chiyoda = { set_nationality = ROOT }
-					ac_momozono_love = { set_nationality = ROOT }
-					ac_morrah = { set_nationality = ROOT }
-					ac_mythra = { set_nationality = ROOT }
-					ac_nagisa_misumi = { set_nationality = ROOT }
-					ac_nanoha_takamachi = { set_nationality = ROOT }
-					ac_naru_narusegawa = { set_nationality = ROOT }
-					ac_natasha_cioara = { set_nationality = ROOT }
-					ac_natsuumi_manatsu = { set_nationality = ROOT }
-					ac_neptune = { set_nationality = ROOT }
-					ac_niko_yazawa = { set_nationality = ROOT }
-					ac_nishizumi_miho = { set_nationality = ROOT }
-					ac_noelle = { set_nationality = ROOT }
-					ac_noire = { set_nationality = ROOT }
-					ac_norimaki_arale = { set_nationality = ROOT }
-					ac_olga_discordia = { set_nationality = ROOT }
-					ac_phantom_queen_ex-xecty = { set_nationality = ROOT }
-					ac_pneuma = { set_nationality = ROOT }
-					ac_prim_fiorire = { set_nationality = ROOT }
-					ac_prinz_eugen = { set_nationality = ROOT }
-					ac_purifier = { set_nationality = ROOT }
-					ac_pyra = { set_nationality = ROOT }
-					ac_ranko_kanzaki = { set_nationality = ROOT }
-					ac_rei_ayanami = { set_nationality = ROOT }
-					ac_rei_hino = { set_nationality = ROOT }
+					ac_misato_katsuragi = {
+						set_nationality = ROOT
+					}
+					ac_mistiora_arte = {
+						set_nationality = ROOT
+					}
+					ac_momo_chiyoda = {
+						set_nationality = ROOT
+					}
+					ac_momozono_love = {
+						set_nationality = ROOT
+					}
+					ac_morrah = {
+						set_nationality = ROOT
+					}
+					ac_mythra = {
+						set_nationality = ROOT
+					}
+					ac_nagisa_misumi = {
+						set_nationality = ROOT
+					}
+					ac_nanoha_takamachi = {
+						set_nationality = ROOT
+					}
+					ac_naru_narusegawa = {
+						set_nationality = ROOT
+					}
+					ac_natasha_cioara = {
+						set_nationality = ROOT
+					}
+					ac_natsuumi_manatsu = {
+						set_nationality = ROOT
+					}
+					ac_neptune = {
+						set_nationality = ROOT
+					}
+					ac_niko_yazawa = {
+						set_nationality = ROOT
+					}
+					ac_nishizumi_miho = {
+						set_nationality = ROOT
+					}
+					ac_noelle = {
+						set_nationality = ROOT
+					}
+					ac_noire = {
+						set_nationality = ROOT
+					}
+					ac_norimaki_arale = {
+						set_nationality = ROOT
+					}
+					ac_olga_discordia = {
+						set_nationality = ROOT
+					}
+					ac_phantom_queen_ex-xecty = {
+						set_nationality = ROOT
+					}
+					ac_pneuma = {
+						set_nationality = ROOT
+					}
+					ac_prim_fiorire = {
+						set_nationality = ROOT
+					}
+					ac_prinz_eugen = {
+						set_nationality = ROOT
+					}
+					ac_purifier = {
+						set_nationality = ROOT
+					}
+					ac_pyra = {
+						set_nationality = ROOT
+					}
+					ac_ranko_kanzaki = {
+						set_nationality = ROOT
+					}
+					ac_rei_ayanami = {
+						set_nationality = ROOT
+					}
+					ac_rei_hino = {
+						set_nationality = ROOT
+					}
 					#ac_reina_prowler = { set_nationality = ROOT }
-					ac_rhea = { set_nationality = ROOT }
+					ac_rhea = {
+						set_nationality = ROOT
+					}
 					#ac_rias_gremory = { set_nationality = ROOT }
-					ac_rin = { set_nationality = ROOT }
-					ac_rina_komiya = { set_nationality = ROOT }
-					ac_ripine = { set_nationality = ROOT }
-					ac_risa_android = { set_nationality = ROOT }
-					ac_risa = { set_nationality = ROOT }
+					ac_rin = {
+						set_nationality = ROOT
+					}
+					ac_rina_komiya = {
+						set_nationality = ROOT
+					}
+					ac_ripine = {
+						set_nationality = ROOT
+					}
+					ac_risa_android = {
+						set_nationality = ROOT
+					}
+					ac_risa = {
+						set_nationality = ROOT
+					}
 					#ac_rosaria = { set_nationality = ROOT }
-					ac_rose_android = { set_nationality = ROOT }
-					ac_rose = { set_nationality = ROOT }
-					ac_rozen_s_series = { set_nationality = ROOT }
-					ac_ruma = { set_nationality = ROOT }
-					ac_ryuuko_matoi = { set_nationality = ROOT }
-					ac_ryza = { set_nationality = ROOT }
-					ac_saint_louis_azur_lane = { set_nationality = ROOT }
-					ac_saint_martha = { set_nationality = ROOT }
-					ac_saki_rukino = { set_nationality = ROOT }
-					ac_saki_uno = { set_nationality = ROOT }
-					ac_sakura_kinomoto = { set_nationality = ROOT }
+					ac_rose_android = {
+						set_nationality = ROOT
+					}
+					ac_rose = {
+						set_nationality = ROOT
+					}
+					ac_rozen_s_series = {
+						set_nationality = ROOT
+					}
+					ac_ruma = {
+						set_nationality = ROOT
+					}
+					ac_ryuuko_matoi = {
+						set_nationality = ROOT
+					}
+					ac_ryza = {
+						set_nationality = ROOT
+					}
+					ac_saint_louis_azur_lane = {
+						set_nationality = ROOT
+					}
+					ac_saint_martha = {
+						set_nationality = ROOT
+					}
+					ac_saki_rukino = {
+						set_nationality = ROOT
+					}
+					ac_saki_uno = {
+						set_nationality = ROOT
+					}
+					ac_sakura_kinomoto = {
+						set_nationality = ROOT
+					}
 					#ac_sakura_minamoto = { set_nationality = ROOT }
-					ac_sakuyo_mikage = { set_nationality = ROOT }
-					ac_sanya_v_litvyak = { set_nationality = ROOT }
-					ac_saori_asamiya = { set_nationality = ROOT }
-					ac_saphentite_neikes = { set_nationality = ROOT }
-					ac_satanichia_mcdowell_kurumizawa = { set_nationality = ROOT }
-					ac_satellizer_el_bridget = { set_nationality = ROOT }
-					ac_saya_kisaragi = { set_nationality = ROOT }
-					ac_saya_otonashi = { set_nationality = ROOT }
-					ac_selesia_upitiria = { set_nationality = ROOT }
-					ac_sheliss_elleness_zurbach = { set_nationality = ROOT }
+					ac_sakuyo_mikage = {
+						set_nationality = ROOT
+					}
+					ac_sanya_v_litvyak = {
+						set_nationality = ROOT
+					}
+					ac_saori_asamiya = {
+						set_nationality = ROOT
+					}
+					ac_saphentite_neikes = {
+						set_nationality = ROOT
+					}
+					ac_satanichia_mcdowell_kurumizawa = {
+						set_nationality = ROOT
+					}
+					ac_satellizer_el_bridget = {
+						set_nationality = ROOT
+					}
+					ac_saya_kisaragi = {
+						set_nationality = ROOT
+					}
+					ac_saya_otonashi = {
+						set_nationality = ROOT
+					}
+					ac_selesia_upitiria = {
+						set_nationality = ROOT
+					}
+					ac_sheliss_elleness_zurbach = {
+						set_nationality = ROOT
+					}
 					#ac_sheryl_nome = { set_nationality = ROOT }
-					ac_shigure = { set_nationality = ROOT }
+					ac_shigure = {
+						set_nationality = ROOT
+					}
 					#ac_shiki = { set_nationality = ROOT }
-					ac_shima_tateishi = { set_nationality = ROOT }
-					ac_shiraori = { set_nationality = ROOT }
-					ac_shiratori_yuriko = { set_nationality = ROOT }
-					ac_sill_plain = { set_nationality = ROOT }
-					ac_siluca_meletes = { set_nationality = ROOT }
-					ac_sinon = { set_nationality = ROOT }
-					ac_snow = { set_nationality = ROOT }
-					ac_sophie_neuenmuller = { set_nationality = ROOT }
-					ac_sovetskaya_rossiya = { set_nationality = ROOT }
-					ac_subaru_nakajima = { set_nationality = ROOT }
-					ac_suomi = { set_nationality = ROOT }
-					ac_svetlana_sakura = { set_nationality = ROOT }
-					ac_takao_arp = { set_nationality = ROOT }
-					ac_takao_azur_lane = { set_nationality = ROOT }
-					ac_takizawa_asuka = { set_nationality = ROOT }
-					ac_t-elos = { set_nationality = ROOT }
-					ac_tester = { set_nationality = ROOT }
-					ac_tiamat = { set_nationality = ROOT }
+					ac_shima_tateishi = {
+						set_nationality = ROOT
+					}
+					ac_shiraori = {
+						set_nationality = ROOT
+					}
+					ac_shiratori_yuriko = {
+						set_nationality = ROOT
+					}
+					ac_sill_plain = {
+						set_nationality = ROOT
+					}
+					ac_siluca_meletes = {
+						set_nationality = ROOT
+					}
+					ac_sinon = {
+						set_nationality = ROOT
+					}
+					ac_snow = {
+						set_nationality = ROOT
+					}
+					ac_sophie_neuenmuller = {
+						set_nationality = ROOT
+					}
+					ac_sovetskaya_rossiya = {
+						set_nationality = ROOT
+					}
+					ac_subaru_nakajima = {
+						set_nationality = ROOT
+					}
+					ac_suomi = {
+						set_nationality = ROOT
+					}
+					ac_svetlana_sakura = {
+						set_nationality = ROOT
+					}
+					ac_takao_arp = {
+						set_nationality = ROOT
+					}
+					ac_takao_azur_lane = {
+						set_nationality = ROOT
+					}
+					ac_takizawa_asuka = {
+						set_nationality = ROOT
+					}
+					ac_t-elos = {
+						set_nationality = ROOT
+					}
+					ac_tester = {
+						set_nationality = ROOT
+					}
+					ac_tiamat = {
+						set_nationality = ROOT
+					}
 					#ac_tomoko_kuroki = { set_nationality = ROOT }
-					ac_tosa_azur_lane = { set_nationality = ROOT }
-					ac_tsubasa_kamijo = { set_nationality = ROOT }
-					ac_usagi_tsukino = { set_nationality = ROOT }
-					ac_utena_tenjou = { set_nationality = ROOT }
+					ac_tosa_azur_lane = {
+						set_nationality = ROOT
+					}
+					ac_tsubasa_kamijo = {
+						set_nationality = ROOT
+					}
+					ac_usagi_tsukino = {
+						set_nationality = ROOT
+					}
+					ac_utena_tenjou = {
+						set_nationality = ROOT
+					}
 					#ac_vanessa_diodati = { set_nationality = ROOT }
-					ac_velvet_crowe = { set_nationality = ROOT }
-					ac_vert = { set_nationality = ROOT }
-					ac_vignette_april_tsukinose = { set_nationality = ROOT }
-					ac_vivio = { set_nationality = ROOT }
-					ac_vivy = { set_nationality = ROOT }
-					ac_volemia = { set_nationality = ROOT }
-					ac_yamato_kancol = { set_nationality = ROOT }
-					ac_yamato_wg = { set_nationality = ROOT }
-					ac_yoko_littner = { set_nationality = ROOT }
-					ac_yoshiko_tsushima = { set_nationality = ROOT }
-					ac_yukina_himeragi = { set_nationality = ROOT }
-					ac_yuna = { set_nationality = ROOT }
-					ac_yuno_gasai = { set_nationality = ROOT }
+					ac_velvet_crowe = {
+						set_nationality = ROOT
+					}
+					ac_vert = {
+						set_nationality = ROOT
+					}
+					ac_vignette_april_tsukinose = {
+						set_nationality = ROOT
+					}
+					ac_vivio = {
+						set_nationality = ROOT
+					}
+					ac_vivy = {
+						set_nationality = ROOT
+					}
+					ac_volemia = {
+						set_nationality = ROOT
+					}
+					ac_yamato_kancol = {
+						set_nationality = ROOT
+					}
+					ac_yamato_wg = {
+						set_nationality = ROOT
+					}
+					ac_yoko_littner = {
+						set_nationality = ROOT
+					}
+					ac_yoshiko_tsushima = {
+						set_nationality = ROOT
+					}
+					ac_yukina_himeragi = {
+						set_nationality = ROOT
+					}
+					ac_yuna = {
+						set_nationality = ROOT
+					}
+					ac_yuno_gasai = {
+						set_nationality = ROOT
+					}
 					#ac_yuriya_komiya = { set_nationality = ROOT }
-					ac_yurizaki_mira = { set_nationality = ROOT }
-					ac_yuuki_kawaragi = { set_nationality = ROOT }
-					ac_yuuko_yoshida = { set_nationality = ROOT }
-					ac_zakuro_fujiwara = { set_nationality = ROOT }
-					ac_zero_two = { set_nationality = ROOT }
-					ac_lilia_eberwein = { set_nationality = ROOT }
-					ac_catue_dragundaala = { set_nationality = ROOT }
-					ac_violet_evergarden = { set_nationality = ROOT }
+					ac_yurizaki_mira = {
+						set_nationality = ROOT
+					}
+					ac_yuuki_kawaragi = {
+						set_nationality = ROOT
+					}
+					ac_yuuko_yoshida = {
+						set_nationality = ROOT
+					}
+					ac_zakuro_fujiwara = {
+						set_nationality = ROOT
+					}
+					ac_zero_two = {
+						set_nationality = ROOT
+					}
+					ac_lilia_eberwein = {
+						set_nationality = ROOT
+					}
+					ac_catue_dragundaala = {
+						set_nationality = ROOT
+					}
+					ac_violet_evergarden = {
+						set_nationality = ROOT
+					}
 				}
 				create_operative_leader = {
 					name = "Shiki"
@@ -588,56 +1092,134 @@ ac_anime_characters_category = {
 		cost = 0
 		visible = {
 			NOT = {
-				has_country_flag  = ac_take_traps_flag
+				has_country_flag = ac_take_traps_flag
 			}
 		}
 		complete_effect = {
-			set_country_flag  = ac_take_traps_flag
+			set_country_flag = ac_take_traps_flag
 			custom_effect_tooltip = ac_take_traps_tt
 			hidden_effect = {
 				Z99 = {
-					ac_anri_sogahara = { set_nationality = ROOT }
-					ac_aoi_futaba = { set_nationality = ROOT }
-					ac_aoi_hyoudou = { set_nationality = ROOT }
-					ac_astolfo = { set_nationality = ROOT }
-					ac_birdy_cephon_altera = { set_nationality = ROOT }
-					ac_felix_argyle = { set_nationality = ROOT }
-					ac_fish_eye = { set_nationality = ROOT }
+					ac_anri_sogahara = {
+						set_nationality = ROOT
+					}
+					ac_aoi_futaba = {
+						set_nationality = ROOT
+					}
+					ac_aoi_hyoudou = {
+						set_nationality = ROOT
+					}
+					ac_astolfo = {
+						set_nationality = ROOT
+					}
+					ac_birdy_cephon_altera = {
+						set_nationality = ROOT
+					}
+					ac_felix_argyle = {
+						set_nationality = ROOT
+					}
+					ac_fish_eye = {
+						set_nationality = ROOT
+					}
 					#ac_gasper_vladi = { set_nationality = ROOT }
-					ac_hacka_doll_3 = { set_nationality = ROOT }
-					ac_hamaji_yakumo = { set_nationality = ROOT }
-					ac_hayato_juumonji = { set_nationality = ROOT }
-					ac_hideri_kanzaki = { set_nationality = ROOT }
-					ac_hime_arikawa = { set_nationality = ROOT }
-					ac_hitoshi_sugoroku = { set_nationality = ROOT }
-					ac_homare_nao = { set_nationality = ROOT }
-					ac_jun_hiiragi = { set_nationality = ROOT }
-					ac_kaguya_arikawa = { set_nationality = ROOT }
-					ac_kaname = { set_nationality = ROOT }
-					ac_kaoru_hanase = { set_nationality = ROOT }
-					ac_mare_bello_fiore = { set_nationality = ROOT }
-					ac_mariya_shidou = { set_nationality = ROOT }
-					ac_mitsunaga_oda = { set_nationality = ROOT }
-					ac_mizuho_miyanokouji = { set_nationality = ROOT }
-					ac_oboro_tsukimigusa = { set_nationality = ROOT }
-					ac_ranga = { set_nationality = ROOT }
-					ac_ranma_saotome = { set_nationality = ROOT }
-					ac_ringo_tsukimiya = { set_nationality = ROOT }
-					ac_ritsu_souma = { set_nationality = ROOT }
-					ac_russell = { set_nationality = ROOT }
+					ac_hacka_doll_3 = {
+						set_nationality = ROOT
+					}
+					ac_hamaji_yakumo = {
+						set_nationality = ROOT
+					}
+					ac_hayato_juumonji = {
+						set_nationality = ROOT
+					}
+					ac_hideri_kanzaki = {
+						set_nationality = ROOT
+					}
+					ac_hime_arikawa = {
+						set_nationality = ROOT
+					}
+					ac_hitoshi_sugoroku = {
+						set_nationality = ROOT
+					}
+					ac_homare_nao = {
+						set_nationality = ROOT
+					}
+					ac_jun_hiiragi = {
+						set_nationality = ROOT
+					}
+					ac_kaguya_arikawa = {
+						set_nationality = ROOT
+					}
+					ac_kaname = {
+						set_nationality = ROOT
+					}
+					ac_kaoru_hanase = {
+						set_nationality = ROOT
+					}
+					ac_mare_bello_fiore = {
+						set_nationality = ROOT
+					}
+					ac_mariya_shidou = {
+						set_nationality = ROOT
+					}
+					ac_mitsunaga_oda = {
+						set_nationality = ROOT
+					}
+					ac_mizuho_miyanokouji = {
+						set_nationality = ROOT
+					}
+					ac_oboro_tsukimigusa = {
+						set_nationality = ROOT
+					}
+					ac_ranga = {
+						set_nationality = ROOT
+					}
+					ac_ranma_saotome = {
+						set_nationality = ROOT
+					}
+					ac_ringo_tsukimiya = {
+						set_nationality = ROOT
+					}
+					ac_ritsu_souma = {
+						set_nationality = ROOT
+					}
+					ac_russell = {
+						set_nationality = ROOT
+					}
 					#ac_ryou_akizuki = { set_nationality = ROOT }
 					#ac_saki_mizushima = { set_nationality = ROOT }
-					ac_shirota_mitsuki = { set_nationality = ROOT }
-					ac_souji_mitsuka = { set_nationality = ROOT }
-					ac_sylvia = { set_nationality = ROOT }
-					ac_takumi_musashino = { set_nationality = ROOT }
-					ac_tama_kyan = { set_nationality = ROOT }
-					ac_taroumaru_seike = { set_nationality = ROOT }
-					ac_tetora = { set_nationality = ROOT }
-					ac_tiger_traps = { set_nationality = ROOT }
-					ac_xianming_lin = { set_nationality = ROOT }
-					ac_youta_tsunashi = { set_nationality = ROOT }
-					ac_yukikaze = { set_nationality = ROOT }
+					ac_shirota_mitsuki = {
+						set_nationality = ROOT
+					}
+					ac_souji_mitsuka = {
+						set_nationality = ROOT
+					}
+					ac_sylvia = {
+						set_nationality = ROOT
+					}
+					ac_takumi_musashino = {
+						set_nationality = ROOT
+					}
+					ac_tama_kyan = {
+						set_nationality = ROOT
+					}
+					ac_taroumaru_seike = {
+						set_nationality = ROOT
+					}
+					ac_tetora = {
+						set_nationality = ROOT
+					}
+					ac_tiger_traps = {
+						set_nationality = ROOT
+					}
+					ac_xianming_lin = {
+						set_nationality = ROOT
+					}
+					ac_youta_tsunashi = {
+						set_nationality = ROOT
+					}
+					ac_yukikaze = {
+						set_nationality = ROOT
+					}
 				}
 				create_operative_leader = {
 					name = "Aoi Futaba"
@@ -701,7 +1283,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag  = ac_take_girls_flag
+			has_country_flag = ac_take_girls_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_anastasia_romanova
@@ -734,7 +1316,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag  = ac_take_girls_flag
+			has_country_flag = ac_take_girls_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_mind_flayer
@@ -767,7 +1349,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag  = ac_take_girls_flag
+			has_country_flag = ac_take_girls_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_histoire
@@ -800,7 +1382,7 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_country_flag  = ac_take_girls_flag
+			has_country_flag = ac_take_girls_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_alisa_illinichina_amiella
@@ -833,7 +1415,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag  = ac_take_girls_flag
+			has_country_flag = ac_take_girls_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_velvet_crowe
@@ -866,7 +1448,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag  = ac_take_girls_flag
+			has_country_flag = ac_take_girls_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_t-elos
@@ -899,7 +1481,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag  = ac_take_girls_flag
+			has_country_flag = ac_take_girls_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_yuuko_yoshida
@@ -932,7 +1514,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag  = ac_take_girls_flag
+			has_country_flag = ac_take_girls_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_celestine_lucullus
@@ -966,7 +1548,7 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_country_flag  = ac_take_traps_flag
+			has_country_flag = ac_take_traps_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_astolfo
@@ -999,7 +1581,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag  = ac_take_traps_flag
+			has_country_flag = ac_take_traps_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_homare_nao
@@ -1032,7 +1614,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag  = ac_take_traps_flag
+			has_country_flag = ac_take_traps_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_takumi_musashino
@@ -1065,7 +1647,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag  = ac_take_traps_flag
+			has_country_flag = ac_take_traps_flag
 			NOT = {
 				has_country_leader = {
 					character = ac_hideri_kanzaki
