@@ -19,7 +19,7 @@ dependencies={
 	"The Road to 56"
 	"The road to 56 CN"
 	"Führerreich: Legacy of The Great War"
-	"Millennium Dawn: Modern Day Mod"
+	"Millennium Dawn: A Modern Day Mod"
 	"Old World Blues"
 	"Kaiserredux: A Kaiserreich Expansion"
 	"Kaiserredux汉化"
