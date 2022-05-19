@@ -1308,15 +1308,12 @@ ac_anime_characters_category = {
 			set_country_leader_portrait = {
 				portrait = GFX_portrait_ac_anastasia_romanova
 			}
-			add_country_leader_trait = ac_anime_tyan
-			add_country_leader_trait = ac_peoples_favorite
-			add_country_leader_trait = ac_patron_of_science
-			add_country_leader_trait = ac_empress
 			# add_country_leader_role = {
 			# 	character = ac_anastasia_romanova
+			# 	promote_leader = yes
 			# 	country_leader = {
 			# 		ideology = despotism
-			# 		expire = "1959.12.23.1"
+			# 		expire = "1965.1.1.1"
 			# 		traits = {
 			# 			ac_anime_tyan
 			# 			ac_peoples_favorite
@@ -1324,8 +1321,15 @@ ac_anime_characters_category = {
 			# 			ac_empress
 			# 		}
 			# 	}
-			# 	promote_leader = yes
+				
 			# }
+			add_country_leader_trait = ac_anime_tyan
+			add_country_leader_trait = ac_peoples_favorite
+			add_country_leader_trait = ac_patron_of_science
+			add_country_leader_trait = ac_empress
+			ac_anastasia_romanova = {
+				set_character_flag = ac_country_leader_flag
+			}
 		}
 	}
 	ac_change_leader_to_mind_flayer = {
@@ -1375,6 +1379,9 @@ ac_anime_characters_category = {
 			# 	}
 			# 	promote_leader = yes
 			# }
+			ac_mind_flayer = {
+				set_character_flag = ac_country_leader_flag
+			}
 		}
 	}
 	ac_change_leader_to_histoire = {
@@ -1416,7 +1423,7 @@ ac_anime_characters_category = {
 			# 		ideology = leninism
 			# 		expire = "1959.12.23.1"
 			# 		traits = {
-			# 			ac_android
+			# 			ac_anime_tyan
 			# 			ac_revolutionary
 			# 			ac_patron_of_industry
 			# 			ac_dictator
@@ -1424,6 +1431,9 @@ ac_anime_characters_category = {
 			# 	}
 			# 	promote_leader = yes
 			# }
+			ac_histoire = {
+				set_character_flag = ac_country_leader_flag
+			}
 		}
 	}
 	ac_change_leader_to_alisa_illinichina_amiella = {
@@ -1473,6 +1483,9 @@ ac_anime_characters_category = {
 			# 	}
 			# 	promote_leader = yes
 			# }
+			ac_alisa_illinichina_amiella = {
+				set_character_flag = ac_country_leader_flag
+			}
 		}
 	}
 	ac_change_leader_to_velvet_crowe = {
@@ -1522,6 +1535,9 @@ ac_anime_characters_category = {
 			# 	}
 			# 	promote_leader = yes
 			# }
+			ac_velvet_crowe = {
+				set_character_flag = ac_country_leader_flag
+			}
 		}
 	}
 	ac_change_leader_to_t_elos = {
@@ -1563,7 +1579,7 @@ ac_anime_characters_category = {
 			# 		ideology = nazism
 			# 		expire = "1959.12.23.1"
 			# 		traits = {
-			# 			ac_android
+			# 			ac_anime_tyan
 			# 			ac_tyan_militarist
 			# 			ac_patron_of_the_military_industrial_complex
 			# 			ac_superweapon
@@ -1571,6 +1587,9 @@ ac_anime_characters_category = {
 			# 	}
 			# 	promote_leader = yes
 			# }
+			ac_t-elos = {
+				set_character_flag = ac_country_leader_flag
+			}
 		}
 	}
 	ac_change_leader_to_yuuko_yoshida = {
@@ -1620,6 +1639,9 @@ ac_anime_characters_category = {
 			# 	}
 			# 	promote_leader = yes
 			# }
+			ac_yuuko_yoshida = {
+				set_character_flag = ac_country_leader_flag
+			}
 		}
 	}
 	ac_change_leader_to_celestine_lucullus = {
@@ -1669,6 +1691,9 @@ ac_anime_characters_category = {
 			# 	}
 			# 	promote_leader = yes
 			# }
+			ac_celestine_lucullus = {
+				set_character_flag = ac_country_leader_flag
+			}
 		}
 	}
 	#traps
@@ -1719,6 +1744,9 @@ ac_anime_characters_category = {
 			# 	}
 			# 	promote_leader = yes
 			# }
+			ac_astolfo = {
+				set_character_flag = ac_country_leader_flag
+			}
 		}
 	}
 	ac_change_leader_to_homare_nao = {
@@ -1768,6 +1796,9 @@ ac_anime_characters_category = {
 			# 	}
 			# 	promote_leader = yes
 			# }
+			ac_homare_nao = {
+				set_character_flag = ac_country_leader_flag
+			}
 		}
 	}
 	ac_change_leader_to_takumi_musashino = {
@@ -1817,6 +1848,9 @@ ac_anime_characters_category = {
 			# 	}
 			# 	promote_leader = yes
 			# }
+			ac_takumi_musashino = {
+				set_character_flag = ac_country_leader_flag
+			}
 		}
 	}
 	ac_change_leader_to_hideri_kanzaki = {
@@ -1866,6 +1900,9 @@ ac_anime_characters_category = {
 			# 	}
 			# 	promote_leader = yes
 			# }
+			ac_hideri_kanzaki = {
+				set_character_flag = ac_country_leader_flag
+			}
 		}
 	}
 	ac_deactivate = {
