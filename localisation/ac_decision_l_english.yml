@@ -35,4 +35,6 @@
  ac_anime_characters_reactivate_category:0 "Reopen the anime character category"
  ac_reactivate:0 "Reopen category"
 
-
+#political_actions
+ ac_retire_leader:0 "§G[ROOT.GetLeader]§! is retiring"
+ ac_retire_leader_tt:0 "§YEarly elections will take place§!"

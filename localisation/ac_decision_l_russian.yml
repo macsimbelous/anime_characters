@@ -45,3 +45,7 @@
  ac_corps_commander_tt:0 "§GГенерал§!"
  ac_navy_leader_tt:0 "§BАдмирал§!"
  ac_operative_leader_tt:0 "§RАгент§!"
+
+#political_actions
+ ac_retire_leader:0 "§G[ROOT.GetLeader]§! уйдёт в отставку"
+ ac_retire_leader_tt:0 "§YПроизойдут досрочные выборы§!"
