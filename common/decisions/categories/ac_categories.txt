@@ -13,3 +13,6 @@ ac_anime_characters_reactivate_category = {
 		has_country_flag = ac_anime_characters_category_disabled_flag
 	}
 }
+ac_subjects_category = {
+	priority = 10
+}

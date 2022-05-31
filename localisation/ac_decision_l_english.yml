@@ -38,3 +38,7 @@
 #political_actions
  ac_retire_leader:0 "§G[ROOT.GetLeader]§! is retiring"
  ac_retire_leader_tt:0 "§YEarly elections will take place§!"
+
+#create_subject
+ ac_subjects_category:0 "Subjects"
+ ac_change_country_leader:0 "Change leader §Y[From.GetNameDef]§!"

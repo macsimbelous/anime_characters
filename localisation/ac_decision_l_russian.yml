@@ -49,3 +49,7 @@
 #political_actions
  ac_retire_leader:0 "§G[ROOT.GetLeader]§! уйдёт в отставку"
  ac_retire_leader_tt:0 "§YПроизойдут досрочные выборы§!"
+
+#create_subject
+ ac_subjects_category:0 "Субъекты"
+ ac_change_country_leader:0 "Сменить лидера §Y[From.GetNameDef]§!"

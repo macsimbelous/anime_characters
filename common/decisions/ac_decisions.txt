@@ -1321,7 +1321,6 @@ ac_anime_characters_category = {
 			# 			ac_empress
 			# 		}
 			# 	}
-				
 			# }
 			add_country_leader_trait = ac_anime_tyan
 			add_country_leader_trait = ac_peoples_favorite
@@ -2137,6 +2136,117 @@ political_actions = {
 					}
 				}
 			}
+		}
+	}
+}
+
+ac_subjects_category = {
+	ac_change_country_leader_trap = {
+		name = ac_change_country_leader
+		cost = 50
+		visible = {
+			has_country_flag = ac_take_traps_flag
+			NOT = {
+				has_country_flag = ac_take_girls_flag
+			}
+		}
+		available = {
+			FROM = {
+				is_puppet = yes
+			}
+		}
+		target_array = subjects
+		target_trigger = {
+			FROM = {
+				NOT = {
+					has_country_leader_with_trait = ac_trap
+				}
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				FROM = {
+					ac_change_country_leader_trap = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	ac_change_country_leader_girl = {
+		name = ac_change_country_leader
+		cost = 50
+		visible = {
+			has_country_flag = ac_take_girls_flag
+			NOT = {
+				has_country_flag = ac_take_traps_flag
+			}
+		}
+		available = {
+			FROM = {
+				is_puppet = yes
+			}
+		}
+		target_array = subjects
+		target_trigger = {
+			FROM = {
+				NOT = {
+					has_country_leader_with_trait = ac_anime_tyan
+				}
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				FROM = {
+					ac_change_country_leader_girl = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	ac_change_country_leader = {
+		cost = 50
+		visible = {
+			has_country_flag = ac_take_girls_flag
+			has_country_flag = ac_take_traps_flag
+		}
+		available = {
+			FROM = {
+				is_puppet = yes
+			}
+		}
+		target_array = subjects
+		target_trigger = {
+			FROM = {
+				NOT = {
+					OR = {
+						has_country_leader_with_trait = ac_trap
+						has_country_leader_with_trait = ac_anime_tyan
+					}
+				}
+			}
+		}
+		complete_effect = {
+			hidden_effect = {
+				random_list = {
+					1 = {
+						FROM = {
+							ac_change_country_leader_trap = yes
+						}
+					}
+					1 = {
+						FROM = {
+							ac_change_country_leader_girl = yes
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
 		}
 	}
 }
