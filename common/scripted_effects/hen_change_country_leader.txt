@@ -1,5 +1,4 @@
 ac_change_country_leader_trap = {
-	#Лидеры марионеток
 	retire_country_leader = yes
 	random_list = {
 		1 = {
@@ -343,7 +342,6 @@ ac_change_country_leader_trap = {
 }
 
 ac_change_country_leader_girl = {
-	#Лидеры марионеток
 	retire_country_leader = yes
 	random_list = {
 		1 = {
@@ -615,7 +613,7 @@ ac_change_country_leader_girl = {
 				portrait = GFX_portrait_ac_asuka_lider
 			}
 			set_country_leader_name = {
-				name = ac_asuka_lider
+				name = ac_asuka
 			}
 		}
 		1 = {
@@ -1719,7 +1717,7 @@ ac_change_country_leader_girl = {
 				portrait = GFX_portrait_ac_morrah
 			}
 			set_country_leader_name = {
-				name = GFX_portrait_ac_morrah
+				name = ac_morrah
 			}
 		}
 		1 = {
