@@ -1911,6 +1911,30 @@ ac_anime_characters_category = {
 			set_country_flag = ac_anime_characters_category_disabled_flag
 		}
 	}
+	#on_map
+	# ac_take_anastasia_romanova = {
+	# 	fire_only_once = yes
+	# 	cost = 25
+	# 	on_map_mode = map_only
+	# 	icon = generic_military
+	# 	highlight_states = {
+	# 		highlight_state_targets = {
+	# 			state = 195
+	# 		}
+	# 	}
+	# 	visible = {
+	# 		195 = {
+	# 			is_owned_and_controlled_by = ROOT
+	# 		}
+	# 	}
+	# 	complete_effect = {
+	# 		Z99 = {
+	# 			ac_anastasia_romanova = {
+	# 				set_nationality = ROOT
+	# 			}
+	# 		}
+	# 	}
+	# }
 }
 
 ac_anime_characters_reactivate_category = {
