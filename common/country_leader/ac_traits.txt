@@ -2,20 +2,20 @@ leader_traits = {
 	#1
 	ac_anime_tyan = {
 		random = no
-		political_power_gain = 0.25
+		political_power_gain = 0.05
 	}
 	ac_trap = {
 		random = no
-		political_power_gain = 0.25
+		political_power_gain = 0.05
 	}
 	ac_android = {
 		random = no
-		political_power_gain = 0.25
+		political_power_gain = 0.05
 	}
 	#2
 	ac_revolutionary = {
 		random = no
-		stability_factor = 0.15
+		stability_factor = -0.05
 		war_support_factor = 0.1
 		ai_focus_aggressive_factor = 1
 		mobilization_laws_cost_factor = -0.33
@@ -24,8 +24,8 @@ leader_traits = {
 	}
 	ac_peoples_favorite = {
 		random = no
-		stability_factor = 0.2
-		war_support_factor = -0.1
+		stability_factor = 0.1
+		war_support_factor = -0.05
 		ai_focus_defense_factor = 1
 		trade_laws_cost_factor = -0.33
 		#economy_cost_factor = -0.33
@@ -34,9 +34,9 @@ leader_traits = {
 	}
 	ac_tyan_militarist = {
 		random = no
-		stability_factor = 0.1
-		war_support_factor = 0.15
-		ai_focus_aggressive_factor = 1
+		stability_factor = 0.05
+		war_support_factor = 0.1
+		ai_focus_aggressive_factor = 2
 		economy_cost_factor = -0.33
 		annex_cost_factor = -0.33
 		#military_leader_cost_factor = -0.33
@@ -46,7 +46,7 @@ leader_traits = {
 		random = no
 		stability_factor = 0.15
 		defensive_war_stability_factor = 0.1
-		ai_focus_defense_factor = 1
+		ai_focus_defense_factor = 2
 		political_advisor_cost_factor = -0.33
 		#economy_cost_factor = -0.33
 		#military_leader_cost_factor = -0.33
@@ -74,8 +74,8 @@ leader_traits = {
 	}
 	ac_patron_of_industry = {
 		random = no
-		production_speed_industrial_complex_factor = 0.2
-		production_speed_synthetic_refinery_factor = 0.2
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_synthetic_refinery_factor = 0.1
 		#production_speed_infrastructure_factor = 0.2
 	}
 	ac_patron_of_science = {
@@ -86,9 +86,9 @@ leader_traits = {
 	#4
 	ac_demon_lord = {
 		random = no
-		political_power_factor = 0.3
+		political_power_factor = 0.15
 		#annex_cost_factor = -0.5
-		military_leader_cost_factor = -0.33
+		military_leader_cost_factor = -0.5
 		#mobilization_laws_cost_factor = -0.33
 		#ai_focus_aggressive_factor = 1
 	}
@@ -101,22 +101,24 @@ leader_traits = {
 		#trade_laws_cost_factor = -0.33
 		#economy_cost_factor = -0.33
 		#political_advisor_cost_factor = -0.33
-		industrial_concern_cost_factor = -0.33
+		#industrial_concern_cost_factor = -0.33
 		compliance_growth = 0.1
 	}
 	ac_dictator = {
 		random = no
 		#stability_factor = 0.15
-		political_power_factor = 0.3
-		military_leader_cost_factor = -0.33
+		political_power_factor = 0.15
+		#military_leader_cost_factor = -0.33
+		industrial_concern_cost_factor = -0.33
+		political_advisor_cost_factor = -0.33
 	}
 	ac_tsundere = {
 		random = no
-		army_attack_factor = 0.1
-		army_speed_factor = 0.1
+		army_attack_factor = 0.05
+		army_speed_factor = 0.05
 		#army_org_Factor = 0.05
 		justify_war_goal_time = -0.33
-		ai_focus_aggressive_factor = 0.5
+		ai_focus_aggressive_factor = 2
 		#war_support_factor = 0.15
 		#ai_focus_aggressive_factor = 1
 	}
@@ -128,7 +130,7 @@ leader_traits = {
 	}
 	ac_empress = {
 		random = no
-		political_power_factor = 0.5
+		political_power_factor = 0.15
 		#stability_factor = 0.15
 		#trade_laws_cost_factor = -0.33
 		#economy_cost_factor = -0.33
@@ -150,8 +152,8 @@ leader_traits = {
 		sprite = 14
 		random = no
 		#production_speed_rocket_site_factor = 0.2
-		production_speed_nuclear_reactor_factor = 0.2
-		nuclear_production_factor = 0.2
+		production_speed_nuclear_reactor_factor = 0.15
+		nuclear_production_factor = 0.15
 		ai_will_do = {
 			factor = 1
 		}
@@ -161,14 +163,14 @@ leader_traits = {
 		random = no
 		#production_speed_rocket_site_factor = 0.2
 		#production_speed_nuclear_reactor_factor = 0.2
-		research_speed_factor = 0.2
+		research_speed_factor = 0.15
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	ac_popular_figurehead = {
 		sprite = 13
-		stability_factor = 0.2
+		stability_factor = 0.1
 		random = no
 		ai_will_do = {
 			factor = 1
@@ -177,7 +179,7 @@ leader_traits = {
 	ac_silent_workhorse = {
 		random = no
 		sprite = 13
-		political_power_factor = 0.2
+		political_power_factor = 0.15
 		ai_will_do = {
 			factor = 1
 		}
@@ -186,7 +188,7 @@ leader_traits = {
 		random = no
 		sprite = 15
 		operative_slot = 2
-		agency_upgrade_time = -0.5
+		agency_upgrade_time = -0.33
 		decryption_power_factor = 0.15
 		ai_will_do = {
 			factor = 1
@@ -196,7 +198,7 @@ leader_traits = {
 		random = no
 		sprite = 15
 		operative_slot = 2
-		agency_upgrade_time = -0.3
+		agency_upgrade_time = -0.33
 		decryption_power_factor = 0.15
 		ai_will_do = {
 			factor = 1
@@ -204,7 +206,8 @@ leader_traits = {
 	}
 	ac_propaganda_expert = {
 		sprite = 13
-		war_support_factor = 0.15
+		war_support_factor = 0.05
+		justify_war_goal_time = -0.15
 		random = no
 		ai_will_do = {
 			factor = 1
@@ -223,11 +226,11 @@ leader_traits = {
 	ac_quartermaster_general = {
 		sprite = 10
 		random = no
-		production_speed_air_base_factor = 0.2
-		production_speed_naval_base_factor = 0.2
-		production_speed_rocket_site_factor = 0.2
-		production_speed_radar_station_factor = 0.2
-		production_speed_nuclear_reactor_factor = 0.2
+		production_speed_air_base_factor = 0.1
+		production_speed_naval_base_factor = 0.1
+		production_speed_rocket_site_factor = 0.1
+		production_speed_radar_station_factor = 0.1
+		production_speed_nuclear_reactor_factor = 0.1
 		ai_will_do = {
 			factor = 1
 		}
@@ -235,22 +238,22 @@ leader_traits = {
 	ac_infrastructure_developer = {
 		sprite = 10
 		random = no
-		production_speed_infrastructure_factor = 0.2
-		production_speed_rail_way_factor = 0.2
-		production_speed_supply_node_factor = 0.2
+		production_speed_infrastructure_factor = 0.1
+		production_speed_rail_way_factor = 0.1
+		production_speed_supply_node_factor = 0.1
 	}
 	ac_captain_of_industry = {
 		sprite = 10
 		random = no
-		production_speed_industrial_complex_factor = 0.2
-		production_speed_synthetic_refinery_factor = 0.2
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_synthetic_refinery_factor = 0.1
 	}
 	ac_war_industrialist = {
 		sprite = 10
 		random = no
-		production_speed_arms_factory_factor = 0.2
-		production_speed_dockyard_factor = 0.2
-		production_speed_fuel_silo_factor = 0.2
+		production_speed_arms_factory_factor = 0.1
+		production_speed_dockyard_factor = 0.1
+		production_speed_fuel_silo_factor = 0.1
 	}
 	ac_princess_of_terror = {
 		random = no
@@ -283,7 +286,7 @@ leader_traits = {
 	ac_peoples_favorite_minister = {
 		random = no
 		sprite = 13
-		stability_factor = 0.3
+		stability_factor = 0.15
 		war_support_factor = -0.15
 		puppet_cost_factor = -0.5
 	}
