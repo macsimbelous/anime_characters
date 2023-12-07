@@ -56,7 +56,7 @@ ideas = {
 				army_leader_cost_factor = -0.5
 				army_leader_start_level = 2
 				grant_medal_cost_factor = -0.5
-				military_leader_cost_factor = -0.5
+				#military_leader_cost_factor = -0.5
 			}
 		}
 		ac_idea_idea_anime_intelligence_agency = {

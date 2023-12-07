@@ -18,8 +18,11 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		days_remove = 30
 		available = {
-			check_variable = {
-				ac_var_count_generals > 4
+			custom_trigger_tooltip = {
+				tooltip = ac_tt_count_generals
+				check_variable = {
+					ac_var_count_generals > 4
+				}
 			}
 			num_of_civilian_factories_available_for_projects > 4
 		}
@@ -35,8 +38,11 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		days_remove = 30
 		available = {
-			check_variable = {
-				ac_var_count_admirals > 4
+			custom_trigger_tooltip = {
+				tooltip = ac_tt_count_admirals
+				check_variable = {
+					ac_var_count_admirals > 4
+				}
 			}
 			num_of_civilian_factories_available_for_projects > 4
 		}
@@ -72,1303 +78,1169 @@ ac_anime_characters_category = {
 		}
 	}
 
-	ac_take_girls = {
-		fire_only_once = yes
-		cost = 0
-		allowed = {
-			always = no
-		}
-		visible = {
-			NOT = {
-				has_country_flag = ac_take_girls_flag
-			}
+	ac_decision_gacha_generals = {
+		cost = 50
+		available = {
+			has_idea = ac_idea_anime_academy
 		}
 		complete_effect = {
-			set_country_flag = ac_take_girls_flag
-			custom_effect_tooltip = ac_take_girls_tt
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			custom_effect_tooltip = ac_tt_gacha_generals
 			hidden_effect = {
 				Z99 = {
-					ac_2b = {
+					random_character = {
+						limit = {
+							has_character_flag = ac_girl_flag
+						}
+						random_list = {
+							50 = {
+								add_corps_commander_role = {
+									character = THIS
+									skill = 1
+									attack_skill = 1
+									defense_skill = 1
+									planning_skill = 1
+									logistics_skill = 1
+								}
+							}
+							30 = {
+								add_corps_commander_role = {
+									character = THIS
+									skill = 3
+									attack_skill = 3
+									defense_skill = 3
+									planning_skill = 3
+									logistics_skill = 3
+								}
+							}
+							15 = {
+								add_corps_commander_role = {
+									character = THIS
+									skill = 6
+									attack_skill = 6
+									defense_skill = 6
+									planning_skill = 6
+									logistics_skill = 6
+								}
+							}
+							5 = {
+								add_corps_commander_role = {
+									character = THIS
+									skill = 9
+									attack_skill = 9
+									defense_skill = 9
+									planning_skill = 9
+									logistics_skill = 9
+								}
+							}
+						}
+						add_trait = {
+							trait = ac_exp_trait
+						}
+						add_random_trait = { old_guard brilliant_strategist inflexible_strategist politically_connected war_hero career_officer trait_cautious trait_reckless media_personality harsh_leader bearer_of_artillery infantry_officer cavalry_officer armor_officer engineer_officer organizer cavalry_leader infantry_leader skilled_staffer trickster naval_invader desert_fox swamp_fox trait_mountaineer hill_fighter jungle_rat ranger urban_assault_specialist winter_specialist winter_expert trait_engineer panzer_leader commando }
 						set_nationality = ROOT
-					}
-					ac_5pb = {
-						set_nationality = ROOT
-					}
-					ac_a2 = {
-						set_nationality = ROOT
-					}
-					#ac_aegis = { set_nationality = ROOT }
-					ac_ai_kagano = {
-						set_nationality = ROOT
-					}
-					#ac_aika_sumeragi = { set_nationality = ROOT }
-					ac_aino = {
-						set_nationality = ROOT
-					}
-					ac_akane_isshiki = {
-						set_nationality = ROOT
-					}
-					ac_akeno_misaki = {
-						set_nationality = ROOT
-					}
-					ac_akiho_taniguchi = {
-						set_nationality = ROOT
-					}
-					ac_ako_tamaki = {
-						set_nationality = ROOT
-					}
-					ac_alexandra_frolova = {
-						set_nationality = ROOT
-					}
-					ac_alice_erzan = {
-						set_nationality = ROOT
-					}
-					ac_alicia_arcturus = {
-						set_nationality = ROOT
-					}
-					ac_alicia = {
-						set_nationality = ROOT
-					}
-					ac_alisa_boskonovich = {
-						set_nationality = ROOT
-					}
-					ac_alisa_illinichina_amiella = {
-						set_nationality = ROOT
-					}
-					ac_amanogawa_kirara = {
-						set_nationality = ROOT
-					}
-					ac_ami_mizuno = {
-						set_nationality = ROOT
-					}
-					#ac_anastasia_general = { set_nationality = ROOT }
-					#ac_anastasia_i_empress = { set_nationality = ROOT }
-					ac_anastasia = {
-						set_nationality = ROOT
-					}
-					ac_anastasia_romanova = {
-						set_nationality = ROOT
-					}
-					ac_ange_le_carre = {
-						set_nationality = ROOT
-					}
-					ac_anna_komiya = {
-						set_nationality = ROOT
-					}
-					#ac_aoba_suzukaze = { set_nationality = ROOT }
-					ac_aoi_sakurai = {
-						set_nationality = ROOT
-					}
-					ac_arika_yumemiya = {
-						set_nationality = ROOT
-					}
-					ac_arnice = {
-						set_nationality = ROOT
-					}
-					ac_ashigara_arp = {
-						set_nationality = ROOT
-					}
-					ac_asmodeus = {
-						set_nationality = ROOT
-					}
-					ac_astaroth = {
-						set_nationality = ROOT
-					}
-					ac_asuka = {
-						set_nationality = ROOT
-					}
-					#ac_asuka_lider = { set_nationality = ROOT }
-					ac_asuka_ootorii = {
-						set_nationality = ROOT
-					}
-					ac_asuka_tanaka = {
-						set_nationality = ROOT
-					}
-					ac_asuna_yuuki = {
-						set_nationality = ROOT
-					}
-					ac_atago_arp = {
-						set_nationality = ROOT
-					}
-					ac_atago_azur_lane = {
-						set_nationality = ROOT
-					}
-					ac_aurora_suya_rhys_kaymin = {
-						set_nationality = ROOT
-					}
-					ac_automaton = {
-						set_nationality = ROOT
-					}
-					ac_avrora_azur_lane = {
-						set_nationality = ROOT
-					}
-					ac_ayame_himuro = {
-						set_nationality = ROOT
-					}
-					ac_beidou = {
-						set_nationality = ROOT
-					}
-					ac_belfast = {
-						set_nationality = ROOT
-					}
-					ac_belldandy = {
-						set_nationality = ROOT
-					}
-					ac_blanc = {
-						set_nationality = ROOT
-					}
-					ac_byleth_eisner = {
-						set_nationality = ROOT
-					}
-					ac_camilla = {
-						set_nationality = ROOT
-					}
-					ac_caseal = {
-						set_nationality = ROOT
-					}
-					ac_celestine_lucullus = {
-						set_nationality = ROOT
-					}
-					ac_celica = {
-						set_nationality = ROOT
-					}
-					ac_charlotte_dunois = {
-						set_nationality = ROOT
-					}
-					#ac_chii = { set_nationality = ROOT }
-					ac_chisato_yonamine = {
-						set_nationality = ROOT
-					}
-					ac_cibo = {
-						set_nationality = ROOT
-					}
-					ac_clarion = {
-						set_nationality = ROOT
-					}
-					ac_claudia_le_van_tyne = {
-						set_nationality = ROOT
-					}
-					ac_cloe = {
-						set_nationality = ROOT
-					}
-					ac_compa = {
-						set_nationality = ROOT
-					}
-					ac_corrin = {
-						set_nationality = ROOT
-					}
-					ac_cryska_barchenowa = {
-						set_nationality = ROOT
-					}
-					ac_desco = {
-						set_nationality = ROOT
-					}
-					ac_djeeta = {
-						set_nationality = ROOT
-					}
-					ac_dullahan = {
-						set_nationality = ROOT
-					}
-					ac_edi = {
-						set_nationality = ROOT
-					}
-					ac_elizabeth = {
-						set_nationality = ROOT
-					}
-					ac_ellis = {
-						set_nationality = ROOT
-					}
-					ac_elma = {
-						set_nationality = ROOT
-					}
-					ac_erica_blandelli = {
-						set_nationality = ROOT
-					}
-					ac_eruza_guranhirute = {
-						set_nationality = ROOT
-					}
-					ac_erza = {
-						set_nationality = ROOT
-					}
-					ac_escha_malier = {
-						set_nationality = ROOT
-					}
-					ac_eula = {
-						set_nationality = ROOT
-					}
-					ac_fate_testarossa = {
-						set_nationality = ROOT
-					}
-					ac_fino_bloodstone = {
-						set_nationality = ROOT
-					}
-					ac_fiora = {
-						set_nationality = ROOT
-					}
-					ac_fiora_mechon = {
-						set_nationality = ROOT
-					}
-					ac_frey_ringitt = {
-						set_nationality = ROOT
-					}
-					ac_freyja = {
-						set_nationality = ROOT
-					}
-					ac_frill = {
-						set_nationality = ROOT
-					}
-					ac_fujimaru_ritsuka = {
-						set_nationality = ROOT
-					}
-					ac_hana = {
-						set_nationality = ROOT
-					}
-					ac_haruhi_suzumiya = {
-						set_nationality = ROOT
-					}
-					ac_haruna = {
-						set_nationality = ROOT
-					}
-					ac_hatsune_miku = {
-						set_nationality = ROOT
-					}
-					ac_heine = {
-						set_nationality = ROOT
-					}
-					ac_hiei_arp = {
-						set_nationality = ROOT
-					}
-					ac_himeno_awayuki = {
-						set_nationality = ROOT
-					}
-					ac_histoire = {
-						set_nationality = ROOT
-					}
-					ac_hitomi_tsukishiro = {
-						set_nationality = ROOT
-					}
-					ac_holo = {
-						set_nationality = ROOT
-					}
-					ac_homura_akemi = {
-						set_nationality = ROOT
-					}
-					ac_honey_kisaragi = {
-						set_nationality = ROOT
-					}
-					ac_honoka_kousaka = {
-						set_nationality = ROOT
-					}
-					ac_honoka_yukishiro = {
-						set_nationality = ROOT
-					}
-					ac_i-410 = {
-						set_nationality = ROOT
-					}
-					ac_ichinose_minori = {
-						set_nationality = ROOT
-					}
-					ac_if = {
-						set_nationality = ROOT
-					}
-					ac_igawa_asagi = {
-						set_nationality = ROOT
-					}
-					ac_illyasviel_von_einzbern = {
-						set_nationality = ROOT
-					}
-					ac_irina_jelavic = {
-						set_nationality = ROOT
-					}
-					ac_iris_arcadia = {
-						set_nationality = ROOT
-					}
-					ac_iris_heart = {
-						set_nationality = ROOT
-					}
-					ac_isht_karin_orte = {
-						set_nationality = ROOT
-					}
-					ac_ishtar = {
-						set_nationality = ROOT
-					}
-					ac_isuzu_sento = {
-						set_nationality = ROOT
-					}
-					ac_kallen_stadtfeld = {
-						set_nationality = ROOT
-					}
-					ac_kaname_chidori = {
-						set_nationality = ROOT
-					}
-					ac_kasumi = {
-						set_nationality = ROOT
-					}
-					ac_kasumi_nanakura = {
-						set_nationality = ROOT
-					}
-					ac_kawashima_mizuki = {
-						set_nationality = ROOT
-					}
-					ac_kei = {
-						set_nationality = ROOT
-					}
-					ac_kiana_kaslana = {
-						set_nationality = ROOT
-					}
-					ac_kirishima = {
-						set_nationality = ROOT
-					}
-					ac_kitagawa_marin = {
-						set_nationality = ROOT
-					}
-					ac_kobato_hanato = {
-						set_nationality = ROOT
-					}
-					ac_komugi_yoshida = {
-						set_nationality = ROOT
-					}
-					ac_kongou_arp = {
-						set_nationality = ROOT
-					}
-					ac_konoko = {
-						set_nationality = ROOT
-					}
-					ac_kos-mos = {
-						set_nationality = ROOT
-					}
-					ac_kurari_rose = {
-						set_nationality = ROOT
-					}
-					ac_kurumi_mugen = {
-						set_nationality = ROOT
-					}
-					ac_kurumi_tokisaki = {
-						set_nationality = ROOT
-					}
-					ac_laharl_girl = {
-						set_nationality = ROOT
-					}
-					ac_laura_la_mer = {
-						set_nationality = ROOT
-					}
-					ac_lena_sayers = {
-						set_nationality = ROOT
-					}
-					ac_lightning = {
-						set_nationality = ROOT
-					}
-					ac_lilith = {
-						set_nationality = ROOT
-					}
-					ac_lina_inverse = {
-						set_nationality = ROOT
-					}
-					ac_lucia_nanami = {
-						set_nationality = ROOT
-					}
-					ac_lucy = {
-						set_nationality = ROOT
-					}
-					ac_lucy_yamagami = {
-						set_nationality = ROOT
-					}
-					ac_madoka_kaname = {
-						set_nationality = ROOT
-					}
-					ac_mai_tokiha = {
-						set_nationality = ROOT
-					}
-					ac_maki_ivanova = {
-						set_nationality = ROOT
-					}
-					ac_makina_hoshimura = {
-						set_nationality = ROOT
-					}
-					#ac_mako_mitsuki = { set_nationality = ROOT }
-					#ac_makoto_kikuchi = { set_nationality = ROOT }
-					ac_makoto_kino = {
-						set_nationality = ROOT
-					}
-					ac_mamako_oosuki = {
-						set_nationality = ROOT
-					}
-					ac_maou = {
-						set_nationality = ROOT
-					}
-					ac_maple = {
-						set_nationality = ROOT
-					}
-					ac_marblehead_azur_lane = {
-						set_nationality = ROOT
-					}
-					ac_mari_setogaya = {
-						set_nationality = ROOT
-					}
-					ac_marie_von_eisenberg = {
-						set_nationality = ROOT
-					}
-					ac_maron_kusakabe = {
-						set_nationality = ROOT
-					}
-					ac_mash_kyrielight = {
-						set_nationality = ROOT
-					}
-					ac_megumin = {
-						set_nationality = ROOT
-					}
-					#ac_mei-fang = { set_nationality = ROOT }
-					ac_meroune_lorelei = {
-						set_nationality = ROOT
-					}
-					ac_merurulince_rede_arls = {
-						set_nationality = ROOT
-					}
-					ac_mhmd-02_haruko = {
-						set_nationality = ROOT
-					}
-					ac_mia_cyrus = {
-						set_nationality = ROOT
-					}
-					ac_miho_nishizumi = {
-						set_nationality = ROOT
-					}
-					ac_miia = {
-						set_nationality = ROOT
-					}
-					ac_mika_amano = {
-						set_nationality = ROOT
-					}
-					ac_miki_hoshii = {
-						set_nationality = ROOT
-					}
-					ac_mikumo_guynemer = {
-						set_nationality = ROOT
-					}
-					ac_milla_maxwell = {
-						set_nationality = ROOT
-					}
-					ac_minako_aino = {
-						set_nationality = ROOT
-					}
-					ac_minami_nitta = {
-						set_nationality = ROOT
-					}
-					ac_mind_flayer = {
-						set_nationality = ROOT
-					}
-					ac_mint_aizawa = {
-						set_nationality = ROOT
-					}
-					#ac_mio_naruse = { set_nationality = ROOT }
-					ac_misato_katsuragi = {
-						set_nationality = ROOT
-					}
-					ac_mistiora_arte = {
-						set_nationality = ROOT
-					}
-					ac_momo_chiyoda = {
-						set_nationality = ROOT
-					}
-					ac_momozono_love = {
-						set_nationality = ROOT
-					}
-					ac_morrah = {
-						set_nationality = ROOT
-					}
-					ac_mythra = {
-						set_nationality = ROOT
-					}
-					ac_nagisa_misumi = {
-						set_nationality = ROOT
-					}
-					ac_nanoha_takamachi = {
-						set_nationality = ROOT
-					}
-					ac_naru_narusegawa = {
-						set_nationality = ROOT
-					}
-					ac_natasha_cioara = {
-						set_nationality = ROOT
-					}
-					ac_natsuumi_manatsu = {
-						set_nationality = ROOT
-					}
-					ac_neptune = {
-						set_nationality = ROOT
-					}
-					ac_niko_yazawa = {
-						set_nationality = ROOT
-					}
-					ac_nishizumi_miho = {
-						set_nationality = ROOT
-					}
-					ac_noelle = {
-						set_nationality = ROOT
-					}
-					ac_noire = {
-						set_nationality = ROOT
-					}
-					ac_norimaki_arale = {
-						set_nationality = ROOT
-					}
-					ac_olga_discordia = {
-						set_nationality = ROOT
-					}
-					ac_phantom_queen_ex-xecty = {
-						set_nationality = ROOT
-					}
-					ac_pneuma = {
-						set_nationality = ROOT
-					}
-					ac_prim_fiorire = {
-						set_nationality = ROOT
-					}
-					ac_prinz_eugen = {
-						set_nationality = ROOT
-					}
-					ac_purifier = {
-						set_nationality = ROOT
-					}
-					ac_pyra = {
-						set_nationality = ROOT
-					}
-					ac_ranko_kanzaki = {
-						set_nationality = ROOT
-					}
-					ac_rei_ayanami = {
-						set_nationality = ROOT
-					}
-					ac_rei_hino = {
-						set_nationality = ROOT
-					}
-					#ac_reina_prowler = { set_nationality = ROOT }
-					ac_rhea = {
-						set_nationality = ROOT
-					}
-					#ac_rias_gremory = { set_nationality = ROOT }
-					ac_rin = {
-						set_nationality = ROOT
-					}
-					ac_rina_komiya = {
-						set_nationality = ROOT
-					}
-					ac_ripine = {
-						set_nationality = ROOT
-					}
-					ac_risa_android = {
-						set_nationality = ROOT
-					}
-					ac_risa = {
-						set_nationality = ROOT
-					}
-					#ac_rosaria = { set_nationality = ROOT }
-					ac_rose_android = {
-						set_nationality = ROOT
-					}
-					ac_rose = {
-						set_nationality = ROOT
-					}
-					ac_rozen_s_series = {
-						set_nationality = ROOT
-					}
-					ac_ruma = {
-						set_nationality = ROOT
-					}
-					ac_ryuuko_matoi = {
-						set_nationality = ROOT
-					}
-					ac_ryza = {
-						set_nationality = ROOT
-					}
-					ac_saint_louis_azur_lane = {
-						set_nationality = ROOT
-					}
-					ac_saint_martha = {
-						set_nationality = ROOT
-					}
-					ac_saki_rukino = {
-						set_nationality = ROOT
-					}
-					ac_saki_uno = {
-						set_nationality = ROOT
-					}
-					ac_sakura_kinomoto = {
-						set_nationality = ROOT
-					}
-					#ac_sakura_minamoto = { set_nationality = ROOT }
-					ac_sakuyo_mikage = {
-						set_nationality = ROOT
-					}
-					ac_sanya_v_litvyak = {
-						set_nationality = ROOT
-					}
-					ac_saori_asamiya = {
-						set_nationality = ROOT
-					}
-					ac_saphentite_neikes = {
-						set_nationality = ROOT
-					}
-					ac_satanichia_mcdowell_kurumizawa = {
-						set_nationality = ROOT
-					}
-					ac_satellizer_el_bridget = {
-						set_nationality = ROOT
-					}
-					ac_saya_kisaragi = {
-						set_nationality = ROOT
-					}
-					ac_saya_otonashi = {
-						set_nationality = ROOT
-					}
-					ac_selesia_upitiria = {
-						set_nationality = ROOT
-					}
-					ac_sheliss_elleness_zurbach = {
-						set_nationality = ROOT
-					}
-					#ac_sheryl_nome = { set_nationality = ROOT }
-					ac_shigure = {
-						set_nationality = ROOT
-					}
-					#ac_shiki = { set_nationality = ROOT }
-					ac_shima_tateishi = {
-						set_nationality = ROOT
-					}
-					ac_shiraori = {
-						set_nationality = ROOT
-					}
-					ac_shiratori_yuriko = {
-						set_nationality = ROOT
-					}
-					ac_sill_plain = {
-						set_nationality = ROOT
-					}
-					ac_siluca_meletes = {
-						set_nationality = ROOT
-					}
-					ac_sinon = {
-						set_nationality = ROOT
-					}
-					ac_snow = {
-						set_nationality = ROOT
-					}
-					ac_sophie_neuenmuller = {
-						set_nationality = ROOT
-					}
-					ac_sovetskaya_rossiya = {
-						set_nationality = ROOT
-					}
-					ac_subaru_nakajima = {
-						set_nationality = ROOT
-					}
-					ac_suomi = {
-						set_nationality = ROOT
-					}
-					ac_svetlana_sakura = {
-						set_nationality = ROOT
-					}
-					ac_takao_arp = {
-						set_nationality = ROOT
-					}
-					ac_takao_azur_lane = {
-						set_nationality = ROOT
-					}
-					ac_takizawa_asuka = {
-						set_nationality = ROOT
-					}
-					ac_t-elos = {
-						set_nationality = ROOT
-					}
-					ac_tester = {
-						set_nationality = ROOT
-					}
-					ac_tiamat = {
-						set_nationality = ROOT
-					}
-					#ac_tomoko_kuroki = { set_nationality = ROOT }
-					ac_tosa_azur_lane = {
-						set_nationality = ROOT
-					}
-					ac_tsubasa_kamijo = {
-						set_nationality = ROOT
-					}
-					ac_usagi_tsukino = {
-						set_nationality = ROOT
-					}
-					ac_utena_tenjou = {
-						set_nationality = ROOT
-					}
-					#ac_vanessa_diodati = { set_nationality = ROOT }
-					ac_velvet_crowe = {
-						set_nationality = ROOT
-					}
-					ac_vert = {
-						set_nationality = ROOT
-					}
-					ac_vignette_april_tsukinose = {
-						set_nationality = ROOT
-					}
-					ac_vivio = {
-						set_nationality = ROOT
-					}
-					ac_vivy = {
-						set_nationality = ROOT
-					}
-					ac_volemia = {
-						set_nationality = ROOT
-					}
-					ac_yamato_kancol = {
-						set_nationality = ROOT
-					}
-					ac_yamato_wg = {
-						set_nationality = ROOT
-					}
-					ac_yoko_littner = {
-						set_nationality = ROOT
-					}
-					ac_yoshiko_tsushima = {
-						set_nationality = ROOT
-					}
-					ac_yukina_himeragi = {
-						set_nationality = ROOT
-					}
-					ac_yuna = {
-						set_nationality = ROOT
-					}
-					ac_yuno_gasai = {
-						set_nationality = ROOT
-					}
-					#ac_yuriya_komiya = { set_nationality = ROOT }
-					ac_yurizaki_mira = {
-						set_nationality = ROOT
-					}
-					ac_yuuki_kawaragi = {
-						set_nationality = ROOT
-					}
-					ac_yuuko_yoshida = {
-						set_nationality = ROOT
-					}
-					ac_zakuro_fujiwara = {
-						set_nationality = ROOT
-					}
-					ac_zero_two = {
-						set_nationality = ROOT
-					}
-					ac_lilia_eberwein = {
-						set_nationality = ROOT
-					}
-					ac_catue_dragundaala = {
-						set_nationality = ROOT
-					}
-					ac_violet_evergarden = {
-						set_nationality = ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Shiki"
-					GFX = GFX_shiki
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-					traits = {
-						operative_linguist
-						operative_seducer
-					}
-				}
-				create_operative_leader = {
-					name = "Rosaria"
-					GFX = GFX_rosaria
-					female = yes
-					traits = {
-						operative_infiltrator
-						operative_demolition_expert
-						operative_commando
-					}
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Reina Prowler"
-					GFX = GFX_reina_prowler
-					female = yes
-					traits = {
-						operative_infiltrator
-						operative_safe_cracker
-						operative_demolition_expert
-					}
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Sheryl Nome"
-					GFX = GFX_sheryl_nome
-					female = yes
-					traits = {
-						operative_seducer
-						operative_natural_orator
-					}
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Ange le Carré"
-					GFX = GFX_ange_le_carre
-					female = yes
-					traits = {
-						operative_commando
-						operative_demolition_expert
-					}
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Makoto Kikuchi"
-					GFX = GFX_makoto_kikuchi
-					female = yes
-					traits = {
-						operative_commando
-						operative_demolition_expert
-						operative_safe_cracker
-					}
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Niko Yazawa"
-					GFX = GFX_niko_yazawa
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-					traits = {
-						operative_infiltrator
-						operative_natural_orator
-						operative_seducer
-						operative_safe_cracker
-					}
-				}
-				create_operative_leader = {
-					name = "Tomoko Kuroki"
-					GFX = GFX_tomoko_kuroki
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Aika Sumeragi"
-					GFX = GFX_aika_sumeragi
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Aoba Suzukaze"
-					GFX = GFX_aoba_suzukaze
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Mako Mitsuki"
-					GFX = GFX_mako_mitsuki
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-					traits = {
-						operative_seducer
-						operative_infiltrator
-					}
-				}
-				create_operative_leader = {
-					name = "Mika Amano"
-					GFX = GFX_mika_amano
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-					traits = {
-						operative_seducer
-					}
-				}
-				create_operative_leader = {
-					name = "Yuriya Komiya"
-					GFX = GFX_yuriya_komiya
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-						SOV
-						JAP
-					}
-					traits = {
-						operative_seducer
-					}
-				}
-				create_operative_leader = {
-					name = "Hitomi Tsukishiro"
-					GFX = GFX_hitomi_tsukishiro
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Rias Gremory"
-					GFX = GFX_rias_gremory
-					traits = {
-						operative_seducer
-					}
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Mio Naruse"
-					GFX = GFX_mio_naruse
-					traits = {
-						operative_commando
-					}
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Sakura Minamoto"
-					GFX = GFX_sakura_minamoto
-					traits = {
-						operative_infiltrator
-						operative_natural_orator
-					}
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Shigure"
-					GFX = GFX_shigure
-					traits = {
-						operative_safe_cracker
-						operative_demolition_expert
-					}
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Yurizaki Mira"
-					GFX = GFX_yurizaki_mira
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-					traits = {
-						operative_seducer
-						operative_natural_orator
-					}
-				}
-				create_operative_leader = {
-					name = "Aegis"
-					GFX = GFX_aegis
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-					traits = {
-						operative_commando
-					}
-				}
-				create_operative_leader = {
-					name = "Chii"
-					GFX = GFX_chii
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-					traits = {
-						operative_seducer
-						operative_infiltrator
-						operative_master_interrogator
-					}
-				}
-				create_operative_leader = {
-					name = "Vanessa Diodati"
-					GFX = GFX_vanessa_diodati
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = yes
-					nationalities = {
-						ROOT
-					}
-					traits = {
-						operative_demolition_expert
-						operative_commando
 					}
 				}
 			}
 		}
 	}
-	ac_take_traps = {
-		fire_only_once = yes
-		cost = 0
-		allowed = {
-			always = no
-		}
-		visible = {
-			NOT = {
-				has_country_flag = ac_take_traps_flag
+	ac_decision_gacha_admirals = {
+		cost = 50
+		available = {
+			has_idea = ac_idea_anime_academy
+			any_controlled_state = {
+				is_coastal = yes
 			}
 		}
 		complete_effect = {
-			set_country_flag = ac_take_traps_flag
-			custom_effect_tooltip = ac_take_traps_tt
+			add_to_variable = {
+				ac_var_count_admirals = 1
+			}
+			custom_effect_tooltip = ac_tt_gacha_admirals
 			hidden_effect = {
 				Z99 = {
-					ac_anri_sogahara = {
+					random_character = {
+						limit = {
+							has_character_flag = ac_girl_flag
+						}
+						random_list = {
+							50 = {
+								add_naval_commander_role = {
+									character = THIS
+									skill = 1
+									attack_skill = 1
+									defense_skill = 1
+									maneuvering_skill = 1
+									coordination_skill = 1
+								}
+							}
+							30 = {
+								add_naval_commander_role = {
+									character = THIS
+									skill = 3
+									attack_skill = 3
+									defense_skill = 3
+									maneuvering_skill = 1
+									coordination_skill = 1
+								}
+							}
+							15 = {
+								add_naval_commander_role = {
+									character = THIS
+									skill = 6
+									attack_skill = 6
+									defense_skill = 6
+									maneuvering_skill = 1
+									coordination_skill = 1
+								}
+							}
+							5 = {
+								add_naval_commander_role = {
+									character = THIS
+									skill = 9
+									attack_skill = 9
+									defense_skill = 9
+									maneuvering_skill = 1
+									coordination_skill = 1
+								}
+							}
+						}
+						add_trait = {
+							trait = ac_exp_navy_trait
+						}
+						add_random_trait = { old_guard_navy gentlemanly gunnery_expert cuts_corners chief_engineer navy_media_personality bold navy_career_officer battleship_adherent aviation_enthusiast caustic_personality craven naval_lineage seawolf fleet_protector blockade_runner superior_tactician spotter fly_swatter ironside air_controller arctic_water_expert inshore_fighter blue_water_expert green_water_expert }
 						set_nationality = ROOT
-					}
-					ac_aoi_futaba = {
-						set_nationality = ROOT
-					}
-					ac_aoi_hyoudou = {
-						set_nationality = ROOT
-					}
-					ac_astolfo = {
-						set_nationality = ROOT
-					}
-					ac_birdy_cephon_altera = {
-						set_nationality = ROOT
-					}
-					ac_felix_argyle = {
-						set_nationality = ROOT
-					}
-					ac_fish_eye = {
-						set_nationality = ROOT
-					}
-					#ac_gasper_vladi = { set_nationality = ROOT }
-					ac_hacka_doll_3 = {
-						set_nationality = ROOT
-					}
-					ac_hamaji_yakumo = {
-						set_nationality = ROOT
-					}
-					ac_hayato_juumonji = {
-						set_nationality = ROOT
-					}
-					ac_hideri_kanzaki = {
-						set_nationality = ROOT
-					}
-					ac_hime_arikawa = {
-						set_nationality = ROOT
-					}
-					ac_hitoshi_sugoroku = {
-						set_nationality = ROOT
-					}
-					ac_homare_nao = {
-						set_nationality = ROOT
-					}
-					ac_jun_hiiragi = {
-						set_nationality = ROOT
-					}
-					ac_kaguya_arikawa = {
-						set_nationality = ROOT
-					}
-					ac_kaname = {
-						set_nationality = ROOT
-					}
-					ac_kaoru_hanase = {
-						set_nationality = ROOT
-					}
-					ac_mare_bello_fiore = {
-						set_nationality = ROOT
-					}
-					ac_mariya_shidou = {
-						set_nationality = ROOT
-					}
-					ac_mitsunaga_oda = {
-						set_nationality = ROOT
-					}
-					ac_mizuho_miyanokouji = {
-						set_nationality = ROOT
-					}
-					ac_oboro_tsukimigusa = {
-						set_nationality = ROOT
-					}
-					ac_ranga = {
-						set_nationality = ROOT
-					}
-					ac_ranma_saotome = {
-						set_nationality = ROOT
-					}
-					ac_ringo_tsukimiya = {
-						set_nationality = ROOT
-					}
-					ac_ritsu_souma = {
-						set_nationality = ROOT
-					}
-					ac_russell = {
-						set_nationality = ROOT
-					}
-					#ac_ryou_akizuki = { set_nationality = ROOT }
-					#ac_saki_mizushima = { set_nationality = ROOT }
-					ac_shirota_mitsuki = {
-						set_nationality = ROOT
-					}
-					ac_souji_mitsuka = {
-						set_nationality = ROOT
-					}
-					ac_sylvia = {
-						set_nationality = ROOT
-					}
-					ac_takumi_musashino = {
-						set_nationality = ROOT
-					}
-					ac_tama_kyan = {
-						set_nationality = ROOT
-					}
-					ac_taroumaru_seike = {
-						set_nationality = ROOT
-					}
-					ac_tetora = {
-						set_nationality = ROOT
-					}
-					ac_tiger_traps = {
-						set_nationality = ROOT
-					}
-					ac_xianming_lin = {
-						set_nationality = ROOT
-					}
-					ac_youta_tsunashi = {
-						set_nationality = ROOT
-					}
-					ac_yukikaze = {
-						set_nationality = ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Aoi Futaba"
-					GFX = GFX_aoi_futaba
-					traits = {
-						operative_seducer
-						operative_linguist
-					}
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = no
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Gasper Vladi"
-					GFX = GFX_gasper_vladi
-					traits = {
-						operative_seducer
-						operative_double_agent
-					}
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = no
-					nationalities = {
-						ROOT
-						ROM
-					}
-				}
-				create_operative_leader = {
-					name = "Ryou Akizuki"
-					GFX = GFX_ryou_akizuki
-					traits = {
-						operative_seducer
-					}
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = no
-					nationalities = {
-						ROOT
-					}
-				}
-				create_operative_leader = {
-					name = "Saki Mizushima"
-					GFX = GFX_saki_mizushima
-					traits = {
-						operative_natural_orator
-					}
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					female = no
-					nationalities = {
-						ROOT
 					}
 				}
 			}
 		}
 	}
+	ac_decision_gacha_political_advisors = {
+		cost = 50
+		available = {
+			has_idea = ac_idea_anime_academy
+		}
+		complete_effect = {
+			custom_effect_tooltip = ac_tt_gacha_political_advisors
+			hidden_effect = {
+				Z99 = {
+					random_character = {
+						limit = {
+							has_character_flag = ac_girl_flag
+						}
+						random_list = {
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_popular_figurehead
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_silent_workhorse
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_head_of_intelligence
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_intelligence_princess
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_propaganda_expert
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_first_lady
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_quartermaster_general
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_infrastructure_developer
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_captain_of_industry
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_war_industrialist
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_princess_of_terror
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_communist_revolutionary
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_democratic_reformer
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_fascist_demagogue
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_staunch_monarchist
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_peoples_favorite_minister
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_minister_of_health
+										}
+									}
+								}
+							}
+						}
+						set_nationality = ROOT
+					}
+				}
+			}
+		}
+	}
+	ac_decision_gacha_theorists = {
+		cost = 50
+		available = {
+			has_idea = ac_idea_anime_academy
+		}
+		complete_effect = {
+			custom_effect_tooltip = ac_tt_gacha_theorists
+			hidden_effect = {
+				Z99 = {
+					random_character = {
+						limit = {
+							has_character_flag = ac_girl_flag
+						}
+						random_list = {
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_nuclear_scientist
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = political_advisor
+										cost = 150
+										idea_token = THIS
+										traits = {
+											ac_girl_scientist
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											military_theorist
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											mobile_warfare_expert
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											superior_firepower_expert
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											grand_battle_plan_expert
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											mass_assault_expert
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											air_warfare_theorist
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											dive_bomber
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											victory_through_airpower
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											close_air_support_proponent
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											assault_avaition
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											naval_theorist
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											naval_aviation_pioneer
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											grand_fleet_proponent
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											submarine_specialist
+										}
+									}
+								}
+							}
+							1 = {
+								add_advisor_role = {
+									character = THIS
+									activate = no
+									advisor = {
+										slot = theorist
+										cost = 150
+										idea_token = THIS
+										traits = {
+											blitzkrieg_theorist
+										}
+									}
+								}
+							}
+						}
+						set_nationality = ROOT
+					}
+				}
+			}
+		}
+	}
+	ac_decision_gacha_operatives = {
+		cost = 50
+		available = {
+			has_idea = ac_idea_idea_anime_intelligence_agency
+		}
+		complete_effect = {
+			custom_effect_tooltip = ac_tt_gacha_operatives
+			hidden_effect = {
+				if = {
+					limit = {
+						check_variable = {
+							ac_var_count_operatives < 22
+						}
+					}
+					add_to_variable = {
+						ac_var_count_operatives = 1
+					}
+					random_list = {
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_shiki
+							}
+							set_country_flag = ac_flag_shiki
+							create_operative_leader = {
+								name = "Shiki"
+								GFX = GFX_shiki
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+								traits = {
+									operative_linguist
+									operative_seducer
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_rosaria
+								
+							}
+							set_country_flag = ac_flag_rosaria
+							create_operative_leader = {
+								name = "Rosaria"
+								GFX = GFX_rosaria
+								female = yes
+								traits = {
+									operative_infiltrator
+									operative_demolition_expert
+									operative_commando
+								}
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								nationalities = {
+									ROOT
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_reina_prowler
+								
+							}
+							set_country_flag = ac_flag_reina_prowler
+							create_operative_leader = {
+								name = "Reina Prowler"
+								GFX = GFX_reina_prowler
+								female = yes
+								traits = {
+									operative_infiltrator
+									operative_safe_cracker
+									operative_demolition_expert
+								}
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								nationalities = {
+									ROOT
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_sheryl_nome
+								
+							}
+							set_country_flag = ac_flag_sheryl_nome
+							create_operative_leader = {
+								name = "Sheryl Nome"
+								GFX = GFX_sheryl_nome
+								female = yes
+								traits = {
+									operative_seducer
+									operative_natural_orator
+								}
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								nationalities = {
+									ROOT
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_ange_le_carre
+								
+							}
+							set_country_flag = ac_flag_ange_le_carre
+							create_operative_leader = {
+								name = "Ange le Carré"
+								GFX = GFX_ange_le_carre
+								female = yes
+								traits = {
+									operative_commando
+									operative_demolition_expert
+								}
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								nationalities = {
+									ROOT
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_makoto_kikuchi
+								
+							}
+							set_country_flag = ac_flag_makoto_kikuchi
+							create_operative_leader = {
+								name = "Makoto Kikuchi"
+								GFX = GFX_makoto_kikuchi
+								female = yes
+								traits = {
+									operative_commando
+									operative_demolition_expert
+									operative_safe_cracker
+								}
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								nationalities = {
+									ROOT
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_niko_yazawa
+								
+							}
+							set_country_flag = ac_flag_niko_yazawa
+							create_operative_leader = {
+								name = "Niko Yazawa"
+								GFX = GFX_niko_yazawa
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+								traits = {
+									operative_infiltrator
+									operative_natural_orator
+									operative_seducer
+									operative_safe_cracker
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_tomoko_kuroki
+								
+							}
+							set_country_flag = ac_flag_tomoko_kuroki
+							create_operative_leader = {
+								name = "Tomoko Kuroki"
+								GFX = GFX_tomoko_kuroki
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_aika_sumeragi
+								
+							}
+							set_country_flag = ac_flag_aika_sumeragi
+							create_operative_leader = {
+								name = "Aika Sumeragi"
+								GFX = GFX_aika_sumeragi
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_aoba_suzukaze
+								
+							}
+							set_country_flag = ac_flag_aoba_suzukaze
+							create_operative_leader = {
+								name = "Aoba Suzukaze"
+								GFX = GFX_aoba_suzukaze
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_mako_mitsuki
+								
+							}
+							set_country_flag = ac_flag_mako_mitsuki
+							create_operative_leader = {
+								name = "Mako Mitsuki"
+								GFX = GFX_mako_mitsuki
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+								traits = {
+									operative_seducer
+									operative_infiltrator
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_mika_amano
+								
+							}
+							set_country_flag = ac_flag_mika_amano
+							create_operative_leader = {
+								name = "Mika Amano"
+								GFX = GFX_mika_amano
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+								traits = {
+									operative_seducer
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_yuriya_komiya
+								
+							}
+							set_country_flag = ac_flag_yuriya_komiya
+							create_operative_leader = {
+								name = "Yuriya Komiya"
+								GFX = GFX_yuriya_komiya
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+									SOV
+									JAP
+								}
+								traits = {
+									operative_seducer
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_hitomi_tsukishiro
+								
+							}
+							set_country_flag = ac_flag_hitomi_tsukishiro
+							create_operative_leader = {
+								name = "Hitomi Tsukishiro"
+								GFX = GFX_hitomi_tsukishiro
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_rias_gremory
+								
+							}
+							set_country_flag = ac_flag_rias_gremory
+							create_operative_leader = {
+								name = "Rias Gremory"
+								GFX = GFX_rias_gremory
+								traits = {
+									operative_seducer
+								}
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_mio_naruse
+								
+							}
+							set_country_flag = ac_flag_mio_naruse
+							create_operative_leader = {
+								name = "Mio Naruse"
+								GFX = GFX_mio_naruse
+								traits = {
+									operative_commando
+								}
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_sakura_minamoto
+								
+							}
+							set_country_flag = ac_flag_sakura_minamoto
+							create_operative_leader = {
+								name = "Sakura Minamoto"
+								GFX = GFX_sakura_minamoto
+								traits = {
+									operative_infiltrator
+									operative_natural_orator
+								}
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_shigure
+								
+							}
+							set_country_flag = ac_flag_shigure
+							create_operative_leader = {
+								name = "Shigure"
+								GFX = GFX_shigure
+								traits = {
+									operative_safe_cracker
+									operative_demolition_expert
+								}
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_yurizaki_mira
+								
+							}
+							set_country_flag = ac_flag_yurizaki_mira
+							create_operative_leader = {
+								name = "Yurizaki Mira"
+								GFX = GFX_yurizaki_mira
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+								traits = {
+									operative_seducer
+									operative_natural_orator
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_aegis
+								
+							}
+							set_country_flag = ac_flag_aegis
+							create_operative_leader = {
+								name = "Aegis"
+								GFX = GFX_aegis
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+								traits = {
+									operative_commando
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_chii
+								
+							}
+							set_country_flag = ac_flag_chii
+							create_operative_leader = {
+								name = "Chii"
+								GFX = GFX_chii
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+								traits = {
+									operative_seducer
+									operative_infiltrator
+									operative_master_interrogator
+								}
+							}
+						}
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_vanessa_diodati
+								
+							}
+							set_country_flag = ac_flag_vanessa_diodati
+							create_operative_leader = {
+								name = "Vanessa Diodati"
+								GFX = GFX_vanessa_diodati
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = yes
+								nationalities = {
+									ROOT
+								}
+								traits = {
+									operative_demolition_expert
+									operative_commando
+								}
+							}
+						}
+					}
+				}
+				else = {
+					create_operative_leader = {
+						bypass_recruitment = yes
+						portrait_tag_override = Z99
+						female = yes
+					}
+				}
+			}
+		}
+	}
+
 	ac_change_leader_to_anastasia_romanova = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag = ac_take_girls_flag
-			# NOT = {
-			# 	has_country_leader = {
-			# 		character = ac_anastasia_romanova
-			# 		ruling_only = yes
-			# 	}
-			# }
+			has_character = ac_anastasia_romanova
 		}
 		available = {
 			NOT = {
@@ -1380,27 +1252,13 @@ ac_anime_characters_category = {
 			}
 		}
 		complete_effect = {
-			retire_country_leader = yes
+			#retire_country_leader = yes
 			set_country_leader_name = {
 				name = ac_anastasia_romanova
 			}
 			set_country_leader_portrait = {
 				portrait = GFX_portrait_ac_anastasia_romanova
 			}
-			# add_country_leader_role = {
-			# 	character = ac_anastasia_romanova
-			# 	promote_leader = yes
-			# 	country_leader = {
-			# 		ideology = despotism
-			# 		expire = "1965.1.1.1"
-			# 		traits = {
-			# 			ac_anime_tyan
-			# 			ac_peoples_favorite
-			# 			ac_patron_of_science
-			# 			ac_empress
-			# 		}
-			# 	}
-			# }
 			add_country_leader_trait = ac_anime_tyan
 			add_country_leader_trait = ac_peoples_favorite
 			add_country_leader_trait = ac_patron_of_science
@@ -1414,13 +1272,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag = ac_take_girls_flag
-			# NOT = {
-			# 	has_country_leader = {
-			# 		character = ac_mind_flayer
-			# 		ruling_only = yes
-			# 	}
-			# }
+			has_character = ac_mind_flayer
 		}
 		available = {
 			NOT = {
@@ -1432,7 +1284,7 @@ ac_anime_characters_category = {
 			}
 		}
 		complete_effect = {
-			retire_country_leader = yes
+			#retire_country_leader = yes
 			set_country_leader_name = {
 				name = ac_mind_flayer
 			}
@@ -1466,13 +1318,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag = ac_take_girls_flag
-			# NOT = {
-			# 	has_country_leader = {
-			# 		character = ac_histoire
-			# 		ruling_only = yes
-			# 	}
-			# }
+			has_character = ac_histoire
 		}
 		available = {
 			NOT = {
@@ -1484,7 +1330,7 @@ ac_anime_characters_category = {
 			}
 		}
 		complete_effect = {
-			retire_country_leader = yes
+			#retire_country_leader = yes
 			set_country_leader_name = {
 				name = ac_histoire
 			}
@@ -1495,20 +1341,6 @@ ac_anime_characters_category = {
 			add_country_leader_trait = ac_revolutionary
 			add_country_leader_trait = ac_patron_of_industry
 			add_country_leader_trait = ac_dictator
-			# add_country_leader_role = {
-			# 	character = ac_histoire
-			# 	country_leader = {
-			# 		ideology = leninism
-			# 		expire = "1959.12.23.1"
-			# 		traits = {
-			# 			ac_anime_tyan
-			# 			ac_revolutionary
-			# 			ac_patron_of_industry
-			# 			ac_dictator
-			# 		}
-			# 	}
-			# 	promote_leader = yes
-			# }
 			ac_histoire = {
 				set_character_flag = ac_country_leader_flag
 			}
@@ -1518,13 +1350,7 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_country_flag = ac_take_girls_flag
-			# NOT = {
-			# 	has_country_leader = {
-			# 		character = ac_alisa_illinichina_amiella
-			# 		ruling_only = yes
-			# 	}
-			# }
+			has_character = ac_alisa_illinichina_amiella
 		}
 		available = {
 			NOT = {
@@ -1536,7 +1362,7 @@ ac_anime_characters_category = {
 			}
 		}
 		complete_effect = {
-			retire_country_leader = yes
+			#retire_country_leader = yes
 			set_country_leader_name = {
 				name = ac_alisa_illinichina_amiella
 			}
@@ -1547,20 +1373,6 @@ ac_anime_characters_category = {
 			add_country_leader_trait = ac_revolutionary
 			add_country_leader_trait = ac_patron_of_industry
 			add_country_leader_trait = ac_dictator
-			# add_country_leader_role = {
-			# 	character = ac_alisa_illinichina_amiella
-			# 	country_leader = {
-			# 		ideology = stalinism
-			# 		expire = "1959.12.23.1"
-			# 		traits = {
-			# 			ac_anime_tyan
-			# 			ac_revolutionary
-			# 			ac_patron_of_industry
-			# 			ac_dictator
-			# 		}
-			# 	}
-			# 	promote_leader = yes
-			# }
 			ac_alisa_illinichina_amiella = {
 				set_character_flag = ac_country_leader_flag
 			}
@@ -1570,13 +1382,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag = ac_take_girls_flag
-			# NOT = {
-			# 	has_country_leader = {
-			# 		character = ac_velvet_crowe
-			# 		ruling_only = yes
-			# 	}
-			# }
+			has_character = ac_velvet_crowe
 		}
 		available = {
 			NOT = {
@@ -1588,7 +1394,7 @@ ac_anime_characters_category = {
 			}
 		}
 		complete_effect = {
-			retire_country_leader = yes
+			#retire_country_leader = yes
 			set_country_leader_name = {
 				name = ac_velvet_crowe
 			}
@@ -1599,20 +1405,6 @@ ac_anime_characters_category = {
 			add_country_leader_trait = ac_tyan_militarist
 			add_country_leader_trait = ac_patron_of_the_military_industrial_complex
 			add_country_leader_trait = ac_demon_lord
-			# add_country_leader_role = {
-			# 	character = ac_velvet_crowe
-			# 	country_leader = {
-			# 		ideology = fascism_ideology
-			# 		expire = "1959.12.23.1"
-			# 		traits = {
-			# 			ac_anime_tyan
-			# 			ac_tyan_militarist
-			# 			ac_patron_of_the_military_industrial_complex
-			# 			ac_demon_lord
-			# 		}
-			# 	}
-			# 	promote_leader = yes
-			# }
 			ac_velvet_crowe = {
 				set_character_flag = ac_country_leader_flag
 			}
@@ -1622,13 +1414,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag = ac_take_girls_flag
-			# NOT = {
-			# 	has_country_leader = {
-			# 		character = ac_t-elos
-			# 		ruling_only = yes
-			# 	}
-			# }
+			has_character = ac_t-elos
 		}
 		available = {
 			NOT = {
@@ -1640,7 +1426,7 @@ ac_anime_characters_category = {
 			}
 		}
 		complete_effect = {
-			retire_country_leader = yes
+			#retire_country_leader = yes
 			set_country_leader_name = {
 				name = ac_t-elos
 			}
@@ -1651,20 +1437,6 @@ ac_anime_characters_category = {
 			add_country_leader_trait = ac_tyan_militarist
 			add_country_leader_trait = ac_patron_of_the_military_industrial_complex
 			add_country_leader_trait = ac_superweapon
-			# add_country_leader_role = {
-			# 	character = ac_t-elos
-			# 	country_leader = {
-			# 		ideology = nazism
-			# 		expire = "1959.12.23.1"
-			# 		traits = {
-			# 			ac_anime_tyan
-			# 			ac_tyan_militarist
-			# 			ac_patron_of_the_military_industrial_complex
-			# 			ac_superweapon
-			# 		}
-			# 	}
-			# 	promote_leader = yes
-			# }
 			ac_t-elos = {
 				set_character_flag = ac_country_leader_flag
 			}
@@ -1674,13 +1446,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag = ac_take_girls_flag
-			# NOT = {
-			# 	has_country_leader = {
-			# 		character = ac_yuuko_yoshida
-			# 		ruling_only = yes
-			# 	}
-			# }
+			has_character = ac_yuuko_yoshida
 		}
 		available = {
 			NOT = {
@@ -1692,7 +1458,7 @@ ac_anime_characters_category = {
 			}
 		}
 		complete_effect = {
-			retire_country_leader = yes
+			#retire_country_leader = yes
 			set_country_leader_name = {
 				name = ac_yuuko_yoshida
 			}
@@ -1703,20 +1469,6 @@ ac_anime_characters_category = {
 			add_country_leader_trait = ac_defender
 			add_country_leader_trait = ac_patron_of_intelligence
 			add_country_leader_trait = ac_demon_lord
-			# add_country_leader_role = {
-			# 	character = ac_yuuko_yoshida
-			# 	country_leader = {
-			# 		ideology = socialism
-			# 		expire = "1959.12.23.1"
-			# 		traits = {
-			# 			ac_anime_tyan
-			# 			ac_defender
-			# 			ac_patron_of_intelligence
-			# 			ac_demon_lord
-			# 		}
-			# 	}
-			# 	promote_leader = yes
-			# }
 			ac_yuuko_yoshida = {
 				set_character_flag = ac_country_leader_flag
 			}
@@ -1726,13 +1478,7 @@ ac_anime_characters_category = {
 		fire_only_once = no
 		cost = 100
 		visible = {
-			has_country_flag = ac_take_girls_flag
-			# NOT = {
-			# 	has_country_leader = {
-			# 		character = ac_celestine_lucullus
-			# 		ruling_only = yes
-			# 	}
-			# }
+			has_character = ac_celestine_lucullus
 		}
 		available = {
 			NOT = {
@@ -1744,7 +1490,7 @@ ac_anime_characters_category = {
 			}
 		}
 		complete_effect = {
-			retire_country_leader = yes
+			#retire_country_leader = yes
 			set_country_leader_name = {
 				name = ac_celestine_lucullus
 			}
@@ -1755,243 +1501,23 @@ ac_anime_characters_category = {
 			add_country_leader_trait = ac_defender
 			add_country_leader_trait = ac_patron_of_intelligence
 			add_country_leader_trait = ac_empress
-			# add_country_leader_role = {
-			# 	character = ac_celestine_lucullus
-			# 	country_leader = {
-			# 		ideology = liberalism
-			# 		expire = "1959.12.23.1"
-			# 		traits = {
-			# 			ac_anime_tyan
-			# 			ac_defender
-			# 			ac_patron_of_intelligence
-			# 			ac_empress
-			# 		}
-			# 	}
-			# 	promote_leader = yes
-			# }
 			ac_celestine_lucullus = {
 				set_character_flag = ac_country_leader_flag
 			}
 		}
 	}
-	#traps
-	ac_change_leader_to_astolfo = {
+	#TRAPS
+	ac_decision_enable_traps = {
 		fire_only_once = yes
-		cost = 100
-		visible = {
-			has_country_flag = ac_take_traps_flag
-			# NOT = {
-			# 	has_country_leader = {
-			# 		character = ac_astolfo
-			# 		ruling_only = yes
-			# 	}
-			# }
-		}
-		available = {
-			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
-				}
-			}
-		}
 		complete_effect = {
-			retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_astolfo
-			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_astolfo
-			}
-			add_country_leader_trait = ac_trap
-			add_country_leader_trait = ac_defender
-			add_country_leader_trait = ac_patron_of_intelligence
-			add_country_leader_trait = ac_idol
-			# add_country_leader_role = {
-			# 	character = ac_astolfo
-			# 	country_leader = {
-			# 		ideology = liberalism
-			# 		expire = "1959.12.23.1"
-			# 		traits = {
-			# 			ac_trap
-			# 			ac_defender
-			# 			ac_patron_of_intelligence
-			# 			ac_idol
-			# 		}
-			# 	}
-			# 	promote_leader = yes
-			# }
-			ac_astolfo = {
-				set_character_flag = ac_country_leader_flag
-			}
+			set_country_flag = ac_flag_enable_traps
 		}
 	}
-	ac_change_leader_to_homare_nao = {
-		fire_only_once = no
-		cost = 100
-		visible = {
-			has_country_flag = ac_take_traps_flag
-			# NOT = {
-			# 	has_country_leader = {
-			# 		character = ac_homare_nao
-			# 		ruling_only = yes
-			# 	}
-			# }
-		}
-		available = {
-			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
-				}
-			}
-		}
-		complete_effect = {
-			retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_homare_nao
-			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_homare_nao
-			}
-			add_country_leader_trait = ac_trap
-			add_country_leader_trait = ac_peoples_favorite
-			add_country_leader_trait = ac_patron_of_science
-			add_country_leader_trait = ac_empress
-			# add_country_leader_role = {
-			# 	character = ac_homare_nao
-			# 	country_leader = {
-			# 		ideology = centrism
-			# 		expire = "1959.12.23.1"
-			# 		traits = {
-			# 			ac_trap
-			# 			ac_peoples_favorite
-			# 			ac_patron_of_science
-			# 			ac_empress
-			# 		}
-			# 	}
-			# 	promote_leader = yes
-			# }
-			ac_homare_nao = {
-				set_character_flag = ac_country_leader_flag
-			}
-		}
-	}
-	ac_change_leader_to_takumi_musashino = {
-		fire_only_once = no
-		cost = 100
-		visible = {
-			has_country_flag = ac_take_traps_flag
-			# NOT = {
-			# 	has_country_leader = {
-			# 		character = ac_takumi_musashino
-			# 		ruling_only = yes
-			# 	}
-			# }
-		}
-		available = {
-			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
-				}
-			}
-		}
-		complete_effect = {
-			retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_takumi_musashino
-			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_takumi_musashino
-			}
-			add_country_leader_trait = ac_trap
-			add_country_leader_trait = ac_revolutionary
-			add_country_leader_trait = ac_patron_of_industry
-			add_country_leader_trait = ac_dictator
-			# add_country_leader_role = {
-			# 	character = ac_takumi_musashino
-			# 	country_leader = {
-			# 		ideology = leninism
-			# 		expire = "1959.12.23.1"
-			# 		traits = {
-			# 			ac_trap
-			# 			ac_revolutionary
-			# 			ac_patron_of_industry
-			# 			ac_dictator
-			# 		}
-			# 	}
-			# 	promote_leader = yes
-			# }
-			ac_takumi_musashino = {
-				set_character_flag = ac_country_leader_flag
-			}
-		}
-	}
-	ac_change_leader_to_hideri_kanzaki = {
-		fire_only_once = no
-		cost = 100
-		visible = {
-			has_country_flag = ac_take_traps_flag
-			# NOT = {
-			# 	has_country_leader = {
-			# 		character = ac_hideri_kanzaki
-			# 		ruling_only = yes
-			# 	}
-			# }
-		}
-		available = {
-			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
-				}
-			}
-		}
-		complete_effect = {
-			retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_hideri_kanzaki
-			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_hideri_kanzaki
-			}
-			add_country_leader_trait = ac_trap
-			add_country_leader_trait = ac_tyan_militarist
-			add_country_leader_trait = ac_patron_of_the_military_industrial_complex
-			add_country_leader_trait = ac_idol
-			# add_country_leader_role = {
-			# 	character = ac_hideri_kanzaki
-			# 	country_leader = {
-			# 		ideology = fascism_ideology
-			# 		expire = "1959.12.23.1"
-			# 		traits = {
-			# 			ac_trap
-			# 			ac_tyan_militarist
-			# 			ac_patron_of_the_military_industrial_complex
-			# 			ac_idol
-			# 		}
-			# 	}
-			# 	promote_leader = yes
-			# }
-			ac_hideri_kanzaki = {
-				set_character_flag = ac_country_leader_flag
-			}
-		}
-	}
-	ac_deactivate = {
-		fire_only_once = no
-		cost = 0
-		complete_effect = {
-			set_country_flag = ac_anime_characters_category_disabled_flag
-		}
-	}
-	ac_decision_gacha_generals = {
+	ac_decision_gacha_trap_generals = {
 		cost = 50
+		visible = {
+			has_country_flag = ac_flag_enable_traps
+		}
 		available = {
 			has_idea = ac_idea_anime_academy
 		}
@@ -1999,19 +1525,17 @@ ac_anime_characters_category = {
 			add_to_variable = {
 				ac_var_count_generals = 1
 			}
-			Z99 = {
-				random_character = {
-					limit = {
-						NOT = {
+			custom_effect_tooltip = ac_tt_gacha_generals
+			hidden_effect = {
+				Z99 = {
+					random_character = {
+						limit = {
 							has_character_flag = ac_trap_flag
 						}
-					}
-					set_nationality = ROOT
-					ROOT = {
 						random_list = {
 							50 = {
 								add_corps_commander_role = {
-									Character = PREV
+									character = THIS
 									skill = 1
 									attack_skill = 1
 									defense_skill = 1
@@ -2021,7 +1545,7 @@ ac_anime_characters_category = {
 							}
 							30 = {
 								add_corps_commander_role = {
-									Character = PREV
+									character = THIS
 									skill = 3
 									attack_skill = 3
 									defense_skill = 3
@@ -2031,7 +1555,7 @@ ac_anime_characters_category = {
 							}
 							15 = {
 								add_corps_commander_role = {
-									Character = PREV
+									character = THIS
 									skill = 6
 									attack_skill = 6
 									defense_skill = 6
@@ -2041,7 +1565,7 @@ ac_anime_characters_category = {
 							}
 							5 = {
 								add_corps_commander_role = {
-									Character = PREV
+									character = THIS
 									skill = 9
 									attack_skill = 9
 									defense_skill = 9
@@ -2050,14 +1574,21 @@ ac_anime_characters_category = {
 								}
 							}
 						}
+						add_trait = {
+							trait = ac_exp_trait
+						}
+						add_random_trait = { old_guard brilliant_strategist inflexible_strategist politically_connected war_hero career_officer trait_cautious trait_reckless media_personality harsh_leader bearer_of_artillery infantry_officer cavalry_officer armor_officer engineer_officer organizer cavalry_leader infantry_leader skilled_staffer trickster naval_invader desert_fox swamp_fox trait_mountaineer hill_fighter jungle_rat ranger urban_assault_specialist winter_specialist winter_expert trait_engineer panzer_leader commando }
+						set_nationality = ROOT
 					}
-					add_random_trait = { old_guard brilliant_strategist inflexible_strategist politically_connected war_hero career_officer trait_cautious trait_reckless media_personality harsh_leader bearer_of_artillery infantry_officer cavalry_officer armor_officer engineer_officer organizer cavalry_leader infantry_leader skilled_staffer trickster naval_invader desert_fox swamp_fox trait_mountaineer hill_fighter jungle_rat ranger urban_assault_specialist winter_specialist winter_expert trait_engineer panzer_leader commando }
 				}
 			}
 		}
 	}
-	ac_decision_gacha_admirals = {
+	ac_decision_gacha_trap_admirals = {
 		cost = 50
+		visible = {
+			has_country_flag = ac_flag_enable_traps
+		}
 		available = {
 			has_idea = ac_idea_anime_academy
 			any_controlled_state = {
@@ -2068,19 +1599,17 @@ ac_anime_characters_category = {
 			add_to_variable = {
 				ac_var_count_admirals = 1
 			}
-			Z99 = {
-				random_character = {
-					limit = {
-						NOT = {
+			custom_effect_tooltip = ac_tt_gacha_admirals
+			hidden_effect = {
+				Z99 = {
+					random_character = {
+						limit = {
 							has_character_flag = ac_trap_flag
 						}
-					}
-					set_nationality = ROOT
-					ROOT = {
 						random_list = {
 							50 = {
 								add_naval_commander_role = {
-									Character = PREV
+									character = THIS
 									skill = 1
 									attack_skill = 1
 									defense_skill = 1
@@ -2090,7 +1619,7 @@ ac_anime_characters_category = {
 							}
 							30 = {
 								add_naval_commander_role = {
-									Character = PREV
+									character = THIS
 									skill = 3
 									attack_skill = 3
 									defense_skill = 3
@@ -2100,7 +1629,7 @@ ac_anime_characters_category = {
 							}
 							15 = {
 								add_naval_commander_role = {
-									Character = PREV
+									character = THIS
 									skill = 6
 									attack_skill = 6
 									defense_skill = 6
@@ -2110,7 +1639,7 @@ ac_anime_characters_category = {
 							}
 							5 = {
 								add_naval_commander_role = {
-									Character = PREV
+									character = THIS
 									skill = 9
 									attack_skill = 9
 									defense_skill = 9
@@ -2119,36 +1648,41 @@ ac_anime_characters_category = {
 								}
 							}
 						}
+						add_trait = {
+							trait = ac_exp_navy_trait
+						}
+						add_random_trait = { old_guard_navy gentlemanly gunnery_expert cuts_corners chief_engineer navy_media_personality bold navy_career_officer battleship_adherent aviation_enthusiast caustic_personality craven naval_lineage seawolf fleet_protector blockade_runner superior_tactician spotter fly_swatter ironside air_controller arctic_water_expert inshore_fighter blue_water_expert green_water_expert }
+						set_nationality = ROOT
 					}
-					add_random_trait = { old_guard_navy gentlemanly gunnery_expert cuts_corners chief_engineer navy_media_personality bold navy_career_officer battleship_adherent aviation_enthusiast caustic_personality craven naval_lineage seawolf fleet_protector blockade_runner superior_tactician spotter fly_swatter ironside air_controller arctic_water_expert inshore_fighter blue_water_expert green_water_expert }
 				}
 			}
 		}
 	}
-	ac_decision_gacha_political_advisors = {
+	ac_decision_gacha_trap_political_advisors = {
 		cost = 50
+		visible = {
+			has_country_flag = ac_flag_enable_traps
+		}
 		available = {
 			has_idea = ac_idea_anime_academy
 		}
 		complete_effect = {
-			Z99 = {
-				random_character = {
-					limit = {
-						NOT = {
+			custom_effect_tooltip = ac_tt_gacha_political_advisors
+			hidden_effect = {
+				Z99 = {
+					random_character = {
+						limit = {
 							has_character_flag = ac_trap_flag
 						}
-					}
-					set_nationality = ROOT
-					ROOT = {
 						random_list = {
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_popular_figurehead
 										}
@@ -2157,12 +1691,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_silent_workhorse
 										}
@@ -2171,12 +1705,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_head_of_intelligence
 										}
@@ -2185,12 +1719,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_intelligence_princess
 										}
@@ -2199,12 +1733,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_propaganda_expert
 										}
@@ -2213,12 +1747,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_first_lady
 										}
@@ -2227,12 +1761,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_quartermaster_general
 										}
@@ -2241,12 +1775,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_infrastructure_developer
 										}
@@ -2255,12 +1789,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_captain_of_industry
 										}
@@ -2269,12 +1803,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_war_industrialist
 										}
@@ -2283,12 +1817,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_princess_of_terror
 										}
@@ -2297,12 +1831,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_communist_revolutionary
 										}
@@ -2311,12 +1845,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_democratic_reformer
 										}
@@ -2325,12 +1859,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_fascist_demagogue
 										}
@@ -2339,12 +1873,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_staunch_monarchist
 										}
@@ -2353,12 +1887,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_peoples_favorite_minister
 										}
@@ -2367,12 +1901,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_minister_of_health
 										}
@@ -2380,35 +1914,37 @@ ac_anime_characters_category = {
 								}
 							}
 						}
+						set_nationality = ROOT
 					}
 				}
 			}
 		}
 	}
-	ac_decision_gacha_theorists = {
+	ac_decision_gacha_trap_theorists = {
 		cost = 50
+		visible = {
+			has_country_flag = ac_flag_enable_traps
+		}
 		available = {
 			has_idea = ac_idea_anime_academy
 		}
 		complete_effect = {
-			Z99 = {
-				random_character = {
-					limit = {
-						NOT = {
+			custom_effect_tooltip = ac_tt_gacha_theorists
+			hidden_effect = {
+				Z99 = {
+					random_character = {
+						limit = {
 							has_character_flag = ac_trap_flag
 						}
-					}
-					set_nationality = ROOT
-					ROOT = {
 						random_list = {
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_nuclear_scientist
 										}
@@ -2417,12 +1953,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = political_advisor
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											ac_girl_scientist
 										}
@@ -2431,12 +1967,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											military_theorist
 										}
@@ -2445,12 +1981,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											mobile_warfare_expert
 										}
@@ -2459,12 +1995,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											superior_firepower_expert
 										}
@@ -2473,12 +2009,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											grand_battle_plan_expert
 										}
@@ -2487,12 +2023,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											mass_assault_expert
 										}
@@ -2501,12 +2037,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											air_warfare_theorist
 										}
@@ -2515,12 +2051,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											dive_bomber
 										}
@@ -2529,12 +2065,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											victory_through_airpower
 										}
@@ -2543,12 +2079,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											close_air_support_proponent
 										}
@@ -2557,12 +2093,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											assault_avaition
 										}
@@ -2571,12 +2107,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											naval_theorist
 										}
@@ -2585,12 +2121,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											naval_aviation_pioneer
 										}
@@ -2599,12 +2135,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											grand_fleet_proponent
 										}
@@ -2613,12 +2149,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											submarine_specialist
 										}
@@ -2627,12 +2163,12 @@ ac_anime_characters_category = {
 							}
 							1 = {
 								add_advisor_role = {
-									character = PREV
+									character = THIS
 									activate = no
 									advisor = {
 										slot = theorist
 										cost = 150
-										idea_token = PREV
+										idea_token = THIS
 										traits = {
 											blitzkrieg_theorist
 										}
@@ -2640,579 +2176,257 @@ ac_anime_characters_category = {
 								}
 							}
 						}
+						set_nationality = ROOT
 					}
 				}
 			}
 		}
 	}
-	ac_decision_gacha_operatives = {
+	ac_decision_gacha_trap_operatives = {
 		cost = 50
+		visible = {
+			has_country_flag = ac_flag_enable_traps
+		}
 		available = {
 			has_idea = ac_idea_idea_anime_intelligence_agency
 		}
 		complete_effect = {
-			if = {
-				limit = {
-					check_variable = {
-						ac_var_count_operatives < 22
-					}
-				}
-				random_list = {
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_shiki
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_shiki
-						create_operative_leader = {
-							name = "Shiki"
-							GFX = GFX_shiki
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-							traits = {
-								operative_linguist
-								operative_seducer
-							}
+			custom_effect_tooltip = ac_tt_gacha_operatives
+			hidden_effect = {
+				if = {
+					limit = {
+						check_variable = {
+							ac_var_count_trap_operatives < 4
 						}
 					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_rosaria
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_rosaria
-						create_operative_leader = {
-							name = "Rosaria"
-							GFX = GFX_rosaria
-							female = yes
-							traits = {
-								operative_infiltrator
-								operative_demolition_expert
-								operative_commando
-							}
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							nationalities = {
-								ROOT
-							}
-						}
+					add_to_variable = {
+						ac_var_count_trap_operatives = 1
 					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_reina_prowler
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_reina_prowler
-						create_operative_leader = {
-							name = "Reina Prowler"
-							GFX = GFX_reina_prowler
-							female = yes
-							traits = {
-								operative_infiltrator
-								operative_safe_cracker
-								operative_demolition_expert
+					random_list = {
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_aoi_futaba
 							}
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							nationalities = {
-								ROOT
+							set_country_flag = ac_flag_aoi_futaba
+							create_operative_leader = {
+								name = "Aoi Futaba"
+								GFX = GFX_aoi_futaba
+								traits = {
+									operative_seducer
+									operative_linguist
+								}
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = no
+								nationalities = {
+									ROOT
+								}
 							}
 						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_sheryl_nome
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_sheryl_nome
-						create_operative_leader = {
-							name = "Sheryl Nome"
-							GFX = GFX_sheryl_nome
-							female = yes
-							traits = {
-								operative_seducer
-								operative_natural_orator
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_gasper_vladi
+								
 							}
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							nationalities = {
-								ROOT
+							set_country_flag = ac_flag_gasper_vladi
+							create_operative_leader = {
+								name = "Gasper Vladi"
+								GFX = GFX_gasper_vladi
+								traits = {
+									operative_seducer
+									operative_double_agent
+								}
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = no
+								nationalities = {
+									ROOT
+									ROM
+								}
 							}
 						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_ange_le_carre
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_ange_le_carre
-						create_operative_leader = {
-							name = "Ange le Carré"
-							GFX = GFX_ange_le_carre
-							female = yes
-							traits = {
-								operative_commando
-								operative_demolition_expert
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_ryou_akizuki
+								
 							}
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							nationalities = {
-								ROOT
+							set_country_flag = ac_flag_ryou_akizuki
+							create_operative_leader = {
+								name = "Ryou Akizuki"
+								GFX = GFX_ryou_akizuki
+								traits = {
+									operative_seducer
+								}
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = no
+								nationalities = {
+									ROOT
+								}
 							}
 						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_makoto_kikuchi
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_makoto_kikuchi
-						create_operative_leader = {
-							name = "Makoto Kikuchi"
-							GFX = GFX_makoto_kikuchi
-							female = yes
-							traits = {
-								operative_commando
-								operative_demolition_expert
-								operative_safe_cracker
+						1 = {
+							modifier = {
+								factor = 0
+								has_country_flag = ac_flag_saki_mizushima
+								
 							}
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							nationalities = {
-								ROOT
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_niko_yazawa
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_niko_yazawa
-						create_operative_leader = {
-							name = "Niko Yazawa"
-							GFX = GFX_niko_yazawa
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-							traits = {
-								operative_infiltrator
-								operative_natural_orator
-								operative_seducer
-								operative_safe_cracker
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_tomoko_kuroki
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_tomoko_kuroki
-						create_operative_leader = {
-							name = "Tomoko Kuroki"
-							GFX = GFX_tomoko_kuroki
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_aika_sumeragi
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_aika_sumeragi
-						create_operative_leader = {
-							name = "Aika Sumeragi"
-							GFX = GFX_aika_sumeragi
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_aoba_suzukaze
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_aoba_suzukaze
-						create_operative_leader = {
-							name = "Aoba Suzukaze"
-							GFX = GFX_aoba_suzukaze
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_mako_mitsuki
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_mako_mitsuki
-						create_operative_leader = {
-							name = "Mako Mitsuki"
-							GFX = GFX_mako_mitsuki
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-							traits = {
-								operative_seducer
-								operative_infiltrator
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_mika_amano
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_mika_amano
-						create_operative_leader = {
-							name = "Mika Amano"
-							GFX = GFX_mika_amano
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-							traits = {
-								operative_seducer
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_yuriya_komiya
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_yuriya_komiya
-						create_operative_leader = {
-							name = "Yuriya Komiya"
-							GFX = GFX_yuriya_komiya
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-								SOV
-								JAP
-							}
-							traits = {
-								operative_seducer
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_hitomi_tsukishiro
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_hitomi_tsukishiro
-						create_operative_leader = {
-							name = "Hitomi Tsukishiro"
-							GFX = GFX_hitomi_tsukishiro
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_rias_gremory
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_rias_gremory
-						create_operative_leader = {
-							name = "Rias Gremory"
-							GFX = GFX_rias_gremory
-							traits = {
-								operative_seducer
-							}
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_mio_naruse
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_mio_naruse
-						create_operative_leader = {
-							name = "Mio Naruse"
-							GFX = GFX_mio_naruse
-							traits = {
-								operative_commando
-							}
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_sakura_minamoto
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_sakura_minamoto
-						create_operative_leader = {
-							name = "Sakura Minamoto"
-							GFX = GFX_sakura_minamoto
-							traits = {
-								operative_infiltrator
-								operative_natural_orator
-							}
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_shigure
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_shigure
-						create_operative_leader = {
-							name = "Shigure"
-							GFX = GFX_shigure
-							traits = {
-								operative_safe_cracker
-								operative_demolition_expert
-							}
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_yurizaki_mira
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_yurizaki_mira
-						create_operative_leader = {
-							name = "Yurizaki Mira"
-							GFX = GFX_yurizaki_mira
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-							traits = {
-								operative_seducer
-								operative_natural_orator
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_aegis
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_aegis
-						create_operative_leader = {
-							name = "Aegis"
-							GFX = GFX_aegis
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-							traits = {
-								operative_commando
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_chii
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_chii
-						create_operative_leader = {
-							name = "Chii"
-							GFX = GFX_chii
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-							traits = {
-								operative_seducer
-								operative_infiltrator
-								operative_master_interrogator
-							}
-						}
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							has_country_flag = ac_flag_vanessa_diodati
-							
-						}
-						add_to_variable = {
-							ac_var_count_operatives = 1
-						}
-						set_country_flag = ac_flag_vanessa_diodati
-						create_operative_leader = {
-							name = "Vanessa Diodati"
-							GFX = GFX_vanessa_diodati
-							bypass_recruitment = no
-							available_to_spy_master = yes
-							female = yes
-							nationalities = {
-								ROOT
-							}
-							traits = {
-								operative_demolition_expert
-								operative_commando
+							set_country_flag = ac_flag_saki_mizushima
+							create_operative_leader = {
+								name = "Saki Mizushima"
+								GFX = GFX_saki_mizushima
+								traits = {
+									operative_natural_orator
+								}
+								bypass_recruitment = no
+								available_to_spy_master = yes
+								female = no
+								nationalities = {
+									ROOT
+								}
 							}
 						}
 					}
 				}
-			}
-			else = {
-				create_operative_leader = {
-					bypass_recruitment = yes
-					portrait_tag_override = Z99
-					female = yes
+				else = {
+					create_operative_leader = {
+						bypass_recruitment = yes
+						portrait_tag_override = Z99
+						female = yes
+					}
 				}
 			}
 		}
 	}
-}
-
-ac_anime_characters_reactivate_category = {
-	ac_reactivate = {
-		fire_only_once = no
-		cost = 0
+	ac_change_leader_to_astolfo = {
+		fire_only_once = yes
+		cost = 100
+		visible = {
+			has_character = ac_astolfo
+		}
+		available = {
+			NOT = {
+				OR = {
+					has_country_leader_with_trait = ac_anime_tyan
+					has_country_leader_with_trait = ac_trap
+					#has_country_leader_with_trait = ac_android
+				}
+			}
+		}
 		complete_effect = {
-			clr_country_flag = ac_anime_characters_category_disabled_flag
+			#retire_country_leader = yes
+			set_country_leader_name = {
+				name = ac_astolfo
+			}
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_astolfo
+			}
+			add_country_leader_trait = ac_trap
+			add_country_leader_trait = ac_defender
+			add_country_leader_trait = ac_patron_of_intelligence
+			add_country_leader_trait = ac_idol
+			ac_astolfo = {
+				set_character_flag = ac_country_leader_flag
+			}
+		}
+	}
+	ac_change_leader_to_homare_nao = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_character = ac_homare_nao
+		}
+		available = {
+			NOT = {
+				OR = {
+					has_country_leader_with_trait = ac_anime_tyan
+					has_country_leader_with_trait = ac_trap
+					#has_country_leader_with_trait = ac_android
+				}
+			}
+		}
+		complete_effect = {
+			#retire_country_leader = yes
+			set_country_leader_name = {
+				name = ac_homare_nao
+			}
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_homare_nao
+			}
+			add_country_leader_trait = ac_trap
+			add_country_leader_trait = ac_peoples_favorite
+			add_country_leader_trait = ac_patron_of_science
+			add_country_leader_trait = ac_empress
+			ac_homare_nao = {
+				set_character_flag = ac_country_leader_flag
+			}
+		}
+	}
+	ac_change_leader_to_takumi_musashino = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_character = ac_takumi_musashino
+		}
+		available = {
+			NOT = {
+				OR = {
+					has_country_leader_with_trait = ac_anime_tyan
+					has_country_leader_with_trait = ac_trap
+					#has_country_leader_with_trait = ac_android
+				}
+			}
+		}
+		complete_effect = {
+			#retire_country_leader = yes
+			set_country_leader_name = {
+				name = ac_takumi_musashino
+			}
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_takumi_musashino
+			}
+			add_country_leader_trait = ac_trap
+			add_country_leader_trait = ac_revolutionary
+			add_country_leader_trait = ac_patron_of_industry
+			add_country_leader_trait = ac_dictator
+			ac_takumi_musashino = {
+				set_character_flag = ac_country_leader_flag
+			}
+		}
+	}
+	ac_change_leader_to_hideri_kanzaki = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_character = ac_hideri_kanzaki
+		}
+		available = {
+			NOT = {
+				OR = {
+					has_country_leader_with_trait = ac_anime_tyan
+					has_country_leader_with_trait = ac_trap
+					#has_country_leader_with_trait = ac_android
+				}
+			}
+		}
+		complete_effect = {
+			#retire_country_leader = yes
+			set_country_leader_name = {
+				name = ac_hideri_kanzaki
+			}
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_hideri_kanzaki
+			}
+			add_country_leader_trait = ac_trap
+			add_country_leader_trait = ac_tyan_militarist
+			add_country_leader_trait = ac_patron_of_the_military_industrial_complex
+			add_country_leader_trait = ac_idol
+			ac_hideri_kanzaki = {
+				set_character_flag = ac_country_leader_flag
+			}
 		}
 	}
 }
@@ -3221,8 +2435,8 @@ political_actions = {
 	ac_retire_leader = {
 		visible = {
 			OR = {
-				has_country_flag = ac_take_girls_flag
-				has_country_flag = ac_take_traps_flag
+				has_idea = ac_idea_anime_academy
+				has_idea = ac_idea_anime_academy
 			}
 			is_ai = no
 		}
@@ -3273,7 +2487,7 @@ political_actions = {
 						set_character_flag = ac_country_leader_flag
 						ROOT = {
 							add_country_leader_role = {
-								character = PREV
+								character = THIS
 								promote_leader = yes
 								country_leader = {
 									ideology = liberalism
@@ -3303,7 +2517,7 @@ political_actions = {
 						set_character_flag = ac_country_leader_flag
 						ROOT = {
 							add_country_leader_role = {
-								character = PREV
+								character = THIS
 								promote_leader = yes
 								country_leader = {
 									ideology = stalinism
@@ -3333,7 +2547,7 @@ political_actions = {
 						set_character_flag = ac_country_leader_flag
 						ROOT = {
 							add_country_leader_role = {
-								character = PREV
+								character = THIS
 								promote_leader = yes
 								country_leader = {
 									ideology = fascism_ideology
@@ -3360,7 +2574,7 @@ political_actions = {
 						set_character_flag = ac_country_leader_flag
 						ROOT = {
 							add_country_leader_role = {
-								character = PREV
+								character = THIS
 								promote_leader = yes
 								country_leader = {
 									ideology = despotism
@@ -3439,9 +2653,9 @@ ac_subjects_category = {
 		name = ac_change_country_leader
 		cost = 150
 		visible = {
-			has_country_flag = ac_take_traps_flag
+			has_idea = ac_idea_anime_academy
 			NOT = {
-				has_country_flag = ac_take_girls_flag
+				has_idea = ac_idea_anime_academy
 			}
 		}
 		available = {
@@ -3472,9 +2686,9 @@ ac_subjects_category = {
 		name = ac_change_country_leader
 		cost = 150
 		visible = {
-			has_country_flag = ac_take_girls_flag
+			has_idea = ac_idea_anime_academy
 			NOT = {
-				has_country_flag = ac_take_traps_flag
+				has_idea = ac_idea_anime_academy
 			}
 		}
 		available = {
@@ -3504,8 +2718,8 @@ ac_subjects_category = {
 	ac_change_country_leader = {
 		cost = 150
 		visible = {
-			has_country_flag = ac_take_girls_flag
-			has_country_flag = ac_take_traps_flag
+			has_idea = ac_idea_anime_academy
+			has_idea = ac_idea_anime_academy
 		}
 		available = {
 			FROM = {

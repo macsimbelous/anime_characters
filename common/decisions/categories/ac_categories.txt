@@ -2,17 +2,9 @@ ac_anime_characters_category = {
 	priority = 20
 	visible = {
 		is_ai = no
-		NOT = {
-			has_country_flag = ac_anime_characters_category_disabled_flag
-		}
 	}
 }
-ac_anime_characters_reactivate_category = {
-	priority = 1
-	visible = {
-		has_country_flag = ac_anime_characters_category_disabled_flag
-	}
-}
+
 ac_subjects_category = {
 	priority = 10
 }
