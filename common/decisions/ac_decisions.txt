@@ -2434,9 +2434,11 @@ ac_anime_characters_category = {
 political_actions = {
 	ac_retire_leader = {
 		visible = {
-			OR = {
-				has_idea = ac_idea_anime_academy
-				has_idea = ac_idea_anime_academy
+			any_character = {
+				OR = {
+					has_character_flag = ac_girl_flag
+					has_character_flag = ac_trap_flag
+				}
 			}
 			is_ai = no
 		}
@@ -2445,24 +2447,24 @@ political_actions = {
 				limit = {
 					has_government = democratic
 				}
-				democratic > 0.8
+				democratic > 0.5
 			}
 			else_if = {
 				limit = {
 					has_government = communism
 				}
-				communism > 0.8
+				communism > 0.5
 			}
 			else_if = {
 				limit = {
 					has_government = fascism
 				}
-				fascism > 0.8
+				fascism > 0.5
 			}
 			else = {
-				neutrality > 0.8
+				neutrality > 0.5
 			}
-			has_stability > 0.8
+			has_stability > 0.5
 		}
 		cost = 100
 		fire_only_once = no
