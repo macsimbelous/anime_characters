@@ -1509,6 +1509,9 @@ ac_anime_characters_category = {
 	#TRAPS
 	ac_decision_enable_traps = {
 		fire_only_once = yes
+		available = {
+			has_idea = ac_idea_anime_academy
+		}
 		complete_effect = {
 			set_country_flag = ac_flag_enable_traps
 		}
