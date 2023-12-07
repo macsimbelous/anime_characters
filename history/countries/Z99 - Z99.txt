@@ -636,3 +636,4 @@ ac_tiger_traps = { set_character_flag = ac_trap_flag }
 ac_xianming_lin = { set_character_flag = ac_trap_flag }
 ac_youta_tsunashi = { set_character_flag = ac_trap_flag }
 ac_yukikaze = { set_character_flag = ac_trap_flag }
+

@@ -1,0 +1,59 @@
+Z99 = {
+	political = {
+		communism = {
+			male = {
+				GFX_niko_yazawa
+			}
+		}
+		democratic = {
+			male = {
+				GFX_niko_yazawa
+			}
+		}
+		fascism = {
+			male = {
+				GFX_niko_yazawa
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_niko_yazawa
+			}
+		}
+	}
+	army = {
+		male = {
+			GFX_niko_yazawa
+		}
+	}
+	navy = {
+		male = {
+			GFX_niko_yazawa
+		}
+	}
+	operative = {
+		female = {
+			GFX_niko_yazawa
+			GFX_rosaria
+			GFX_reina_prowler
+			GFX_sheryl_nome
+			GFX_ange_le_carre
+			GFX_makoto_kikuchi
+			GFX_tomoko_kuroki
+			GFX_aika_sumeragi
+			GFX_aoba_suzukaze
+		}
+		male = {
+			GFX_niko_yazawa
+			GFX_rosaria
+			GFX_reina_prowler
+			GFX_sheryl_nome
+			GFX_ange_le_carre
+			GFX_makoto_kikuchi
+			GFX_tomoko_kuroki
+			GFX_aika_sumeragi
+			GFX_aoba_suzukaze
+		}
+	}
+}
+
