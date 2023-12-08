@@ -1218,14 +1218,6 @@ ac_change_country_leader_girl = {
 		}
 		1 = {
 			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_kaori_weber
-			}
-			set_country_leader_name = {
-				name = ac_kaori_weber
-			}
-		}
-		1 = {
-			set_country_leader_portrait = {
 				portrait = GFX_portrait_ac_kasumi
 			}
 			set_country_leader_name = {
@@ -1614,14 +1606,6 @@ ac_change_country_leader_girl = {
 			}
 			set_country_leader_name = {
 				name = ac_miki_hoshii
-			}
-		}
-		1 = {
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_miki_naoki
-			}
-			set_country_leader_name = {
-				name = ac_miki_naoki
 			}
 		}
 		1 = {

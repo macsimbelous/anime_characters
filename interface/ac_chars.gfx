@@ -113,7 +113,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_alicia_arcturus"
-		texturefile = "gfx/leaders/girls/alicia_arcturus.dds"
+		texturefile = "gfx/leaders/girls/alicia_arcturus_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_alicia"
@@ -201,7 +201,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_anna_komiya"
-		texturefile = "gfx/leaders/girls/anna_komiya.dds"
+		texturefile = "gfx/leaders/girls/anna_komiya_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_aoba_suzukaze"
@@ -409,7 +409,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_celestine_lucullus"
-		texturefile = "gfx/leaders/girls/celestine_lucullus.dds"
+		texturefile = "gfx/leaders/girls/celestine_lucullus_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_celica"
@@ -473,7 +473,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_cloe"
-		texturefile = "gfx/leaders/girls/cloe.dds"
+		texturefile = "gfx/leaders/girls/cloe_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_compa"
@@ -693,11 +693,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_ac_hayato_juumonji"
-		texturefile = "gfx/leaders/girls/hayato_juumonji_idea.dds"
+		texturefile = "gfx/leaders/traps/hayato_juumonji_idea.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_hayato_juumonji"
-		texturefile = "gfx/leaders/girls/hayato_juumonji.dds"
+		texturefile = "gfx/leaders/traps/hayato_juumonji.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_heine"
@@ -737,7 +737,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_hitomi_tsukishiro"
-		texturefile = "gfx/leaders/girls/hitomi_tsukishiro.dds"
+		texturefile = "gfx/leaders/girls/hitomi_tsukishiro_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_holo"
@@ -809,7 +809,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_igawa_asagi"
-		texturefile = "gfx/leaders/girls/igawa_asagi.dds"
+		texturefile = "gfx/leaders/girls/igawa_asagi_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_illyasviel_von_einzbern"
@@ -833,7 +833,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_iris_arcadia"
-		texturefile = "gfx/leaders/girls/iris_arcadia.dds"
+		texturefile = "gfx/leaders/girls/iris_arcadia_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_iris_heart"
@@ -882,14 +882,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_ac_kaname_chidori"
 		texturefile = "gfx/leaders/girls/kaname_chidori.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_ac_kaori_weber"
-		texturefile = "gfx/leaders/girls/kaori_weber_idea.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_ac_kaori_weber"
-		texturefile = "gfx/leaders/girls/kaori_weber.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_kasumi"
@@ -1093,7 +1085,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_madoka_kaname"
-		texturefile = "gfx/leaders/girls/madoka_kaname.dds"
+		texturefile = "gfx/leaders/girls/madoka_kaname_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_mai_tokiha"
@@ -1125,7 +1117,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_mako_mitsuki"
-		texturefile = "gfx/leaders/girls/mako_mitsuki.dds"
+		texturefile = "gfx/leaders/girls/mako_mitsuki_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_makoto_kikuchi"
@@ -1277,7 +1269,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_mika_amano"
-		texturefile = "gfx/leaders/girls/mika_amano.dds"
+		texturefile = "gfx/leaders/girls/mika_amano_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_miki_hoshii"
@@ -1286,14 +1278,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_ac_miki_hoshii"
 		texturefile = "gfx/leaders/girls/miki_hoshii.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_ac_miki_naoki"
-		texturefile = "gfx/leaders/girls/miki_naoki_idea.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_ac_miki_naoki"
-		texturefile = "gfx/leaders/girls/miki_naoki.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_mikumo_guynemer"
@@ -1369,7 +1353,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_mistiora_arte"
-		texturefile = "gfx/leaders/girls/mistiora_arte.dds"
+		texturefile = "gfx/leaders/girls/mistiora_arte_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_momo_chiyoda"
@@ -1377,7 +1361,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_momo_chiyoda"
-		texturefile = "gfx/leaders/girls/momo_chiyoda.dds"
+		texturefile = "gfx/leaders/girls/momo_chiyoda_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_momozono_love"
@@ -1417,7 +1401,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_nanoha_takamachi"
-		texturefile = "gfx/leaders/girls/nanoha_takamachi.dds"
+		texturefile = "gfx/leaders/girls/nanoha_takamachi_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_naru_narusegawa"
@@ -1497,7 +1481,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_olga_discordia"
-		texturefile = "gfx/leaders/girls/olga_discordia.dds"
+		texturefile = "gfx/leaders/girls/olga_discordia_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_phantom_queen_ex-xecty"
@@ -1521,7 +1505,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_prim_fiorire"
-		texturefile = "gfx/leaders/girls/prim_fiorire.dds"
+		texturefile = "gfx/leaders/girls/prim_fiorire_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_prinz_eugen"
@@ -1609,7 +1593,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_rina_komiya"
-		texturefile = "gfx/leaders/girls/rina_komiya.dds"
+		texturefile = "gfx/leaders/girls/rina_komiya_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_ripine"
@@ -1877,7 +1861,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_sill_plain"
-		texturefile = "gfx/leaders/girls/sill_plain.dds"
+		texturefile = "gfx/leaders/girls/sill_plain_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_siluca_meletes"
@@ -2013,7 +1997,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_tsubasa_kamijo"
-		texturefile = "gfx/leaders/girls/tsubasa_kamijo.dds"
+		texturefile = "gfx/leaders/girls/tsubasa_kamijo_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_usagi_tsukino"
@@ -2149,7 +2133,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_yuriya_komiya"
-		texturefile = "gfx/leaders/girls/yuriya_komiya.dds"
+		texturefile = "gfx/leaders/girls/yuriya_komiya_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_yurizaki_mira"
@@ -2165,7 +2149,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_yuuki_kawaragi"
-		texturefile = "gfx/leaders/girls/yuuki_kawaragi.dds"
+		texturefile = "gfx/leaders/girls/yuuki_kawaragi_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_yuuko_yoshida"
@@ -2197,7 +2181,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_anri_sogahara"
-		texturefile = "gfx/leaders/traps/anri_sogahara.dds"
+		texturefile = "gfx/leaders/traps/anri_sogahara_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_aoi_futaba"
@@ -2309,7 +2293,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_homare_nao"
-		texturefile = "gfx/leaders/traps/homare_nao.dds"
+		texturefile = "gfx/leaders/traps/homare_nao_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_jun_hiiragi"
@@ -2333,7 +2317,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_ac_kaname"
-		texturefile = "gfx/leaders/traps/kaname.dds"
+		texturefile = "gfx/leaders/traps/kaname_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ac_kaoru_hanase"
