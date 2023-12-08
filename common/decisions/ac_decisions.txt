@@ -1062,472 +1062,462 @@ ac_anime_characters_category = {
 		complete_effect = {
 			custom_effect_tooltip = ac_tt_gacha_operatives
 			hidden_effect = {
-				if = {
-					limit = {
-						check_variable = {
-							ac_var_count_operatives < 22
+				random_list = {
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_shiki
 						}
-					}
-					add_to_variable = {
-						ac_var_count_operatives = 1
-					}
-					random_list = {
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_shiki
+						set_global_flag = ac_flag_shiki
+						create_operative_leader = {
+							name = "Shiki"
+							GFX = GFX_shiki
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
 							}
-							set_country_flag = ac_flag_shiki
-							create_operative_leader = {
-								name = "Shiki"
-								GFX = GFX_shiki
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-								traits = {
-									operative_linguist
-									operative_seducer
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_rosaria
-							}
-							set_country_flag = ac_flag_rosaria
-							create_operative_leader = {
-								name = "Rosaria"
-								GFX = GFX_rosaria
-								female = yes
-								traits = {
-									operative_infiltrator
-									operative_demolition_expert
-									operative_commando
-								}
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_reina_prowler
-							}
-							set_country_flag = ac_flag_reina_prowler
-							create_operative_leader = {
-								name = "Reina Prowler"
-								GFX = GFX_reina_prowler
-								female = yes
-								traits = {
-									operative_infiltrator
-									operative_safe_cracker
-									operative_demolition_expert
-								}
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_sheryl_nome
-							}
-							set_country_flag = ac_flag_sheryl_nome
-							create_operative_leader = {
-								name = "Sheryl Nome"
-								GFX = GFX_sheryl_nome
-								female = yes
-								traits = {
-									operative_seducer
-									operative_natural_orator
-								}
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_ange_le_carre
-							}
-							set_country_flag = ac_flag_ange_le_carre
-							create_operative_leader = {
-								name = "Ange le Carré"
-								GFX = GFX_ange_le_carre
-								female = yes
-								traits = {
-									operative_commando
-									operative_demolition_expert
-								}
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_makoto_kikuchi
-							}
-							set_country_flag = ac_flag_makoto_kikuchi
-							create_operative_leader = {
-								name = "Makoto Kikuchi"
-								GFX = GFX_makoto_kikuchi
-								female = yes
-								traits = {
-									operative_commando
-									operative_demolition_expert
-									operative_safe_cracker
-								}
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_niko_yazawa
-							}
-							set_country_flag = ac_flag_niko_yazawa
-							create_operative_leader = {
-								name = "Niko Yazawa"
-								GFX = GFX_niko_yazawa
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-								traits = {
-									operative_infiltrator
-									operative_natural_orator
-									operative_seducer
-									operative_safe_cracker
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_tomoko_kuroki
-							}
-							set_country_flag = ac_flag_tomoko_kuroki
-							create_operative_leader = {
-								name = "Tomoko Kuroki"
-								GFX = GFX_tomoko_kuroki
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_aika_sumeragi
-							}
-							set_country_flag = ac_flag_aika_sumeragi
-							create_operative_leader = {
-								name = "Aika Sumeragi"
-								GFX = GFX_aika_sumeragi
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_aoba_suzukaze
-							}
-							set_country_flag = ac_flag_aoba_suzukaze
-							create_operative_leader = {
-								name = "Aoba Suzukaze"
-								GFX = GFX_aoba_suzukaze
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_mako_mitsuki
-							}
-							set_country_flag = ac_flag_mako_mitsuki
-							create_operative_leader = {
-								name = "Mako Mitsuki"
-								GFX = GFX_mako_mitsuki
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-								traits = {
-									operative_seducer
-									operative_infiltrator
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_mika_amano
-							}
-							set_country_flag = ac_flag_mika_amano
-							create_operative_leader = {
-								name = "Mika Amano"
-								GFX = GFX_mika_amano
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-								traits = {
-									operative_seducer
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_yuriya_komiya
-							}
-							set_country_flag = ac_flag_yuriya_komiya
-							create_operative_leader = {
-								name = "Yuriya Komiya"
-								GFX = GFX_yuriya_komiya
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-									SOV
-									JAP
-								}
-								traits = {
-									operative_seducer
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_hitomi_tsukishiro
-							}
-							set_country_flag = ac_flag_hitomi_tsukishiro
-							create_operative_leader = {
-								name = "Hitomi Tsukishiro"
-								GFX = GFX_hitomi_tsukishiro
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_rias_gremory
-							}
-							set_country_flag = ac_flag_rias_gremory
-							create_operative_leader = {
-								name = "Rias Gremory"
-								GFX = GFX_rias_gremory
-								traits = {
-									operative_seducer
-								}
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_mio_naruse
-							}
-							set_country_flag = ac_flag_mio_naruse
-							create_operative_leader = {
-								name = "Mio Naruse"
-								GFX = GFX_mio_naruse
-								traits = {
-									operative_commando
-								}
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_sakura_minamoto
-							}
-							set_country_flag = ac_flag_sakura_minamoto
-							create_operative_leader = {
-								name = "Sakura Minamoto"
-								GFX = GFX_sakura_minamoto
-								traits = {
-									operative_infiltrator
-									operative_natural_orator
-								}
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_shigure
-							}
-							set_country_flag = ac_flag_shigure
-							create_operative_leader = {
-								name = "Shigure"
-								GFX = GFX_shigure
-								traits = {
-									operative_safe_cracker
-									operative_demolition_expert
-								}
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_yurizaki_mira
-							}
-							set_country_flag = ac_flag_yurizaki_mira
-							create_operative_leader = {
-								name = "Yurizaki Mira"
-								GFX = GFX_yurizaki_mira
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-								traits = {
-									operative_seducer
-									operative_natural_orator
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_aegis
-							}
-							set_country_flag = ac_flag_aegis
-							create_operative_leader = {
-								name = "Aegis"
-								GFX = GFX_aegis
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-								traits = {
-									operative_commando
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_chii
-							}
-							set_country_flag = ac_flag_chii
-							create_operative_leader = {
-								name = "Chii"
-								GFX = GFX_chii
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-								traits = {
-									operative_seducer
-									operative_infiltrator
-									operative_master_interrogator
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_vanessa_diodati
-							}
-							set_country_flag = ac_flag_vanessa_diodati
-							create_operative_leader = {
-								name = "Vanessa Diodati"
-								GFX = GFX_vanessa_diodati
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = yes
-								nationalities = {
-									ROOT
-								}
-								traits = {
-									operative_demolition_expert
-									operative_commando
-								}
+							traits = {
+								operative_linguist
+								operative_seducer
 							}
 						}
 					}
-				}
-				else = {
-					create_operative_leader = {
-						bypass_recruitment = yes
-						portrait_tag_override = Z99
-						female = yes
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_rosaria
+						}
+						set_global_flag = ac_flag_rosaria
+						create_operative_leader = {
+							name = "Rosaria"
+							GFX = GFX_rosaria
+							female = yes
+							traits = {
+								operative_infiltrator
+								operative_demolition_expert
+								operative_commando
+							}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_reina_prowler
+						}
+						set_global_flag = ac_flag_reina_prowler
+						create_operative_leader = {
+							name = "Reina Prowler"
+							GFX = GFX_reina_prowler
+							female = yes
+							traits = {
+								operative_infiltrator
+								operative_safe_cracker
+								operative_demolition_expert
+							}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_sheryl_nome
+						}
+						set_global_flag = ac_flag_sheryl_nome
+						create_operative_leader = {
+							name = "Sheryl Nome"
+							GFX = GFX_sheryl_nome
+							female = yes
+							traits = {
+								operative_seducer
+								operative_natural_orator
+							}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_ange_le_carre
+						}
+						set_global_flag = ac_flag_ange_le_carre
+						create_operative_leader = {
+							name = "Ange le Carré"
+							GFX = GFX_ange_le_carre
+							female = yes
+							traits = {
+								operative_commando
+								operative_demolition_expert
+							}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_makoto_kikuchi
+						}
+						set_global_flag = ac_flag_makoto_kikuchi
+						create_operative_leader = {
+							name = "Makoto Kikuchi"
+							GFX = GFX_makoto_kikuchi
+							female = yes
+							traits = {
+								operative_commando
+								operative_demolition_expert
+								operative_safe_cracker
+							}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_niko_yazawa
+						}
+						set_global_flag = ac_flag_niko_yazawa
+						create_operative_leader = {
+							name = "Niko Yazawa"
+							GFX = GFX_niko_yazawa
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+							traits = {
+								operative_infiltrator
+								operative_natural_orator
+								operative_seducer
+								operative_safe_cracker
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_tomoko_kuroki
+						}
+						set_global_flag = ac_flag_tomoko_kuroki
+						create_operative_leader = {
+							name = "Tomoko Kuroki"
+							GFX = GFX_tomoko_kuroki
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_aika_sumeragi
+						}
+						set_global_flag = ac_flag_aika_sumeragi
+						create_operative_leader = {
+							name = "Aika Sumeragi"
+							GFX = GFX_aika_sumeragi
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_aoba_suzukaze
+						}
+						set_global_flag = ac_flag_aoba_suzukaze
+						create_operative_leader = {
+							name = "Aoba Suzukaze"
+							GFX = GFX_aoba_suzukaze
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_mako_mitsuki
+						}
+						set_global_flag = ac_flag_mako_mitsuki
+						create_operative_leader = {
+							name = "Mako Mitsuki"
+							GFX = GFX_mako_mitsuki
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+							traits = {
+								operative_seducer
+								operative_infiltrator
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_mika_amano
+						}
+						set_global_flag = ac_flag_mika_amano
+						create_operative_leader = {
+							name = "Mika Amano"
+							GFX = GFX_mika_amano
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+							traits = {
+								operative_seducer
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_yuriya_komiya
+						}
+						set_global_flag = ac_flag_yuriya_komiya
+						create_operative_leader = {
+							name = "Yuriya Komiya"
+							GFX = GFX_yuriya_komiya
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+								SOV
+								JAP
+							}
+							traits = {
+								operative_seducer
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_hitomi_tsukishiro
+						}
+						set_global_flag = ac_flag_hitomi_tsukishiro
+						create_operative_leader = {
+							name = "Hitomi Tsukishiro"
+							GFX = GFX_hitomi_tsukishiro
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_rias_gremory
+						}
+						set_global_flag = ac_flag_rias_gremory
+						create_operative_leader = {
+							name = "Rias Gremory"
+							GFX = GFX_rias_gremory
+							traits = {
+								operative_seducer
+							}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_mio_naruse
+						}
+						set_global_flag = ac_flag_mio_naruse
+						create_operative_leader = {
+							name = "Mio Naruse"
+							GFX = GFX_mio_naruse
+							traits = {
+								operative_commando
+							}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_sakura_minamoto
+						}
+						set_global_flag = ac_flag_sakura_minamoto
+						create_operative_leader = {
+							name = "Sakura Minamoto"
+							GFX = GFX_sakura_minamoto
+							traits = {
+								operative_infiltrator
+								operative_natural_orator
+							}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_shigure
+						}
+						set_global_flag = ac_flag_shigure
+						create_operative_leader = {
+							name = "Shigure"
+							GFX = GFX_shigure
+							traits = {
+								operative_safe_cracker
+								operative_demolition_expert
+							}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_yurizaki_mira
+						}
+						set_global_flag = ac_flag_yurizaki_mira
+						create_operative_leader = {
+							name = "Yurizaki Mira"
+							GFX = GFX_yurizaki_mira
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+							traits = {
+								operative_seducer
+								operative_natural_orator
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_aegis
+						}
+						set_global_flag = ac_flag_aegis
+						create_operative_leader = {
+							name = "Aegis"
+							GFX = GFX_aegis
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+							traits = {
+								operative_commando
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_chii
+						}
+						set_global_flag = ac_flag_chii
+						create_operative_leader = {
+							name = "Chii"
+							GFX = GFX_chii
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+							traits = {
+								operative_seducer
+								operative_infiltrator
+								operative_master_interrogator
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_vanessa_diodati
+						}
+						set_global_flag = ac_flag_vanessa_diodati
+						create_operative_leader = {
+							name = "Vanessa Diodati"
+							GFX = GFX_vanessa_diodati
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = yes
+							nationalities = {
+								ROOT
+							}
+							traits = {
+								operative_demolition_expert
+								operative_commando
+							}
+						}
+					}
+					1 = {
+						create_operative_leader = {
+							bypass_recruitment = no
+							portrait_tag_override = Z99
+							female = yes
+						}
 					}
 				}
 			}
@@ -2816,106 +2806,96 @@ ac_anime_characters_category = {
 		complete_effect = {
 			custom_effect_tooltip = ac_tt_gacha_operatives
 			hidden_effect = {
-				if = {
-					limit = {
-						check_variable = {
-							ac_var_count_trap_operatives < 4
+				random_list = {
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_aoi_futaba
 						}
-					}
-					add_to_variable = {
-						ac_var_count_trap_operatives = 1
-					}
-					random_list = {
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_aoi_futaba
+						set_global_flag = ac_flag_aoi_futaba
+						create_operative_leader = {
+							name = "Aoi Futaba"
+							GFX = GFX_aoi_futaba
+							traits = {
+								operative_seducer
+								operative_linguist
 							}
-							set_country_flag = ac_flag_aoi_futaba
-							create_operative_leader = {
-								name = "Aoi Futaba"
-								GFX = GFX_aoi_futaba
-								traits = {
-									operative_seducer
-									operative_linguist
-								}
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = no
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_gasper_vladi
-							}
-							set_country_flag = ac_flag_gasper_vladi
-							create_operative_leader = {
-								name = "Gasper Vladi"
-								GFX = GFX_gasper_vladi
-								traits = {
-									operative_seducer
-									operative_double_agent
-								}
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = no
-								nationalities = {
-									ROOT
-									ROM
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_ryou_akizuki
-							}
-							set_country_flag = ac_flag_ryou_akizuki
-							create_operative_leader = {
-								name = "Ryou Akizuki"
-								GFX = GFX_ryou_akizuki
-								traits = {
-									operative_seducer
-								}
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = no
-								nationalities = {
-									ROOT
-								}
-							}
-						}
-						1 = {
-							modifier = {
-								factor = 0
-								has_country_flag = ac_flag_saki_mizushima
-							}
-							set_country_flag = ac_flag_saki_mizushima
-							create_operative_leader = {
-								name = "Saki Mizushima"
-								GFX = GFX_saki_mizushima
-								traits = {
-									operative_natural_orator
-								}
-								bypass_recruitment = no
-								available_to_spy_master = yes
-								female = no
-								nationalities = {
-									ROOT
-								}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = no
+							nationalities = {
+								ROOT
 							}
 						}
 					}
-				}
-				else = {
-					create_operative_leader = {
-						bypass_recruitment = yes
-						portrait_tag_override = Z99
-						female = yes
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_gasper_vladi
+						}
+						set_global_flag = ac_flag_gasper_vladi
+						create_operative_leader = {
+							name = "Gasper Vladi"
+							GFX = GFX_gasper_vladi
+							traits = {
+								operative_seducer
+								operative_double_agent
+							}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = no
+							nationalities = {
+								ROOT
+								ROM
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_ryou_akizuki
+						}
+						set_global_flag = ac_flag_ryou_akizuki
+						create_operative_leader = {
+							name = "Ryou Akizuki"
+							GFX = GFX_ryou_akizuki
+							traits = {
+								operative_seducer
+							}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = no
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_saki_mizushima
+						}
+						set_global_flag = ac_flag_saki_mizushima
+						create_operative_leader = {
+							name = "Saki Mizushima"
+							GFX = GFX_saki_mizushima
+							traits = {
+								operative_natural_orator
+							}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = no
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						create_operative_leader = {
+							bypass_recruitment = no
+							portrait_tag_override = Z99
+							female = no
+						}
 					}
 				}
 			}
