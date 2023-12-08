@@ -1,0 +1,6 @@
+﻿l_russian:
+#ac_event.1
+ ac_event.1.t: "Ахтунг!"
+ ac_event.1.d: "Разрешить Трапов?"
+ ac_event.1.a: "Да."
+ ac_event.1.b: "Фу, мерзость!"

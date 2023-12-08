@@ -1795,12 +1795,18 @@ ac_anime_characters_category = {
 	}
 	#TRAPS
 	ac_decision_enable_traps = {
-		fire_only_once = yes
+		fire_only_once = no
+		visible = {
+			NOT = {
+				has_country_flag = ac_flag_enable_traps
+			}
+		}
 		available = {
 			has_idea = ac_idea_anime_academy
 		}
 		complete_effect = {
-			set_country_flag = ac_flag_enable_traps
+			#set_country_flag = ac_flag_enable_traps
+			country_event = ac_event.1
 		}
 	}
 	ac_decision_gacha_trap_generals = {

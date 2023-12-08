@@ -1,0 +1,6 @@
+﻿l_english:
+#ac_event.1.
+ ac_event.1.t: "Achtung!"
+ ac_event.1.d: "Authorize Traps?"
+ ac_event.1.a: "Yes."
+ ac_event.1.b: "Ew, gross!"
