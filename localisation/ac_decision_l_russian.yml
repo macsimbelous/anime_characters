@@ -9,6 +9,7 @@
  ac_decision_gacha_admirals: "Нанять адмирала"
  ac_decision_gacha_political_advisors: "Нанять советника"
  ac_decision_gacha_theorists: "Нанять теоретика"
+ ac_decision_gacha_air_chiefs: "Нанять генерала авиации"
  ac_decision_gacha_operatives: "Нанять оперативника"
  ac_decision_enable_traps: "Разрешить Трапов"
  ac_decision_enable_traps_desc: "§RАхтунг!§!"
@@ -16,9 +17,10 @@
  ac_decision_gacha_trap_admirals: "Нанять трапа адмирала"
  ac_decision_gacha_trap_political_advisors: "Нанять трапа советника"
  ac_decision_gacha_trap_theorists: "Нанять трапа теоретика"
+ ac_decision_gacha_trap_air_chiefs: "Нанять трапа генерала авиации"
  ac_decision_gacha_trap_operatives: "Нанять оперативника"
 
-
+#Liders
  ac_change_leader_to_anastasia_romanova: "Назначить  §GАнастасию Романову§! лидером"
  ac_change_leader_to_histoire: "Назначить  §GИстуар§! лидером"
  ac_change_leader_to_velvet_crowe: "Назначить  §GВельвет Крау§! лидером"
@@ -49,6 +51,7 @@
  ac_tt_gacha_political_advisors: "Получим случайного советника"
  ac_tt_gacha_theorists: "Получим случайного теоретика"
  ac_tt_gacha_operatives: "Получим случайного оперативника"
+ ac_tt_gacha_air_chiefs: "Получим случайного генерала авиации"
 
 #political_actions
  ac_retire_leader: "§G[ROOT.GetLeader]§! уйдёт в отставку"

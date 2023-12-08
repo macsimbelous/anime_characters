@@ -93,87 +93,94 @@ ac_anime_characters_category = {
 						limit = {
 							has_character_flag = ac_girl_flag
 						}
-						random_list = {
-							50 = {
-								add_corps_commander_role = {
-									character = THIS
-									skill = 1
-									attack_skill = 1
-									defense_skill = 1
-									planning_skill = 1
-									logistics_skill = 1
-								}
-							}
-							30 = {
-								add_corps_commander_role = {
-									character = THIS
-									skill = 3
-									attack_skill = 3
-									defense_skill = 3
-									planning_skill = 3
-									logistics_skill = 3
-								}
-							}
-							15 = {
-								add_corps_commander_role = {
-									character = THIS
-									skill = 6
-									attack_skill = 6
-									defense_skill = 6
-									planning_skill = 6
-									logistics_skill = 6
-								}
-							}
-							5 = {
-								add_corps_commander_role = {
-									character = THIS
-									skill = 9
-									attack_skill = 9
-									defense_skill = 9
-									planning_skill = 9
-									logistics_skill = 9
-								}
-							}
+						set_temp_variable = {
+							temp_char = THIS.id
 						}
-						add_trait = {
-							trait = ac_exp_trait
+					}
+				}
+				var:temp_char = {
+					set_nationality = ROOT
+				}
+				random_list = {
+					50 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
 						}
-						add_random_trait = {
-							old_guard
-							brilliant_strategist
-							inflexible_strategist
-							politically_connected
-							war_hero
-							career_officer
-							trait_cautious
-							trait_reckless
-							media_personality
-							harsh_leader
-							bearer_of_artillery
-							infantry_officer
-							cavalry_officer
-							armor_officer
-							engineer_officer
-							organizer
-							cavalry_leader
-							infantry_leader
-							skilled_staffer
-							trickster
-							naval_invader
-							desert_fox
-							swamp_fox
-							trait_mountaineer
-							hill_fighter
-							jungle_rat
-							ranger
-							urban_assault_specialist
-							winter_specialist
-							winter_expert
-							trait_engineer
-							panzer_leader
-							commando
+					}
+					30 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
 						}
-						set_nationality = ROOT
+					}
+					15 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							planning_skill = 6
+							logistics_skill = 6
+						}
+					}
+					5 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							planning_skill = 9
+							logistics_skill = 9
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_trait
+					}
+					add_random_trait = {
+						old_guard
+						brilliant_strategist
+						inflexible_strategist
+						politically_connected
+						war_hero
+						career_officer
+						trait_cautious
+						trait_reckless
+						media_personality
+						harsh_leader
+						bearer_of_artillery
+						infantry_officer
+						cavalry_officer
+						armor_officer
+						engineer_officer
+						organizer
+						cavalry_leader
+						infantry_leader
+						skilled_staffer
+						trickster
+						naval_invader
+						desert_fox
+						swamp_fox
+						trait_mountaineer
+						hill_fighter
+						jungle_rat
+						ranger
+						urban_assault_specialist
+						winter_specialist
+						winter_expert
+						trait_engineer
+						panzer_leader
+						commando
 					}
 				}
 			}
@@ -198,79 +205,86 @@ ac_anime_characters_category = {
 						limit = {
 							has_character_flag = ac_girl_flag
 						}
-						random_list = {
-							50 = {
-								add_naval_commander_role = {
-									character = THIS
-									skill = 1
-									attack_skill = 1
-									defense_skill = 1
-									maneuvering_skill = 1
-									coordination_skill = 1
-								}
-							}
-							30 = {
-								add_naval_commander_role = {
-									character = THIS
-									skill = 3
-									attack_skill = 3
-									defense_skill = 3
-									maneuvering_skill = 1
-									coordination_skill = 1
-								}
-							}
-							15 = {
-								add_naval_commander_role = {
-									character = THIS
-									skill = 6
-									attack_skill = 6
-									defense_skill = 6
-									maneuvering_skill = 1
-									coordination_skill = 1
-								}
-							}
-							5 = {
-								add_naval_commander_role = {
-									character = THIS
-									skill = 9
-									attack_skill = 9
-									defense_skill = 9
-									maneuvering_skill = 1
-									coordination_skill = 1
-								}
-							}
+						set_temp_variable = {
+							temp_char = THIS.id
 						}
-						add_trait = {
-							trait = ac_exp_navy_trait
+					}
+				}
+				var:temp_char = {
+					set_nationality = ROOT
+				}
+				random_list = {
+					50 = {
+						add_naval_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							maneuvering_skill = 1
+							coordination_skill = 1
 						}
-						add_random_trait = {
-							old_guard_navy
-							gentlemanly
-							gunnery_expert
-							cuts_corners
-							chief_engineer
-							navy_media_personality
-							bold
-							navy_career_officer
-							battleship_adherent
-							aviation_enthusiast
-							caustic_personality
-							craven
-							naval_lineage
-							seawolf
-							fleet_protector
-							blockade_runner
-							superior_tactician
-							spotter
-							fly_swatter
-							ironside
-							air_controller
-							arctic_water_expert
-							inshore_fighter
-							blue_water_expert
-							green_water_expert
+					}
+					30 = {
+						add_naval_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							maneuvering_skill = 1
+							coordination_skill = 1
 						}
-						set_nationality = ROOT
+					}
+					15 = {
+						add_naval_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							maneuvering_skill = 1
+							coordination_skill = 1
+						}
+					}
+					5 = {
+						add_naval_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							maneuvering_skill = 1
+							coordination_skill = 1
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_navy_trait
+					}
+					add_random_trait = {
+						old_guard_navy
+						gentlemanly
+						gunnery_expert
+						cuts_corners
+						chief_engineer
+						navy_media_personality
+						bold
+						navy_career_officer
+						battleship_adherent
+						aviation_enthusiast
+						caustic_personality
+						craven
+						naval_lineage
+						seawolf
+						fleet_protector
+						blockade_runner
+						superior_tactician
+						spotter
+						fly_swatter
+						ironside
+						air_controller
+						arctic_water_expert
+						inshore_fighter
+						blue_water_expert
+						green_water_expert
 					}
 				}
 			}
@@ -289,247 +303,252 @@ ac_anime_characters_category = {
 						limit = {
 							has_character_flag = ac_girl_flag
 						}
-						random_list = {
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_popular_figurehead
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_silent_workhorse
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_head_of_intelligence
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_intelligence_princess
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_propaganda_expert
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_first_lady
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_quartermaster_general
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_infrastructure_developer
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_captain_of_industry
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_war_industrialist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_princess_of_terror
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_communist_revolutionary
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_democratic_reformer
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_fascist_demagogue
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_staunch_monarchist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_peoples_favorite_minister
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_minister_of_health
-										}
-									}
+						set_temp_variable = {
+							temp_char = THIS.id
+						}
+					}
+				}
+				var:temp_char = {
+					set_nationality = ROOT
+				}
+				random_list = {
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_popular_figurehead
 								}
 							}
 						}
-						set_nationality = ROOT
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_silent_workhorse
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_head_of_intelligence
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_intelligence_princess
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_propaganda_expert
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_first_lady
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_quartermaster_general
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_infrastructure_developer
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_captain_of_industry
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_war_industrialist
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_princess_of_terror
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_communist_revolutionary
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_democratic_reformer
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_fascist_demagogue
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_staunch_monarchist
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_peoples_favorite_minister
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_minister_of_health
+								}
+							}
+						}
 					}
 				}
 			}
@@ -548,458 +567,488 @@ ac_anime_characters_category = {
 						limit = {
 							has_character_flag = ac_girl_flag
 						}
-						random_list = {
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_nuclear_scientist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_girl_scientist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											military_theorist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											mobile_warfare_expert
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											superior_firepower_expert
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											grand_battle_plan_expert
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											mass_assault_expert
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_warfare_theorist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											dive_bomber
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											victory_through_airpower
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											close_air_support_proponent
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											assault_avaition
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											naval_theorist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											naval_aviation_pioneer
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											grand_fleet_proponent
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											submarine_specialist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											blitzkrieg_theorist
-										}
-									}
-								}
-							}
-							#air
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = air_chief
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_chief_reform_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = air_chief
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_chief_safety_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = air_chief
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_chief_old_guard
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = air_chief
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_chief_night_operations_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = air_chief
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_chief_ground_support_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = air_chief
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_chief_all_weather_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_air_combat_training_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_naval_strike_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_bomber_interception_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_air_superiority_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_close_air_support_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_strategic_bombing_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_tactical_bombing_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_airborne_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_pilot_training_3
-										}
-									}
+						set_temp_variable = {
+							temp_char = THIS.id
+						}
+					}
+				}
+				var:temp_char = {
+					set_nationality = ROOT
+				}
+				random_list = {
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_nuclear_scientist
 								}
 							}
 						}
-						set_nationality = ROOT
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_girl_scientist
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									military_theorist
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									mobile_warfare_expert
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									superior_firepower_expert
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									grand_battle_plan_expert
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									mass_assault_expert
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_warfare_theorist
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									dive_bomber
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									victory_through_airpower
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									close_air_support_proponent
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									assault_avaition
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									naval_theorist
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									naval_aviation_pioneer
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									grand_fleet_proponent
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									submarine_specialist
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									blitzkrieg_theorist
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	ac_decision_gacha_air_chiefs = {
+		cost = 50
+		available = {
+			has_idea = ac_idea_anime_academy
+		}
+		complete_effect = {
+			custom_effect_tooltip = ac_tt_gacha_air_chiefs
+			hidden_effect = {
+				Z99 = {
+					random_character = {
+						limit = {
+							has_character_flag = ac_girl_flag
+						}
+						set_temp_variable = {
+							temp_char = THIS.id
+						}
+					}
+				}
+				var:temp_char = {
+					set_nationality = ROOT
+				}
+				random_list = {
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = air_chief
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_chief_reform_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = air_chief
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_chief_safety_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = air_chief
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_chief_old_guard
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = air_chief
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_chief_night_operations_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = air_chief
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_chief_ground_support_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = air_chief
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_chief_all_weather_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_air_combat_training_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_naval_strike_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_bomber_interception_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_air_superiority_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_close_air_support_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_strategic_bombing_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_tactical_bombing_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_airborne_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_pilot_training_3
+								}
+							}
+						}
 					}
 				}
 			}
@@ -1783,87 +1832,94 @@ ac_anime_characters_category = {
 						limit = {
 							has_character_flag = ac_trap_flag
 						}
-						random_list = {
-							50 = {
-								add_corps_commander_role = {
-									character = THIS
-									skill = 1
-									attack_skill = 1
-									defense_skill = 1
-									planning_skill = 1
-									logistics_skill = 1
-								}
-							}
-							30 = {
-								add_corps_commander_role = {
-									character = THIS
-									skill = 3
-									attack_skill = 3
-									defense_skill = 3
-									planning_skill = 3
-									logistics_skill = 3
-								}
-							}
-							15 = {
-								add_corps_commander_role = {
-									character = THIS
-									skill = 6
-									attack_skill = 6
-									defense_skill = 6
-									planning_skill = 6
-									logistics_skill = 6
-								}
-							}
-							5 = {
-								add_corps_commander_role = {
-									character = THIS
-									skill = 9
-									attack_skill = 9
-									defense_skill = 9
-									planning_skill = 9
-									logistics_skill = 9
-								}
-							}
+						set_temp_variable = {
+							temp_char = THIS.id
 						}
-						add_trait = {
-							trait = ac_exp_trait
+					}
+				}
+				var:temp_char = {
+					set_nationality = ROOT
+				}
+				random_list = {
+					50 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
 						}
-						add_random_trait = {
-							old_guard
-							brilliant_strategist
-							inflexible_strategist
-							politically_connected
-							war_hero
-							career_officer
-							trait_cautious
-							trait_reckless
-							media_personality
-							harsh_leader
-							bearer_of_artillery
-							infantry_officer
-							cavalry_officer
-							armor_officer
-							engineer_officer
-							organizer
-							cavalry_leader
-							infantry_leader
-							skilled_staffer
-							trickster
-							naval_invader
-							desert_fox
-							swamp_fox
-							trait_mountaineer
-							hill_fighter
-							jungle_rat
-							ranger
-							urban_assault_specialist
-							winter_specialist
-							winter_expert
-							trait_engineer
-							panzer_leader
-							commando
+					}
+					30 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
 						}
-						set_nationality = ROOT
+					}
+					15 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							planning_skill = 6
+							logistics_skill = 6
+						}
+					}
+					5 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							planning_skill = 9
+							logistics_skill = 9
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_trait
+					}
+					add_random_trait = {
+						old_guard
+						brilliant_strategist
+						inflexible_strategist
+						politically_connected
+						war_hero
+						career_officer
+						trait_cautious
+						trait_reckless
+						media_personality
+						harsh_leader
+						bearer_of_artillery
+						infantry_officer
+						cavalry_officer
+						armor_officer
+						engineer_officer
+						organizer
+						cavalry_leader
+						infantry_leader
+						skilled_staffer
+						trickster
+						naval_invader
+						desert_fox
+						swamp_fox
+						trait_mountaineer
+						hill_fighter
+						jungle_rat
+						ranger
+						urban_assault_specialist
+						winter_specialist
+						winter_expert
+						trait_engineer
+						panzer_leader
+						commando
 					}
 				}
 			}
@@ -1891,79 +1947,86 @@ ac_anime_characters_category = {
 						limit = {
 							has_character_flag = ac_trap_flag
 						}
-						random_list = {
-							50 = {
-								add_naval_commander_role = {
-									character = THIS
-									skill = 1
-									attack_skill = 1
-									defense_skill = 1
-									maneuvering_skill = 1
-									coordination_skill = 1
-								}
-							}
-							30 = {
-								add_naval_commander_role = {
-									character = THIS
-									skill = 3
-									attack_skill = 3
-									defense_skill = 3
-									maneuvering_skill = 1
-									coordination_skill = 1
-								}
-							}
-							15 = {
-								add_naval_commander_role = {
-									character = THIS
-									skill = 6
-									attack_skill = 6
-									defense_skill = 6
-									maneuvering_skill = 1
-									coordination_skill = 1
-								}
-							}
-							5 = {
-								add_naval_commander_role = {
-									character = THIS
-									skill = 9
-									attack_skill = 9
-									defense_skill = 9
-									maneuvering_skill = 1
-									coordination_skill = 1
-								}
-							}
+						set_temp_variable = {
+							temp_char = THIS.id
 						}
-						add_trait = {
-							trait = ac_exp_navy_trait
+					}
+				}
+				var:temp_char = {
+					set_nationality = ROOT
+				}
+				random_list = {
+					50 = {
+						add_naval_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							maneuvering_skill = 1
+							coordination_skill = 1
 						}
-						add_random_trait = {
-							old_guard_navy
-							gentlemanly
-							gunnery_expert
-							cuts_corners
-							chief_engineer
-							navy_media_personality
-							bold
-							navy_career_officer
-							battleship_adherent
-							aviation_enthusiast
-							caustic_personality
-							craven
-							naval_lineage
-							seawolf
-							fleet_protector
-							blockade_runner
-							superior_tactician
-							spotter
-							fly_swatter
-							ironside
-							air_controller
-							arctic_water_expert
-							inshore_fighter
-							blue_water_expert
-							green_water_expert
+					}
+					30 = {
+						add_naval_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							maneuvering_skill = 1
+							coordination_skill = 1
 						}
-						set_nationality = ROOT
+					}
+					15 = {
+						add_naval_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							maneuvering_skill = 1
+							coordination_skill = 1
+						}
+					}
+					5 = {
+						add_naval_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							maneuvering_skill = 1
+							coordination_skill = 1
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_navy_trait
+					}
+					add_random_trait = {
+						old_guard_navy
+						gentlemanly
+						gunnery_expert
+						cuts_corners
+						chief_engineer
+						navy_media_personality
+						bold
+						navy_career_officer
+						battleship_adherent
+						aviation_enthusiast
+						caustic_personality
+						craven
+						naval_lineage
+						seawolf
+						fleet_protector
+						blockade_runner
+						superior_tactician
+						spotter
+						fly_swatter
+						ironside
+						air_controller
+						arctic_water_expert
+						inshore_fighter
+						blue_water_expert
+						green_water_expert
 					}
 				}
 			}
@@ -1985,247 +2048,252 @@ ac_anime_characters_category = {
 						limit = {
 							has_character_flag = ac_trap_flag
 						}
-						random_list = {
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_popular_figurehead
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_silent_workhorse
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_head_of_intelligence
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_intelligence_princess
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_propaganda_expert
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_first_lady
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_quartermaster_general
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_infrastructure_developer
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_captain_of_industry
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_war_industrialist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_princess_of_terror
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_communist_revolutionary
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_democratic_reformer
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_fascist_demagogue
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_staunch_monarchist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_peoples_favorite_minister
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_minister_of_health
-										}
-									}
+						set_temp_variable = {
+							temp_char = THIS.id
+						}
+					}
+				}
+				var:temp_char = {
+					set_nationality = ROOT
+				}
+				random_list = {
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_popular_figurehead
 								}
 							}
 						}
-						set_nationality = ROOT
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_silent_workhorse
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_head_of_intelligence
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_intelligence_princess
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_propaganda_expert
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_first_lady
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_quartermaster_general
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_infrastructure_developer
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_captain_of_industry
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_war_industrialist
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_princess_of_terror
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_communist_revolutionary
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_democratic_reformer
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_fascist_demagogue
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_staunch_monarchist
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_peoples_favorite_minister
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_minister_of_health
+								}
+							}
+						}
 					}
 				}
 			}
@@ -2247,458 +2315,491 @@ ac_anime_characters_category = {
 						limit = {
 							has_character_flag = ac_trap_flag
 						}
-						random_list = {
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_nuclear_scientist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = political_advisor
-										cost = 150
-										idea_token = THIS
-										traits = {
-											ac_girl_scientist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											military_theorist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											mobile_warfare_expert
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											superior_firepower_expert
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											grand_battle_plan_expert
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											mass_assault_expert
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_warfare_theorist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											dive_bomber
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											victory_through_airpower
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											close_air_support_proponent
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											assault_avaition
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											naval_theorist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											naval_aviation_pioneer
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											grand_fleet_proponent
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											submarine_specialist
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = theorist
-										cost = 150
-										idea_token = THIS
-										traits = {
-											blitzkrieg_theorist
-										}
-									}
-								}
-							}
-							#air
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = air_chief
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_chief_reform_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = air_chief
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_chief_safety_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = air_chief
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_chief_old_guard
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = air_chief
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_chief_night_operations_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = air_chief
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_chief_ground_support_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = air_chief
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_chief_all_weather_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_air_combat_training_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_naval_strike_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_bomber_interception_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_air_superiority_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_close_air_support_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_strategic_bombing_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_tactical_bombing_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_airborne_3
-										}
-									}
-								}
-							}
-							1 = {
-								add_advisor_role = {
-									character = THIS
-									activate = no
-									advisor = {
-										slot = high_command
-										cost = 150
-										idea_token = THIS
-										traits = {
-											air_pilot_training_3
-										}
-									}
+						set_temp_variable = {
+							temp_char = THIS.id
+						}
+					}
+				}
+				var:temp_char = {
+					set_nationality = ROOT
+				}
+				random_list = {
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_nuclear_scientist
 								}
 							}
 						}
-						set_nationality = ROOT
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = political_advisor
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									ac_girl_scientist
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									military_theorist
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									mobile_warfare_expert
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									superior_firepower_expert
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									grand_battle_plan_expert
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									mass_assault_expert
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_warfare_theorist
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									dive_bomber
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									victory_through_airpower
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									close_air_support_proponent
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									assault_avaition
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									naval_theorist
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									naval_aviation_pioneer
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									grand_fleet_proponent
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									submarine_specialist
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = theorist
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									blitzkrieg_theorist
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	ac_decision_gacha_trap_air_chiefs = {
+		cost = 50
+		visible = {
+			has_country_flag = ac_flag_enable_traps
+		}
+		available = {
+			has_idea = ac_idea_anime_academy
+		}
+		complete_effect = {
+			custom_effect_tooltip = ac_tt_gacha_air_chiefs
+			hidden_effect = {
+				Z99 = {
+					random_character = {
+						limit = {
+							has_character_flag = ac_trap_flag
+						}
+						set_temp_variable = {
+							temp_char = THIS.id
+						}
+					}
+				}
+				var:temp_char = {
+					set_nationality = ROOT
+				}
+				random_list = {
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = air_chief
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_chief_reform_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = air_chief
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_chief_safety_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = air_chief
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_chief_old_guard
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = air_chief
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_chief_night_operations_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = air_chief
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_chief_ground_support_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = air_chief
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_chief_all_weather_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_air_combat_training_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_naval_strike_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_bomber_interception_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_air_superiority_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_close_air_support_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_strategic_bombing_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_tactical_bombing_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_airborne_3
+								}
+							}
+						}
+					}
+					1 = {
+						add_advisor_role = {
+							character = var:temp_char
+							activate = no
+							advisor = {
+								slot = high_command
+								cost = 150
+								idea_token = var:temp_char
+								traits = {
+									air_pilot_training_3
+								}
+							}
+						}
 					}
 				}
 			}
@@ -3008,7 +3109,7 @@ political_actions = {
 						set_character_flag = ac_country_leader_flag
 						ROOT = {
 							add_country_leader_role = {
-								character = THIS
+								character = PREV
 								promote_leader = yes
 								country_leader = {
 									ideology = liberalism
@@ -3038,7 +3139,7 @@ political_actions = {
 						set_character_flag = ac_country_leader_flag
 						ROOT = {
 							add_country_leader_role = {
-								character = THIS
+								character = PREV
 								promote_leader = yes
 								country_leader = {
 									ideology = stalinism
@@ -3068,7 +3169,7 @@ political_actions = {
 						set_character_flag = ac_country_leader_flag
 						ROOT = {
 							add_country_leader_role = {
-								character = THIS
+								character = PREV
 								promote_leader = yes
 								country_leader = {
 									ideology = fascism_ideology
@@ -3095,7 +3196,7 @@ political_actions = {
 						set_character_flag = ac_country_leader_flag
 						ROOT = {
 							add_country_leader_role = {
-								character = THIS
+								character = PREV
 								promote_leader = yes
 								country_leader = {
 									ideology = despotism
