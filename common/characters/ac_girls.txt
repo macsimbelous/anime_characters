@@ -16,6 +16,14 @@ characters = {
 				large = GFX_portrait_ac_charlotte_dunois
 			}
 		}
+		advisor = {
+			slot = air_chief
+			cost = 150
+			idea_token = ac_charlotte_dunois
+			traits = {
+				air_chief_reform_3
+			}
+		}
 	}
 	ac_prinz_eugen = {
 		name = ac_prinz_eugen
@@ -129,6 +137,14 @@ characters = {
 				small = GFX_idea_ac_anastasia
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_anastasia
+			traits = {
+				ac_democratic_reformer
+			}
+		}
 	}
 	ac_lightning = {
 		name = ac_lightning
@@ -136,6 +152,15 @@ characters = {
 			army = {
 				small = GFX_idea_ac_lightning
 				large = GFX_portrait_ac_lightning
+			}
+		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_lightning
+			ledger = army
+			traits = {
+				blitzkrieg_theorist
 			}
 		}
 	}
@@ -250,6 +275,14 @@ characters = {
 				large = GFX_portrait_ac_sanya_v_litvyak
 			}
 		}
+		advisor = {
+			slot = air_chief
+			cost = 150
+			idea_token = ac_sanya_v_litvyak
+			traits = {
+				air_chief_night_operations_3
+			}
+		}
 	}
 	ac_isuzu_sento = {
 		name = ac_isuzu_sento
@@ -331,6 +364,14 @@ characters = {
 				large = GFX_portrait_ac_ako_tamaki
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_ako_tamaki
+			traits = {
+				ac_fascist_demagogue
+			}
+		}
 	}
 	ac_celica = {
 		name = ac_celica
@@ -394,6 +435,15 @@ characters = {
 				large = GFX_portrait_ac_lina_inverse
 			}
 		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_lina_inverse
+			ledger = army
+			traits = {
+				superior_firepower_expert
+			}
+		}
 	}
 	ac_neptune = {
 		name = ac_neptune
@@ -419,6 +469,15 @@ characters = {
 			army = {
 				small = GFX_idea_ac_siluca_meletes
 				large = GFX_portrait_ac_siluca_meletes
+			}
+		}
+		advisor = {
+			slot = high_command
+			cost = 150
+			idea_token = ac_siluca_meletes
+			ledger = air
+			traits = {
+				air_bomber_interception_3
 			}
 		}
 	}
@@ -483,6 +542,14 @@ characters = {
 				large = GFX_portrait_ac_compa
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_compa
+			traits = {
+				ac_minister_of_health
+			}
+		}
 	}
 	ac_djeeta = {
 		name = ac_djeeta
@@ -490,6 +557,15 @@ characters = {
 			army = {
 				small = GFX_idea_ac_djeeta
 				large = GFX_portrait_ac_djeeta
+			}
+		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_djeeta
+			ledger = air
+			traits = {
+				close_air_support_proponent
 			}
 		}
 	}
@@ -635,6 +711,14 @@ characters = {
 				large = GFX_portrait_ac_sophie_neuenmuller
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_sophie_neuenmuller
+			traits = {
+				ac_captain_of_industry
+			}
+		}
 	}
 	ac_vert = {
 		name = ac_vert
@@ -680,6 +764,14 @@ characters = {
 				large = GFX_portrait_ac_eruza_guranhirute
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_eruza_guranhirute
+			traits = {
+				ac_princess_of_terror
+			}
+		}
 	}
 	ac_aoi_sakurai = {
 		name = ac_aoi_sakurai
@@ -687,6 +779,15 @@ characters = {
 			army = {
 				small = GFX_idea_ac_aoi_sakurai
 				large = GFX_portrait_ac_lucy_yamagami
+			}
+		}
+		advisor = {
+			slot = high_command
+			cost = 150
+			idea_token = ac_aoi_sakurai
+			ledger = air
+			traits = {
+				air_air_superiority_3
 			}
 		}
 	}
@@ -841,6 +942,15 @@ characters = {
 				small = GFX_idea_ac_sovetskaya_rossiya
 			}
 		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_sovetskaya_rossiya
+			ledger = navy
+			traits = {
+				grand_fleet_proponent
+			}
+		}
 	}
 	ac_shima_tateishi = {
 		name = ac_shima_tateishi
@@ -871,6 +981,15 @@ characters = {
 				large = GFX_portrait_ac_akeno_misaki
 			}
 		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_akeno_misaki
+			ledger = air
+			traits = {
+				victory_through_airpower
+			}
+		}
 	}
 	ac_beidou = {
 		name = ac_beidou
@@ -891,6 +1010,14 @@ characters = {
 			}
 			civilian = {
 				large = GFX_portrait_ac_minami_nitta
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_minami_nitta
+			traits = {
+				ac_first_lady
 			}
 		}
 	}
@@ -934,6 +1061,15 @@ characters = {
 				large = GFX_portrait_ac_asuka_tanaka
 			}
 		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_asuka_tanaka
+			ledger = air
+			traits = {
+				assault_avaition
+			}
+		}
 	}
 	ac_lucy_yamagami = {
 		name = ac_lucy_yamagami
@@ -943,6 +1079,14 @@ characters = {
 			}
 			civilian = {
 				large = GFX_portrait_ac_lucy_yamagami
+			}
+		}
+		advisor = {
+			slot = air_chief
+			cost = 150
+			idea_token = ac_lucy_yamagami
+			traits = {
+				air_chief_ground_support_3
 			}
 		}
 	}
@@ -956,6 +1100,15 @@ characters = {
 				large = GFX_portrait_ac_megumin
 			}
 		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_megumin
+			ledger = civilian
+			traits = {
+				ac_nuclear_scientist
+			}
+		}
 	}
 	ac_ayame_himuro = {
 		name = ac_ayame_himuro
@@ -965,6 +1118,15 @@ characters = {
 			}
 			civilian = {
 				large = GFX_portrait_ac_ayame_himuro
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_ayame_himuro
+			ledger = civilian
+			traits = {
+				ac_girl_scientist
 			}
 		}
 	}
@@ -991,12 +1153,29 @@ characters = {
 				large = GFX_portrait_ac_mari_setogaya
 			}
 		}
+		advisor = {
+			slot = high_command
+			cost = 150
+			idea_token = ac_mari_setogaya
+			ledger = air
+			traits = {
+				air_close_air_support_3
+			}
+		}
 	}
 	ac_sheliss_elleness_zurbach = {
 		name = ac_sheliss_elleness_zurbach
 		portraits = {
 			civilian = {
 				large = GFX_portrait_ac_sheliss_elleness_zurbach
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_sheliss_elleness_zurbach
+			traits = {
+				ac_staunch_monarchist
 			}
 		}
 	}
@@ -1137,6 +1316,15 @@ characters = {
 				large = GFX_portrait_ac_alicia_arcturus
 			}
 		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_alicia_arcturus
+			ledger = army
+			traits = {
+				mobile_warfare_expert
+			}
+		}
 	}
 	ac_sill_plain = {
 		name = ac_sill_plain
@@ -1183,6 +1371,15 @@ characters = {
 			army = {
 				small = GFX_idea_ac_rin
 				large = GFX_portrait_ac_rin
+			}
+		}
+		advisor = {
+			slot = high_command
+			cost = 150
+			idea_token = ac_rin
+			ledger = air
+			traits = {
+				air_strategic_bombing_3
 			}
 		}
 	}
@@ -1355,6 +1552,15 @@ characters = {
 				large = GFX_portrait_ac_kurumi_mugen
 			}
 		}
+		advisor = {
+			slot = high_command
+			cost = 150
+			idea_token = ac_kurumi_mugen
+			ledger = air
+			traits = {
+				air_airborne_3
+			}
+		}
 	}
 	ac_homura_akemi = {
 		name = ac_homura_akemi
@@ -1362,6 +1568,14 @@ characters = {
 			army = {
 				small = GFX_idea_ac_homura_akemi
 				large = GFX_portrait_ac_homura_akemi
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_homura_akemi
+			traits = {
+				ac_war_industrialist
 			}
 		}
 	}
@@ -1400,6 +1614,15 @@ characters = {
 				large = GFX_portrait_ac_mia_cyrus
 			}
 		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_mia_cyrus
+			ledger = navy
+			traits = {
+				naval_aviation_pioneer
+			}
+		}
 	}
 	ac_saki_uno = {
 		name = ac_saki_uno
@@ -1427,6 +1650,14 @@ characters = {
 				large = GFX_portrait_ac_honey_kisaragi
 			}
 		}
+		advisor = {
+			slot = air_chief
+			cost = 150
+			idea_token = ac_honey_kisaragi
+			traits = {
+				air_chief_all_weather_3
+			}
+		}
 	}
 	ac_mai_tokiha = {
 		name = ac_mai_tokiha
@@ -1434,6 +1665,15 @@ characters = {
 			army = {
 				small = GFX_idea_ac_mai_tokiha
 				large = GFX_portrait_ac_mai_tokiha
+			}
+		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_mai_tokiha
+			ledger = army
+			traits = {
+				grand_battle_plan_expert
 			}
 		}
 	}
@@ -1586,6 +1826,14 @@ characters = {
 				large = GFX_portrait_ac_sakuyo_mikage_civ
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_sakuyo_mikage
+			traits = {
+				ac_quartermaster_general
+			}
+		}
 	}
 	ac_akane_isshiki = {
 		name = ac_akane_isshiki
@@ -1688,6 +1936,14 @@ characters = {
 				large = GFX_portrait_ac_histoire
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_histoire
+			traits = {
+				ac_communist_revolutionary
+			}
+		}
 	}
 	ac_iris_heart = {
 		name = ac_iris_heart
@@ -1757,6 +2013,14 @@ characters = {
 				large = GFX_portrait_ac_svetlana_sakura
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_svetlana_sakura
+			traits = {
+				ac_infrastructure_developer
+			}
+		}
 	}
 	ac_alexandra_frolova = {
 		name = ac_alexandra_frolova
@@ -1766,6 +2030,15 @@ characters = {
 				large = GFX_portrait_ac_alexandra_frolova
 			}
 		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_alexandra_frolova
+			ledger = army
+			traits = {
+				mass_assault_expert
+			}
+		}
 	}
 	ac_edi = {
 		name = ac_edi
@@ -1773,6 +2046,15 @@ characters = {
 			army = {
 				small = GFX_idea_ac_edi
 				large = GFX_portrait_ac_edi
+			}
+		}
+		advisor = {
+			slot = high_command
+			cost = 150
+			idea_token = ac_edi
+			ledger = air
+			traits = {
+				air_air_combat_training_3
 			}
 		}
 	}
@@ -1950,6 +2232,15 @@ characters = {
 			}
 			army = {
 				large = GFX_portrait_ac_i-410
+			}
+		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_i-410
+			ledger = navy
+			traits = {
+				submarine_specialist
 			}
 		}
 	}
@@ -2212,6 +2503,15 @@ characters = {
 				large = GFX_portrait_ac_lucy
 			}
 		}
+		advisor = {
+			slot = high_command
+			cost = 150
+			idea_token = ac_lucy
+			ledger = air
+			traits = {
+				air_naval_strike_3
+			}
+		}
 	}
 	ac_makina_hoshimura = {
 		name = ac_makina_hoshimura
@@ -2248,6 +2548,15 @@ characters = {
 			army = {
 				small = GFX_idea_ac_vignette_april_tsukinose
 				large = GFX_portrait_ac_vignette_april_tsukinose
+			}
+		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_vignette_april_tsukinose
+			ledger = air
+			traits = {
+				dive_bomber
 			}
 		}
 	}
@@ -2398,6 +2707,14 @@ characters = {
 			army = {
 				small = GFX_idea_ac_belldandy
 				large = GFX_portrait_ac_belldandy
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_belldandy
+			traits = {
+				ac_peoples_favorite_minister
 			}
 		}
 	}

@@ -21,6 +21,14 @@ characters = {
 				large = GFX_portrait_ac_hideri_kanzaki
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_hideri_kanzaki
+			traits = {
+				ac_propaganda_expert
+			}
+		}
 	}
 	ac_tetora = {
 		name = ac_tetora
@@ -31,6 +39,14 @@ characters = {
 			}
 			civilian = {
 				large = GFX_portrait_ac_tetora
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_tetora
+			traits = {
+				ac_popular_figurehead
 			}
 		}
 	}
@@ -45,6 +61,15 @@ characters = {
 				large = GFX_portrait_ac_ringo_tsukimiya
 			}
 		}
+		advisor = {
+			slot = high_command
+			cost = 150
+			idea_token = ac_ringo_tsukimiya
+			ledger = air
+			traits = {
+				air_strategic_bombing_3
+			}
+		}
 	}
 	ac_felix_argyle = {
 		name = ac_felix_argyle
@@ -52,6 +77,15 @@ characters = {
 			army = {
 				small = GFX_idea_ac_felix_argyle
 				large = GFX_portrait_ac_felix_argyle
+			}
+		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_felix_argyle
+			ledger = army
+			traits = {
+				military_theorist
 			}
 		}
 	}
@@ -105,6 +139,15 @@ characters = {
 				large = GFX_portrait_ac_aoi_hyoudou
 			}
 		}
+		advisor = {
+			slot = high_command
+			cost = 150
+			idea_token = ac_aoi_hyoudou
+			ledger = air
+			traits = {
+				air_air_superiority_3
+			}
+		}
 	}
 	ac_kaguya_arikawa = {
 		name = ac_kaguya_arikawa
@@ -114,6 +157,14 @@ characters = {
 			}
 			army = {
 				large = GFX_portrait_ac_kaguya_arikawa
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_kaguya_arikawa
+			traits = {
+				ac_captain_of_industry
 			}
 		}
 	}
@@ -127,6 +178,15 @@ characters = {
 				large = GFX_portrait_ac_tama_kyan
 			}
 		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_tama_kyan
+			ledger = air
+			traits = {
+				air_warfare_theorist
+			}
+		}
 	}
 	ac_hime_arikawa = {
 		name = ac_hime_arikawa
@@ -136,6 +196,14 @@ characters = {
 				large = GFX_portrait_ac_hime_arikawa
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_hime_arikawa
+			traits = {
+				ac_silent_workhorse
+			}
+		}
 	}
 	ac_sylvia = {
 		name = ac_sylvia
@@ -143,6 +211,15 @@ characters = {
 			army = {
 				small = GFX_idea_ac_sylvia
 				large = GFX_portrait_ac_sylvia
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_sylvia
+			ledger = civilian
+			traits = {
+				ac_girl_scientist
 			}
 		}
 	}
@@ -197,6 +274,14 @@ characters = {
 			army = {
 				small = GFX_idea_ac_xianming_lin
 				large = GFX_portrait_ac_xianming_lin
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_xianming_lin
+			traits = {
+				ac_war_industrialist
 			}
 		}
 	}
@@ -307,6 +392,15 @@ characters = {
 				large = GFX_portrait_ac_russell
 			}
 		}
+		advisor = {
+			slot = theorist
+			cost = 150
+			idea_token = ac_russell
+			ledger = navy
+			traits = {
+				naval_theorist
+			}
+		}
 	}
 	ac_mare_bello_fiore = {
 		name = ac_mare_bello_fiore
@@ -324,6 +418,14 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_aoi_futaba
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_aoi_futaba
+			traits = {
+				ac_head_of_intelligence
 			}
 		}
 	}
@@ -356,6 +458,14 @@ characters = {
 				large = GFX_portrait_ac_anri_sogahara
 			}
 		}
+		advisor = {
+			slot = air_chief
+			cost = 150
+			idea_token = ac_anri_sogahara
+			traits = {
+				air_chief_ground_support_3
+			}
+		}
 	}
 	ac_kaname = {
 		name = ac_kaname
@@ -365,6 +475,14 @@ characters = {
 			}
 			army = {
 				large = GFX_portrait_ac_kaname
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_kaname
+			traits = {
+				ac_princess_of_terror
 			}
 		}
 	}
