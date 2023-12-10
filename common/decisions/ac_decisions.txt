@@ -79,6 +79,7 @@ ac_anime_characters_category = {
 	}
 	ac_decision_gacha_generals = {
 		cost = 50
+		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
 		}
@@ -188,6 +189,7 @@ ac_anime_characters_category = {
 	}
 	ac_decision_gacha_admirals = {
 		cost = 50
+		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
 			any_controlled_state = {
@@ -292,6 +294,7 @@ ac_anime_characters_category = {
 	}
 	ac_decision_gacha_political_advisors = {
 		cost = 50
+		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
 		}
@@ -556,6 +559,7 @@ ac_anime_characters_category = {
 	}
 	ac_decision_gacha_theorists = {
 		cost = 50
+		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
 		}
@@ -820,6 +824,7 @@ ac_anime_characters_category = {
 	}
 	ac_decision_gacha_air_chiefs = {
 		cost = 50
+		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
 		}
@@ -1056,6 +1061,7 @@ ac_anime_characters_category = {
 	}
 	ac_decision_gacha_operatives = {
 		cost = 50
+		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_idea_anime_intelligence_agency
 		}
@@ -1811,6 +1817,7 @@ ac_anime_characters_category = {
 	}
 	ac_decision_gacha_trap_generals = {
 		cost = 50
+		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
 		}
@@ -1923,6 +1930,7 @@ ac_anime_characters_category = {
 	}
 	ac_decision_gacha_trap_admirals = {
 		cost = 50
+		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
 		}
@@ -2030,6 +2038,7 @@ ac_anime_characters_category = {
 	}
 	ac_decision_gacha_trap_political_advisors = {
 		cost = 50
+		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
 		}
@@ -2297,6 +2306,7 @@ ac_anime_characters_category = {
 	}
 	ac_decision_gacha_trap_theorists = {
 		cost = 50
+		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
 		}
@@ -2564,6 +2574,7 @@ ac_anime_characters_category = {
 	}
 	ac_decision_gacha_trap_air_chiefs = {
 		cost = 50
+		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
 		}
@@ -2803,6 +2814,7 @@ ac_anime_characters_category = {
 	}
 	ac_decision_gacha_trap_operatives = {
 		cost = 50
+		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
 		}
