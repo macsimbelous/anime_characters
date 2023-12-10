@@ -52,6 +52,14 @@ characters = {
 				large = GFX_portrait_ac_irina_jelavic
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_irina_jelavic
+			traits = {
+				ac_head_of_intelligence
+			}
+		}
 	}
 	ac_alisa_illinichina_amiella = {
 		name = ac_alisa_illinichina_amiella
@@ -152,7 +160,7 @@ characters = {
 				large = GFX_portrait_ac_anastasia_romanova
 			}
 		}
-	}                                                                                      
+	}
 	ac_saint_martha = {
 		name = ac_saint_martha
 		portraits = {
@@ -449,6 +457,14 @@ characters = {
 				large = GFX_portrait_ac_5pb
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_5pb
+			traits = {
+				ac_popular_figurehead
+			}
+		}
 	}
 	ac_blanc = {
 		name = ac_blanc
@@ -492,6 +508,14 @@ characters = {
 			army = {
 				small = GFX_idea_ac_escha_malier
 				large = GFX_portrait_ac_escha_malier
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_escha_malier
+			traits = {
+				ac_propaganda_expert
 			}
 		}
 	}
@@ -826,6 +850,14 @@ characters = {
 			}
 			army = {
 				large = GFX_portrait_ac_shima_tateishi
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_shima_tateishi
+			traits = {
+				ac_silent_workhorse
 			}
 		}
 	}
@@ -1610,7 +1642,7 @@ characters = {
 		}
 	}
 	ac_kos-mos = {
-	    name = ac_kos-mos
+		name = ac_kos-mos
 		portraits = {
 			army = {
 				small = GFX_idea_ac_kos-mos

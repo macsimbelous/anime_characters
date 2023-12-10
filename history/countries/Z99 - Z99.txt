@@ -321,7 +321,7 @@ recruit_character = ac_yukikaze
 
 #girls
 ac_2b = { set_character_flag = ac_girl_flag }
-ac_5pb = { set_character_flag = ac_girl_flag }
+ac_5pb = { set_character_flag = ac_girl_flag set_character_flag = ac_flag_political_advisor }
 ac_a2 = { set_character_flag = ac_girl_flag }
 #ac_aegis = { set_character_flag = ac_girl_flag }
 ac_ai_kagano = { set_character_flag = ac_girl_flag }
@@ -392,7 +392,7 @@ ac_elma = { set_character_flag = ac_girl_flag }
 ac_erica_blandelli = { set_character_flag = ac_girl_flag }
 ac_eruza_guranhirute = { set_character_flag = ac_girl_flag }
 ac_erza = { set_character_flag = ac_girl_flag }
-ac_escha_malier = { set_character_flag = ac_girl_flag }
+ac_escha_malier = { set_character_flag = ac_girl_flag set_character_flag = ac_flag_political_advisor }
 ac_eula = { set_character_flag = ac_girl_flag }
 ac_fate_testarossa = { set_character_flag = ac_girl_flag }
 ac_fino_bloodstone = { set_character_flag = ac_girl_flag }
@@ -421,7 +421,7 @@ ac_ichinose_minori = { set_character_flag = ac_girl_flag }
 ac_if = { set_character_flag = ac_girl_flag }
 ac_igawa_asagi = { set_character_flag = ac_girl_flag }
 ac_illyasviel_von_einzbern = { set_character_flag = ac_girl_flag }
-ac_irina_jelavic = { set_character_flag = ac_girl_flag }
+ac_irina_jelavic = { set_character_flag = ac_girl_flag set_character_flag = ac_flag_political_advisor }
 ac_iris_arcadia = { set_character_flag = ac_girl_flag }
 ac_iris_heart = { set_character_flag = ac_girl_flag }
 ac_isht_karin_orte = { set_character_flag = ac_girl_flag }
@@ -548,7 +548,7 @@ ac_sheliss_elleness_zurbach = { set_character_flag = ac_girl_flag }
 #ac_sheryl_nome = { set_character_flag = ac_girl_flag }
 ac_shigure = { set_character_flag = ac_girl_flag }
 #ac_shiki = { set_character_flag = ac_girl_flag }
-ac_shima_tateishi = { set_character_flag = ac_girl_flag }
+ac_shima_tateishi = { set_character_flag = ac_girl_flag set_character_flag = ac_flag_political_advisor }
 ac_shiraori = { set_character_flag = ac_girl_flag }
 ac_shiratori_yuriko = { set_character_flag = ac_girl_flag }
 ac_sill_plain = { set_character_flag = ac_girl_flag }
