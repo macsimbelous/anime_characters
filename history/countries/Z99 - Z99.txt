@@ -274,6 +274,7 @@ recruit_character = ac_zero_two
 recruit_character = ac_lilia_eberwein
 recruit_character = ac_catue_dragundaala
 recruit_character = ac_violet_evergarden
+recruit_character = ac_mona_megistus
 #traps
 recruit_character = ac_anri_sogahara
 recruit_character = ac_aoi_futaba
@@ -594,6 +595,7 @@ ac_zero_two = { set_character_flag = ac_girl_flag }
 ac_lilia_eberwein = { set_character_flag = ac_girl_flag }
 ac_catue_dragundaala = { set_character_flag = ac_girl_flag }
 ac_violet_evergarden = { set_character_flag = ac_girl_flag }
+ac_mona_megistus = { set_character_flag = ac_girl_flag }
 #traps
 ac_anri_sogahara = { set_character_flag = ac_trap_flag set_character_flag = ac_flag_air_chief }
 ac_aoi_futaba = { set_character_flag = ac_trap_flag set_character_flag = ac_flag_political_advisor }

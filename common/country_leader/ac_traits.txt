@@ -36,7 +36,7 @@ leader_traits = {
 		random = no
 		stability_factor = 0.05
 		war_support_factor = 0.1
-		ai_focus_aggressive_factor = 2
+		ai_focus_aggressive_factor = 1
 		economy_cost_factor = -0.33
 		annex_cost_factor = -0.33
 		#military_leader_cost_factor = -0.33
@@ -67,10 +67,10 @@ leader_traits = {
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
 		#production_speed_infrastructure_factor = 0.2
-		tank_manufacturer_cost_factor = -0.33
-		naval_manufacturer_cost_factor = -0.33
-		aircraft_manufacturer_cost_factor = -0.33
-		materiel_manufacturer_cost_factor = -0.33
+		#tank_manufacturer_cost_factor = -0.33
+		#naval_manufacturer_cost_factor = -0.33
+		#aircraft_manufacturer_cost_factor = -0.33
+		#materiel_manufacturer_cost_factor = -0.33
 	}
 	ac_patron_of_industry = {
 		random = no
@@ -119,8 +119,7 @@ leader_traits = {
 		#army_org_Factor = 0.05
 		justify_war_goal_time = -0.33
 		ai_focus_aggressive_factor = 2
-		#war_support_factor = 0.15
-		#ai_focus_aggressive_factor = 1
+		war_support_factor = 0.05
 	}
 	ac_superweapon = {
 		random = no
@@ -136,6 +135,14 @@ leader_traits = {
 		#economy_cost_factor = -0.33
 		#political_advisor_cost_factor = -0.33
 		#military_leader_cost_factor = -0.33
+	}
+	ac_trait_astrologist = {
+		#sprite = 13
+		random = no
+		stability_factor = 0.05
+		war_support_factor = 0.05
+		political_power_factor = 0.05
+		recon_factor = 0.1
 	}
 	#ministri
 	ac_nuclear_mazoku = {

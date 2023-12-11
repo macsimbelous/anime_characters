@@ -252,8 +252,6 @@
   ac_rhea: "Эрхея"
   ac_shiraori: "Шираори"
   ac_ishtar: "Иштар"
-
- #generals
   ac_lilith: "Лилит"
   ac_rose: "Роза"
   ac_morrah: "Морах"
@@ -281,12 +279,10 @@
   ac_saphentite_neikes: "Сафентит Нейкс"
   ac_miia: "Мия"
   ac_asmodeus: "Асмодеус"
- #Admirals
   ac_yamato_wg: "Ямато WG"
   ac_purifier: "Пурифайер"
   ac_tester: "Тестер"
   ac_meroune_lorelei: "Мероуна Лорелей"
- #advisors
   ac_shigure: "Сигурэ"
   ac_prinz_eugen: "Принц Ойген"
   ac_lilia_eberwein: "Лилия Эвельвайн"
@@ -311,6 +307,7 @@
   ac_tomoko_kuroki: "Томоко Куроки"
   ac_vanessa_diodati: "Ванесса Диодати"
   ac_yuriya_komiya: "Юрия Комия"
+  ac_mona_megistus: "Мона Мегистус"
 
 #traps
  ac_homare_nao: "Хомаре Нао"

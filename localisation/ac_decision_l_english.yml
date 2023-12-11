@@ -43,6 +43,9 @@
  ac_change_leader_to_celestine_lucullus: "Assign §GCelestine Lucullus§! the leader"
  ac_change_leader_to_takumi_musashino: "Assign §GTakumi Musashino§! the leader"
  ac_change_leader_to_hideri_kanzaki: "Assign §GHideri Kanzaki§! the leader"
+ ac_change_leader_to_prinz_eugen: "§G[ac_prinz_eugen.GetName]§! will become the leader of the state"
+ ac_change_leader_to_mona_megistus: "§G[ac_mona_megistus.GetName]§! will become the leader of the state"
+ ac_change_leader_to_asuka: "§G[ac_asuk.GetName]§! will become the leader of the state"
 
 #tooltips
  ac_tt_count_generals: "At least 5 generals hired"

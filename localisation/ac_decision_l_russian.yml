@@ -42,6 +42,9 @@
  ac_change_leader_to_celestine_lucullus: "Назначить §GСелестина Лукулл§! лидером"
  ac_change_leader_to_takumi_musashino: "Назначить §GТакуми Мусасино§! лидером"
  ac_change_leader_to_hideri_kanzaki: "Назначить §GХидэри Кандзаки§! лидером"
+ ac_change_leader_to_prinz_eugen: "§G[ac_prinz_eugen.getname]§! станет лидером государства"
+ ac_change_leader_to_mona_megistus: "§G[ac_mona_megistus.GetName]§! станет лидером государства"
+ ac_change_leader_to_asuka: "§G[ac_asuk.GetName]§! станет лидером государства"
 
 #tooltips
  ac_tt_count_generals: "Нанято хотя бы 5 генералов"

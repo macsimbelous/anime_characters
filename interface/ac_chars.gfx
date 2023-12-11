@@ -2535,4 +2535,20 @@ spriteTypes = {
 		name = "GFX_portrait_ac_violet_evergarden"
 		texturefile = "gfx/leaders/girls/violet_evergarden.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_ac_mona_megistus"
+		texturefile = "gfx/leaders/girls/mona_megistus_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mona_megistus_civilian"
+		texturefile = "gfx/leaders/girls/mona_megistus_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mona_megistus_army"
+		texturefile = "gfx/leaders/girls/mona_megistus_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mona_megistus_navy"
+		texturefile = "gfx/leaders/girls/mona_megistus_navy.dds"
+	}
 }

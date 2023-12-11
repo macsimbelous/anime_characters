@@ -841,31 +841,56 @@ ac_anime_characters_category = {
 		visible = {
 			has_character = ac_anastasia_romanova
 			original_tag = SOV
-		}
-		available = {
-			has_government = neutrality
 			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
+				has_country_leader = {
+					character = ac_anastasia_romanova
+					ruling_only = yes
 				}
 			}
 		}
+		available = {
+			has_government = neutrality
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
+			# 	}
+			# }
+		}
 		complete_effect = {
-			#retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_anastasia_romanova
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_anastasia_romanova
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_anastasia_romanova
+				}
+				add_country_leader_trait = ac_anime_tyan
+				add_country_leader_trait = ac_peoples_favorite
+				add_country_leader_trait = ac_patron_of_science
+				add_country_leader_trait = ac_empress
+				ac_anastasia_romanova = {
+					set_character_flag = ac_country_leader_flag
+				}
 			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_anastasia_romanova
-			}
-			add_country_leader_trait = ac_anime_tyan
-			add_country_leader_trait = ac_peoples_favorite
-			add_country_leader_trait = ac_patron_of_science
-			add_country_leader_trait = ac_empress
-			ac_anastasia_romanova = {
-				set_character_flag = ac_country_leader_flag
+			effect_tooltip = {
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ac_anastasia_romanova
+					promote_leader = yes
+					country_leader = {
+						ideology = despotism
+						expire = "1965.1.1.1"
+						traits = {
+							ac_anime_tyan
+							ac_peoples_favorite
+							ac_patron_of_science
+							ac_empress
+						}
+					}
+				}
 			}
 		}
 	}
@@ -875,45 +900,176 @@ ac_anime_characters_category = {
 		visible = {
 			has_character = ac_mind_flayer
 			original_tag = JAP
-		}
-		available = {
-			has_government = fascism
 			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
+				has_country_leader = {
+					character = ac_mind_flayer
+					ruling_only = yes
 				}
 			}
 		}
-		complete_effect = {
-			#retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_mind_flayer
-			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_mind_flayer
-			}
-			add_country_leader_trait = ac_anime_tyan
-			add_country_leader_trait = ac_peoples_favorite
-			add_country_leader_trait = ac_patron_of_science
-			add_country_leader_trait = ac_demon_lord
-			# add_country_leader_role = {
-			# 	character = ac_mind_flayer
-			# 	country_leader = {
-			# 		ideology = despotism
-			# 		expire = "1959.12.23.1"
-			# 		traits = {
-			# 			ac_anime_tyan
-			# 			ac_peoples_favorite
-			# 			ac_patron_of_science
-			# 			ac_demon_lord
-			# 		}
+		available = {
+			has_government = fascism
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
 			# 	}
-			# 	promote_leader = yes
 			# }
-			ac_mind_flayer = {
-				set_character_flag = ac_country_leader_flag
+		}
+		complete_effect = {
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_mind_flayer
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_mind_flayer
+				}
+				add_country_leader_trait = ac_anime_tyan
+				add_country_leader_trait = ac_patron_of_intelligence
+				add_country_leader_trait = ac_patron_of_science
+				add_country_leader_trait = ac_demon_lord
+				ac_mind_flayer = {
+					set_character_flag = ac_country_leader_flag
+				}
+			}
+			effect_tooltip = {
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ac_mind_flayer
+					promote_leader = yes
+					country_leader = {
+						ideology = fascism_ideology
+						expire = "1965.1.1.1"
+						traits = {
+							ac_anime_tyan
+							ac_patron_of_intelligence
+							ac_patron_of_science
+							ac_demon_lord
+						}
+					}
+				}
+			}
+		}
+	}
+	ac_change_leader_to_prinz_eugen = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_character = ac_prinz_eugen
+			original_tag = GER
+			NOT = {
+				has_country_leader = {
+					character = ac_prinz_eugen
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			has_government = neutrality
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
+			# 	}
+			# }
+		}
+		complete_effect = {
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_prinz_eugen
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_prinz_eugen
+				}
+				add_country_leader_trait = ac_anime_tyan
+				add_country_leader_trait = ac_tyan_militarist
+				add_country_leader_trait = ac_patron_of_the_military_industrial_complex
+				add_country_leader_trait = ac_dictator
+				ac_prinz_eugen = {
+					set_character_flag = ac_country_leader_flag
+				}
+			}
+			effect_tooltip = {
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ac_prinz_eugen
+					promote_leader = yes
+					country_leader = {
+						ideology = despotism
+						expire = "1965.1.1.1"
+						traits = {
+							ac_anime_tyan
+							ac_tyan_militarist
+							ac_patron_of_the_military_industrial_complex
+							ac_dictator
+						}
+					}
+				}
+			}
+		}
+	}
+	ac_change_leader_to_asuka = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_character = ac_asuka
+			original_tag = GER
+			NOT = {
+				has_country_leader = {
+					character = ac_asuka
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			has_government = fascism
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
+			# 	}
+			# }
+		}
+		complete_effect = {
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_asuka
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_prinz_eugen
+				}
+				add_country_leader_trait = ac_anime_tyan
+				add_country_leader_trait = ac_tsundere
+				add_country_leader_trait = ac_tyan_militarist
+				add_country_leader_trait = ac_patron_of_the_military_industrial_complex
+				add_country_leader_trait = ac_dictator
+				ac_asuka = {
+					set_character_flag = ac_country_leader_flag
+				}
+			}
+			effect_tooltip = {
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ac_asuka
+					promote_leader = yes
+					country_leader = {
+						ideology = fascism_ideology
+						expire = "1965.1.1.1"
+						traits = {
+							ac_anime_tyan
+							ac_tsundere
+							ac_tyan_militarist
+							ac_patron_of_the_military_industrial_complex
+							ac_dictator
+						}
+					}
+				}
 			}
 		}
 	}
@@ -923,31 +1079,56 @@ ac_anime_characters_category = {
 		visible = {
 			has_character = ac_alisa_illinichina_amiella
 			original_tag = SOV
-		}
-		available = {
-			has_government = communism
 			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
+				has_country_leader = {
+					character = ac_alisa_illinichina_amiella
+					ruling_only = yes
 				}
 			}
 		}
+		available = {
+			has_government = communism
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
+			# 	}
+			# }
+		}
 		complete_effect = {
-			#retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_alisa_illinichina_amiella
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_alisa_illinichina_amiella
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_alisa_illinichina_amiella
+				}
+				add_country_leader_trait = ac_anime_tyan
+				add_country_leader_trait = ac_revolutionary
+				add_country_leader_trait = ac_patron_of_industry
+				add_country_leader_trait = ac_dictator
+				ac_alisa_illinichina_amiella = {
+					set_character_flag = ac_country_leader_flag
+				}
 			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_alisa_illinichina_amiella
-			}
-			add_country_leader_trait = ac_anime_tyan
-			add_country_leader_trait = ac_revolutionary
-			add_country_leader_trait = ac_patron_of_industry
-			add_country_leader_trait = ac_dictator
-			ac_alisa_illinichina_amiella = {
-				set_character_flag = ac_country_leader_flag
+			effect_tooltip = {
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ac_alisa_illinichina_amiella
+					promote_leader = yes
+					country_leader = {
+						ideology = stalinism
+						expire = "1965.1.1.1"
+						traits = {
+							ac_anime_tyan
+							ac_revolutionary
+							ac_patron_of_industry
+							ac_dictator
+						}
+					}
+				}
 			}
 		}
 	}
@@ -957,31 +1138,117 @@ ac_anime_characters_category = {
 		visible = {
 			has_character = ac_velvet_crowe
 			original_tag = YUG
-		}
-		available = {
-			has_government = communism
 			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
+				has_country_leader = {
+					character = ac_velvet_crowe
+					ruling_only = yes
 				}
 			}
 		}
+		available = {
+			has_government = communism
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
+			# 	}
+			# }
+		}
 		complete_effect = {
-			#retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_velvet_crowe
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_velvet_crowe
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_velvet_crowe
+				}
+				add_country_leader_trait = ac_anime_tyan
+				add_country_leader_trait = ac_tyan_militarist
+				add_country_leader_trait = ac_patron_of_the_military_industrial_complex
+				add_country_leader_trait = ac_demon_lord
+				ac_velvet_crowe = {
+					set_character_flag = ac_country_leader_flag
+				}
 			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_velvet_crowe
+			effect_tooltip = {
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ac_velvet_crowe
+					promote_leader = yes
+					country_leader = {
+						ideology = stalinism
+						expire = "1965.1.1.1"
+						traits = {
+							ac_anime_tyan
+							ac_tyan_militarist
+							ac_patron_of_the_military_industrial_complex
+							ac_demon_lord
+						}
+					}
+				}
 			}
-			add_country_leader_trait = ac_anime_tyan
-			add_country_leader_trait = ac_tyan_militarist
-			add_country_leader_trait = ac_patron_of_the_military_industrial_complex
-			add_country_leader_trait = ac_demon_lord
-			ac_velvet_crowe = {
-				set_character_flag = ac_country_leader_flag
+		}
+	}
+	ac_change_leader_to_mona_megistus = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_character = ac_mona_megistus
+			original_tag = FRA
+			NOT = {
+				has_country_leader = {
+					character = ac_mona_megistus
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			has_government = democratic
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
+			# 	}
+			# }
+		}
+		complete_effect = {
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_mona_megistus
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_mona_megistus_civilian
+				}
+				add_country_leader_trait = ac_anime_tyan
+				add_country_leader_trait = ac_trait_astrologist
+				add_country_leader_trait = ac_patron_of_science
+				add_country_leader_trait = ac_patron_of_intelligence
+				ac_mona_megistus = {
+					set_character_flag = ac_country_leader_flag
+				}
+			}
+			effect_tooltip = {
+				retire_country_leader = yes
+				Z99 = {
+					add_country_leader_role = {
+						character = ac_mona_megistus
+						promote_leader = yes
+						country_leader = {
+							ideology = liberalism
+							expire = "1965.1.1.1"
+							traits = {
+								ac_anime_tyan
+								ac_trait_astrologist
+								ac_patron_of_science
+								ac_patron_of_intelligence
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -990,31 +1257,56 @@ ac_anime_characters_category = {
 		cost = 100
 		visible = {
 			has_character = ac_histoire
-		}
-		available = {
-			has_government = communism
 			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
+				has_country_leader = {
+					character = ac_histoire
+					ruling_only = yes
 				}
 			}
 		}
+		available = {
+			has_government = communism
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
+			# 	}
+			# }
+		}
 		complete_effect = {
-			#retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_histoire
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_histoire
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_histoire
+				}
+				add_country_leader_trait = ac_anime_tyan
+				add_country_leader_trait = ac_revolutionary
+				add_country_leader_trait = ac_patron_of_industry
+				add_country_leader_trait = ac_dictator
+				ac_histoire = {
+					set_character_flag = ac_country_leader_flag
+				}
 			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_histoire
-			}
-			add_country_leader_trait = ac_anime_tyan
-			add_country_leader_trait = ac_revolutionary
-			add_country_leader_trait = ac_patron_of_industry
-			add_country_leader_trait = ac_dictator
-			ac_histoire = {
-				set_character_flag = ac_country_leader_flag
+			effect_tooltip = {
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ac_histoire
+					promote_leader = yes
+					country_leader = {
+						ideology = stalinism
+						expire = "1965.1.1.1"
+						traits = {
+							ac_anime_tyan
+							ac_revolutionary
+							ac_patron_of_industry
+							ac_dictator
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1023,31 +1315,56 @@ ac_anime_characters_category = {
 		cost = 100
 		visible = {
 			has_character = ac_t-elos
-		}
-		available = {
-			has_government = fascism
 			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
+				has_country_leader = {
+					character = ac_t-elos
+					ruling_only = yes
 				}
 			}
 		}
+		available = {
+			has_government = fascism
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
+			# 	}
+			# }
+		}
 		complete_effect = {
-			#retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_t-elos
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_t-elos
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_t-elos
+				}
+				add_country_leader_trait = ac_anime_tyan
+				add_country_leader_trait = ac_tyan_militarist
+				add_country_leader_trait = ac_patron_of_the_military_industrial_complex
+				add_country_leader_trait = ac_superweapon
+				ac_t-elos = {
+					set_character_flag = ac_country_leader_flag
+				}
 			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_t-elos
-			}
-			add_country_leader_trait = ac_anime_tyan
-			add_country_leader_trait = ac_tyan_militarist
-			add_country_leader_trait = ac_patron_of_the_military_industrial_complex
-			add_country_leader_trait = ac_superweapon
-			ac_t-elos = {
-				set_character_flag = ac_country_leader_flag
+			effect_tooltip = {
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ac_t-elos
+					promote_leader = yes
+					country_leader = {
+						ideology = fascism_ideology
+						expire = "1965.1.1.1"
+						traits = {
+							ac_anime_tyan
+							ac_tyan_militarist
+							ac_patron_of_the_military_industrial_complex
+							ac_superweapon
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1056,31 +1373,56 @@ ac_anime_characters_category = {
 		cost = 100
 		visible = {
 			has_character = ac_yuuko_yoshida
-		}
-		available = {
-			has_government = neutrality
 			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
+				has_country_leader = {
+					character = ac_yuuko_yoshida
+					ruling_only = yes
 				}
 			}
 		}
+		available = {
+			has_government = neutrality
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
+			# 	}
+			# }
+		}
 		complete_effect = {
-			#retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_yuuko_yoshida
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_yuuko_yoshida
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_yuuko_yoshida
+				}
+				add_country_leader_trait = ac_anime_tyan
+				add_country_leader_trait = ac_defender
+				add_country_leader_trait = ac_patron_of_intelligence
+				add_country_leader_trait = ac_demon_lord
+				ac_yuuko_yoshida = {
+					set_character_flag = ac_country_leader_flag
+				}
 			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_yuuko_yoshida
-			}
-			add_country_leader_trait = ac_anime_tyan
-			add_country_leader_trait = ac_defender
-			add_country_leader_trait = ac_patron_of_intelligence
-			add_country_leader_trait = ac_demon_lord
-			ac_yuuko_yoshida = {
-				set_character_flag = ac_country_leader_flag
+			effect_tooltip = {
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ac_yuuko_yoshida
+					promote_leader = yes
+					country_leader = {
+						ideology = despotism
+						expire = "1965.1.1.1"
+						traits = {
+							ac_anime_tyan
+							ac_defender
+							ac_patron_of_intelligence
+							ac_demon_lord
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1089,31 +1431,56 @@ ac_anime_characters_category = {
 		cost = 100
 		visible = {
 			has_character = ac_celestine_lucullus
-		}
-		available = {
-			has_government = democratic
 			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
+				has_country_leader = {
+					character = ac_celestine_lucullus
+					ruling_only = yes
 				}
 			}
 		}
+		available = {
+			has_government = democratic
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
+			# 	}
+			# }
+		}
 		complete_effect = {
-			#retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_celestine_lucullus
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_celestine_lucullus
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_celestine_lucullus
+				}
+				add_country_leader_trait = ac_anime_tyan
+				add_country_leader_trait = ac_defender
+				add_country_leader_trait = ac_patron_of_intelligence
+				add_country_leader_trait = ac_empress
+				ac_celestine_lucullus = {
+					set_character_flag = ac_country_leader_flag
+				}
 			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_celestine_lucullus
-			}
-			add_country_leader_trait = ac_anime_tyan
-			add_country_leader_trait = ac_defender
-			add_country_leader_trait = ac_patron_of_intelligence
-			add_country_leader_trait = ac_empress
-			ac_celestine_lucullus = {
-				set_character_flag = ac_country_leader_flag
+			effect_tooltip = {
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ac_celestine_lucullus
+					promote_leader = yes
+					country_leader = {
+						ideology = liberalism
+						expire = "1965.1.1.1"
+						traits = {
+							ac_anime_tyan
+							ac_defender
+							ac_patron_of_intelligence
+							ac_empress
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1548,31 +1915,56 @@ ac_anime_characters_category = {
 		cost = 100
 		visible = {
 			has_character = ac_astolfo
-		}
-		available = {
-			has_government = neutrality
 			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
+				has_country_leader = {
+					character = ac_astolfo
+					ruling_only = yes
 				}
 			}
 		}
+		available = {
+			has_government = neutrality
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
+			# 	}
+			# }
+		}
 		complete_effect = {
-			#retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_astolfo
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_astolfo
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_astolfo
+				}
+				add_country_leader_trait = ac_trap
+				add_country_leader_trait = ac_defender
+				add_country_leader_trait = ac_patron_of_intelligence
+				add_country_leader_trait = ac_idol
+				ac_astolfo = {
+					set_character_flag = ac_country_leader_flag
+				}
 			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_astolfo
-			}
-			add_country_leader_trait = ac_trap
-			add_country_leader_trait = ac_defender
-			add_country_leader_trait = ac_patron_of_intelligence
-			add_country_leader_trait = ac_idol
-			ac_astolfo = {
-				set_character_flag = ac_country_leader_flag
+			effect_tooltip = {
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ac_astolfo
+					promote_leader = yes
+					country_leader = {
+						ideology = despotism
+						expire = "1965.1.1.1"
+						traits = {
+							ac_trap
+							ac_defender
+							ac_patron_of_intelligence
+							ac_idol
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1581,31 +1973,56 @@ ac_anime_characters_category = {
 		cost = 100
 		visible = {
 			has_character = ac_homare_nao
-		}
-		available = {
-			has_government = democratic
 			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
+				has_country_leader = {
+					character = ac_homare_nao
+					ruling_only = yes
 				}
 			}
 		}
+		available = {
+			has_government = democratic
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
+			# 	}
+			# }
+		}
 		complete_effect = {
-			#retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_homare_nao
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_homare_nao
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_homare_nao
+				}
+				add_country_leader_trait = ac_trap
+				add_country_leader_trait = ac_peoples_favorite
+				add_country_leader_trait = ac_patron_of_science
+				add_country_leader_trait = ac_empress
+				ac_homare_nao = {
+					set_character_flag = ac_country_leader_flag
+				}
 			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_homare_nao
-			}
-			add_country_leader_trait = ac_trap
-			add_country_leader_trait = ac_peoples_favorite
-			add_country_leader_trait = ac_patron_of_science
-			add_country_leader_trait = ac_empress
-			ac_homare_nao = {
-				set_character_flag = ac_country_leader_flag
+			effect_tooltip = {
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ac_homare_nao
+					promote_leader = yes
+					country_leader = {
+						ideology = liberalism
+						expire = "1965.1.1.1"
+						traits = {
+							ac_trap
+							ac_peoples_favorite
+							ac_patron_of_science
+							ac_empress
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1614,31 +2031,56 @@ ac_anime_characters_category = {
 		cost = 100
 		visible = {
 			has_character = ac_takumi_musashino
-		}
-		available = {
-			has_government = communism
 			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
+				has_country_leader = {
+					character = ac_takumi_musashino
+					ruling_only = yes
 				}
 			}
 		}
+		available = {
+			has_government = communism
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
+			# 	}
+			# }
+		}
 		complete_effect = {
-			#retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_takumi_musashino
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_takumi_musashino
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_takumi_musashino
+				}
+				add_country_leader_trait = ac_trap
+				add_country_leader_trait = ac_revolutionary
+				add_country_leader_trait = ac_patron_of_industry
+				add_country_leader_trait = ac_dictator
+				ac_takumi_musashino = {
+					set_character_flag = ac_country_leader_flag
+				}
 			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_takumi_musashino
-			}
-			add_country_leader_trait = ac_trap
-			add_country_leader_trait = ac_revolutionary
-			add_country_leader_trait = ac_patron_of_industry
-			add_country_leader_trait = ac_dictator
-			ac_takumi_musashino = {
-				set_character_flag = ac_country_leader_flag
+			effect_tooltip = {
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ac_takumi_musashino
+					promote_leader = yes
+					country_leader = {
+						ideology = stalinism
+						expire = "1965.1.1.1"
+						traits = {
+							ac_trap
+							ac_revolutionary
+							ac_patron_of_industry
+							ac_dictator
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1647,31 +2089,56 @@ ac_anime_characters_category = {
 		cost = 100
 		visible = {
 			has_character = ac_hideri_kanzaki
-		}
-		available = {
-			has_government = fascism
 			NOT = {
-				OR = {
-					has_country_leader_with_trait = ac_anime_tyan
-					has_country_leader_with_trait = ac_trap
-					#has_country_leader_with_trait = ac_android
+				has_country_leader = {
+					character = ac_hideri_kanzaki
+					ruling_only = yes
 				}
 			}
 		}
+		available = {
+			has_government = fascism
+			# NOT = {
+			# 	OR = {
+			# 		has_country_leader_with_trait = ac_anime_tyan
+			# 		has_country_leader_with_trait = ac_trap
+			# 		#has_country_leader_with_trait = ac_android
+			# 	}
+			# }
+		}
 		complete_effect = {
-			#retire_country_leader = yes
-			set_country_leader_name = {
-				name = ac_hideri_kanzaki
+			hidden_effect = {
+				#retire_country_leader = yes
+				set_country_leader_name = {
+					name = ac_hideri_kanzaki
+				}
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_ac_hideri_kanzaki
+				}
+				add_country_leader_trait = ac_trap
+				add_country_leader_trait = ac_tyan_militarist
+				add_country_leader_trait = ac_patron_of_the_military_industrial_complex
+				add_country_leader_trait = ac_idol
+				ac_hideri_kanzaki = {
+					set_character_flag = ac_country_leader_flag
+				}
 			}
-			set_country_leader_portrait = {
-				portrait = GFX_portrait_ac_hideri_kanzaki
-			}
-			add_country_leader_trait = ac_trap
-			add_country_leader_trait = ac_tyan_militarist
-			add_country_leader_trait = ac_patron_of_the_military_industrial_complex
-			add_country_leader_trait = ac_idol
-			ac_hideri_kanzaki = {
-				set_character_flag = ac_country_leader_flag
+			effect_tooltip = {
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ac_hideri_kanzaki
+					promote_leader = yes
+					country_leader = {
+						ideology = fascism_ideology
+						expire = "1965.1.1.1"
+						traits = {
+							ac_trap
+							ac_tyan_militarist
+							ac_patron_of_the_military_industrial_complex
+							ac_idol
+						}
+					}
+				}
 			}
 		}
 	}

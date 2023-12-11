@@ -1,6 +1,7 @@
 characters = {
 	ac_satellizer_el_bridget = {
 		name = ac_satellizer_el_bridget
+		gender = female
 		portraits = {
 			army = {
 				small = GFX_idea_ac_satellizer_el_bridget
@@ -2762,6 +2763,23 @@ characters = {
 			}
 			civilian = {
 				large = GFX_portrait_ac_violet_evergarden
+			}
+		}
+	}
+	ac_mona_megistus = {
+		name = ac_mona_megistus
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ac_mona_megistus_civilian
+			}
+			army = {
+				large = GFX_portrait_ac_mona_megistus_army
+				small = GFX_idea_ac_mona_megistus
+			}
+			navy = {
+				large = GFX_portrait_ac_mona_megistus_navy
+				small = GFX_idea_ac_mona_megistus
 			}
 		}
 	}
