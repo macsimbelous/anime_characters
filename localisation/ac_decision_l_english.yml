@@ -20,6 +20,22 @@
  ac_decision_gacha_trap_air_chiefs: "Hire an trap air force general"
  ac_decision_gacha_trap_operatives: "Hire an trap operative"
 
+#recruits
+ ac_recruit_anastasia_romanova: "Hire §GFnastasia Romanova§!"
+ ac_recruit_mind_flayer: "Hire §RMind Eater§!"
+ ac_recruit_prinz_eugen: "Hire §GPrince Eugen§!"
+ ac_recruit_asuka: "Hire §GAsuka§!"
+ ac_recruit_alisa_illinichina_amiella: "Hire §GAlisa Illinichina Amiellaa§!"
+ ac_recruit_velvet_crowe: "Hire §GVelvet Crowe§!"
+ ac_recruit_mona_megistus: "Hire §GMona Megistus§!"
+ ac_recruit_histoire: "Hire §GHistoire§!"
+ ac_recruit_t_elos: "Hire §GT-Elos§!"
+ ac_recruit_yuuko_yoshida: "Hire §GYuuko Yoshida§!"
+ ac_recruit_celestine_lucullus: "Hire §GCelestine Lucullus§!"
+ ac_recruit_astolfo: "Hire §GAstolfo§!"
+ ac_recruit_homare_nao: "Hire §GHomare Nao§!"
+ ac_recruit_takumi_musashino: "Hire §GTakumi Musashino§!"
+ ac_recruit_hideri_kanzaki: "Hire §GHideri Kanzaki§!"
 
 #Liders
  ac_change_leader_to_anastasia_romanova: "Assign §GAnastasia Romanova§! the leader"
@@ -45,7 +61,7 @@
  ac_change_leader_to_hideri_kanzaki: "Assign §GHideri Kanzaki§! the leader"
  ac_change_leader_to_prinz_eugen: "§G[ac_prinz_eugen.GetName]§! will become the leader of the state"
  ac_change_leader_to_mona_megistus: "§G[ac_mona_megistus.GetName]§! will become the leader of the state"
- ac_change_leader_to_asuka: "§G[ac_asuk.GetName]§! will become the leader of the state"
+ ac_change_leader_to_asuka: "§G[ac_asuka.GetName]§! will become the leader of the state"
 
 #tooltips
  ac_tt_count_generals: "At least 5 generals hired"

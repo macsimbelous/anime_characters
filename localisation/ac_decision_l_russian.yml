@@ -19,6 +19,24 @@
  ac_decision_gacha_trap_theorists: "Нанять трапа теоретика"
  ac_decision_gacha_trap_air_chiefs: "Нанять трапа генерала авиации"
  ac_decision_gacha_trap_operatives: "Нанять трапа оперативника"
+ ac_deactivate: "Скрыть категорию"
+
+#recruits
+ ac_recruit_anastasia_romanova: "Нанять §GАнастасию Романову§!"
+ ac_recruit_mind_flayer: "Нанять §RПожирателя Разума§!"
+ ac_recruit_prinz_eugen: "Нанять §GПринца Ойгена§!"
+ ac_recruit_asuka: "Нанять §GАску§!"
+ ac_recruit_alisa_illinichina_amiella: "Нанять §GАлису Ильиничну Амеллу§!"
+ ac_recruit_velvet_crowe: "Нанять §GВельвет Крау§!"
+ ac_recruit_mona_megistus: "Нанять §GМону Мегистус§!"
+ ac_recruit_histoire: "Нанять §GИстуар§!"
+ ac_recruit_t_elos: "Нанять §GT-Elos§!"
+ ac_recruit_yuuko_yoshida: "Нанять §GЮко Ёсида§!"
+ ac_recruit_celestine_lucullus: "Нанять §GСелестину Лукулл§!"
+ ac_recruit_astolfo: "Нанять §GАстольфо§!"
+ ac_recruit_homare_nao: "Нанять §GХомаре Нао§!"
+ ac_recruit_takumi_musashino: "Нанять §GТакуми Мусасино§!"
+ ac_recruit_hideri_kanzaki: "Нанять §GХидэри Кандзаки§!"
 
 #Liders
  ac_change_leader_to_anastasia_romanova: "Назначить  §GАнастасию Романову§! лидером"
@@ -29,7 +47,6 @@
  ac_histoire_taked_tt: "§BИстуар§!"
  ac_velvet_crowe_taked_tt: "§GВельвет Крау§!"
  ac_astolfo_taked_tt: "§BАстольф§!"
- ac_deactivate: "Скрыть категорию"
  ac_change_leader_to_alisa_illinichina_amiella: "Назначить §GАлиса Ильинична Амелла§! лидером"
  ac_alisa_illinichina_amiella_taked_tt: "§GАлиса Ильинична Амелла§!"
  ac_change_leader_to_t_elos: "Назначить §GT-Elos§! лидером"
@@ -44,7 +61,7 @@
  ac_change_leader_to_hideri_kanzaki: "Назначить §GХидэри Кандзаки§! лидером"
  ac_change_leader_to_prinz_eugen: "§G[ac_prinz_eugen.getname]§! станет лидером государства"
  ac_change_leader_to_mona_megistus: "§G[ac_mona_megistus.GetName]§! станет лидером государства"
- ac_change_leader_to_asuka: "§G[ac_asuk.GetName]§! станет лидером государства"
+ ac_change_leader_to_asuka: "§G[ac_asuka.GetName]§! станет лидером государства"
 
 #tooltips
  ac_tt_count_generals: "Нанято хотя бы 5 генералов"

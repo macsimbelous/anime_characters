@@ -1,6 +1,6 @@
 ac_anime_characters_category = {
 	ac_decision_create_anime_academy = {
-		cost = 100
+		cost = 50
 		fire_only_once = yes
 		days_remove = 30
 		available = {
@@ -14,7 +14,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_create_anime_general_staffy = {
-		cost = 100
+		cost = 50
 		fire_only_once = yes
 		days_remove = 30
 		available = {
@@ -34,7 +34,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_create_anime_admiralty = {
-		cost = 100
+		cost = 50
 		fire_only_once = yes
 		days_remove = 30
 		available = {
@@ -54,7 +54,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_create_anime_intelligence_agency = {
-		cost = 100
+		cost = 50
 		fire_only_once = yes
 		days_remove = 30
 		available = {
@@ -78,7 +78,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_generals = {
-		cost = 50
+		cost = 25
 		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
@@ -193,7 +193,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_admirals = {
-		cost = 50
+		cost = 25
 		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
@@ -303,7 +303,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_political_advisors = {
-		cost = 50
+		cost = 25
 		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
@@ -324,7 +324,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_theorists = {
-		cost = 50
+		cost = 25
 		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
@@ -345,7 +345,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_air_chiefs = {
-		cost = 50
+		cost = 25
 		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
@@ -366,7 +366,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_operatives = {
-		cost = 50
+		cost = 25
 		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_idea_anime_intelligence_agency
@@ -835,28 +835,126 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_anastasia_romanova = {
-		fire_only_once = no
+	ac_recruit_anastasia_romanova = {
+		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_anastasia_romanova
+			has_idea = ac_idea_anime_academy
+			Z99 = {
+				has_character = ac_anastasia_romanova
+			}
 			original_tag = SOV
-			NOT = {
-				has_country_leader = {
-					character = ac_anastasia_romanova
-					ruling_only = yes
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_anastasia_romanova = {
+					set_temp_variable = {
+						temp_char = THIS.id
+					}
+				}
+				ac_anastasia_romanova = {
+					set_nationality = ROOT
+				}
+			}
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
+						}
+					}
+					30 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+					}
+					15 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							planning_skill = 6
+							logistics_skill = 6
+						}
+					}
+					5 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							planning_skill = 9
+							logistics_skill = 9
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_trait
+					}
+					add_random_trait = {
+						old_guard
+						brilliant_strategist
+						inflexible_strategist
+						politically_connected
+						war_hero
+						career_officer
+						trait_cautious
+						trait_reckless
+						media_personality
+						harsh_leader
+						bearer_of_artillery
+						infantry_officer
+						cavalry_officer
+						armor_officer
+						engineer_officer
+						organizer
+						cavalry_leader
+						infantry_leader
+						skilled_staffer
+						trickster
+						naval_invader
+						desert_fox
+						swamp_fox
+						trait_mountaineer
+						hill_fighter
+						jungle_rat
+						ranger
+						urban_assault_specialist
+						winter_specialist
+						winter_expert
+						trait_engineer
+						panzer_leader
+						commando
+					}
 				}
 			}
 		}
+	}
+	ac_change_leader_to_anastasia_romanova = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_anastasia_romanova
+			original_tag = SOV
+		}
 		available = {
 			has_government = neutrality
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -894,28 +992,126 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_mind_flayer = {
-		fire_only_once = no
+	ac_recruit_mind_flayer = {
+		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_mind_flayer
+			has_idea = ac_idea_anime_academy
+			Z99 = {
+				has_character = ac_mind_flayer
+			}
 			original_tag = JAP
-			NOT = {
-				has_country_leader = {
-					character = ac_mind_flayer
-					ruling_only = yes
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_mind_flayer = {
+					set_temp_variable = {
+						temp_char = THIS.id
+					}
+				}
+				ac_mind_flayer = {
+					set_nationality = ROOT
+				}
+			}
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
+						}
+					}
+					30 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+					}
+					15 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							planning_skill = 6
+							logistics_skill = 6
+						}
+					}
+					5 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							planning_skill = 9
+							logistics_skill = 9
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_trait
+					}
+					add_random_trait = {
+						old_guard
+						brilliant_strategist
+						inflexible_strategist
+						politically_connected
+						war_hero
+						career_officer
+						trait_cautious
+						trait_reckless
+						media_personality
+						harsh_leader
+						bearer_of_artillery
+						infantry_officer
+						cavalry_officer
+						armor_officer
+						engineer_officer
+						organizer
+						cavalry_leader
+						infantry_leader
+						skilled_staffer
+						trickster
+						naval_invader
+						desert_fox
+						swamp_fox
+						trait_mountaineer
+						hill_fighter
+						jungle_rat
+						ranger
+						urban_assault_specialist
+						winter_specialist
+						winter_expert
+						trait_engineer
+						panzer_leader
+						commando
+					}
 				}
 			}
 		}
+	}
+	ac_change_leader_to_mind_flayer = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_mind_flayer
+			original_tag = JAP
+		}
 		available = {
 			has_government = fascism
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -953,28 +1149,118 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_prinz_eugen = {
-		fire_only_once = no
+	ac_recruit_prinz_eugen = {
+		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_prinz_eugen
+			has_idea = ac_idea_anime_academy
+			Z99 = {
+				has_character = ac_prinz_eugen
+			}
 			original_tag = GER
-			NOT = {
-				has_country_leader = {
-					character = ac_prinz_eugen
-					ruling_only = yes
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_admirals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_prinz_eugen = {
+					set_temp_variable = {
+						temp_char = THIS.id
+					}
+				}
+				ac_prinz_eugen = {
+					set_nationality = ROOT
+				}
+			}
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_naval_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							maneuvering_skill = 1
+							coordination_skill = 1
+						}
+					}
+					30 = {
+						add_naval_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							maneuvering_skill = 1
+							coordination_skill = 1
+						}
+					}
+					15 = {
+						add_naval_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							maneuvering_skill = 1
+							coordination_skill = 1
+						}
+					}
+					5 = {
+						add_naval_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							maneuvering_skill = 1
+							coordination_skill = 1
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_navy_trait
+					}
+					add_random_trait = {
+						old_guard_navy
+						gentlemanly
+						gunnery_expert
+						cuts_corners
+						chief_engineer
+						navy_media_personality
+						bold
+						navy_career_officer
+						battleship_adherent
+						aviation_enthusiast
+						caustic_personality
+						craven
+						naval_lineage
+						seawolf
+						fleet_protector
+						blockade_runner
+						superior_tactician
+						spotter
+						fly_swatter
+						ironside
+						air_controller
+						arctic_water_expert
+						inshore_fighter
+						blue_water_expert
+						green_water_expert
+					}
 				}
 			}
 		}
+	}
+	ac_change_leader_to_prinz_eugen = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_prinz_eugen
+			original_tag = GER
+		}
 		available = {
 			has_government = neutrality
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -1012,28 +1298,126 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_asuka = {
-		fire_only_once = no
+	ac_recruit_asuka = {
+		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_asuka
+			has_idea = ac_idea_anime_academy
+			Z99 = {
+				has_character = ac_asuka
+			}
 			original_tag = GER
-			NOT = {
-				has_country_leader = {
-					character = ac_asuka
-					ruling_only = yes
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_asuka = {
+					set_temp_variable = {
+						temp_char = THIS.id
+					}
+				}
+				ac_asuka = {
+					set_nationality = ROOT
+				}
+			}
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
+						}
+					}
+					30 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+					}
+					15 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							planning_skill = 6
+							logistics_skill = 6
+						}
+					}
+					5 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							planning_skill = 9
+							logistics_skill = 9
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_trait
+					}
+					add_random_trait = {
+						old_guard
+						brilliant_strategist
+						inflexible_strategist
+						politically_connected
+						war_hero
+						career_officer
+						trait_cautious
+						trait_reckless
+						media_personality
+						harsh_leader
+						bearer_of_artillery
+						infantry_officer
+						cavalry_officer
+						armor_officer
+						engineer_officer
+						organizer
+						cavalry_leader
+						infantry_leader
+						skilled_staffer
+						trickster
+						naval_invader
+						desert_fox
+						swamp_fox
+						trait_mountaineer
+						hill_fighter
+						jungle_rat
+						ranger
+						urban_assault_specialist
+						winter_specialist
+						winter_expert
+						trait_engineer
+						panzer_leader
+						commando
+					}
 				}
 			}
 		}
+	}
+	ac_change_leader_to_asuka = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_asuka
+			original_tag = GER
+		}
 		available = {
 			has_government = fascism
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -1042,7 +1426,7 @@ ac_anime_characters_category = {
 					name = ac_asuka
 				}
 				set_country_leader_portrait = {
-					portrait = GFX_portrait_ac_prinz_eugen
+					portrait = GFX_portrait_ac_asuka_lider
 				}
 				add_country_leader_trait = ac_anime_tyan
 				add_country_leader_trait = ac_tsundere
@@ -1073,28 +1457,126 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_alisa_illinichina_amiella = {
+	ac_recruit_alisa_illinichina_amiella = {
 		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_alisa_illinichina_amiella
+			has_idea = ac_idea_anime_academy
+			Z99 = {
+				has_character = ac_alisa_illinichina_amiella
+			}
 			original_tag = SOV
-			NOT = {
-				has_country_leader = {
-					character = ac_alisa_illinichina_amiella
-					ruling_only = yes
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_alisa_illinichina_amiella = {
+					set_temp_variable = {
+						temp_char = THIS.id
+					}
+				}
+				ac_alisa_illinichina_amiella = {
+					set_nationality = ROOT
+				}
+			}
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
+						}
+					}
+					30 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+					}
+					15 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							planning_skill = 6
+							logistics_skill = 6
+						}
+					}
+					5 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							planning_skill = 9
+							logistics_skill = 9
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_trait
+					}
+					add_random_trait = {
+						old_guard
+						brilliant_strategist
+						inflexible_strategist
+						politically_connected
+						war_hero
+						career_officer
+						trait_cautious
+						trait_reckless
+						media_personality
+						harsh_leader
+						bearer_of_artillery
+						infantry_officer
+						cavalry_officer
+						armor_officer
+						engineer_officer
+						organizer
+						cavalry_leader
+						infantry_leader
+						skilled_staffer
+						trickster
+						naval_invader
+						desert_fox
+						swamp_fox
+						trait_mountaineer
+						hill_fighter
+						jungle_rat
+						ranger
+						urban_assault_specialist
+						winter_specialist
+						winter_expert
+						trait_engineer
+						panzer_leader
+						commando
+					}
 				}
 			}
 		}
+	}
+	ac_change_leader_to_alisa_illinichina_amiella = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_alisa_illinichina_amiella
+			original_tag = SOV
+		}
 		available = {
 			has_government = communism
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -1132,28 +1614,126 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_velvet_crowe = {
-		fire_only_once = no
+	ac_recruit_velvet_crowe = {
+		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_velvet_crowe
+			has_idea = ac_idea_anime_academy
+			Z99 = {
+				has_character = ac_velvet_crowe
+			}
 			original_tag = YUG
-			NOT = {
-				has_country_leader = {
-					character = ac_velvet_crowe
-					ruling_only = yes
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_velvet_crowe = {
+					set_temp_variable = {
+						temp_char = THIS.id
+					}
+				}
+				ac_velvet_crowe = {
+					set_nationality = ROOT
+				}
+			}
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
+						}
+					}
+					30 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+					}
+					15 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							planning_skill = 6
+							logistics_skill = 6
+						}
+					}
+					5 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							planning_skill = 9
+							logistics_skill = 9
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_trait
+					}
+					add_random_trait = {
+						old_guard
+						brilliant_strategist
+						inflexible_strategist
+						politically_connected
+						war_hero
+						career_officer
+						trait_cautious
+						trait_reckless
+						media_personality
+						harsh_leader
+						bearer_of_artillery
+						infantry_officer
+						cavalry_officer
+						armor_officer
+						engineer_officer
+						organizer
+						cavalry_leader
+						infantry_leader
+						skilled_staffer
+						trickster
+						naval_invader
+						desert_fox
+						swamp_fox
+						trait_mountaineer
+						hill_fighter
+						jungle_rat
+						ranger
+						urban_assault_specialist
+						winter_specialist
+						winter_expert
+						trait_engineer
+						panzer_leader
+						commando
+					}
 				}
 			}
 		}
+	}
+	ac_change_leader_to_velvet_crowe = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_velvet_crowe
+			original_tag = YUG
+		}
 		available = {
 			has_government = communism
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -1191,28 +1771,126 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_mona_megistus = {
-		fire_only_once = no
+	ac_recruit_mona_megistus = {
+		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_mona_megistus
+			has_idea = ac_idea_anime_academy
+			Z99 = {
+				has_character = ac_mona_megistus
+			}
 			original_tag = FRA
-			NOT = {
-				has_country_leader = {
-					character = ac_mona_megistus
-					ruling_only = yes
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_mona_megistus = {
+					set_temp_variable = {
+						temp_char = THIS.id
+					}
+				}
+				ac_mona_megistus = {
+					set_nationality = ROOT
+				}
+			}
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
+						}
+					}
+					30 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+					}
+					15 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							planning_skill = 6
+							logistics_skill = 6
+						}
+					}
+					5 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							planning_skill = 9
+							logistics_skill = 9
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_trait
+					}
+					add_random_trait = {
+						old_guard
+						brilliant_strategist
+						inflexible_strategist
+						politically_connected
+						war_hero
+						career_officer
+						trait_cautious
+						trait_reckless
+						media_personality
+						harsh_leader
+						bearer_of_artillery
+						infantry_officer
+						cavalry_officer
+						armor_officer
+						engineer_officer
+						organizer
+						cavalry_leader
+						infantry_leader
+						skilled_staffer
+						trickster
+						naval_invader
+						desert_fox
+						swamp_fox
+						trait_mountaineer
+						hill_fighter
+						jungle_rat
+						ranger
+						urban_assault_specialist
+						winter_specialist
+						winter_expert
+						trait_engineer
+						panzer_leader
+						commando
+					}
 				}
 			}
 		}
+	}
+	ac_change_leader_to_mona_megistus = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_mona_megistus
+			original_tag = FRA
+		}
 		available = {
 			has_government = democratic
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -1252,27 +1930,38 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_histoire = {
-		fire_only_once = no
+	ac_recruit_histoire = {
+		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_histoire
-			NOT = {
-				has_country_leader = {
-					character = ac_histoire
-					ruling_only = yes
-				}
+			has_idea = ac_idea_anime_academy
+			Z99 = {
+				has_character = ac_histoire
 			}
 		}
 		available = {
 			has_government = communism
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_histoire = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_change_leader_to_histoire = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_histoire
+		}
+		available = {
+			has_government = communism
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -1310,27 +1999,127 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_t_elos = {
-		fire_only_once = no
+	ac_recruit_t_elos = {
+		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_t-elos
-			NOT = {
-				has_country_leader = {
-					character = ac_t-elos
-					ruling_only = yes
-				}
+			has_idea = ac_idea_anime_academy
+			Z99 = {
+				has_character = ac_t-elos
 			}
 		}
 		available = {
 			has_government = fascism
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_t-elos = {
+					set_temp_variable = {
+						temp_char = THIS.id
+					}
+				}
+				ac_t-elos = {
+					set_nationality = ROOT
+				}
+			}
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
+						}
+					}
+					30 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+					}
+					15 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							planning_skill = 6
+							logistics_skill = 6
+						}
+					}
+					5 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							planning_skill = 9
+							logistics_skill = 9
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_trait
+					}
+					add_random_trait = {
+						old_guard
+						brilliant_strategist
+						inflexible_strategist
+						politically_connected
+						war_hero
+						career_officer
+						trait_cautious
+						trait_reckless
+						media_personality
+						harsh_leader
+						bearer_of_artillery
+						infantry_officer
+						cavalry_officer
+						armor_officer
+						engineer_officer
+						organizer
+						cavalry_leader
+						infantry_leader
+						skilled_staffer
+						trickster
+						naval_invader
+						desert_fox
+						swamp_fox
+						trait_mountaineer
+						hill_fighter
+						jungle_rat
+						ranger
+						urban_assault_specialist
+						winter_specialist
+						winter_expert
+						trait_engineer
+						panzer_leader
+						commando
+					}
+				}
+			}
+		}
+	}
+	ac_change_leader_to_t_elos = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_t-elos
+		}
+		available = {
+			has_government = fascism
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -1368,27 +2157,127 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_yuuko_yoshida = {
-		fire_only_once = no
+	ac_recruit_yuuko_yoshida = {
+		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_yuuko_yoshida
-			NOT = {
-				has_country_leader = {
-					character = ac_yuuko_yoshida
-					ruling_only = yes
-				}
+			has_idea = ac_idea_anime_academy
+			Z99 = {
+				has_character = ac_yuuko_yoshida
 			}
 		}
 		available = {
 			has_government = neutrality
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_yuuko_yoshida = {
+					set_temp_variable = {
+						temp_char = THIS.id
+					}
+				}
+				ac_yuuko_yoshida = {
+					set_nationality = ROOT
+				}
+			}
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
+						}
+					}
+					30 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+					}
+					15 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							planning_skill = 6
+							logistics_skill = 6
+						}
+					}
+					5 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							planning_skill = 9
+							logistics_skill = 9
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_trait
+					}
+					add_random_trait = {
+						old_guard
+						brilliant_strategist
+						inflexible_strategist
+						politically_connected
+						war_hero
+						career_officer
+						trait_cautious
+						trait_reckless
+						media_personality
+						harsh_leader
+						bearer_of_artillery
+						infantry_officer
+						cavalry_officer
+						armor_officer
+						engineer_officer
+						organizer
+						cavalry_leader
+						infantry_leader
+						skilled_staffer
+						trickster
+						naval_invader
+						desert_fox
+						swamp_fox
+						trait_mountaineer
+						hill_fighter
+						jungle_rat
+						ranger
+						urban_assault_specialist
+						winter_specialist
+						winter_expert
+						trait_engineer
+						panzer_leader
+						commando
+					}
+				}
+			}
+		}
+	}
+	ac_change_leader_to_yuuko_yoshida = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_yuuko_yoshida
+		}
+		available = {
+			has_government = neutrality
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -1426,27 +2315,127 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_celestine_lucullus = {
-		fire_only_once = no
+	ac_recruit_celestine_lucullus = {
+		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_celestine_lucullus
-			NOT = {
-				has_country_leader = {
-					character = ac_celestine_lucullus
-					ruling_only = yes
-				}
+			has_idea = ac_idea_anime_academy
+			Z99 = {
+				has_character = ac_celestine_lucullus
 			}
 		}
 		available = {
+			has_government = neutrality
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_celestine_lucullus = {
+					set_temp_variable = {
+						temp_char = THIS.id
+					}
+				}
+				ac_celestine_lucullus = {
+					set_nationality = ROOT
+				}
+			}
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
+						}
+					}
+					30 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+					}
+					15 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							planning_skill = 6
+							logistics_skill = 6
+						}
+					}
+					5 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							planning_skill = 9
+							logistics_skill = 9
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_trait
+					}
+					add_random_trait = {
+						old_guard
+						brilliant_strategist
+						inflexible_strategist
+						politically_connected
+						war_hero
+						career_officer
+						trait_cautious
+						trait_reckless
+						media_personality
+						harsh_leader
+						bearer_of_artillery
+						infantry_officer
+						cavalry_officer
+						armor_officer
+						engineer_officer
+						organizer
+						cavalry_leader
+						infantry_leader
+						skilled_staffer
+						trickster
+						naval_invader
+						desert_fox
+						swamp_fox
+						trait_mountaineer
+						hill_fighter
+						jungle_rat
+						ranger
+						urban_assault_specialist
+						winter_specialist
+						winter_expert
+						trait_engineer
+						panzer_leader
+						commando
+					}
+				}
+			}
+		}
+	}
+	ac_change_leader_to_celestine_lucullus = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_celestine_lucullus
+		}
+		available = {
 			has_government = democratic
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -1501,7 +2490,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_trap_generals = {
-		cost = 50
+		cost = 25
 		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
@@ -1619,7 +2608,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_trap_admirals = {
-		cost = 50
+		cost = 25
 		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
@@ -1732,7 +2721,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_trap_political_advisors = {
-		cost = 50
+		cost = 25
 		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
@@ -1756,7 +2745,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_trap_theorists = {
-		cost = 50
+		cost = 25
 		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
@@ -1780,7 +2769,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_trap_air_chiefs = {
-		cost = 50
+		cost = 25
 		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
@@ -1804,7 +2793,7 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_trap_operatives = {
-		cost = 50
+		cost = 25
 		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
@@ -1910,27 +2899,127 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_astolfo = {
+	ac_recruit_astolfo = {
 		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_astolfo
-			NOT = {
-				has_country_leader = {
-					character = ac_astolfo
-					ruling_only = yes
-				}
+			has_country_flag = ac_flag_enable_traps
+			Z99 = {
+				has_character = ac_astolfo
 			}
 		}
 		available = {
 			has_government = neutrality
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_astolfo = {
+					set_temp_variable = {
+						temp_char = THIS.id
+					}
+				}
+				ac_astolfo = {
+					set_nationality = ROOT
+				}
+			}
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
+						}
+					}
+					30 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+					}
+					15 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							planning_skill = 6
+							logistics_skill = 6
+						}
+					}
+					5 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							planning_skill = 9
+							logistics_skill = 9
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_trait
+					}
+					add_random_trait = {
+						old_guard
+						brilliant_strategist
+						inflexible_strategist
+						politically_connected
+						war_hero
+						career_officer
+						trait_cautious
+						trait_reckless
+						media_personality
+						harsh_leader
+						bearer_of_artillery
+						infantry_officer
+						cavalry_officer
+						armor_officer
+						engineer_officer
+						organizer
+						cavalry_leader
+						infantry_leader
+						skilled_staffer
+						trickster
+						naval_invader
+						desert_fox
+						swamp_fox
+						trait_mountaineer
+						hill_fighter
+						jungle_rat
+						ranger
+						urban_assault_specialist
+						winter_specialist
+						winter_expert
+						trait_engineer
+						panzer_leader
+						commando
+					}
+				}
+			}
+		}
+	}
+	ac_change_leader_to_astolfo = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_astolfo
+		}
+		available = {
+			has_government = neutrality
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -1968,27 +3057,127 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_homare_nao = {
-		fire_only_once = no
+	ac_recruit_homare_nao = {
+		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_homare_nao
-			NOT = {
-				has_country_leader = {
-					character = ac_homare_nao
-					ruling_only = yes
-				}
+			has_country_flag = ac_flag_enable_traps
+			Z99 = {
+				has_character = ac_homare_nao
 			}
 		}
 		available = {
 			has_government = democratic
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_homare_nao = {
+					set_temp_variable = {
+						temp_char = THIS.id
+					}
+				}
+				ac_homare_nao = {
+					set_nationality = ROOT
+				}
+			}
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
+						}
+					}
+					30 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+					}
+					15 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							planning_skill = 6
+							logistics_skill = 6
+						}
+					}
+					5 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							planning_skill = 9
+							logistics_skill = 9
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_trait
+					}
+					add_random_trait = {
+						old_guard
+						brilliant_strategist
+						inflexible_strategist
+						politically_connected
+						war_hero
+						career_officer
+						trait_cautious
+						trait_reckless
+						media_personality
+						harsh_leader
+						bearer_of_artillery
+						infantry_officer
+						cavalry_officer
+						armor_officer
+						engineer_officer
+						organizer
+						cavalry_leader
+						infantry_leader
+						skilled_staffer
+						trickster
+						naval_invader
+						desert_fox
+						swamp_fox
+						trait_mountaineer
+						hill_fighter
+						jungle_rat
+						ranger
+						urban_assault_specialist
+						winter_specialist
+						winter_expert
+						trait_engineer
+						panzer_leader
+						commando
+					}
+				}
+			}
+		}
+	}
+	ac_change_leader_to_homare_nao = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_homare_nao
+		}
+		available = {
+			has_government = democratic
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -2026,27 +3215,127 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_takumi_musashino = {
-		fire_only_once = no
+	ac_recruit_takumi_musashino = {
+		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_takumi_musashino
-			NOT = {
-				has_country_leader = {
-					character = ac_takumi_musashino
-					ruling_only = yes
-				}
+			has_country_flag = ac_flag_enable_traps
+			Z99 = {
+				has_character = ac_takumi_musashino
 			}
 		}
 		available = {
 			has_government = communism
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_takumi_musashino = {
+					set_temp_variable = {
+						temp_char = THIS.id
+					}
+				}
+				ac_takumi_musashino = {
+					set_nationality = ROOT
+				}
+			}
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
+						}
+					}
+					30 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+					}
+					15 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 6
+							attack_skill = 6
+							defense_skill = 6
+							planning_skill = 6
+							logistics_skill = 6
+						}
+					}
+					5 = {
+						add_corps_commander_role = {
+							character = var:temp_char
+							skill = 9
+							attack_skill = 9
+							defense_skill = 9
+							planning_skill = 9
+							logistics_skill = 9
+						}
+					}
+				}
+				var:temp_char = {
+					add_trait = {
+						trait = ac_exp_trait
+					}
+					add_random_trait = {
+						old_guard
+						brilliant_strategist
+						inflexible_strategist
+						politically_connected
+						war_hero
+						career_officer
+						trait_cautious
+						trait_reckless
+						media_personality
+						harsh_leader
+						bearer_of_artillery
+						infantry_officer
+						cavalry_officer
+						armor_officer
+						engineer_officer
+						organizer
+						cavalry_leader
+						infantry_leader
+						skilled_staffer
+						trickster
+						naval_invader
+						desert_fox
+						swamp_fox
+						trait_mountaineer
+						hill_fighter
+						jungle_rat
+						ranger
+						urban_assault_specialist
+						winter_specialist
+						winter_expert
+						trait_engineer
+						panzer_leader
+						commando
+					}
+				}
+			}
+		}
+	}
+	ac_change_leader_to_takumi_musashino = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_takumi_musashino
+		}
+		available = {
+			has_government = communism
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -2084,27 +3373,38 @@ ac_anime_characters_category = {
 			}
 		}
 	}
-	ac_change_leader_to_hideri_kanzaki = {
-		fire_only_once = no
+	ac_recruit_hideri_kanzaki = {
+		fire_only_once = yes
 		cost = 100
 		visible = {
-			has_character = ac_hideri_kanzaki
-			NOT = {
-				has_country_leader = {
-					character = ac_hideri_kanzaki
-					ruling_only = yes
-				}
+			has_country_flag = ac_flag_enable_traps
+			Z99 = {
+				has_character = ac_hideri_kanzaki
 			}
 		}
 		available = {
 			has_government = fascism
-			# NOT = {
-			# 	OR = {
-			# 		has_country_leader_with_trait = ac_anime_tyan
-			# 		has_country_leader_with_trait = ac_trap
-			# 		#has_country_leader_with_trait = ac_android
-			# 	}
-			# }
+		}
+		complete_effect = {
+			add_to_variable = {
+				ac_var_count_generals = 1
+			}
+			#custom_effect_tooltip = ac_tt_recruit_anastasia_romanova
+			Z99 = {
+				ac_hideri_kanzaki = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_change_leader_to_hideri_kanzaki = {
+		fire_only_once = yes
+		cost = 150
+		visible = {
+			has_character = ac_hideri_kanzaki
+		}
+		available = {
+			has_government = fascism
 		}
 		complete_effect = {
 			hidden_effect = {
