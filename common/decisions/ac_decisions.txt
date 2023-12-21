@@ -11,6 +11,7 @@ ac_anime_characters_category = {
 		}
 		remove_effect = {
 			add_ideas = ac_idea_anime_academy
+			add_research_slot = 1
 		}
 	}
 	ac_decision_create_anime_general_staffy = {
@@ -2325,7 +2326,7 @@ ac_anime_characters_category = {
 			}
 		}
 		available = {
-			has_government = neutrality
+			has_government = democratic
 		}
 		complete_effect = {
 			add_to_variable = {
