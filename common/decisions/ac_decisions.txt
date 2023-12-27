@@ -32,6 +32,7 @@ ac_anime_characters_category = {
 		}
 		remove_effect = {
 			add_ideas = ac_idea_anime_general_staff
+			add_potential_special_forces_tree = yes
 		}
 	}
 	ac_decision_create_anime_admiralty = {

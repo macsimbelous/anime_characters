@@ -58,6 +58,15 @@ ideas = {
 				grant_medal_cost_factor = -0.5
 				#military_leader_cost_factor = -0.5
 			}
+			research_bonus = {
+				infantry_weapons = 0.1
+				cat_special_forces_generic = 0.1
+				mio_cat_tech_all_motorized_mechanized = 0.1
+				support_tech = 0.1
+				artillery = 0.1
+				armor = 0.1
+				air_equipment = 0.1
+			}
 		}
 		ac_idea_idea_anime_intelligence_agency = {
 			allowed_civil_war = {
@@ -66,6 +75,7 @@ ideas = {
 			picture = generic_spy_political
 			modifier = {
 				operative_slot = 2
+				agency_upgrade_time = -0.3
 				foreign_subversive_activites = -0.5
 				resistance_damage_to_garrison_on_our_occupied_states = 0.25
 				resistance_damage_to_garrison = -0.25
@@ -97,6 +107,9 @@ ideas = {
 				navy_max_range_factor = 0.1
 				naval_morale_factor = 0.1
 				ai_focus_naval_factor = 0.5
+			}
+			research_bonus = {
+				naval_equipment = 0.1
 			}
 		}
 	}
