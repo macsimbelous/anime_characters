@@ -1,0 +1,14 @@
+spriteTypes = {
+        spriteType = {
+                name = "GFX_idea_ac_winry_rockbell"
+                texturefile = "gfx/interface/ideas/idea_ac_winry_rockbell.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_ac_ifrit_forge"
+                texturefile = "gfx/interface/ideas/idea_ac_ifrit_forge.dds"
+        }
+        spriteType = {
+                name = "GFX_idea_ac_futabu"
+                texturefile = "gfx/interface/ideas/idea_ac_futabu.dds"
+        }
+}

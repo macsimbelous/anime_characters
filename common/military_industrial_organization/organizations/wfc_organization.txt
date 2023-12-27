@@ -1,0 +1,122 @@
+ac_organization_winry_rockbell_manufacturer = {
+	include = generic_support_equipment_organization
+	icon = GFX_idea_ac_winry_rockbell
+	allowed = {
+		always = yes
+	}
+	available = {
+		FROM = {
+			has_idea = ac_idea_anime_academy
+		}
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	initial_trait = {
+		name = generic_mio_initial_trait_infantry_manufacturer
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.1
+			reliability = 0.1
+		}
+		production_bonus = {
+			production_cost_factor = -0.05
+		}
+	}
+}
+
+ac_organization_ifrit_forge = {
+	include = generic_artillery_organization
+	icon = GFX_idea_ac_ifrit_forge
+	allowed = {
+		always = yes
+	}
+	available = {
+		FROM = {
+			has_idea = ac_idea_anime_academy
+		}
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	initial_trait = {
+		name = generic_mio_initial_trait_support_equipment_manufacturer
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.2
+			soft_attack = 0.03
+		}
+		production_bonus = {
+			production_cost_factor = -0.05
+		}
+	}
+}
+
+ac_organization_futabu = {
+	include = generic_battle_line_ship_organization
+	icon = GFX_idea_ac_futabu
+	allowed = {
+		always = yes
+	}
+	available = {
+		FROM = {
+			has_idea = ac_idea_anime_academy
+		}
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	initial_trait = {
+		name = generic_mio_initial_trait_battle_line_ship_builders
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+		equipment_bonus = {
+			armor_value = 0.25
+			hg_attack = 0.25
+			surface_visibility = -0.2
+			naval_speed = 0.2
+			naval_range = 0.25
+			build_cost_ic = -0.15
+			torpedo_attack = 0.25
+			sub_detection = 0.25
+		}
+	}
+}
+
+ac_generic_submarine_organization = {
+	include = generic_submarine_organization
+	name = generic_submarine_organization
+	#icon = GFX_idea_hen_futabu
+	allowed = {
+		always = yes
+	}
+	available = {
+		FROM = {
+			has_idea = ac_idea_anime_academy
+		}
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	initial_trait = {
+		name = generic_mio_initial_trait_submarine_designer
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+		equipment_bonus = {
+			sub_visibility = -0.25
+			surface_visibility = -0.2
+			naval_speed = 0.2
+			build_cost_ic = -0.15
+			naval_range = 0.2
+		}
+	}
+}
