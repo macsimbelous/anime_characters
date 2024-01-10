@@ -1,4 +1,4 @@
-﻿Z99 = {
+Z99 = {
 	male = {
 		names = {
 			Aimi

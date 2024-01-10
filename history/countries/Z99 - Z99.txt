@@ -1,4 +1,4 @@
-﻿capital = 1
+capital = 1
 #girls
 recruit_character = ac_2b
 recruit_character = ac_5pb
