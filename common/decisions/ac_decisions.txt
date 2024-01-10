@@ -79,6 +79,22 @@ ac_anime_characters_category = {
 			}
 		}
 	}
+	ac_decision_change_to_waifuland = {
+		fire_only_once = yes
+		cost = 100
+		available = {
+			has_idea = ac_idea_anime_general_staff
+			has_idea = ac_idea_anime_admiralty
+			has_idea = ac_idea_idea_anime_intelligence_agency
+			OR = {
+				has_country_leader_with_trait = ac_anime_tyan
+				has_country_leader_with_trait = ac_trap
+			}
+		}
+		complete_effect = {
+			set_cosmetic_tag = WFL_TAG
+		}
+	}
 	ac_decision_gacha_generals = {
 		cost = 25
 		fixed_random_seed = no
@@ -3442,18 +3458,6 @@ ac_anime_characters_category = {
 					}
 				}
 			}
-		}
-	}
-	ac_decision_change_to_waifuland = {
-		fire_only_once = yes
-		visible = {
-			is_debug = yes
-		}
-		available = {
-			#has_idea = ac_idea_anime_academy
-		}
-		complete_effect = {
-			set_cosmetic_tag = WFL_TAG
 		}
 	}
 }
