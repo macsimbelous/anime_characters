@@ -1,0 +1,251 @@
+spriteTypes = {
+	#traps
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_01_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_01_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_01"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_01.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_02_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_02_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_02"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_02.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_03_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_03_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_03"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_03.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_04_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_04_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_04"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_04.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_05_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_05_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_05"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_05.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_06_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_06_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_06"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_06.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_07_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_07_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_07"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_07.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_08_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_08_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_08"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_08.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_09_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_09_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_09"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_09.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_10_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_10_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_10"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_10.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_11_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_11_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_11"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_11.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_12_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_12_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_12"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_12.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_13_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_13_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_13"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_13.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_14_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_14_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_14"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_14.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_15_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_15_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_15"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_15.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_16_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_16_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_16"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_16.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_17_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_17_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_army_17"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_army_17.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_01_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_01_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_01"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_01.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_02_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_02_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_02"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_02.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_03_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_03_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_03"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_03.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_04_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_04_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_04"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_04.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_05_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_05_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_05"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_05.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_06_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_06_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_06"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_06.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_07_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_07_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_07"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_07.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_08_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_08_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_08"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_08.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_09_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_09_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_09"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_09.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_10_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_10_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_10"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_10.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_11_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_11_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_11"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_11.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_12_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_12_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_12"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_12.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_13_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_13_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_13"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_13.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_14_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_14_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_navy_14"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_14.dds"
+	}
+}
