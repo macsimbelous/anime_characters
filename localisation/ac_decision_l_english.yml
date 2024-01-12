@@ -37,6 +37,7 @@
  ac_recruit_homare_nao: "Hire §GHomare Nao§!"
  ac_recruit_takumi_musashino: "Hire §GTakumi Musashino§!"
  ac_recruit_hideri_kanzaki: "Hire §GHideri Kanzaki§!"
+ ac_recruit_ishtar: "Hire §GIshtar§!"
 
 #Liders
  ac_change_leader_to_anastasia_romanova: "Assign §GAnastasia Romanova§! the leader"
@@ -63,6 +64,7 @@
  ac_change_leader_to_prinz_eugen: "§G[ac_prinz_eugen.GetName]§! will become the leader of the state"
  ac_change_leader_to_mona_megistus: "§G[ac_mona_megistus.GetName]§! will become the leader of the state"
  ac_change_leader_to_asuka: "§G[ac_asuka.GetName]§! will become the leader of the state"
+ ac_change_leader_to_ishtar: "§G[ac_ishtar.GetName]§! will become the leader of the state"
 
 #tooltips
  ac_tt_count_generals: "At least 5 generals hired"
