@@ -1099,6 +1099,10 @@ ENE = {
 
 #My tags
 WFL_TAG = {
-	color = rgb { 61  255  255 }
-	color_ui = rgb { 61  255  255 }
+	color = rgb { 41  255  255 }
+	color_ui = rgb { 41  255  255 }
+}
+WFL_TAG_TRAPS = {
+	color = rgb { 41  255  255 }
+	color_ui = rgb { 41  255  255 }
 }

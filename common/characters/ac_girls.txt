@@ -1170,6 +1170,10 @@ characters = {
 			civilian = {
 				large = GFX_portrait_ac_sheliss_elleness_zurbach
 			}
+			army = {
+				small = GFX_idea_ac_sheliss_elleness_zurbach
+				large = GFX_portrait_ac_sheliss_elleness_zurbach
+			}
 		}
 		advisor = {
 			slot = political_advisor

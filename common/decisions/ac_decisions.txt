@@ -92,7 +92,15 @@ ac_anime_characters_category = {
 			}
 		}
 		complete_effect = {
-			set_cosmetic_tag = WFL_TAG
+			if = {
+				limit = {
+					has_country_flag = ac_flag_enable_traps
+				}
+				set_cosmetic_tag = WFL_TAG_TRAPS
+			}
+			else = {
+				set_cosmetic_tag = WFL_TAG
+			}
 		}
 	}
 	ac_decision_gacha_generals = {

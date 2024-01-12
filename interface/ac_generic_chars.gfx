@@ -1,4 +1,2276 @@
 spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_001"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_001.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_001_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_001_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_002"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_002.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_002_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_002_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_003"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_003.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_003_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_003_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_004"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_004.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_004_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_004_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_005"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_005.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_005_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_005_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_006"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_006.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_006_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_006_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_007"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_007.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_007_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_007_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_008"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_008.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_008_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_008_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_009"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_009.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_009_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_009_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_010"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_010.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_010_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_010_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_011"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_011.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_011_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_011_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_012"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_012.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_012_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_012_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_013"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_013.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_013_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_013_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_014"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_014.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_014_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_014_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_015"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_015.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_015_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_015_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_016"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_016.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_016_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_016_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_017"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_017.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_017_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_017_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_018"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_018.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_018_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_018_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_019"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_019.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_019_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_019_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_020"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_020.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_020_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_020_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_021"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_021.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_021_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_021_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_022"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_022.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_022_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_022_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_023"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_023.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_023_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_023_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_024"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_024.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_024_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_024_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_025"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_025.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_025_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_025_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_026"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_026.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_026_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_026_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_027"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_027.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_027_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_027_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_028"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_028.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_028_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_028_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_029"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_029.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_029_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_029_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_030"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_030.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_030_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_030_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_031"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_031.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_031_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_031_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_032"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_032.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_032_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_032_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_033"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_033.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_033_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_033_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_034"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_034.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_034_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_034_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_035"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_035.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_035_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_035_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_036"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_036.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_036_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_036_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_037"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_037.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_037_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_037_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_038"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_038.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_038_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_038_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_039"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_039.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_039_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_039_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_040"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_040.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_040_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_040_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_041"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_041.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_041_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_041_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_042"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_042.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_042_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_042_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_043"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_043.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_043_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_043_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_044"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_044.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_044_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_044_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_045"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_045.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_045_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_045_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_046"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_046.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_046_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_046_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_047"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_047.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_047_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_047_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_048"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_048.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_048_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_048_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_049"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_049.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_049_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_049_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_050"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_050.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_050_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_050_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_051"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_051.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_051_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_051_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_052"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_052.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_052_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_052_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_053"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_053.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_053_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_053_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_054"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_054.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_054_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_054_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_055"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_055.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_055_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_055_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_056"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_056.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_056_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_056_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_057"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_057.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_057_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_057_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_058"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_058.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_058_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_058_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_059"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_059.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_059_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_059_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_060"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_060.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_060_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_060_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_061"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_061.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_061_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_061_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_062"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_062.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_062_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_062_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_063"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_063.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_063_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_063_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_064"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_064.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_064_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_064_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_065"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_065.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_065_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_065_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_066"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_066.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_066_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_066_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_067"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_067.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_067_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_067_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_068"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_068.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_068_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_068_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_069"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_069.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_069_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_069_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_070"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_070.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_070_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_070_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_071"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_071.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_071_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_071_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_072"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_072.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_072_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_072_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_073"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_073.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_073_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_073_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_074"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_074.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_074_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_074_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_075"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_075.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_075_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_075_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_076"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_076.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_076_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_076_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_077"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_077.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_077_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_077_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_078"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_078.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_078_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_078_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_079"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_079.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_079_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_079_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_080"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_080.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_080_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_080_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_081"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_081.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_081_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_081_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_082"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_082.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_082_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_082_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_083"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_083.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_083_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_083_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_084"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_084.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_084_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_084_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_085"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_085.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_085_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_085_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_086"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_086.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_086_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_086_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_087"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_087.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_087_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_087_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_088"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_088.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_088_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_088_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_089"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_089.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_089_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_089_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_090"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_090.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_090_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_090_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_091"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_091.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_091_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_091_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_092"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_092.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_092_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_092_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_093"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_093.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_093_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_093_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_094"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_094.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_094_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_094_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_095"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_095.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_095_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_095_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_096"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_096.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_096_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_096_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_097"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_097.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_097_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_097_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_098"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_098.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_098_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_098_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_099"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_099.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_099_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_099_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_100"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_100.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_100_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_100_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_101"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_101.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_101_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_101_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_102"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_102.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_102_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_102_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_103"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_103.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_103_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_103_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_104"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_104.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_104_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_104_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_105"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_105.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_105_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_105_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_106"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_106.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_106_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_106_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_107"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_107.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_107_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_107_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_108"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_108.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_108_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_108_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_109"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_109.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_109_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_109_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_110"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_110.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_110_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_110_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_111"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_111.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_111_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_111_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_112"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_112.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_112_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_112_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_113"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_113.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_113_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_113_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_114"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_114.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_114_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_114_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_115"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_115.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_115_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_115_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_116"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_116.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_116_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_116_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_117"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_117.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_117_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_117_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_118"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_118.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_118_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_118_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_119"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_119.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_119_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_119_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_120"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_120.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_120_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_120_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_121"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_121.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_121_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_121_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_122"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_122.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_122_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_122_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_123"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_123.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_123_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_123_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_124"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_124.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_124_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_124_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_125"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_125.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_125_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_125_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_126"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_126.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_126_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_126_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_127"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_127.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_127_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_127_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_128"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_128.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_128_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_128_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_129"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_129.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_129_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_129_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_130"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_130.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_130_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_130_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_131"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_131.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_131_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_131_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_132"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_132.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_132_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_132_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_133"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_133.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_133_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_133_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_134"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_134.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_134_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_134_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_135"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_135.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_135_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_135_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_136"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_136.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_army_136_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_army_136_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_001"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_001.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_001_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_001_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_002"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_002.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_002_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_002_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_003"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_003.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_003_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_003_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_004"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_004.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_004_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_004_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_005"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_005.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_005_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_005_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_006"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_006.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_006_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_006_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_007"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_007.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_007_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_007_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_008"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_008.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_008_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_008_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_009"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_009.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_009_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_009_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_010"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_010.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_010_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_010_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_011"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_011.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_011_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_011_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_012"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_012.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_012_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_012_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_013"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_013.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_013_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_013_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_014"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_014.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_014_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_014_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_015"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_015.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_015_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_015_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_016"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_016.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_016_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_016_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_017"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_017.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_017_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_017_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_018"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_018.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_018_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_018_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_019"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_019.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_019_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_019_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_020"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_020.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_020_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_020_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_021"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_021.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_021_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_021_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_022"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_022.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_022_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_022_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_023"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_023.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_023_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_023_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_024"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_024.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_024_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_024_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_025"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_025.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_025_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_025_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_026"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_026.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_026_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_026_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_027"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_027.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_027_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_027_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_028"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_028.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_028_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_028_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_029"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_029.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_029_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_029_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_030"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_030.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_030_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_030_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_031"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_031.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_031_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_031_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_032"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_032.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_032_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_032_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_033"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_033.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_033_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_033_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_034"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_034.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_034_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_034_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_035"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_035.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_035_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_035_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_036"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_036.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_036_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_036_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_037"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_037.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_037_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_037_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_038"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_038.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_038_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_038_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_039"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_039.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_039_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_039_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_040"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_040.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_040_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_040_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_041"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_041.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_041_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_041_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_042"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_042.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_042_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_042_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_043"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_043.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_043_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_043_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_044"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_044.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_044_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_044_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_045"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_045.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_045_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_045_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_046"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_046.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_046_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_046_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_047"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_047.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_047_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_047_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_048"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_048.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_048_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_048_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_049"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_049.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_049_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_049_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_050"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_050.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_050_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_050_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_051"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_051.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_051_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_051_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_052"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_052.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_052_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_052_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_053"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_053.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_053_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_053_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_054"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_054.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_054_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_054_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_055"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_055.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_055_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_055_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_056"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_056.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_056_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_056_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_057"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_057.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_057_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_057_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_058"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_058.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_058_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_058_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_059"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_059.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_059_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_059_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_060"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_060.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_060_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_060_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_061"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_061.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_061_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_061_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_062"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_062.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_062_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_062_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_063"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_063.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_063_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_063_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_064"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_064.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_064_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_064_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_065"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_065.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_065_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_065_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_066"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_066.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_066_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_066_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_067"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_067.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_067_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_067_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_068"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_068.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_068_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_068_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_069"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_069.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_069_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_069_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_070"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_070.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_070_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_070_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_071"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_071.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_071_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_071_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_072"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_072.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_072_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_072_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_073"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_073.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_073_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_073_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_074"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_074.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_074_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_074_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_075"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_075.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_075_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_075_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_076"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_076.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_076_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_076_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_077"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_077.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_077_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_077_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_078"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_078.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_078_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_078_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_079"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_079.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_079_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_079_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_080"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_080.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_080_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_080_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_081"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_081.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_081_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_081_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_082"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_082.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_navy_082_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_navy_082_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_001"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_001.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_001_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_001_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_002"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_002.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_002_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_002_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_003"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_003.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_003_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_003_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_004"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_004.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_004_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_004_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_005"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_005.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_005_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_005_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_006"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_006.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_006_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_006_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_007"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_007.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_007_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_007_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_008"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_008.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_008_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_008_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_009"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_009.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_009_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_009_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_010"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_010.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_010_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_010_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_011"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_011.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_011_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_011_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_012"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_012.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_012_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_012_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_013"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_013.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_013_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_013_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_014"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_014.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_014_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_014_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_015"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_015.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_015_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_015_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_016"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_016.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_016_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_016_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_017"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_017.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_017_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_017_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_018"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_018.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_018_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_018_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_019"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_019.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_019_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_019_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_020"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_020.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_020_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_020_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_021"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_021.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_021_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_021_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_022"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_022.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_022_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_022_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_023"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_023.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_023_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_023_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_024"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_024.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_024_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_024_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_025"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_025.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_025_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_025_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_026"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_026.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_026_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_026_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_027"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_027.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_027_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_027_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_028"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_028.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_028_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_028_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_029"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_029.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_029_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_029_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_030"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_030.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_030_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_030_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_031"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_031.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_031_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_031_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_032"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_032.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_032_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_032_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_033"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_033.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_033_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_033_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_034"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_034.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_034_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_034_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_035"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_035.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_035_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_035_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_036"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_036.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_036_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_036_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_037"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_037.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_037_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_037_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_038"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_038.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_038_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_038_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_039"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_039.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_039_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_039_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_040"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_040.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_040_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_040_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_041"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_041.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_041_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_041_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_042"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_042.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_042_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_042_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_043"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_043.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_043_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_043_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_044"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_044.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_044_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_044_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_045"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_045.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_045_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_045_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_046"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_046.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_046_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_046_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_047"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_047.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_047_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_047_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_048"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_048.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_048_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_048_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_049"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_049.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_049_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_049_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_050"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_050.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_050_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_050_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_051"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_051.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_051_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_051_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_052"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_052.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_052_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_052_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_053"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_053.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_053_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_053_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_054"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_054.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_054_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_054_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_055"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_055.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_055_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_055_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_056"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_056.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_056_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_056_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_057"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_057.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_057_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_057_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_058"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_058.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_058_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_058_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_059"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_059.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_059_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_059_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_060"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_060.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_060_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_060_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_061"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_061.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_061_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_061_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_062"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_062.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_062_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_062_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_063"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_063.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_063_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_063_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_064"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_064.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_064_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_064_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_065"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_065.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_065_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_065_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_066"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_066.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_girl_operative_066_small"
+		texturefile = "gfx/leaders/girls/generic/ac_girl_operative_066_idea.dds"
+	}
 	#traps
 	spriteType = {
 		name = "GFX_portrait_ac_trap_army_01_small"
@@ -247,5 +2519,77 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_ac_trap_navy_14"
 		texturefile = "gfx/leaders/traps/generic/ac_trap_navy_14.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_01"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_01.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_01_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_01_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_02"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_02.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_02_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_02_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_03"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_03.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_03_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_03_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_04"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_04.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_04_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_04_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_05"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_05.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_05_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_05_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_06"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_06.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_06_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_06_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_07"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_07.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_07_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_07_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_08"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_08.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_08_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_08_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_09"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_09.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_trap_operative_09_small"
+		texturefile = "gfx/leaders/traps/generic/ac_trap_operative_09_idea.dds"
 	}
 }
