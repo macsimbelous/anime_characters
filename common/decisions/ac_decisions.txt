@@ -3866,7 +3866,7 @@ political_actions = {
 ac_subjects_category = {
 	ac_change_country_leader_trap = {
 		name = ac_change_country_leader
-		cost = 150
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			NOT = {
@@ -3899,7 +3899,7 @@ ac_subjects_category = {
 	}
 	ac_change_country_leader_girl = {
 		name = ac_change_country_leader
-		cost = 150
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			NOT = {
@@ -3931,7 +3931,7 @@ ac_subjects_category = {
 		}
 	}
 	ac_change_country_leader = {
-		cost = 150
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			has_idea = ac_idea_anime_academy

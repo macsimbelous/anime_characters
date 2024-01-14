@@ -43,13 +43,10 @@
  ac_quartermaster_general: "Генерал-квартирмейстер"
  ac_trait_astrologist: "Астролог"
  ac_nuclear_scientist: "$nuclear_scientist$"
+ ac_governor_general:0 "Генерал-губернатор"
 
 #unut leader traits
  ac_exp_trait: "Высокая обучаемость"
  ac_exp_navy_trait: "Высокая обучаемость"
 
-#ideas
- ac_idea_anime_academy: "Анимешная академия"
- ac_idea_anime_general_staff: "Анимешный генеральный штаб"
- ac_idea_idea_anime_intelligence_agency: "Анимешное разведывательное агентство"
- ac_idea_anime_admiralty: "Амешное адмиралтейство"
+

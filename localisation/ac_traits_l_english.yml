@@ -43,14 +43,12 @@ ac_princess_of_terror: "§RPrincess of Terror§!"
  ac_quartermaster_general: "Quartermaster General"
  ac_trait_astrologist: "Astrologist"
  ac_nuclear_scientist: "$nuclear_scientist$"
+ ac_governor_general:0 "Governor-General"
 
 #unut leader traits
  ac_exp_trait: "High learning ability"
  ac_exp_navy_trait: "High learning ability"
 
-#ideas
- ac_idea_anime_academy: "Anime Academy"
- ac_idea_anime_general_staff: "Anime General Staff".
- ac_idea_idea_anime_anime_intelligence_agency: "Anime Intelligence Agency".
- ac_idea_anime_admiralty: "Anime Admiralty".
+
+
 

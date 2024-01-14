@@ -339,6 +339,7 @@ ac_change_country_leader_trap = {
 		}
 	}
 	add_country_leader_trait = ac_trap
+	add_country_leader_trait = ac_governor_general
 }
 
 ac_change_country_leader_girl = {
@@ -2522,4 +2523,5 @@ ac_change_country_leader_girl = {
 		}
 	}
 	add_country_leader_trait = ac_anime_tyan
+	add_country_leader_trait = ac_governor_general
 }
