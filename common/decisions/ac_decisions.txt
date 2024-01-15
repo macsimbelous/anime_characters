@@ -85,6 +85,7 @@ ac_anime_characters_category = {
 		visible = {
 			NOT = {
 				has_global_flag = ac_flag_waifuland_proclaimed
+				has_country_flag = ac_country_flag_trapland_proclaimed
 			}
 		}
 		available = {
@@ -96,6 +97,7 @@ ac_anime_characters_category = {
 		complete_effect = {
 			set_cosmetic_tag = WFL_GIRLS
 			set_global_flag = ac_flag_waifuland_proclaimed
+			set_country_flag = ac_country_flag_waifuland_proclaimed
 		}
 	}
 	ac_decision_change_to_trapland = {
@@ -104,6 +106,7 @@ ac_anime_characters_category = {
 		visible = {
 			NOT = {
 				has_global_flag = ac_flag_trapland_proclaimed
+				has_country_flag = ac_country_flag_waifuland_proclaimed
 			}
 			has_country_flag = ac_flag_enable_traps
 		}
@@ -116,6 +119,7 @@ ac_anime_characters_category = {
 		complete_effect = {
 			set_cosmetic_tag = WFL_TRAPS
 			set_global_flag = ac_flag_trapland_proclaimed
+			set_country_flag = ac_country_flag_trapland_proclaimed
 		}
 	}
 	ac_decision_gacha_generals = {
