@@ -1,3 +1,3274 @@
+ac_change_country_leader_trap_random = {
+	retire_country_leader = yes
+	set_variable = {
+		rand_char = 0
+	}
+	set_variable_to_random = {
+		var = rand_char
+		min = 1
+		max = 40
+		integer = yes
+	}
+	IF = {
+		limit = {
+			check_variable = {
+				rand_char = 1
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_01
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 2
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_02
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 3
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_03
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 4
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_04
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 5
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_05
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 6
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_06
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 7
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_07
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 8
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_08
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 9
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_09
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 10
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_10
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 11
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_11
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 12
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_12
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 13
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_13
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 14
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_14
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 15
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_15
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 16
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_16
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 17
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_army_17
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 18
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_navy_01
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 19
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_navy_02
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 20
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_navy_03
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 21
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_navy_04
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 22
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_navy_05
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 23
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_navy_06
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 24
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_navy_07
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 25
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_navy_08
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 26
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_navy_09
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 27
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_navy_10
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 28
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_navy_11
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 29
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_navy_12
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 30
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_navy_13
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 31
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_navy_14
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 32
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_operative_01
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 33
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_operative_02
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 34
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_operative_03
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 35
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_operative_04
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 36
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_operative_05
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 37
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_operative_06
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 38
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_operative_07
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 39
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_operative_08
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 40
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_trap_operative_09
+		}
+	}
+	add_country_leader_trait = ac_trap
+	add_country_leader_trait = ac_governor_general
+}
+
+ac_change_country_leader_girl_random = {
+	retire_country_leader = yes
+	set_variable = {
+		rand_char = 0
+	}
+	set_variable_to_random = {
+		var = rand_char
+		min = 1
+		max = 284
+		integer = yes
+	}
+	IF = {
+		limit = {
+			check_variable = {
+				rand_char = 1
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_001
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 2
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_002
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 3
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_003
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 4
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_004
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 5
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_005
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 6
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_006
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 7
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_007
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 8
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_008
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 9
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_009
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 10
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_010
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 11
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_011
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 12
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_012
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 13
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_013
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 14
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_014
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 15
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_015
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 16
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_016
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 17
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_017
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 18
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_018
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 19
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_019
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 20
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_020
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 21
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_021
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 22
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_022
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 23
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_023
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 24
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_024
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 25
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_025
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 26
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_026
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 27
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_027
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 28
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_028
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 29
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_029
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 30
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_030
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 31
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_031
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 32
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_032
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 33
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_033
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 34
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_034
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 35
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_035
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 36
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_036
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 37
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_037
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 38
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_038
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 39
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_039
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 40
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_040
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 41
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_041
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 42
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_042
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 43
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_043
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 44
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_044
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 45
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_045
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 46
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_046
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 47
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_047
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 48
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_048
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 49
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_049
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 50
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_050
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 51
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_051
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 52
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_052
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 53
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_053
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 54
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_054
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 55
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_055
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 56
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_056
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 57
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_057
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 58
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_058
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 59
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_059
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 60
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_060
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 61
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_061
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 62
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_062
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 63
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_063
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 64
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_064
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 65
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_065
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 66
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_066
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 67
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_067
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 68
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_068
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 69
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_069
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 70
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_070
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 71
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_071
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 72
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_072
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 73
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_073
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 74
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_074
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 75
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_075
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 76
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_076
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 77
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_077
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 78
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_078
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 79
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_079
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 80
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_080
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 81
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_081
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 82
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_082
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 83
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_083
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 84
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_084
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 85
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_085
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 86
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_086
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 87
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_087
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 88
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_088
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 89
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_089
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 90
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_090
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 91
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_091
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 92
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_092
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 93
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_093
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 94
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_094
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 95
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_095
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 96
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_096
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 97
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_097
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 98
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_098
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 99
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_099
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 100
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_100
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 101
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_101
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 102
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_102
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 103
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_103
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 104
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_104
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 105
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_105
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 106
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_106
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 107
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_107
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 108
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_108
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 109
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_109
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 110
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_110
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 111
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_111
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 112
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_112
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 113
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_113
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 114
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_114
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 115
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_115
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 116
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_116
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 117
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_117
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 118
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_118
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 119
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_119
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 120
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_120
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 121
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_121
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 122
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_122
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 123
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_123
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 124
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_124
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 125
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_125
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 126
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_126
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 127
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_127
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 128
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_128
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 129
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_129
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 130
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_130
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 131
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_131
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 132
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_132
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 133
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_133
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 134
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_134
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 135
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_135
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 136
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_army_136
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 137
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_001
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 138
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_002
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 139
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_003
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 140
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_004
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 141
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_005
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 142
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_006
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 143
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_007
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 144
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_008
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 145
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_009
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 146
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_010
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 147
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_011
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 148
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_012
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 149
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_013
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 150
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_014
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 151
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_015
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 152
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_016
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 153
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_017
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 154
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_018
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 155
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_019
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 156
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_020
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 157
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_021
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 158
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_022
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 159
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_023
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 160
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_024
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 161
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_025
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 162
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_026
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 163
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_027
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 164
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_028
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 165
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_029
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 166
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_030
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 167
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_031
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 168
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_032
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 169
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_033
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 170
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_034
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 171
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_035
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 172
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_036
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 173
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_037
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 174
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_038
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 175
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_039
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 176
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_040
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 177
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_041
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 178
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_042
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 179
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_043
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 180
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_044
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 181
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_045
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 182
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_046
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 183
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_047
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 184
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_048
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 185
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_049
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 186
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_050
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 187
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_051
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 188
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_052
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 189
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_053
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 190
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_054
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 191
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_055
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 192
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_056
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 193
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_057
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 194
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_058
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 195
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_059
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 196
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_060
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 197
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_061
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 198
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_062
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 199
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_063
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 200
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_064
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 201
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_065
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 202
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_066
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 203
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_067
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 204
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_068
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 205
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_069
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 206
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_070
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 207
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_071
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 208
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_072
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 209
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_073
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 210
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_074
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 211
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_075
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 212
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_076
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 213
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_077
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 214
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_078
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 215
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_079
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 216
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_080
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 217
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_081
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 218
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_navy_082
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 219
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_001
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 220
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_002
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 221
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_003
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 222
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_004
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 223
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_005
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 224
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_006
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 225
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_007
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 226
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_008
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 227
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_009
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 228
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_010
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 229
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_011
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 230
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_012
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 231
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_013
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 232
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_014
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 233
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_015
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 234
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_016
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 235
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_017
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 236
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_018
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 237
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_019
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 238
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_020
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 239
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_021
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 240
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_022
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 241
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_023
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 242
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_024
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 243
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_025
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 244
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_026
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 245
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_027
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 246
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_028
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 247
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_029
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 248
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_030
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 249
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_031
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 250
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_032
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 251
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_033
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 252
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_034
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 253
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_035
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 254
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_036
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 255
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_037
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 256
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_038
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 257
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_039
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 258
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_040
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 259
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_041
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 260
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_042
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 261
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_043
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 262
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_044
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 263
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_045
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 264
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_046
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 265
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_047
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 266
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_048
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 267
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_049
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 268
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_050
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 269
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_051
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 270
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_052
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 271
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_053
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 272
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_054
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 273
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_055
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 274
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_056
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 275
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_057
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 276
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_058
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 277
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_059
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 278
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_060
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 279
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_061
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 280
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_062
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 281
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_063
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 282
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_064
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 283
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_065
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			check_variable = {
+				rand_char = 284
+			}
+		}
+		set_country_leader_portrait = {
+			portrait = GFX_portrait_ac_girl_operative_066
+		}
+	}
+	add_country_leader_trait = ac_anime_tyan
+	add_country_leader_trait = ac_governor_general
+}
+
+#OLD
 ac_change_country_leader_trap = {
 	retire_country_leader = yes
 	random_list = {
@@ -1430,7 +4701,7 @@ ac_change_country_leader_girl = {
 				portrait = GFX_portrait_ac_maki_ivanova
 			}
 			set_country_leader_name = {
-				name =ac_maki_ivanova
+				name = ac_maki_ivanova
 			}
 		}
 		1 = {

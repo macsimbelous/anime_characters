@@ -3908,7 +3908,7 @@ ac_subjects_category = {
 		complete_effect = {
 			hidden_effect = {
 				FROM = {
-					ac_change_country_leader_trap = yes
+					ac_change_country_leader_trap_random = yes
 				}
 			}
 		}
@@ -3941,7 +3941,7 @@ ac_subjects_category = {
 		complete_effect = {
 			hidden_effect = {
 				FROM = {
-					ac_change_country_leader_girl = yes
+					ac_change_country_leader_girl_random = yes
 				}
 			}
 		}
