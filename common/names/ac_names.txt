@@ -323,7 +323,7 @@ Z99 = {
 	}
 }
 
-WFL_TAG = {
+WFL_GIRLS = {
 	male = {
 		names = {
 			Aimi
@@ -648,7 +648,7 @@ WFL_TAG = {
 	}
 }
 
-WFL_TAG_TRAPS = {
+WFL_TRAPS = {
 	male = {
 		names = {
 			Aimi

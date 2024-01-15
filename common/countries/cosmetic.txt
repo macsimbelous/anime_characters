@@ -1098,11 +1098,11 @@ ENE = {
 }
 
 #My tags
-WFL_TAG = {
+WFL_GIRLS = {
 	color = rgb { 41  255  255 }
 	color_ui = rgb { 41  255  255 }
 }
-WFL_TAG_TRAPS = {
-	color = rgb { 41  255  255 }
-	color_ui = rgb { 41  255  255 }
+WFL_TRAPS = {
+	color = hsv { 0.963 1.125 1.35 }
+	color_ui = hsv { 0.963 1.125 1.35 }
 }
