@@ -43,7 +43,8 @@
  ac_quartermaster_general: "Генерал-квартирмейстер"
  ac_trait_astrologist: "Астролог"
  ac_nuclear_scientist: "$nuclear_scientist$"
- ac_governor_general:0 "Генерал-губернатор"
+ ac_governor_general: "Генерал-губернатор"
+ ac_head_of_intelligence: "Начальница разведки"
 
 #unut leader traits
  ac_exp_trait: "Высокая обучаемость"

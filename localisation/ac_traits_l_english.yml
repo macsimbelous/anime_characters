@@ -44,6 +44,7 @@ ac_princess_of_terror: "§RPrincess of Terror§!"
  ac_trait_astrologist: "Astrologist"
  ac_nuclear_scientist: "$nuclear_scientist$"
  ac_governor_general:0 "Governor-General"
+ ac_head_of_intelligence: "$head_of_intelligence$"
 
 #unut leader traits
  ac_exp_trait: "High learning ability"
