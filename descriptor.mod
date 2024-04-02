@@ -6,6 +6,7 @@ name="Anime Characters"
 dependencies={
 	"New Ways"
 	"Another World - beta"
+	"Another World (New)"
 	"Kaiserreich(CN.Ver)"
 	"Kaiserreich"
 	"Adorable heart"
