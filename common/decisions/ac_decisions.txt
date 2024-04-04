@@ -3883,47 +3883,10 @@ political_actions = {
 }
 
 ac_subjects_category = {
-	ac_change_country_leader_trap = {
-		name = ac_change_country_leader
-		cost = 50
-		visible = {
-			has_idea = ac_idea_anime_academy
-			NOT = {
-				has_idea = ac_idea_anime_academy
-			}
-		}
-		available = {
-			FROM = {
-				is_puppet = yes
-			}
-		}
-		target_array = subjects
-		target_trigger = {
-			FROM = {
-				NOT = {
-					has_country_leader_with_trait = ac_trap
-				}
-			}
-		}
-		complete_effect = {
-			hidden_effect = {
-				FROM = {
-					ac_change_country_leader_trap_random = yes
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
 	ac_change_country_leader_girl = {
-		name = ac_change_country_leader
 		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
-			NOT = {
-				has_idea = ac_idea_anime_academy
-			}
 		}
 		available = {
 			FROM = {
@@ -3949,11 +3912,11 @@ ac_subjects_category = {
 			factor = 10
 		}
 	}
-	ac_change_country_leader = {
+	ac_change_country_leader_trap = {
 		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
-			has_idea = ac_idea_anime_academy
+			has_country_flag = ac_flag_enable_traps
 		}
 		available = {
 			FROM = {
@@ -3964,26 +3927,14 @@ ac_subjects_category = {
 		target_trigger = {
 			FROM = {
 				NOT = {
-					OR = {
-						has_country_leader_with_trait = ac_trap
-						has_country_leader_with_trait = ac_anime_tyan
-					}
+					has_country_leader_with_trait = ac_trap
 				}
 			}
 		}
 		complete_effect = {
 			hidden_effect = {
-				random_list = {
-					1 = {
-						FROM = {
-							ac_change_country_leader_trap = yes
-						}
-					}
-					1 = {
-						FROM = {
-							ac_change_country_leader_girl = yes
-						}
-					}
+				FROM = {
+					ac_change_country_leader_trap_random = yes
 				}
 			}
 		}

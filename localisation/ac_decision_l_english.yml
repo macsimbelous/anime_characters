@@ -83,4 +83,5 @@
 
 #create_subject
  ac_subjects_category: "Subjects"
- ac_change_country_leader: "Change leader §Y[From.GetNameDef]§!"
+ ac_change_country_leader_girl: "§RChange leader§! §Y[From.GetNameDef]§!"
+ ac_change_country_leader_trap: "§BChange leader§! §Y[From.GetNameDef]§!"
