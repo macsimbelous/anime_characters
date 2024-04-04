@@ -3883,8 +3883,186 @@ political_actions = {
 }
 
 ac_subjects_category = {
+	ac_decision_prohibit_transfer_of_divisions = {
+		priority = 7
+		cost = 0
+		visible = {
+			#num_subjects > 0
+			any_subject_country = {
+				#is_subject_of = ROOT
+				NOT = {
+					has_country_flag = ac_flag_prohibit_transfer_of_divisions
+				}
+			}
+		}
+		complete_effect = {
+			every_subject_country = {
+				limit = {
+					#is_puppet_of = ROOT
+					#is_subject_of = ROOT
+					NOT = {
+						has_country_flag = ac_flag_prohibit_transfer_of_divisions
+					}
+				}
+				set_rule = {
+					units_deployed_to_overlord = no
+				}
+				set_country_flag = ac_flag_prohibit_transfer_of_divisions
+			}
+		}
+	}
+	ac_decision_take_control_of_all_puppet_fleets = {
+		priority = 4
+		cost = 300
+		visible = {
+			naval_base > 0
+			any_subject_country = {
+				naval_base > 0
+			}
+		}
+		available = {
+			any_subject_country = {
+				custom_trigger_tooltip = {
+					tooltip = wfc_ct_has_at_least_one_ship
+					check_variable = {
+						num_ships > 0
+					}
+				}
+			}
+		}
+		complete_effect = {
+			every_subject_country = {
+				limit = {
+					check_variable = {
+						num_ships > 0
+					}
+				}
+				transfer_navy = {
+					target = ROOT
+				}
+				add_political_power = 100
+			}
+		}
+	}
+	ac_decision_create_subject = {
+		fire_only_once = no
+		cost = 50
+		#target_array = countries
+		target_non_existing = yes
+		target_trigger = {
+			always = yes
+		}
+		visible = {
+			ROOT = {
+				has_idea = ac_idea_anime_academy
+				any_owned_state = {
+					is_core_of = FROM
+					NOT = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+		available = {
+			ROOT = {
+				any_owned_state = {
+					is_core_of = FROM
+					NOT = {
+						is_core_of = ROOT
+					}
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			set_temp_variable = {
+				country_to_initiate = FROM
+			}
+			ac_instantiate_province = yes
+			var:country_to_initiate = {
+				#wfc_change_country_leader = yes
+				inherit_technology = ROOT
+				set_country_flag = ac_change_focus_tree_flag
+				load_focus_tree = {
+					tree = generic_focus
+					keep_completed = no
+				}
+				set_rule = {
+					units_deployed_to_overlord = no
+				}
+			}
+		}
+	}
+	ac_decision_grant_autonomy_to_non_exist = {
+		fire_only_once = no
+		cost = 100
+		target_non_existing = yes
+		target_trigger = {
+			FROM = {
+				exists = no
+			}
+		}
+		visible = {
+			ROOT = {
+				has_idea = ac_idea_anime_academy
+				NOT = {
+					any_owned_state = {
+						is_core_of = FROM
+						NOT = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				any_controlled_state = {
+					is_core_of = FROM
+					NOT = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ac_tt_all_controlled_state_compliance_50
+				ROOT = {
+					NOT = {
+						any_controlled_state = {
+							is_core_of = FROM
+							NOT = {
+								is_core_of = ROOT
+							}
+							compliance < 50
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			puppet = FROM
+			every_controlled_state = {
+				limit = {
+					is_core_of = FROM
+					NOT = {
+						is_core_of = ROOT
+					}
+				}
+				FROM = {
+					transfer_state = PREV
+				}
+			}
+		}
+	}
 	ac_change_country_leader_girl = {
 		cost = 50
+		allowed = {
+			always = no
+		}
 		visible = {
 			has_idea = ac_idea_anime_academy
 		}
@@ -3914,6 +4092,9 @@ ac_subjects_category = {
 	}
 	ac_change_country_leader_trap = {
 		cost = 50
+		allowed = {
+			always = no
+		}
 		visible = {
 			has_idea = ac_idea_anime_academy
 			has_country_flag = ac_flag_enable_traps

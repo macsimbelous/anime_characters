@@ -2,3 +2,7 @@
 #Country
  WFL_GIRLS: "Вайфулэнд"
  WFL_TRAPS: "Траплэнд"
+
+#Effects
+ ac_instantiate_province_tt:0 "Будет сформирована провинция §Y[?country_to_initiate.GetName]§!"
+

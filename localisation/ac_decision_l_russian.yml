@@ -83,5 +83,13 @@
 
 #create_subject
  ac_subjects_category: "Субъекты"
+ ac_subjects_category_desc: "Некоторые решения были перенесены в окно дипломатии."
  ac_change_country_leader_girl: "§RСменить лидера§! §Y[From.GetNameDef]§!"
  ac_change_country_leader_trap: "§BСменить лидера§! §Y[From.GetNameDef]§!"
+ ac_decision_create_subject: "Создать провинцию §Y[From.GetName]§!"
+ ac_decision_grant_autonomy_to_non_exist: "Предоставить автономию государству §Y[From.GetName]§!"
+ ac_decision_grant_autonomy_to_non_exist_desc: "Мы можем заручиться поддержкой национальных меньшинств живущих на оккупированных нами территориях если предоставим им автономию."
+ ac_tt_all_controlled_state_compliance_50: "Все контролируемые территории государства §Y[From.GetName]§! имеют подчинение более §G50%§!"
+ ac_decision_prohibit_transfer_of_divisions: "Запретить субъектам отправлять вам дивизии"
+ ac_decision_take_control_of_all_puppet_fleets: "Взять контроль над всеми флотами марионеток"
+ ac_decision_take_control_of_all_puppet_fleets_desc: "В распоряжении наших субъектов имеется §G[?wfc_var_puppet_num_ships]§! кораблей следующих типов:\nАвианосцы - §G[?wfc_var_puppet_carriers]§!\nЛинкоры - §G[?wfc_var_puppet_battleships]§!\nЛинейные крейсера - §G[?wfc_var_puppet_battle_cruisers]§!\nТяжёлые крейсера - §G[?wfc_var_puppet_heavy_cruisers]§!\nЛёгкие крейсера - §G[?wfc_var_puppet_light_cruisers]§!\nЭсминцы - §G[?wfc_var_puppet_destroyers]§!\nПодводные лодки - §G[?wfc_var_puppet_submarines]§!\n§R(Количество кораблей обновляется раз в месяц)§!"

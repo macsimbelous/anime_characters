@@ -1,0 +1,37 @@
+﻿l_russian:
+
+#take_control_of_the_occupied_territories
+ AC_DIPLOMATIC_ACTION_TAKE_CONTROL_OF_THE_OCCUPIED_TERRITORIES_TITLE: "Взять контроль над оккупированными территориями"
+ AC_DIPLOMATIC_ACTION_TAKE_CONTROL_OF_THE_OCCUPIED_TERRITORIES_ACTION_DESC: "Контроль над всеми территориями оккупированными субъектом будет передан нам."
+ ac_diplomatic_action_take_control_of_the_occupied_territories_send: "Мы лучше распорядимся этими территориями."
+
+#AC_diplomatic_action_take_our_core_states
+ AC_DIPLOMATIC_ACTION_TAKE_OUR_CORE_STATES_TITLE: "Забрать спорные территории"
+ AC_DIPLOMATIC_ACTION_TAKE_OUR_CORE_STATES_ACTION_DESC: "Территории субъекта на которые у нас есть претензии будут переданы нам."
+ ac_diplomatic_action_take_our_core_states_send: "Мы лучше распорядимся этими территориями."
+
+#AC_diplomatic_action_take_control_of_the_navy
+ AC_DIPLOMATIC_ACTION_TAKE_CONTROL_OF_THE_NAVY_TITLE: "Взять контроль над флотом"
+ AC_DIPLOMATIC_ACTION_TAKE_CONTROL_OF_THE_NAVY_ACTION_DESC: "Взяв контроль над флотом субъекта мы сможем использовать его по своему усмотрению."
+ ac_ct_has_at_least_one_ship: "Есть хотя бы один корабль"
+ ac_diplomatic_action_take_control_of_the_navy_send: "В распоряжении субъекта §Y[THIS.GetName]§! имеется:\nАвианосцы - §G[?THIS.num_ships_with_type@carrier]§!, Линкоры - §G[?THIS.num_ships_with_type@battleship]§!, Линейные крейсера - §G[?THIS.num_ships_with_type@battle_cruiser]§!, Тяжёлые крейсера - §G[?THIS.num_ships_with_type@heavy_cruiser]§!, Лёгкие крейсера - §G[?THIS.num_ships_with_type@light_cruiser]§!, Эсминцы - §G[?THIS.num_ships_with_type@destroyer]§!, Подводные лодки - §G[?THIS.num_ships_with_type@submarine]§!\nМы лучшее распорядимся этими кораблями."
+
+#AC_diplomatic_action_change_country_leader
+ AC_DIPLOMATIC_ACTION_CHANGE_COUNTRY_LEADER_GIRL_TITLE: "§RНазначить генерал-губернатора девушку§!"
+ AC_DIPLOMATIC_ACTION_CHANGE_COUNTRY_LEADER_GIRL_ACTION_DESC: "Назначенный нами генерал-губернатор позволит нам эффективнее управлять субъектом."
+ AC_DIPLOMATIC_ACTION_CHANGE_COUNTRY_LEADER_TRAP_TITLE: "§BНазначить генерал-губернатора трапа§!"
+ AC_DIPLOMATIC_ACTION_CHANGE_COUNTRY_LEADER_TRAP_ACTION_DESC: "Назначенный нами генерал-губернатор позволит нам эффективнее управлять субъектом."
+ ac_diplomatic_action_change_country_leader_send: "Необходимо усилить наш контроль над субъектом §Y[THIS.GetName]§!."
+ ac_governor_general_will_be_appointed_tt: "Будет назначен Генерал-губернатор"
+
+#AC_diplomatic_action_change_focus_tree
+ AC_DIPLOMATIC_ACTION_CHANGE_FOCUS_TREE_TITLE: "Заменить национальные фокусы"
+ AC_DIPLOMATIC_ACTION_CHANGE_FOCUS_TREE_ACTION_DESC: "Национальные фокусы субъекта будут заменены на фокусы марионеток."
+ ac_diplomatic_action_change_focus_tree_send: "С фокусами марионеток поведение субъекта §Y[THIS.GetName]§! будет более предсказуемо."
+ ac_change_focus_tree_flag: "Фокусы марионеток"
+ ac_change_focus_tree_tt: "Национальные фокусы будут заменены на фокусы §Gмарионеток§!"
+
+#AC_diplomatic_action_unite_the_subjects
+ AC_DIPLOMATIC_ACTION_UNITE_THE_SUBJECTS_TITLE: "Объединить субъекты"
+ AC_DIPLOMATIC_ACTION_UNITE_THE_SUBJECTS_ACTION_DESC: "Субъекты населенные одной нацией будут объединены."
+ ac_diplomatic_action_unite_the_subjects_send: "Присоединить к этому субъекту другие субъекта населённые такой же нацией."

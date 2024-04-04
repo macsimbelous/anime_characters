@@ -83,5 +83,13 @@
 
 #create_subject
  ac_subjects_category: "Subjects"
+ ac_subjects_category_desc: "Some decisions have been moved to the diplomacy window."
  ac_change_country_leader_girl: "§RChange leader§! §Y[From.GetNameDef]§!"
  ac_change_country_leader_trap: "§BChange leader§! §Y[From.GetNameDef]§!"
+ ac_decision_create_subject: "Create province §Y[From.GetNameDef]§!"
+ ac_decision_grant_autonomy_to_non_exist: "Grant autonomy to The State §Y[From.GetName]§!"
+ ac_decision_grant_autonomy_to_non_exist_desc: "We can gain the support of national minorities living in the territories we occupy if we grant them autonomy."
+ ac_tt_all_controlled_state_compliance_50: "All controlled territories of the state §Y[From.GetName]§! have a compliance of more than §G50%§!"
+ ac_decision_prohibit_transfer_of_divisions: "Prohibit the unsubs from sending you divisions"
+ ac_decision_take_control_of_all_puppet_fleets: "Take control of all puppet fleets"
+ ac_decision_take_control_of_all_puppet_fleets_desc: "Our subjects have §G[?wfc_var_puppet_num_ships]§! ships of the following types at their disposal:\nCarriers - §G[?wfc_var_puppet_carriers]§!\nBattleships - §G[?wfc_var_puppet_battleships]§!\nBattle cruisers - §G[?wfc_var_puppet_battle_cruisers]§!\nHeavy cruisers - §G[?wfc_var_puppet_heavy_cruisers]§!\nLight cruisers - §G[?wfc_var_puppet_light_cruisers]§!\nDestroyers - §G[?wfc_var_puppet_destroyers]§!\nSubmarines - §G[?wfc_var_puppet_submarines]§!\n§R(The number of ships is updated once a month)§!"

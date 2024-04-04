@@ -1,0 +1,33 @@
+ac_instantiate_province = {
+	custom_effect_tooltip = ac_instantiate_province_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				var:country_to_initiate = {
+					exists = yes
+				}
+			}
+			create_dynamic_country = {
+				original_tag = country_to_initiate
+				set_temp_variable = {
+					country_to_initiate = this
+				}
+			}
+		}
+		set_autonomy = {
+			target = country_to_initiate
+			autonomy_state = autonomy_integrated_puppet
+		}
+		every_controlled_state = {
+			limit = {
+				is_core_of = country_to_initiate
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			var:country_to_initiate = {
+				transfer_state = PREV
+			}
+		}
+	}
+}

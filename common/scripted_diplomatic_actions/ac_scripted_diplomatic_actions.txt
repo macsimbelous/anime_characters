@@ -1,0 +1,609 @@
+scripted_diplomatic_actions = {
+	ac_diplomatic_action_take_control_of_the_occupied_territories = {
+		allowed = {
+			always = yes
+		}
+		visible = {
+			ROOT = {
+				has_idea = ac_idea_anime_academy
+			}
+			is_puppet_of = ROOT
+		}
+		selectable = {
+			#is_ai = yes
+			#has_autonomy_state = autonomy_integrated_puppet
+			any_controlled_state = {
+				NOT = {
+					is_core_of = FROM
+				}
+				OWNER = {
+					NOT = {
+						tag = FROM
+					}
+				}
+			}
+		}
+		requires_acceptance = no
+		cost = 50
+		#command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			every_controlled_state = {
+				limit = {
+					NOT = {
+						is_core_of = FROM
+					}
+					OWNER = {
+						NOT = {
+							tag = FROM
+						}
+					}
+				}
+				ROOT = {
+					set_state_controller = PREV
+				}
+			}
+			add_political_power = 50
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = ac_diplomatic_action_take_control_of_the_occupied_territories_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = ac_diplomatic_action_take_control_of_the_occupied_territories_receive
+		accept_title = ac_diplomatic_action_take_control_of_the_occupied_territories_accept
+		accept_description = ac_diplomatic_action_take_control_of_the_occupied_territories_accept_desc
+		reject_title = ac_diplomatic_action_take_control_of_the_occupied_territories_reject
+		reject_description = ac_diplomatic_action_take_control_of_the_occupied_territories_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = 1
+		}
+	}
+	ac_diplomatic_action_take_our_core_states = {
+		allowed = {
+			always = yes
+		}
+		visible = {
+			ROOT = {
+				has_idea = ac_idea_anime_academy
+			}
+			is_puppet_of = ROOT
+		}
+		selectable = {
+			#is_ai = yes
+			any_owned_state = {
+				OR = {
+					is_core_of = ROOT
+					is_claimed_by = ROOT
+				}
+			}
+		}
+		requires_acceptance = no
+		cost = 100
+		#command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						is_core_of = ROOT
+						is_claimed_by = ROOT
+					}
+				}
+				transfer_state_to = ROOT
+				set_resistance = 0
+				set_compliance = 85
+			}
+			add_political_power = 100
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = ac_diplomatic_action_take_our_core_states_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = ac_diplomatic_action_take_our_core_states_receive
+		accept_title = ac_diplomatic_action_take_our_core_states_accept
+		accept_description = ac_diplomatic_action_take_our_core_states_accept_desc
+		reject_title = ac_diplomatic_action_take_our_core_states_reject
+		reject_description = ac_diplomatic_action_take_our_core_states_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = 1
+		}
+	}
+	ac_diplomatic_action_take_control_of_the_navy = {
+		allowed = {
+			always = yes
+		}
+		visible = {
+			ROOT = {
+				has_idea = ac_idea_anime_academy
+				naval_base > 0
+			}
+			is_puppet_of = ROOT
+			naval_base > 0
+		}
+		selectable = {
+			THIS = {
+				custom_trigger_tooltip = {
+					tooltip = ac_ct_has_at_least_one_ship
+					check_variable = {
+						num_ships > 0
+					}
+				}
+			}
+		}
+		requires_acceptance = no
+		cost = 100
+		#command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			transfer_navy = {
+				target = ROOT
+			}
+			add_political_power = 100
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = ac_diplomatic_action_take_control_of_the_navy_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = ac_diplomatic_action_take_control_of_the_navy_receive
+		accept_title = ac_diplomatic_action_take_control_of_the_navy_accept
+		accept_description = ac_diplomatic_action_take_control_of_the_navy_accept_desc
+		reject_title = ac_diplomatic_action_take_control_of_the_navy_reject
+		reject_description = ac_diplomatic_action_take_control_of_the_navy_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = 1
+		}
+	}
+	ac_diplomatic_action_change_country_leader_girl = {
+		allowed = {
+			always = yes
+		}
+		visible = {
+			ROOT = {
+				has_idea = ac_idea_anime_academy
+			}
+			is_puppet_of = ROOT
+			NOT = {
+				has_country_leader_with_trait = ac_anime_tyan
+			}
+		}
+		selectable = {
+		}
+		requires_acceptance = no
+		cost = 50
+		#command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			custom_effect_tooltip = ac_governor_general_will_be_appointed_tt
+			hidden_effect = {
+				ac_change_country_leader_girl_random = yes
+			}
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = ac_diplomatic_action_change_country_leader_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = ac_diplomatic_action_change_country_leader_receive
+		accept_title = ac_diplomatic_action_change_country_leader_accept
+		accept_description = ac_diplomatic_action_change_country_leader_accept_desc
+		reject_title = ac_diplomatic_action_change_country_leader_reject
+		reject_description = ac_diplomatic_action_change_country_leader_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = 1
+		}
+	}
+	ac_diplomatic_action_change_country_leader_trap = {
+		allowed = {
+			always = yes
+		}
+		visible = {
+			ROOT = {
+				#has_idea = ac_idea_anime_academy
+				has_country_flag = ac_flag_enable_traps
+			}
+			is_puppet_of = ROOT
+			NOT = {
+				has_country_leader_with_trait = ac_trap
+			}
+		}
+		selectable = {
+		}
+		requires_acceptance = no
+		cost = 50
+		#command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			custom_effect_tooltip = ac_governor_general_will_be_appointed_tt
+			hidden_effect = {
+				ac_change_country_leader_trap_random = yes
+			}
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = ac_diplomatic_action_change_country_leader_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = ac_diplomatic_action_change_country_leader_receive
+		accept_title = ac_diplomatic_action_change_country_leader_accept
+		accept_description = ac_diplomatic_action_change_country_leader_accept_desc
+		reject_title = ac_diplomatic_action_change_country_leader_reject
+		reject_description = ac_diplomatic_action_change_country_leader_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = 1
+		}
+	}
+	ac_diplomatic_action_change_focus_tree = {
+		allowed = {
+			always = yes
+		}
+		visible = {
+			ROOT = {
+				has_idea = ac_idea_anime_academy
+			}
+			is_puppet_of = ROOT
+			NOT = {
+				has_country_flag = ac_change_focus_tree_flag
+			}
+		}
+		selectable = {
+		}
+		requires_acceptance = no
+		cost = 50
+		#command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			custom_effect_tooltip = ac_change_focus_tree_tt
+			hidden_effect = {
+				set_country_flag = ac_change_focus_tree_flag
+				load_focus_tree = {
+					tree = generic_focus
+					keep_completed = no
+				}
+			}
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = ac_diplomatic_action_change_focus_tree_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = ac_diplomatic_action_change_focus_tree_receive
+		accept_title = ac_diplomatic_action_change_focus_tree_accept
+		accept_description = ac_diplomatic_action_change_focus_tree_accept_desc
+		reject_title = ac_diplomatic_action_change_focus_tree_reject
+		reject_description = ac_diplomatic_action_change_focus_tree_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = 1
+		}
+	}
+	ac_diplomatic_action_unite_the_subjects = {
+		allowed = {
+			always = yes
+		}
+		visible = {
+			ROOT = {
+				has_idea = ac_idea_anime_academy
+			}
+			is_puppet_of = ROOT
+			any_other_country = {
+				is_puppet_of = ROOT
+				original_tag = FROM
+			}
+		}
+		selectable = {
+		}
+		requires_acceptance = no
+		cost = 100
+		#command_power = 10
+		# cost_string = loc_key 
+		# show_acceptance_on_action_button = yes 
+		icon = 1
+		on_sent_effect = {
+		}
+		# runs when the action is properly sent and accepted
+		complete_effect = {
+			every_other_country = {
+				limit = {
+					is_puppet_of = ROOT
+					original_tag = FROM
+				}
+				FROM = {
+					annex_country = {
+						target = PREV
+						transfer_troops = yes
+					}
+				}
+			}
+		}
+		# runs when the action is properly sent and rejected
+		reject_effect = {
+		}
+		reset_send_effect = {
+			# clear action
+			if = {
+				limit = {
+					root = {
+						is_ai = yes
+					}
+				}
+				# initialize for ai
+			}
+		}
+		can_be_sent = {
+			# send button will be disabled if no
+			always = yes
+		}
+		send_description = ac_diplomatic_action_unite_the_subjects_send
+		reset_receive_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# change stuff for ai
+			}
+		}
+		can_be_accepted = {
+			# accept button will be disabled if no
+			always = yes
+		}
+		receive_description = ac_diplomatic_action_unite_the_subjects_receive
+		accept_title = ac_diplomatic_action_unite_the_subjects_accept
+		accept_description = ac_diplomatic_action_unite_the_subjects_accept_desc
+		reject_title = ac_diplomatic_action_unite_the_subjects_reject
+		reject_description = ac_diplomatic_action_unite_the_subjects_reject_desc
+		# AI
+		# a list of ai_will_do entries that will be used to decide if AI should accept or reject a request
+		ai_acceptance = {
+			condition = {
+				# name is used for loc
+				base = 100
+			}
+		}
+		# ai_will_do to decide if AI should send this action or not
+		ai_desire = {
+			base = 1
+		}
+	}
+}
