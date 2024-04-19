@@ -2551,4 +2551,12 @@ spriteTypes = {
 		name = "GFX_portrait_ac_mona_megistus_navy"
 		texturefile = "gfx/leaders/girls/mona_megistus_navy.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_ac_raiden_shogun_army"
+		texturefile = "gfx/leaders/girls/raiden_shogun_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_raiden_shogun"
+		texturefile = "gfx/leaders/girls/raiden_shogun_idea.dds"
+	}
 }

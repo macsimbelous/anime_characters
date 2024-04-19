@@ -2473,7 +2473,7 @@ characters = {
 		name = ac_laharl_girl
 		portraits = {
 			army = {
-				small = GFX_idea_ac_laharl
+				small = GFX_idea_ac_laharl_girl
 				large = GFX_portrait_ac_laharl_girl
 			}
 		}
@@ -2784,6 +2784,15 @@ characters = {
 			navy = {
 				large = GFX_portrait_ac_mona_megistus_navy
 				small = GFX_idea_ac_mona_megistus
+			}
+		}
+	}
+	ac_raiden_shogun = {
+		name = ac_raiden_shogun
+		portraits = {
+			army = {
+				small = GFX_idea_ac_raiden_shogun
+				large = GFX_portrait_ac_raiden_shogun_army
 			}
 		}
 	}
