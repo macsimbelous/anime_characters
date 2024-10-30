@@ -3801,6 +3801,29 @@ ac_anime_characters_category = {
 			}
 		}
 	}
+	ac_restore_cosmetic_tag = {
+		fire_only_once = no
+		visible = {
+			OR = {
+				has_country_flag = ac_country_flag_trapland_proclaimed
+				has_country_flag = ac_country_flag_waifuland_proclaimed
+			}
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					has_country_flag = ac_country_flag_waifuland_proclaimed
+				}
+				set_cosmetic_tag = WFL_GIRLS
+			}
+			else = {
+				set_cosmetic_tag = WFL_TRAPS
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
 	ac_test_add_factory_and_pp = {
 		fire_only_once = no
 		visible = {
