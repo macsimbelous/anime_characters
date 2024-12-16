@@ -1,4 +1,4 @@
-version="23"
+version="24"
 tags={
 	"Graphics"
 }
@@ -30,5 +30,5 @@ dependencies={
 	"Metro"
 }
 picture="thumbnail.png"
-supported_version="1.15.0"
+supported_version="1.15.3"
 remote_file_id="2743513069"
