@@ -22,6 +22,7 @@
  ac_decision_gacha_trap_air_chiefs: "Hire an trap air force general"
  ac_decision_gacha_trap_operatives: "Hire an trap operative"
  ac_restore_cosmetic_tag: "Restore cosmetic tag"
+ ac_decision_gacha_desc: "This solution will be re-available in 30 days."
 
 #recruits
  ac_recruit_anastasia_romanova: "Hire §GFnastasia Romanova§!"

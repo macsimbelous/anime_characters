@@ -23,6 +23,7 @@
  ac_decision_gacha_trap_operatives: "Нанять трапа оперативника"
  ac_deactivate: "Скрыть категорию"
  ac_restore_cosmetic_tag: "Восстановить косметический тег"
+ ac_decision_gacha_desc: "Это решение будет повторно доступно через 30 дней."
 
 #recruits
  ac_recruit_anastasia_romanova: "Нанять §GАнастасию Романову§!"

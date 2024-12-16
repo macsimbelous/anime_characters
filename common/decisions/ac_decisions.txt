@@ -123,7 +123,9 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_generals = {
-		cost = 25
+		desc = ac_decision_gacha_desc
+		cost = 0
+		days_re_enable = 30
 		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
@@ -238,7 +240,9 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_admirals = {
-		cost = 25
+		desc = ac_decision_gacha_desc
+		cost = 0
+		days_re_enable = 30
 		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
@@ -348,7 +352,9 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_political_advisors = {
-		cost = 25
+		desc = ac_decision_gacha_desc
+		cost = 0
+		days_re_enable = 30
 		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
@@ -369,7 +375,9 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_theorists = {
-		cost = 25
+		desc = ac_decision_gacha_desc
+		cost = 0
+		days_re_enable = 30
 		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
@@ -390,7 +398,9 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_air_chiefs = {
-		cost = 25
+		desc = ac_decision_gacha_desc
+		cost = 0
+		days_re_enable = 30
 		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_anime_academy
@@ -411,7 +421,9 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_operatives = {
-		cost = 25
+		desc = ac_decision_gacha_desc
+		cost = 0
+		days_re_enable = 30
 		fixed_random_seed = no
 		available = {
 			has_idea = ac_idea_idea_anime_intelligence_agency
@@ -882,7 +894,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_anastasia_romanova = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			Z99 = {
@@ -993,7 +1005,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_anastasia_romanova = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_anastasia_romanova
 			original_tag = SOV
@@ -1039,7 +1051,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_mind_flayer = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			Z99 = {
@@ -1150,7 +1162,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_mind_flayer = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_mind_flayer
 			original_tag = JAP
@@ -1196,7 +1208,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_raiden_shogun = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			Z99 = {
@@ -1306,7 +1318,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_raiden_shogun = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_raiden_shogun
 			original_tag = JAP
@@ -1352,7 +1364,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_prinz_eugen = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			Z99 = {
@@ -1455,7 +1467,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_prinz_eugen = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_prinz_eugen
 			original_tag = GER
@@ -1501,7 +1513,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_asuka = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			Z99 = {
@@ -1612,7 +1624,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_asuka = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_asuka
 			original_tag = GER
@@ -1660,7 +1672,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_alisa_illinichina_amiella = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			Z99 = {
@@ -1771,7 +1783,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_alisa_illinichina_amiella = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_alisa_illinichina_amiella
 			original_tag = SOV
@@ -1817,7 +1829,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_velvet_crowe = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			Z99 = {
@@ -1928,7 +1940,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_velvet_crowe = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_velvet_crowe
 			original_tag = YUG
@@ -1974,7 +1986,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_mona_megistus = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			Z99 = {
@@ -2085,7 +2097,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_mona_megistus = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_mona_megistus
 			original_tag = FRA
@@ -2133,7 +2145,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_ishtar = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			Z99 = {
@@ -2244,7 +2256,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_ishtar = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_ishtar
 			original_tag = IRQ
@@ -2291,7 +2303,7 @@ ac_anime_characters_category = {
 	#Share
 	ac_recruit_histoire = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			Z99 = {
@@ -2315,7 +2327,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_histoire = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_histoire
 		}
@@ -2360,7 +2372,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_t_elos = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			Z99 = {
@@ -2473,7 +2485,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_t_elos = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_t-elos
 		}
@@ -2518,7 +2530,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_yuuko_yoshida = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			Z99 = {
@@ -2631,7 +2643,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_yuuko_yoshida = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_yuuko_yoshida
 		}
@@ -2676,7 +2688,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_celestine_lucullus = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_idea = ac_idea_anime_academy
 			Z99 = {
@@ -2789,7 +2801,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_celestine_lucullus = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_celestine_lucullus
 		}
@@ -2849,7 +2861,9 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_trap_generals = {
-		cost = 25
+		desc = ac_decision_gacha_desc
+		cost = 0
+		days_re_enable = 30
 		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
@@ -2967,7 +2981,9 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_trap_admirals = {
-		cost = 25
+		desc = ac_decision_gacha_desc
+		cost = 0
+		days_re_enable = 30
 		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
@@ -3080,7 +3096,9 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_trap_political_advisors = {
-		cost = 25
+		desc = ac_decision_gacha_desc
+		cost = 0
+		days_re_enable = 30
 		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
@@ -3104,7 +3122,9 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_trap_theorists = {
-		cost = 25
+		desc = ac_decision_gacha_desc
+		cost = 0
+		days_re_enable = 30
 		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
@@ -3128,7 +3148,9 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_trap_air_chiefs = {
-		cost = 25
+		desc = ac_decision_gacha_desc
+		cost = 0
+		days_re_enable = 30
 		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
@@ -3152,7 +3174,9 @@ ac_anime_characters_category = {
 		}
 	}
 	ac_decision_gacha_trap_operatives = {
-		cost = 25
+		desc = ac_decision_gacha_desc
+		cost = 0
+		days_re_enable = 30
 		fixed_random_seed = no
 		visible = {
 			has_country_flag = ac_flag_enable_traps
@@ -3260,7 +3284,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_astolfo = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_country_flag = ac_flag_enable_traps
 			Z99 = {
@@ -3373,7 +3397,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_astolfo = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_astolfo
 		}
@@ -3418,7 +3442,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_homare_nao = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_country_flag = ac_flag_enable_traps
 			Z99 = {
@@ -3531,7 +3555,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_homare_nao = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_homare_nao
 		}
@@ -3576,7 +3600,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_takumi_musashino = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_country_flag = ac_flag_enable_traps
 			Z99 = {
@@ -3689,7 +3713,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_takumi_musashino = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_takumi_musashino
 		}
@@ -3734,7 +3758,7 @@ ac_anime_characters_category = {
 	}
 	ac_recruit_hideri_kanzaki = {
 		fire_only_once = yes
-		cost = 100
+		cost = 50
 		visible = {
 			has_country_flag = ac_flag_enable_traps
 			Z99 = {
@@ -3758,7 +3782,7 @@ ac_anime_characters_category = {
 	}
 	ac_change_leader_to_hideri_kanzaki = {
 		fire_only_once = yes
-		cost = 150
+		cost = 100
 		visible = {
 			has_character = ac_hideri_kanzaki
 		}
