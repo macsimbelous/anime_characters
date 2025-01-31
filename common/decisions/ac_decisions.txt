@@ -225,6 +225,7 @@ ac_anime_characters_category = {
 					add_random_trait = {
 						cavalry_leader
 						infantry_leader
+						infantry_leader
 						panzer_leader
 						commando
 					}
