@@ -431,6 +431,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_mare_bello_fiore
+				large = GFX_portrait_ac_mare_bello_fiore
 			}
 			civilian = {
 				large = GFX_portrait_ac_mare_bello_fiore
@@ -496,8 +497,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_kaname
-			}
-			army = {
 				large = GFX_portrait_ac_kaname
 			}
 		}

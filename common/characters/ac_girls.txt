@@ -1003,6 +1003,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_ac_beidou
+				large = GFX_portrait_ac_beidou
 			}
 			army = {
 				large = GFX_portrait_ac_beidou
@@ -1033,6 +1034,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_ange_le_carre
+				large = GFX_portrait_ac_ange_le_carre
 			}
 		}
 	}
@@ -1041,6 +1043,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_niko_yazawa
+				large = GFX_portrait_ac_niko_yazawa
 			}
 			civilian = {
 				large = GFX_portrait_ac_niko_yazawa
@@ -1052,6 +1055,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_mikumo_guynemer
+				large = GFX_portrait_ac_mikumo_guynemer
 			}
 			civilian = {
 				large = GFX_portrait_ac_mikumo_guynemer
@@ -1063,6 +1067,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_asuka_tanaka
+				large = GFX_portrait_ac_asuka_tanaka
 			}
 			civilian = {
 				large = GFX_portrait_ac_asuka_tanaka
@@ -1083,6 +1088,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_lucy_yamagami
+				large = GFX_portrait_ac_lucy_yamagami
 			}
 			civilian = {
 				large = GFX_portrait_ac_lucy_yamagami
@@ -1102,6 +1108,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_megumin
+				large = GFX_portrait_ac_megumin
 			}
 			civilian = {
 				large = GFX_portrait_ac_megumin
