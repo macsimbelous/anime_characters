@@ -1,28 +1,24 @@
 ﻿l_english:
-#ac_anime_characters_category
- ac_anime_characters_category: "Anime characters"
+#ac_category_anime_characters_girls
+ ac_category_anime_characters_girls: "Anime characters girls"
  ac_decision_create_anime_academy: "Create an Anime Academy"
  ac_decision_create_anime_general_staffy: "Create Anime General Staff"
  ac_decision_create_anime_admiralty: "Create Anime Admiralty"
  ac_decision_create_anime_intelligence_agency: "Create anime intelligence agency"
  ac_decision_change_to_waifuland: "Transform the state into §YWaifuland§!"
- ac_decision_change_to_trapland: "Transform the state into §YTrapland§!"
- ac_decision_gacha_generals: "Hire a General"
- ac_decision_gacha_admirals: "Hire Admiral"
- ac_decision_gacha_political_advisors: "Hire an advisor"
- ac_decision_gacha_theorists: "Hire a theorist"
- ac_decision_gacha_air_chiefs: "Hire an air force general"
- ac_decision_gacha_operatives: "Hire an operative"
- ac_decision_enable_traps: "Enable Traps"
- ac_decision_enable_traps_desc: "§RAlarm!§!"
- ac_decision_gacha_trap_generals: "Hire trap general"
- ac_decision_gacha_trap_admirals: "Hire trap admiral"
- ac_decision_gacha_trap_political_advisors: "Hire a trap advisor"
- ac_decision_gacha_trap_theorists: "Hire a trap theorist"
- ac_decision_gacha_trap_air_chiefs: "Hire an trap air force general"
- ac_decision_gacha_trap_operatives: "Hire an trap operative"
  ac_restore_cosmetic_tag: "Restore cosmetic tag"
- ac_decision_gacha_desc: "This solution will be re-available in 30 days."
+ ac_decision_get_random_general: "General's training"
+ ac_decision_get_random_admiral: "Admiral's training"
+ ac_decision_get_random_operative: "Agent training"
+ ac_decision_get_random_advisor: "Advisor training"
+ ac_decision_disable_girls: "Hide the girls"
+ ac_flag_disable_girls: "Girls are forbidden"
+
+#ac_category_anime_characters_traps
+ ac_category_anime_characters_traps: "Anime characters traps"
+ ac_decision_change_to_trapland: "Transform the state into §YTrapland§!"
+ ac_decision_disable_traps: "Hide the traps"
+ ac_flag_disable_traps: "Traps are forbidden"
 
 #recruits
  ac_recruit_anastasia_romanova: "Hire §GFnastasia Romanova§!"

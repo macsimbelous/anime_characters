@@ -1,6 +1,10 @@
 ﻿l_russian:
 #ac_event.1
- ac_event.1.t: "Ахтунг!"
- ac_event.1.d: "Разрешить Трапов?"
+ ac_event.1.t: "Скрыть трапов?"
+ ac_event.1.d: "Скрыть трапов?"
  ac_event.1.a: "Да."
- ac_event.1.b: "Фу, мерзость!"
+ ac_event.1.b: "Нет!"
+
+#ac_event.2
+ ac_event.2.t: "Скрыть девушек?"
+ ac_event.2.d: "Скрыть девушек?"

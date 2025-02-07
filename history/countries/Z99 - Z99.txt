@@ -23,7 +23,7 @@ recruit_character = ac_ami_mizuno
 #recruit_character = ac_anastasia_i_empress
 recruit_character = ac_anastasia
 recruit_character = ac_anastasia_romanova
-recruit_character = ac_ange_le_carre
+#recruit_character = ac_ange_le_carre
 recruit_character = ac_anna_komiya
 #recruit_character = ac_aoba_suzukaze
 recruit_character = ac_aoi_sakurai
@@ -90,7 +90,7 @@ recruit_character = ac_heine
 recruit_character = ac_hiei_arp
 recruit_character = ac_himeno_awayuki
 recruit_character = ac_histoire
-recruit_character = ac_hitomi_tsukishiro
+#recruit_character = ac_hitomi_tsukishiro
 recruit_character = ac_holo
 recruit_character = ac_homura_akemi
 recruit_character = ac_honey_kisaragi
@@ -157,7 +157,7 @@ recruit_character = ac_mhmd-02_haruko
 recruit_character = ac_mia_cyrus
 recruit_character = ac_miho_nishizumi
 recruit_character = ac_miia
-recruit_character = ac_mika_amano
+#recruit_character = ac_mika_amano
 recruit_character = ac_miki_hoshii
 #recruit_character = ac_miki_naoki
 recruit_character = ac_mikumo_guynemer
@@ -179,7 +179,7 @@ recruit_character = ac_naru_narusegawa
 recruit_character = ac_natasha_cioara
 recruit_character = ac_natsuumi_manatsu
 recruit_character = ac_neptune
-recruit_character = ac_niko_yazawa
+#recruit_character = ac_niko_yazawa
 recruit_character = ac_nishizumi_miho
 recruit_character = ac_noelle
 recruit_character = ac_noire
@@ -226,7 +226,7 @@ recruit_character = ac_saya_otonashi
 recruit_character = ac_selesia_upitiria
 recruit_character = ac_sheliss_elleness_zurbach
 #recruit_character = ac_sheryl_nome
-recruit_character = ac_shigure
+#recruit_character = ac_shigure
 #recruit_character = ac_shiki
 recruit_character = ac_shima_tateishi
 recruit_character = ac_shiraori
@@ -266,7 +266,7 @@ recruit_character = ac_yukina_himeragi
 recruit_character = ac_yuna
 recruit_character = ac_yuno_gasai
 #recruit_character = ac_yuriya_komiya
-recruit_character = ac_yurizaki_mira
+#recruit_character = ac_yurizaki_mira
 recruit_character = ac_yuuki_kawaragi
 recruit_character = ac_yuuko_yoshida
 recruit_character = ac_zakuro_fujiwara
@@ -345,7 +345,7 @@ ac_ami_mizuno = { set_character_flag = ac_girl_flag }
 #ac_anastasia_i_empress = { set_character_flag = ac_girl_flag }
 ac_anastasia = { set_character_flag = ac_girl_flag set_character_flag = ac_flag_political_advisor }
 ac_anastasia_romanova = { set_character_flag = ac_girl_flag }
-ac_ange_le_carre = { set_character_flag = ac_girl_flag }
+#ac_ange_le_carre = { set_character_flag = ac_girl_flag }
 ac_anna_komiya = { set_character_flag = ac_girl_flag }
 #ac_aoba_suzukaze = { set_character_flag = ac_girl_flag }
 ac_aoi_sakurai = { set_character_flag = ac_girl_flag set_character_flag = ac_flag_air_chief }
@@ -412,7 +412,7 @@ ac_heine = { set_character_flag = ac_girl_flag }
 ac_hiei_arp = { set_character_flag = ac_girl_flag }
 ac_himeno_awayuki = { set_character_flag = ac_girl_flag }
 ac_histoire = { set_character_flag = ac_girl_flag set_character_flag = ac_flag_political_advisor }
-ac_hitomi_tsukishiro = { set_character_flag = ac_girl_flag }
+#ac_hitomi_tsukishiro = { set_character_flag = ac_girl_flag }
 ac_holo = { set_character_flag = ac_girl_flag }
 ac_homura_akemi = { set_character_flag = ac_girl_flag set_character_flag = ac_flag_political_advisor }
 ac_honey_kisaragi = { set_character_flag = ac_girl_flag set_character_flag = ac_flag_air_chief }
@@ -479,7 +479,7 @@ ac_mhmd-02_haruko = { set_character_flag = ac_girl_flag }
 ac_mia_cyrus = { set_character_flag = ac_girl_flag set_character_flag = ac_flag_theorist }
 ac_miho_nishizumi = { set_character_flag = ac_girl_flag }
 ac_miia = { set_character_flag = ac_girl_flag }
-ac_mika_amano = { set_character_flag = ac_girl_flag }
+#ac_mika_amano = { set_character_flag = ac_girl_flag }
 ac_miki_hoshii = { set_character_flag = ac_girl_flag }
 #ac_miki_naoki = { set_character_flag = ac_girl_flag }
 ac_mikumo_guynemer = { set_character_flag = ac_girl_flag }
@@ -501,7 +501,7 @@ ac_naru_narusegawa = { set_character_flag = ac_girl_flag }
 ac_natasha_cioara = { set_character_flag = ac_girl_flag }
 ac_natsuumi_manatsu = { set_character_flag = ac_girl_flag }
 ac_neptune = { set_character_flag = ac_girl_flag }
-ac_niko_yazawa = { set_character_flag = ac_girl_flag }
+#ac_niko_yazawa = { set_character_flag = ac_girl_flag }
 ac_nishizumi_miho = { set_character_flag = ac_girl_flag }
 ac_noelle = { set_character_flag = ac_girl_flag }
 ac_noire = { set_character_flag = ac_girl_flag }
@@ -548,7 +548,7 @@ ac_saya_otonashi = { set_character_flag = ac_girl_flag }
 ac_selesia_upitiria = { set_character_flag = ac_girl_flag }
 ac_sheliss_elleness_zurbach = { set_character_flag = ac_girl_flag set_character_flag = ac_flag_political_advisor }
 #ac_sheryl_nome = { set_character_flag = ac_girl_flag }
-ac_shigure = { set_character_flag = ac_girl_flag }
+#ac_shigure = { set_character_flag = ac_girl_flag }
 #ac_shiki = { set_character_flag = ac_girl_flag }
 ac_shima_tateishi = { set_character_flag = ac_girl_flag set_character_flag = ac_flag_political_advisor }
 ac_shiraori = { set_character_flag = ac_girl_flag }
@@ -588,7 +588,7 @@ ac_yukina_himeragi = { set_character_flag = ac_girl_flag }
 ac_yuna = { set_character_flag = ac_girl_flag }
 ac_yuno_gasai = { set_character_flag = ac_girl_flag }
 #ac_yuriya_komiya = { set_character_flag = ac_girl_flag }
-ac_yurizaki_mira = { set_character_flag = ac_girl_flag }
+#ac_yurizaki_mira = { set_character_flag = ac_girl_flag }
 ac_yuuki_kawaragi = { set_character_flag = ac_girl_flag }
 ac_yuuko_yoshida = { set_character_flag = ac_girl_flag }
 ac_zakuro_fujiwara = { set_character_flag = ac_girl_flag }

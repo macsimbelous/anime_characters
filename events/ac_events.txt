@@ -10,7 +10,27 @@ country_event = {
 		ai_chance = {
 			base = 0
 		}
-		set_country_flag = ac_flag_enable_traps
+		set_country_flag = ac_flag_disable_traps
+	}
+	option = {
+		name = ac_event.1.b
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+country_event = {
+	id = ac_event.2
+	title = ac_event.2.t
+	desc = ac_event.2.d
+	#picture = GFX_ac_event_1
+	is_triggered_only = yes
+	option = {
+		name = ac_event.1.a
+		ai_chance = {
+			base = 0
+		}
+		set_country_flag = ac_flag_disable_girls
 	}
 	option = {
 		name = ac_event.1.b

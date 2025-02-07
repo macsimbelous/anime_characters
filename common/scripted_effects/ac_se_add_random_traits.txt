@@ -71,3 +71,91 @@ ac_se_add_random_traits_to_admiral = {
 		green_water_expert
 	}
 }
+ac_se_add_random_skill_to_general = {
+	random_list = {
+		50 = {
+			add_corps_commander_role = {
+				character = var:temp_char
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+		}
+		30 = {
+			add_corps_commander_role = {
+				character = var:temp_char
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 3
+			}
+		}
+		15 = {
+			add_corps_commander_role = {
+				character = var:temp_char
+				skill = 6
+				attack_skill = 6
+				defense_skill = 6
+				planning_skill = 6
+				logistics_skill = 6
+			}
+		}
+		5 = {
+			add_corps_commander_role = {
+				character = var:temp_char
+				skill = 9
+				attack_skill = 9
+				defense_skill = 9
+				planning_skill = 9
+				logistics_skill = 9
+			}
+		}
+	}
+}
+ac_se_add_random_skill_to_admiral = {
+	random_list = {
+		50 = {
+			add_naval_commander_role = {
+				character = var:temp_char
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				maneuvering_skill = 1
+				coordination_skill = 1
+			}
+		}
+		30 = {
+			add_naval_commander_role = {
+				character = var:temp_char
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				maneuvering_skill = 1
+				coordination_skill = 1
+			}
+		}
+		15 = {
+			add_naval_commander_role = {
+				character = var:temp_char
+				skill = 6
+				attack_skill = 6
+				defense_skill = 6
+				maneuvering_skill = 1
+				coordination_skill = 1
+			}
+		}
+		5 = {
+			add_naval_commander_role = {
+				character = var:temp_char
+				skill = 9
+				attack_skill = 9
+				defense_skill = 9
+				maneuvering_skill = 1
+				coordination_skill = 1
+			}
+		}
+	}
+}

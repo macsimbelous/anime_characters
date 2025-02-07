@@ -1,6 +1,10 @@
 ﻿l_english:
-#ac_event.1.
- ac_event.1.t: "Achtung!"
- ac_event.1.d: "Authorize Traps?"
+#ac_event.1
+ ac_event.1.t: "Hide the traps?"
+ ac_event.1.d: "Hide the traps?"
  ac_event.1.a: "Yes."
- ac_event.1.b: "Ew, gross!"
+ ac_event.1.b: "No!"
+
+#ac_event.2
+ ac_event.2.t: "Hide the girls?"
+ ac_event.2.d: "Hide the girls?"

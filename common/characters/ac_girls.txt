@@ -870,8 +870,10 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_ac_atago_azur_lane
+				large = GFX_portrait_ac_atago_azur_lane
 			}
 			army = {
+				small = GFX_idea_ac_atago_azur_lane
 				large = GFX_portrait_ac_atago_azur_lane
 			}
 		}
@@ -890,8 +892,10 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_ac_belfast
+				large = GFX_portrait_ac_belfast
 			}
 			army = {
+				small = GFX_idea_ac_belfast
 				large = GFX_portrait_ac_belfast
 			}
 		}
@@ -910,8 +914,10 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_ac_saint_louis_azur_lane
+				large = GFX_portrait_ac_saint_louis_azur_lane
 			}
 			army = {
+				small = GFX_idea_ac_saint_louis_azur_lane
 				large = GFX_portrait_ac_saint_louis_azur_lane
 			}
 		}
@@ -921,8 +927,10 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_ac_takao_azur_lane
+				large = GFX_portrait_ac_takao_azur_lane
 			}
 			army = {
+				small = GFX_idea_ac_takao_azur_lane
 				large = GFX_portrait_ac_takao_azur_lane
 			}
 		}
@@ -932,8 +940,10 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_ac_tosa_azur_lane
+				large = GFX_portrait_ac_tosa_azur_lane
 			}
 			army = {
+				small = GFX_idea_ac_tosa_azur_lane
 				large = GFX_portrait_ac_tosa_azur_lane
 			}
 		}
@@ -943,6 +953,7 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_ac_sovetskaya_rossiya
+				large = GFX_portrait_ac_sovetskaya_rossiya
 			}
 			army = {
 				large = GFX_portrait_ac_sovetskaya_rossiya
@@ -964,8 +975,10 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_ac_shima_tateishi
+				large = GFX_portrait_ac_shima_tateishi
 			}
 			army = {
+				small = GFX_idea_ac_shima_tateishi
 				large = GFX_portrait_ac_shima_tateishi
 			}
 		}
@@ -983,8 +996,10 @@ characters = {
 		portraits = {
 			navy = {
 				small = GFX_idea_ac_akeno_misaki
+				large = GFX_portrait_ac_akeno_misaki
 			}
 			army = {
+				small = GFX_idea_ac_akeno_misaki
 				large = GFX_portrait_ac_akeno_misaki
 			}
 		}
@@ -1006,6 +1021,7 @@ characters = {
 				large = GFX_portrait_ac_beidou
 			}
 			army = {
+				small = GFX_idea_ac_beidou
 				large = GFX_portrait_ac_beidou
 			}
 		}
@@ -1015,6 +1031,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_minami_nitta
+				large = GFX_portrait_ac_minami_nitta
 			}
 			civilian = {
 				large = GFX_portrait_ac_minami_nitta
@@ -1029,27 +1046,27 @@ characters = {
 			}
 		}
 	}
-	ac_ange_le_carre = {
-		name = ac_ange_le_carre
-		portraits = {
-			army = {
-				small = GFX_idea_ac_ange_le_carre
-				large = GFX_portrait_ac_ange_le_carre
-			}
-		}
-	}
-	ac_niko_yazawa = {
-		name = ac_niko_yazawa
-		portraits = {
-			army = {
-				small = GFX_idea_ac_niko_yazawa
-				large = GFX_portrait_ac_niko_yazawa
-			}
-			civilian = {
-				large = GFX_portrait_ac_niko_yazawa
-			}
-		}
-	}
+	# ac_ange_le_carre = {
+	# 	name = ac_ange_le_carre
+	# 	portraits = {
+	# 		army = {
+	# 			small = GFX_idea_ac_ange_le_carre
+	# 			large = GFX_portrait_ac_ange_le_carre
+	# 		}
+	# 	}
+	# }
+	# ac_niko_yazawa = {
+	# 	name = ac_niko_yazawa
+	# 	portraits = {
+	# 		army = {
+	# 			small = GFX_idea_ac_niko_yazawa
+	# 			large = GFX_portrait_ac_niko_yazawa
+	# 		}
+	# 		civilian = {
+	# 			large = GFX_portrait_ac_niko_yazawa
+	# 		}
+	# 	}
+	# }
 	ac_mikumo_guynemer = {
 		name = ac_mikumo_guynemer
 		portraits = {
@@ -1129,6 +1146,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_ayame_himuro
+				large = GFX_portrait_ac_ayame_himuro
 			}
 			civilian = {
 				large = GFX_portrait_ac_ayame_himuro
@@ -1449,20 +1467,21 @@ characters = {
 			}
 		}
 	}
-	ac_mika_amano = {
-		name = ac_mika_amano
-		portraits = {
-			army = {
-				small = GFX_idea_ac_mika_amano
-				large = GFX_portrait_ac_mika_amano
-			}
-		}
-	}
+	# ac_mika_amano = {
+	# 	name = ac_mika_amano
+	# 	portraits = {
+	# 		army = {
+	# 			small = GFX_idea_ac_mika_amano
+	# 			large = GFX_portrait_ac_mika_amano
+	# 		}
+	# 	}
+	# }
 	ac_asuka_ootorii = {
 		name = ac_asuka_ootorii
 		portraits = {
 			army = {
 				small = GFX_idea_ac_asuka_ootorii
+				large = GFX_portrait_ac_asuka_ootorii
 			}
 			civilian = {
 				large = GFX_portrait_ac_asuka_ootorii
@@ -1474,6 +1493,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_nanoha_takamachi
+				large = GFX_portrait_ac_nanoha_takamachi
 			}
 			civilian = {
 				large = GFX_portrait_ac_nanoha_takamachi
@@ -1485,6 +1505,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_usagi_tsukino
+				large = GFX_portrait_ac_usagi_tsukino
 			}
 			civilian = {
 				large = GFX_portrait_ac_usagi_tsukino
@@ -1496,6 +1517,7 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_momo_chiyoda
+				large = GFX_portrait_ac_momo_chiyoda
 			}
 			civilian = {
 				large = GFX_portrait_ac_momo_chiyoda
@@ -1916,15 +1938,15 @@ characters = {
 			}
 		}
 	}
-	ac_hitomi_tsukishiro = {
-		name = ac_hitomi_tsukishiro
-		portraits = {
-			army = {
-				small = GFX_idea_ac_hitomi_tsukishiro
-				large = GFX_portrait_ac_hitomi_tsukishiro
-			}
-		}
-	}
+	# ac_hitomi_tsukishiro = {
+	# 	name = ac_hitomi_tsukishiro
+	# 	portraits = {
+	# 		army = {
+	# 			small = GFX_idea_ac_hitomi_tsukishiro
+	# 			large = GFX_portrait_ac_hitomi_tsukishiro
+	# 		}
+	# 	}
+	# }
 	ac_kos-mos = {
 		name = ac_kos-mos
 		portraits = {
@@ -1995,8 +2017,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_alisa_boskonovich
-			}
-			army = {
 				large = GFX_portrait_ac_alisa_boskonovich
 			}
 		}
@@ -2006,8 +2026,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_risa_android
-			}
-			army = {
 				large = GFX_portrait_ac_risa_android
 			}
 		}
@@ -2026,8 +2044,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_cibo
-			}
-			army = {
 				large = GFX_portrait_ac_cibo
 			}
 		}
@@ -2135,8 +2151,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_pneuma
-			}
-			army = {
 				large = GFX_portrait_ac_pneuma
 			}
 		}
@@ -2191,8 +2205,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_t-elos
-			}
-			army = {
 				large = GFX_portrait_ac_t-elos
 			}
 		}
@@ -2265,8 +2277,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_i-410
-			}
-			army = {
 				large = GFX_portrait_ac_i-410
 			}
 		}
@@ -2334,20 +2344,21 @@ characters = {
 			}
 		}
 	}
-	ac_yurizaki_mira = {
-		name = ac_yurizaki_mira
-		portraits = {
-			army = {
-				small = GFX_idea_ac_yurizaki_mira
-				large = GFX_portrait_ac_yurizaki_mira
-			}
-		}
-	}
+	# ac_yurizaki_mira = {
+	# 	name = ac_yurizaki_mira
+	# 	portraits = {
+	# 		army = {
+	# 			small = GFX_idea_ac_yurizaki_mira
+	# 			large = GFX_portrait_ac_yurizaki_mira
+	# 		}
+	# 	}
+	# }
 	ac_velvet_crowe = {
 		name = ac_velvet_crowe
 		portraits = {
 			army = {
 				small = GFX_idea_ac_velvet_crowe
+				large = GFX_portrait_ac_velvet_crowe
 			}
 			civilian = {
 				large = GFX_portrait_ac_velvet_crowe
@@ -2404,8 +2415,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_rhea
-			}
-			army = {
 				large = GFX_portrait_ac_rhea
 			}
 		}
@@ -2523,8 +2532,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_corrin
-			}
-			army = {
 				large = GFX_portrait_ac_corrin
 			}
 		}
@@ -2534,8 +2541,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_lucy
-			}
-			army = {
 				large = GFX_portrait_ac_lucy
 			}
 		}
@@ -2563,8 +2568,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_saya_kisaragi
-			}
-			army = {
 				large = GFX_portrait_ac_saya_kisaragi
 			}
 		}
@@ -2718,8 +2721,6 @@ characters = {
 		portraits = {
 			army = {
 				small = GFX_idea_ac_tester
-			}
-			army = {
 				large = GFX_portrait_ac_tester
 			}
 		}
@@ -2754,17 +2755,17 @@ characters = {
 			}
 		}
 	}
-	ac_shigure = {
-		name = ac_shigure
-		portraits = {
-			army = {
-				small = GFX_idea_ac_shigure
-			}
-			civilian = {
-				large = GFX_portrait_ac_shigure
-			}
-		}
-	}
+	# ac_shigure = {
+	# 	name = ac_shigure
+	# 	portraits = {
+	# 		army = {
+	# 			small = GFX_idea_ac_shigure
+	# 		}
+	# 		civilian = {
+	# 			large = GFX_portrait_ac_shigure
+	# 		}
+	# 	}
+	# }
 	ac_lilia_eberwein = {
 		name = ac_lilia_eberwein
 		portraits = {

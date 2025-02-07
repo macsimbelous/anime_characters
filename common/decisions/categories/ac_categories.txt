@@ -1,10 +1,21 @@
-ac_anime_characters_category = {
+ac_category_anime_characters_girls = {
 	priority = 20
 	visible = {
 		is_ai = no
+		NOT = {
+			has_country_flag = ac_flag_disable_girls
+		}
 	}
 }
-
+ac_category_anime_characters_traps = {
+	priority = 18
+	visible = {
+		is_ai = no
+		NOT = {
+			has_country_flag = ac_flag_disable_traps
+		}
+	}
+}
 ac_subjects_category = {
 	priority = 10
 }

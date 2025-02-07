@@ -1,29 +1,25 @@
 ﻿l_russian:
-#ac_anime_characters_category
- ac_anime_characters_category: "Аниме персонажи"
+#ac_category_anime_characters_girls
+ ac_category_anime_characters_girls: "Аниме персонажи девушки"
  ac_decision_create_anime_academy: "Создать Анимешную академию"
  ac_decision_create_anime_general_staffy: "Создать Анимешный генеральный штаб"
  ac_decision_create_anime_admiralty: "Создать Анимешное адмиралтейство"
  ac_decision_create_anime_intelligence_agency: "Создать Анимешное разведовательное агенство"
  ac_decision_change_to_waifuland: "Преобразовать государство в §YВайфулэнд§!"
- ac_decision_change_to_trapland: "Преобразовать государство в §YТраплэнд§!"
- ac_decision_gacha_generals: "Нанять генерала"
- ac_decision_gacha_admirals: "Нанять адмирала"
- ac_decision_gacha_political_advisors: "Нанять советника"
- ac_decision_gacha_theorists: "Нанять теоретика"
- ac_decision_gacha_air_chiefs: "Нанять генерала авиации"
- ac_decision_gacha_operatives: "Нанять оперативника"
- ac_decision_enable_traps: "Разрешить Трапов"
- ac_decision_enable_traps_desc: "§RАхтунг!§!"
- ac_decision_gacha_trap_generals: "Нанять трапа генерала"
- ac_decision_gacha_trap_admirals: "Нанять трапа адмирала"
- ac_decision_gacha_trap_political_advisors: "Нанять трапа советника"
- ac_decision_gacha_trap_theorists: "Нанять трапа теоретика"
- ac_decision_gacha_trap_air_chiefs: "Нанять трапа генерала авиации"
- ac_decision_gacha_trap_operatives: "Нанять трапа оперативника"
- ac_deactivate: "Скрыть категорию"
  ac_restore_cosmetic_tag: "Восстановить косметический тег"
- ac_decision_gacha_desc: "Это решение будет повторно доступно через 30 дней."
+ ac_decision_get_random_general: "Обучение генерала"
+ ac_decision_get_random_admiral: "Обучение адмирала"
+ ac_decision_get_random_operative: "Обучение агента"
+ ac_decision_get_random_advisor: "Обучение советника"
+ ac_decision_disable_girls: "Скрыть девушек"
+ ac_flag_disable_girls: "Девушки запрещены"
+ 
+
+#ac_category_anime_characters_traps
+ ac_category_anime_characters_traps: "Аниме персонажи трапы"
+ ac_decision_change_to_trapland: "Преобразовать государство в §YТраплэнд§!"
+ ac_decision_disable_traps: "Скрыть трапов"
+ ac_flag_disable_traps: "Трапы запрещены"
 
 #recruits
  ac_recruit_anastasia_romanova: "Нанять §GАнастасию Романову§!"
