@@ -1,0 +1,73 @@
+ac_se_add_random_traits_to_general = {
+	add_trait = {
+		trait = ac_exp_trait
+	}
+	add_random_trait = {
+		brilliant_strategist
+		inflexible_strategist
+		organizer
+		skilled_staffer
+		trickster
+		naval_invader
+		trait_engineer
+	}
+	random_list = {
+		50 = {
+			add_trait = {
+				trait = infantry_leader
+			}
+		}
+		50 = {
+			add_random_trait = {
+				cavalry_leader
+				panzer_leader
+				commando
+			}
+		}
+	}
+	add_random_trait = {
+		desert_fox
+		swamp_fox
+		trait_mountaineer
+		hill_fighter
+		jungle_rat
+		ranger
+		urban_assault_specialist
+		winter_specialist
+	}
+}
+ac_se_add_random_traits_to_admiral = {
+	add_trait = {
+		trait = ac_exp_navy_trait
+	}
+	add_random_trait = {
+		old_guard_navy
+		gentlemanly
+		gunnery_expert
+		cuts_corners
+		chief_engineer
+		navy_media_personality
+		bold
+		navy_career_officer
+		battleship_adherent
+		aviation_enthusiast
+		caustic_personality
+		craven
+		naval_lineage
+	}
+	add_random_trait = {
+		seawolf
+		fleet_protector
+		blockade_runner
+		superior_tactician
+		spotter
+		ironside
+		air_controller
+	}
+	add_random_trait = {
+		arctic_water_expert
+		inshore_fighter
+		blue_water_expert
+		green_water_expert
+	}
+}
