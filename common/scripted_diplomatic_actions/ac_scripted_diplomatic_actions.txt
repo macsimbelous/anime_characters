@@ -283,6 +283,9 @@ scripted_diplomatic_actions = {
 		visible = {
 			ROOT = {
 				has_idea = ac_idea_anime_academy
+				NOT = {
+					has_country_flag = ac_flag_disable_girls
+				}
 			}
 			is_puppet_of = ROOT
 			NOT = {
@@ -361,8 +364,10 @@ scripted_diplomatic_actions = {
 		}
 		visible = {
 			ROOT = {
-				#has_idea = ac_idea_anime_academy
-				has_country_flag = ac_flag_enable_traps
+				has_idea = ac_idea_anime_academy
+				NOT = {
+					has_country_flag = ac_flag_disable_traps
+				}
 			}
 			is_puppet_of = ROOT
 			NOT = {
