@@ -86,6 +86,16 @@ ac_se_add_random_skill_to_general = {
 		30 = {
 			add_corps_commander_role = {
 				character = var:temp_char
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+		}
+		15 = {
+			add_corps_commander_role = {
+				character = var:temp_char
 				skill = 3
 				attack_skill = 3
 				defense_skill = 3
@@ -93,24 +103,14 @@ ac_se_add_random_skill_to_general = {
 				logistics_skill = 3
 			}
 		}
-		15 = {
-			add_corps_commander_role = {
-				character = var:temp_char
-				skill = 6
-				attack_skill = 6
-				defense_skill = 6
-				planning_skill = 6
-				logistics_skill = 6
-			}
-		}
 		5 = {
 			add_corps_commander_role = {
 				character = var:temp_char
-				skill = 9
-				attack_skill = 9
-				defense_skill = 9
-				planning_skill = 9
-				logistics_skill = 9
+				skill = 4
+				attack_skill = 4
+				defense_skill = 4
+				planning_skill = 4
+				logistics_skill = 4
 			}
 		}
 	}
@@ -130,31 +130,31 @@ ac_se_add_random_skill_to_admiral = {
 		30 = {
 			add_naval_commander_role = {
 				character = var:temp_char
-				skill = 3
-				attack_skill = 3
-				defense_skill = 3
-				maneuvering_skill = 1
-				coordination_skill = 1
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				maneuvering_skill = 2
+				coordination_skill = 2
 			}
 		}
 		15 = {
 			add_naval_commander_role = {
 				character = var:temp_char
-				skill = 6
-				attack_skill = 6
-				defense_skill = 6
-				maneuvering_skill = 1
-				coordination_skill = 1
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				maneuvering_skill = 3
+				coordination_skill = 3
 			}
 		}
 		5 = {
 			add_naval_commander_role = {
 				character = var:temp_char
-				skill = 9
-				attack_skill = 9
-				defense_skill = 9
-				maneuvering_skill = 1
-				coordination_skill = 1
+				skill = 4
+				attack_skill = 4
+				defense_skill = 4
+				maneuvering_skill = 4
+				coordination_skill = 4
 			}
 		}
 	}
