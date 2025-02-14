@@ -1,6 +1,6 @@
 ac_category_anime_characters_girls = {
 	ac_decision_create_anime_academy = {
-		cost = 50
+		cost = 25
 		fire_only_once = yes
 		days_remove = 30
 		visible = {
@@ -8,14 +8,20 @@ ac_category_anime_characters_girls = {
 				has_idea = ac_idea_anime_academy
 			}
 		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 4
-		}
+		# available = {
+		# 	num_of_civilian_factories_available_for_projects > 4
+		# }
 		cancel_trigger = {
 			has_idea = ac_idea_anime_academy
 		}
+		cancel_effect = {
+			hidden_effect = {
+				add_political_power = 25
+			}
+		}
 		modifier = {
-			civilian_factory_use = 5
+			#civilian_factory_use = 5
+			consumer_goods_factor = 0.2
 		}
 		remove_effect = {
 			add_ideas = ac_idea_anime_academy
@@ -23,9 +29,13 @@ ac_category_anime_characters_girls = {
 		}
 	}
 	ac_decision_create_anime_general_staffy = {
-		cost = 50
+		#cost = 50
 		fire_only_once = yes
 		days_remove = 30
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
 		visible = {
 			NOT = {
 				has_idea = ac_idea_anime_general_staff
@@ -38,13 +48,24 @@ ac_category_anime_characters_girls = {
 					ac_var_count_generals > 4
 				}
 			}
-			num_of_civilian_factories_available_for_projects > 4
+			#num_of_civilian_factories_available_for_projects > 4
 		}
 		cancel_trigger = {
 			has_idea = ac_idea_anime_general_staff
 		}
+		cancel_effect = {
+			hidden_effect = {
+				add_command_power = 25
+			}
+		}
 		modifier = {
-			civilian_factory_use = 5
+			#civilian_factory_use = 5
+			consumer_goods_factor = 0.2
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
 		}
 		remove_effect = {
 			add_ideas = ac_idea_anime_general_staff
@@ -52,9 +73,13 @@ ac_category_anime_characters_girls = {
 		}
 	}
 	ac_decision_create_anime_admiralty = {
-		cost = 50
+		#cost = 50
 		fire_only_once = yes
 		days_remove = 30
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
 		visible = {
 			NOT = {
 				has_idea = ac_idea_anime_admiralty
@@ -67,20 +92,31 @@ ac_category_anime_characters_girls = {
 					ac_var_count_admirals > 4
 				}
 			}
-			num_of_civilian_factories_available_for_projects > 4
+			#num_of_civilian_factories_available_for_projects > 4
 		}
 		cancel_trigger = {
 			has_idea = ac_idea_anime_admiralty
 		}
+		cancel_effect = {
+			hidden_effect = {
+				add_command_power = 25
+			}
+		}
 		modifier = {
-			civilian_factory_use = 5
+			#civilian_factory_use = 5
+			consumer_goods_factor = 0.2
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
 		}
 		remove_effect = {
 			add_ideas = ac_idea_anime_admiralty
 		}
 	}
 	ac_decision_create_anime_intelligence_agency = {
-		cost = 50
+		cost = 25
 		fire_only_once = yes
 		days_remove = 30
 		visible = {
@@ -90,13 +126,19 @@ ac_category_anime_characters_girls = {
 		}
 		available = {
 			has_idea = ac_idea_anime_academy
-			num_of_civilian_factories_available_for_projects > 4
+			#num_of_civilian_factories_available_for_projects > 4
 		}
 		modifier = {
-			civilian_factory_use = 5
+			#civilian_factory_use = 5
+			consumer_goods_factor = 0.2
 		}
 		cancel_trigger = {
 			has_idea = ac_idea_idea_anime_intelligence_agency
+		}
+		cancel_effect = {
+			hidden_effect = {
+				add_political_power = 25
+			}
 		}
 		remove_effect = {
 			add_ideas = ac_idea_idea_anime_intelligence_agency
@@ -2317,7 +2359,7 @@ ac_category_anime_characters_girls = {
 ac_category_anime_characters_traps = {
 	ac_decision_create_anime_academy_trap = {
 		name = ac_decision_create_anime_academy
-		cost = 50
+		cost = 25
 		fire_only_once = yes
 		days_remove = 30
 		visible = {
@@ -2325,14 +2367,20 @@ ac_category_anime_characters_traps = {
 				has_idea = ac_idea_anime_academy
 			}
 		}
-		available = {
-			num_of_civilian_factories_available_for_projects > 4
-		}
+		# available = {
+		# 	num_of_civilian_factories_available_for_projects > 4
+		# }
 		cancel_trigger = {
 			has_idea = ac_idea_anime_academy
 		}
+		cancel_effect = {
+			hidden_effect = {
+				add_political_power = 25
+			}
+		}
 		modifier = {
-			civilian_factory_use = 5
+			#civilian_factory_use = 5
+			consumer_goods_factor = 0.2
 		}
 		remove_effect = {
 			add_ideas = ac_idea_anime_academy
@@ -2341,9 +2389,13 @@ ac_category_anime_characters_traps = {
 	}
 	ac_decision_create_anime_general_staffy_trap = {
 		name = ac_decision_create_anime_general_staffy
-		cost = 50
+		#cost = 50
 		fire_only_once = yes
 		days_remove = 30
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
 		visible = {
 			NOT = {
 				has_idea = ac_idea_anime_general_staff
@@ -2356,13 +2408,24 @@ ac_category_anime_characters_traps = {
 					ac_var_count_generals > 4
 				}
 			}
-			num_of_civilian_factories_available_for_projects > 4
+			#num_of_civilian_factories_available_for_projects > 4
 		}
 		cancel_trigger = {
 			has_idea = ac_idea_anime_general_staff
 		}
+		cancel_effect = {
+			hidden_effect = {
+				add_command_power = 25
+			}
+		}
 		modifier = {
-			civilian_factory_use = 5
+			#civilian_factory_use = 5
+			consumer_goods_factor = 0.2
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
 		}
 		remove_effect = {
 			add_ideas = ac_idea_anime_general_staff
@@ -2371,9 +2434,13 @@ ac_category_anime_characters_traps = {
 	}
 	ac_decision_create_anime_admiralty_trap = {
 		name = ac_decision_create_anime_admiralty
-		cost = 50
+		#cost = 50
 		fire_only_once = yes
 		days_remove = 30
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
 		visible = {
 			NOT = {
 				has_idea = ac_idea_anime_admiralty
@@ -2386,13 +2453,24 @@ ac_category_anime_characters_traps = {
 					ac_var_count_admirals > 4
 				}
 			}
-			num_of_civilian_factories_available_for_projects > 4
+			#num_of_civilian_factories_available_for_projects > 4
 		}
 		cancel_trigger = {
 			has_idea = ac_idea_anime_admiralty
 		}
+		cancel_effect = {
+			hidden_effect = {
+				add_command_power = 25
+			}
+		}
 		modifier = {
-			civilian_factory_use = 5
+			#civilian_factory_use = 5
+			consumer_goods_factor = 0.2
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
 		}
 		remove_effect = {
 			add_ideas = ac_idea_anime_admiralty
@@ -2400,7 +2478,7 @@ ac_category_anime_characters_traps = {
 	}
 	ac_decision_create_anime_intelligence_agency_trap = {
 		name = ac_decision_create_anime_intelligence_agency
-		cost = 50
+		cost = 25
 		fire_only_once = yes
 		days_remove = 30
 		visible = {
@@ -2410,13 +2488,19 @@ ac_category_anime_characters_traps = {
 		}
 		available = {
 			has_idea = ac_idea_anime_academy
-			num_of_civilian_factories_available_for_projects > 4
+			#num_of_civilian_factories_available_for_projects > 4
 		}
 		modifier = {
-			civilian_factory_use = 5
+			#civilian_factory_use = 5
+			consumer_goods_factor = 0.2
 		}
 		cancel_trigger = {
 			has_idea = ac_idea_idea_anime_intelligence_agency
+		}
+		cancel_effect = {
+			hidden_effect = {
+				add_political_power = 25
+			}
 		}
 		remove_effect = {
 			add_ideas = ac_idea_idea_anime_intelligence_agency
