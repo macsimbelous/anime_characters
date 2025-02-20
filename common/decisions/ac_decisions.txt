@@ -3172,7 +3172,7 @@ ac_category_anime_characters_traps = {
 					1 = {
 						create_operative_leader = {
 							bypass_recruitment = no
-							portrait_tag_override = Z99
+							portrait_tag_override = Z98
 							female = no
 						}
 					}

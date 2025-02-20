@@ -1,1 +1,2 @@
+Z98	= "countries/z98.txt"
 Z99	= "countries/z99.txt"
