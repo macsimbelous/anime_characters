@@ -3286,31 +3286,13 @@ political_actions = {
 			is_ai = no
 		}
 		available = {
-			if = {
-				limit = {
-					has_government = democratic
-				}
-				democratic > 0.5
+			check_variable = {
+				var:party_popularity@ruling_party < 0.5
 			}
-			else_if = {
-				limit = {
-					has_government = communism
-				}
-				communism > 0.5
-			}
-			else_if = {
-				limit = {
-					has_government = fascism
-				}
-				fascism > 0.5
-			}
-			else = {
-				neutrality > 0.5
-			}
-			has_stability > 0.5
 		}
 		cost = 100
 		fire_only_once = no
+		fixed_random_seed = no
 		complete_effect = {
 			retire_country_leader = yes
 			custom_effect_tooltip = ac_retire_leader_tt
@@ -3487,6 +3469,12 @@ political_actions = {
 					1 = {
 						add_country_leader_trait = ac_empress
 					}
+				}
+			}
+			var:party_popularity@ruling_party = {
+				add_popularity = {
+					ideology = THIS
+					popularity = 0.1
 				}
 			}
 		}
