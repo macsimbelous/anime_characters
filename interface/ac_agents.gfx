@@ -107,4 +107,20 @@ spriteTypes = {
 		name = "GFX_aoi_futaba"
 		texturefile = "gfx/leaders/traps/aoi_futaba.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_sakae_yomoda"
+		texturefile = "gfx/leaders/traps/sakae_yomoda_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_sakae_yomoda_operative"
+		texturefile = "gfx/leaders/traps/sakae_yomoda_operative.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wang_erxi"
+		texturefile = "gfx/leaders/traps/wang_erxi_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_wang_erxi_operative"
+		texturefile = "gfx/leaders/traps/wang_erxi_operative.dds"
+	}
 }

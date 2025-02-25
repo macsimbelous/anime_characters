@@ -271,26 +271,26 @@ leader_traits = {
 		non_core_manpower = 0.03
 		compliance_growth = 0.25
 	}
-	ac_communist_revolutionary = {
-		random = no
-		sprite = 13
-		communism_drift = 0.15
-	}
-	ac_democratic_reformer = {
-		random = no
-		sprite = 13
-		democratic_drift = 0.15
-	}
-	ac_fascist_demagogue = {
-		random = no
-		sprite = 13
-		fascism_drift = 0.15
-	}
-	ac_staunch_monarchist = {
-		random = no
-		sprite = 13
-		neutrality_drift = 0.15
-	}
+	# ac_communist_revolutionary = {
+	# 	random = no
+	# 	sprite = 13
+	# 	communism_drift = 0.15
+	# }
+	# ac_democratic_reformer = {
+	# 	random = no
+	# 	sprite = 13
+	# 	democratic_drift = 0.15
+	# }
+	# ac_fascist_demagogue = {
+	# 	random = no
+	# 	sprite = 13
+	# 	fascism_drift = 0.15
+	# }
+	# ac_staunch_monarchist = {
+	# 	random = no
+	# 	sprite = 13
+	# 	neutrality_drift = 0.15
+	# }
 	ac_peoples_favorite_minister = {
 		random = no
 		sprite = 13

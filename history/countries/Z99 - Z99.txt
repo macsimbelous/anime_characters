@@ -320,6 +320,18 @@ recruit_character = ac_xianming_lin
 recruit_character = ac_youta_tsunashi
 recruit_character = ac_yukikaze
 
+recruit_character = ac_simon_hartmann
+recruit_character = ac_noma_rune
+recruit_character = ac_kiruko
+recruit_character = ac_poison
+recruit_character = ac_chen_li
+recruit_character = ac_bertrand
+recruit_character = ac_adolfo_camila
+recruit_character = ac_adelita_grau
+recruit_character = ac_kisaragi_yura
+recruit_character = ac_momochi_ayame
+recruit_character = ac_coco
+
 
 #girls
 ac_2b = { set_character_flag = ac_girl_flag }
@@ -641,4 +653,16 @@ ac_tiger_traps = { set_character_flag = ac_trap_flag }
 ac_xianming_lin = { set_character_flag = ac_trap_flag set_character_flag = ac_flag_political_advisor }
 ac_youta_tsunashi = { set_character_flag = ac_trap_flag }
 ac_yukikaze = { set_character_flag = ac_trap_flag }
+
+ac_simon_hartmann = { set_character_flag = ac_trap_flag }
+ac_noma_rune = { set_character_flag = ac_trap_flag }
+ac_kiruko = { set_character_flag = ac_trap_flag }
+ac_poison = { set_character_flag = ac_trap_flag }
+ac_chen_li = { set_character_flag = ac_trap_flag }
+ac_bertrand = { set_character_flag = ac_trap_flag }
+ac_adolfo_camila = { set_character_flag = ac_trap_flag }
+ac_adelita_grau = { set_character_flag = ac_trap_flag }
+ac_kisaragi_yura = { set_character_flag = ac_trap_flag }
+ac_momochi_ayame = { set_character_flag = ac_trap_flag }
+ac_coco = { set_character_flag = ac_trap_flag }
 

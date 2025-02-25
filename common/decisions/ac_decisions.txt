@@ -2826,14 +2826,12 @@ ac_category_anime_characters_traps = {
 							GFX = GFX_gasper_vladi
 							traits = {
 								operative_seducer
-								operative_double_agent
 							}
 							bypass_recruitment = no
 							available_to_spy_master = yes
 							female = no
 							nationalities = {
 								ROOT
-								ROM
 							}
 						}
 					}
@@ -2847,7 +2845,7 @@ ac_category_anime_characters_traps = {
 							name = "Ryou Akizuki"
 							GFX = GFX_ryou_akizuki
 							traits = {
-								operative_seducer
+								operative_master_interrogator
 							}
 							bypass_recruitment = no
 							available_to_spy_master = yes
@@ -2868,6 +2866,47 @@ ac_category_anime_characters_traps = {
 							GFX = GFX_saki_mizushima
 							traits = {
 								operative_natural_orator
+							}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = no
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_sakae_yomoda
+						}
+						set_global_flag = ac_flag_sakae_yomoda
+						create_operative_leader = {
+							name = "Sakae Yomoda"
+							GFX = GFX_portrait_sakae_yomoda_operative
+							traits = {
+								operative_infiltrator
+							}
+							bypass_recruitment = no
+							available_to_spy_master = yes
+							female = no
+							nationalities = {
+								ROOT
+							}
+						}
+					}
+					1 = {
+						modifier = {
+							factor = 0
+							has_global_flag = ac_flag_wang_erxi
+						}
+						set_global_flag = ac_flag_wang_erxi
+						create_operative_leader = {
+							name = "Wang Erxi"
+							GFX = GFX_portrait_wang_erxi_operative
+							traits = {
+								operative_seducer
+								operative_linguist
 							}
 							bypass_recruitment = no
 							available_to_spy_master = yes

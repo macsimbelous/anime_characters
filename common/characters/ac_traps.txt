@@ -131,6 +131,14 @@ characters = {
 				large = GFX_portrait_ac_kaoru_hanase
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_kaoru_hanase
+			traits = {
+				ac_librarian_trait
+			}
+		}
 	}
 	ac_aoi_hyoudou = {
 		name = ac_aoi_hyoudou
@@ -329,6 +337,14 @@ characters = {
 				large = GFX_portrait_ac_hacka_doll_3
 			}
 		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_hacka_doll_3
+			traits = {
+				ac_trait_secretary
+			}
+		}
 	}
 	ac_shirota_mitsuki = {
 		name = ac_shirota_mitsuki
@@ -509,6 +525,144 @@ characters = {
 			army = {
 				small = GFX_idea_ac_hayato_juumonji
 				large = GFX_portrait_ac_hayato_juumonji
+			}
+		}
+	}
+	###########
+	ac_simon_hartmann = {
+		name = ac_simon_hartmann
+		portraits = {
+			army = {
+				small = GFX_idea_simon_hartmann
+				large = GFX_portrait_simon_hartmann_civilian
+			}
+		}
+	}
+	ac_noma_rune = {
+		name = ac_noma_rune
+		portraits = {
+			army = {
+				small = GFX_idea_noma_rune
+				large = GFX_portrait_noma_rune_army
+			}
+		}
+	}
+	ac_kiruko = {
+		name = ac_kiruko
+		portraits = {
+			army = {
+				small = GFX_idea_kiruko
+				large = GFX_portrait_kiruko_army
+			}
+		}
+	}
+	ac_poison = {
+		name = ac_poison
+		portraits = {
+			army = {
+				small = GFX_idea_poison
+				large = GFX_portrait_poison_army
+			}
+		}
+	}
+	ac_chen_li = {
+		name = ac_chen_li
+		portraits = {
+			army = {
+				small = GFX_idea_chen_li
+				large = GFX_portrait_chen_li_army
+			}
+		}
+	}
+	ac_bertrand = {
+		name = ac_bertrand
+		portraits = {
+			army = {
+				small = GFX_idea_bertrand
+				large = GFX_portrait_bertrand_army
+			}
+		}
+	}
+	ac_adolfo_camila = {
+		name = ac_adolfo_camila
+		portraits = {
+			army = {
+				small = GFX_idea_adolfo_camila
+				large = GFX_portrait_adolfo_camila_civilian
+			}
+			civilian = {
+				large = GFX_portrait_adolfo_camila_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_artillery_specialist scientist_trait_bright }
+			skills = {
+				specialization_land = 1
+			}
+		}
+	}
+	ac_adelita_grau = {
+		name = ac_adelita_grau
+		portraits = {
+			army = {
+				small = GFX_idea_ac_adelita_grau
+				large = GFX_portrait_ac_adelita_grau_civilian
+			}
+			civilian = {
+				large = GFX_portrait_ac_adelita_grau_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_helicopter_expert scientist_trait_fast_learner }
+			skills = {
+				specialization_air = 1
+			}
+		}
+	}
+	ac_kisaragi_yura = {
+		name = ac_kisaragi_yura
+		portraits = {
+			army = {
+				small = GFX_idea_kisaragi_yura
+				large = GFX_portrait_kisaragi_yura_civilian
+			}
+			civilian = {
+				large = GFX_portrait_kisaragi_yura_civilian
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_submarine_specialist scientist_trait_resourceful }
+			skills = {
+				specialization_naval = 1
+			}
+		}
+	}
+	ac_momochi_ayame = {
+		name = ac_momochi_ayame
+		portraits = {
+			army = {
+				small = GFX_idea_momochi_ayame
+				large = GFX_portrait_momochi_ayame_army
+			}
+			civilian = {
+				large = GFX_portrait_momochi_ayame_civilian
+			}
+		}
+	}
+	ac_coco = {
+		name = ac_coco
+		portraits = {
+			navy = {
+				small = GFX_idea_coco
+				large = GFX_portrait_coco_navy
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			cost = 150
+			idea_token = ac_coco
+			traits = {
+				ac_trait_great_survivor_advisor
 			}
 		}
 	}

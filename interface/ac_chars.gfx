@@ -2559,4 +2559,96 @@ spriteTypes = {
 		name = "GFX_idea_ac_raiden_shogun"
 		texturefile = "gfx/leaders/girls/raiden_shogun_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_noma_rune"
+		texturefile = "gfx/leaders/traps/noma_rune_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_noma_rune_army"
+		texturefile = "gfx/leaders/traps/noma_rune_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kiruko"
+		texturefile = "gfx/leaders/traps/kiruko_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_kiruko_army"
+		texturefile = "gfx/leaders/traps/kiruko_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_simon_hartmann"
+		texturefile = "gfx/leaders/traps/simon_hartmann_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_simon_hartmann_civilian"
+		texturefile = "gfx/leaders/traps/simon_hartmann_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_poison"
+		texturefile = "gfx/leaders/traps/poison_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_poison_army"
+		texturefile = "gfx/leaders/traps/poison_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_chen_li"
+		texturefile = "gfx/leaders/traps/chen_li_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_chen_li_army"
+		texturefile = "gfx/leaders/traps/chen_li_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bertrand"
+		texturefile = "gfx/leaders/traps/bertrand_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_bertrand_army"
+		texturefile = "gfx/leaders/traps/bertrand_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_adolfo_camila"
+		texturefile = "gfx/leaders/traps/adolfo_camila_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_adolfo_camila_civilian"
+		texturefile = "gfx/leaders/traps/adolfo_camila_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_adelita_grau"
+		texturefile = "gfx/leaders/traps/adelita_grau_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_adelita_grau_civilian"
+		texturefile = "gfx/leaders/traps/adelita_grau_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kisaragi_yura"
+		texturefile = "gfx/leaders/traps/kisaragi_yura_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_kisaragi_yura_civilian"
+		texturefile = "gfx/leaders/traps/kisaragi_yura_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_momochi_ayame"
+		texturefile = "gfx/leaders/traps/momochi_ayame_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_momochi_ayame_army"
+		texturefile = "gfx/leaders/traps/momochi_ayame_army.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_momochi_ayame_civilian"
+		texturefile = "gfx/leaders/traps/momochi_ayame_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_coco"
+		texturefile = "gfx/leaders/traps/coco_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_coco_navy"
+		texturefile = "gfx/leaders/traps/coco_navy.dds"
+	}
 }
