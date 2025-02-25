@@ -76,6 +76,8 @@
  ac_tt_gacha_theorists: "Получим случайного теоретика"
  ac_tt_gacha_operatives: "Получим случайного оперативника"
  ac_tt_gacha_air_chiefs: "Получим случайного генерала авиации"
+ ac_tt_ruling_party_under_50: "Популярность правящей партии меньше §Y50%§!"
+ #ac_ct_has_at_least_one_ship: "Есть хотя бы один корабль"
 
 #political_actions
  ac_retire_leader: "§G[ROOT.GetLeader]§! уйдёт в отставку"

@@ -143,7 +143,7 @@ characters = {
 			cost = 150
 			idea_token = ac_anastasia
 			traits = {
-				ac_democratic_reformer
+				ac_trait_great_survivor_advisor
 			}
 		}
 	}
@@ -370,7 +370,7 @@ characters = {
 			cost = 150
 			idea_token = ac_ako_tamaki
 			traits = {
-				ac_fascist_demagogue
+				ac_trait_head_of_counterintelligence
 			}
 		}
 	}
@@ -1217,7 +1217,7 @@ characters = {
 			cost = 150
 			idea_token = ac_sheliss_elleness_zurbach
 			traits = {
-				ac_staunch_monarchist
+				ac_trait_minister_of_perversion
 			}
 		}
 	}

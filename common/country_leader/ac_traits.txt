@@ -309,4 +309,85 @@ leader_traits = {
 		autonomy_gain = -0.5
 		production_speed_buildings_factor = 0.1
 	}
+	#################
+	ac_walking_toxic_gas_emitter = {
+		sprite = 14
+		random = no
+		research_speed_factor = 0.2
+		stability_factor = -0.05
+	}
+	ac_librarian_trait = {
+		sprite = 13
+		random = no
+		stability_factor = 0.05
+		political_power_factor = 0.05
+		research_speed_factor = 0.1
+		crypto_strength = 1
+		decryption_power = 5
+	}
+	ac_pharmacist = {
+		sprite = 13
+		random = no
+		stability_factor = 0.05
+		research_speed_factor = 0.1
+		monthly_population = 0.2
+		experience_loss_factor = -0.05
+	}
+	ac_trait_secretary = {
+		sprite = 13
+		random = no
+		stability_factor = 0.05
+		surrender_limit = 0.1
+		political_power_factor = 0.05
+		political_advisor_cost_factor = -0.1
+		economy_cost_factor = -0.1
+		theorist_cost_factor = -0.1
+		trade_laws_cost_factor = -0.1
+		mobilization_laws_cost_factor = -0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ac_trait_minister_of_perversion = {
+		sprite = 13
+		random = no
+		compliance_growth = 0.3
+	}
+	ac_trait_necromancer_advisor = {
+		sprite = 13
+		random = no
+		stability_factor = -0.05
+		political_power_factor = -0.05
+		political_advisor_cost_factor = 0.1
+		research_speed_factor = 0.2
+	}
+	ac_trait_head_of_counterintelligence = {
+		random = no
+		sprite = 15
+		resistance_decay = 0.15
+		#compliance_growth = 0.1
+		intelligence_agency_defense = 0.15
+		foreign_subversive_activites = -0.5
+		#subjects_autonomy_gain = -0.5
+	}
+	ac_trait_great_survivor_advisor = {
+		random = no
+		sprite = 13
+		stability_factor = 0.1
+		mobilization_speed = 0.15
+	}
+	ac_trait_minister_of_foreign_affairs = {
+		random = no
+		sprite = 13
+		opinion_gain_monthly_factor = 0.15
+		enemy_justify_war_goal_time = 0.15
+		request_lease_tension = -0.2
+	}
+	ac_monster_maker = {
+		random = no
+		sprite = 13
+		#conscription = 0.02
+		weekly_manpower = 1000
+		research_speed_factor = 0.1
+	}
 }

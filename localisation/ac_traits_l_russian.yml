@@ -45,6 +45,16 @@
  ac_nuclear_scientist: "$nuclear_scientist$"
  ac_governor_general: "Генерал-губернатор"
  ac_head_of_intelligence: "Начальница разведки"
+ ac_monster_maker: "Создатель монстров"
+ ac_walking_toxic_gas_emitter: "Ходячий испускатель токсичных газов"
+ ac_librarian_trait: "Библиотекарь"
+ ac_pharmacist: "Фармацевт"
+ ac_trait_secretary: "Секретарь"
+ ac_trait_minister_of_perversion: "§RМинистр развращения§!"
+ ac_trait_head_of_counterintelligence: "Начальник контрразведки"
+ ac_trait_necromancer_advisor: "§RНекромант§!"
+ ac_trait_great_survivor_advisor: "$great_survivor$"
+ ac_trait_minister_of_foreign_affairs: "Министр иностранных дел"
 
 #unut leader traits
  ac_exp_trait: "Высокая обучаемость"

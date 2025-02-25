@@ -76,6 +76,8 @@
  ac_tt_gacha_theorists: "Get a random theorist"
  ac_tt_gacha_operatives: "Get a random operative"
  ac_tt_gacha_air_chiefs: "Let's get a random air general"
+ ac_tt_ruling_party_under_50: "The popularity of the ruling party is less than §Y50%§!"
+ #ac_ct_has_at_least_one_ship: "There's at least one ship"
 
 #political_actions
  ac_retire_leader: "§G[ROOT.GetLeader]§! is retiring"
